@@ -1,0 +1,1 @@
+"use strict";exports.id=138,exports.ids=[138],exports.modules={6138:(e,t,r)=>{r.r(t),r.d(t,{default:()=>o});let o=(0,r(8570).createProxy)(String.raw`/Users/usuario/Documents/PROYECTOS/herobudgetflutter/hero_budget/herobudget-nextjs/components/Footer.tsx#default`)}};

@@ -1,0 +1,43 @@
+{
+  "name": "Hero Budget - Controla tus Finanzas",
+  "short_name": "Hero Budget",
+  "description": "La app que te ayuda a controlar tus finanzas personales, crear presupuestos inteligentes y alcanzar tus metas de ahorro.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e91e63",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "categories": ["finance", "productivity", "business"],
+  "icons": [
+    {
+      "src": "/herobudgeticon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/herobudgeticon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/69/169.png",
+      "sizes": "320x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Hero Budget - Dashboard Principal"
+    },
+    {
+      "src": "/images/69/269.png",
+      "sizes": "320x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Hero Budget - Gestión de Gastos"
+    }
+  ]
+}

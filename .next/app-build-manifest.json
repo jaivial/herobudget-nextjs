@@ -1,0 +1,51 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-03f7c6bc932ce1e3.js",
+      "static/chunks/fd9d1056-6922f449a204c2cc.js",
+      "static/chunks/117-17922ea58dc960cc.js",
+      "static/chunks/main-app-1ee8658265790cf1.js",
+      "static/chunks/app/_not-found/page-98467b0ee1cfb9b0.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-03f7c6bc932ce1e3.js",
+      "static/chunks/fd9d1056-6922f449a204c2cc.js",
+      "static/chunks/117-17922ea58dc960cc.js",
+      "static/chunks/main-app-1ee8658265790cf1.js",
+      "static/css/30ae9a1d20a96076.css",
+      "static/chunks/app/layout-aad441f86ac62508.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-03f7c6bc932ce1e3.js",
+      "static/chunks/fd9d1056-6922f449a204c2cc.js",
+      "static/chunks/117-17922ea58dc960cc.js",
+      "static/chunks/main-app-1ee8658265790cf1.js",
+      "static/chunks/c15bf2b0-3fa3c123f635ab8d.js",
+      "static/chunks/996-886e089281d64a1f.js",
+      "static/chunks/889-29955c627e988b6d.js",
+      "static/chunks/339-fcd9160b0d6768f3.js",
+      "static/chunks/704-f4f03bd9b0bb40b8.js",
+      "static/chunks/app/page-c3bdbd99781aa22b.js"
+    ],
+    "/soporte/page": [
+      "static/chunks/webpack-03f7c6bc932ce1e3.js",
+      "static/chunks/fd9d1056-6922f449a204c2cc.js",
+      "static/chunks/117-17922ea58dc960cc.js",
+      "static/chunks/main-app-1ee8658265790cf1.js",
+      "static/chunks/996-886e089281d64a1f.js",
+      "static/chunks/704-f4f03bd9b0bb40b8.js",
+      "static/chunks/app/soporte/page-7dd81eee2c8c44b4.js"
+    ],
+    "/privacidad/page": [
+      "static/chunks/webpack-03f7c6bc932ce1e3.js",
+      "static/chunks/fd9d1056-6922f449a204c2cc.js",
+      "static/chunks/117-17922ea58dc960cc.js",
+      "static/chunks/main-app-1ee8658265790cf1.js",
+      "static/chunks/c15bf2b0-3fa3c123f635ab8d.js",
+      "static/chunks/996-886e089281d64a1f.js",
+      "static/chunks/889-29955c627e988b6d.js",
+      "static/chunks/704-f4f03bd9b0bb40b8.js",
+      "static/chunks/app/privacidad/page-5279e37220be923e.js"
+    ]
+  }
+}

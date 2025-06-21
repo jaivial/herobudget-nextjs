@@ -1,0 +1,1 @@
+"use strict";exports.id=916,exports.ids=[916],exports.modules={1916:(e,t,r)=>{r.r(t),r.d(t,{default:()=>s});let s=(0,r(8570).createProxy)(String.raw`/Users/usuario/Documents/PROYECTOS/herobudgetflutter/hero_budget/herobudget-nextjs/components/ScreenshotsSection.tsx#default`)}};
