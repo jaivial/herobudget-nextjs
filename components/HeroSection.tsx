@@ -4,10 +4,20 @@ import { useRef, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import { gsap } from "gsap";
+import {
+  heroAnimationConfig,
+  handleScrollToSection,
+  heroBackgroundStyles,
+  heroTextStyles,
+  particlesConfig,
+  gradientKeyframes,
+  type HeroSectionRefs
+} from "./HeroSection_part2";
 
 /**
- * Hero Section Component
+ * Hero Section Component - PARTE 1/2
  * Sección principal con fondo moderno y animaciones avanzadas usando GSAP + Framer Motion
+ * Funciones auxiliares en HeroSection_part2.tsx
  */
 
 export default function HeroSection() {
@@ -30,125 +40,44 @@ export default function HeroSection() {
       const tl = gsap.timeline();
 
       // Animación del fondo morfing
-      gsap.to(morphingRef.current, {
-        rotation: 360,
-        duration: 20,
-        repeat: -1,
-        ease: "none",
-      });
-
-      gsap.to(gradientRef.current, {
-        rotation: -360,
-        duration: 25,
-        repeat: -1,
-        ease: "none",
-      });
+      gsap.to(morphingRef.current, heroAnimationConfig.morphing);
+      gsap.to(gradientRef.current, heroAnimationConfig.gradient);
 
       // Animaciones de entrada
-      tl.from(titleRef.current, {
-        y: 80,
-        opacity: 0,
-        duration: 1.2,
-        ease: "power3.out",
-      })
-        .from(
-          subtitleRef.current,
-          {
-            y: 60,
-            opacity: 0,
-            duration: 1,
-            ease: "power3.out",
-          },
-          "-=0.8"
-        )
-        .from(
-          buttonsRef.current,
-          {
-            y: 40,
-            opacity: 0,
-            duration: 0.8,
-            ease: "power3.out",
-          },
-          "-=0.6"
-        )
-        .from(
-          iconRef.current,
-          {
-            scale: 0.8,
-            opacity: 0,
-            rotation: -15,
-            duration: 1.2,
-            ease: "back.out(1.7)",
-          },
-          "-=1"
-        );
+      tl.from(titleRef.current, heroAnimationConfig.timeline.title)
+        .from(subtitleRef.current, heroAnimationConfig.timeline.subtitle, heroAnimationConfig.timeline.subtitle.delay)
+        .from(buttonsRef.current, heroAnimationConfig.timeline.buttons, heroAnimationConfig.timeline.buttons.delay)
+        .from(iconRef.current, heroAnimationConfig.timeline.icon, heroAnimationConfig.timeline.icon.delay);
 
       // Animación flotante del ícono
-      gsap.to(iconRef.current, {
-        y: -15,
-        rotation: 3,
-        duration: 4,
-        repeat: -1,
-        yoyo: true,
-        ease: "power2.inOut",
-      });
+      gsap.to(iconRef.current, heroAnimationConfig.floating);
 
       // Animación de partículas flotantes
       const particles = particlesRef.current?.children;
       if (particles) {
         Array.from(particles).forEach((particle, index) => {
           gsap.to(particle, {
-            y: `random(-20, 20)`,
-            x: `random(-15, 15)`,
-            rotation: `random(-180, 180)`,
-            scale: `random(0.8, 1.2)`,
-            duration: `random(3, 6)`,
-            repeat: -1,
-            yoyo: true,
-            ease: "sine.inOut",
+            ...heroAnimationConfig.particles,
             delay: index * 0.2,
           });
         });
       }
 
       // Efecto de respiración en el fondo
-      gsap.to(heroRef.current, {
-        "--bg-scale": "1.05",
-        duration: 8,
-        repeat: -1,
-        yoyo: true,
-        ease: "sine.inOut",
-      });
+      gsap.to(heroRef.current, heroAnimationConfig.breathing);
     }, heroRef);
 
     return () => ctx.revert();
   }, [isInView]);
 
-  const handleScrollToSection = (sectionId: string) => {
-    const element = document.querySelector(sectionId);
-    if (element) {
-      const headerHeight = 70;
-      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-      const offsetPosition = elementPosition - headerHeight;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
-    }
-  };
 
   return (
     <section
       id="inicio"
       ref={heroRef}
-      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-[70px] md:pt-[100px]"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-[90px] sm:pt-[70px] md:pt-[100px]"
       style={{
-        background: `
-          radial-gradient(ellipse at top, rgba(233, 30, 99, 0.1) 0%, transparent 50%),
-          radial-gradient(ellipse at bottom, rgba(76, 175, 80, 0.08) 0%, transparent 50%),
-          linear-gradient(135deg, #fafafa 0%, #ffffff 25%, #f9f9f9 50%, #ffffff 75%, #fafafa 100%)
-        `,
+        background: heroBackgroundStyles.main,
         backgroundSize: "var(--bg-scale, 1) var(--bg-scale, 1)",
         backgroundPosition: "center",
       }}
@@ -159,51 +88,38 @@ export default function HeroSection() {
           ref={morphingRef}
           className="absolute -top-1/4 -right-1/4 w-[150%] h-[150%] opacity-30"
           style={{
-            background: `
-              radial-gradient(circle at 30% 30%, rgba(233, 30, 99, 0.15) 0%, transparent 40%),
-              radial-gradient(circle at 70% 70%, rgba(76, 175, 80, 0.12) 0%, transparent 40%),
-              radial-gradient(circle at 50% 50%, rgba(244, 143, 177, 0.1) 0%, transparent 50%)
-            `,
+            background: heroBackgroundStyles.morphing,
           }}
         />
         <div
           ref={gradientRef}
           className="absolute -bottom-1/4 -left-1/4 w-[150%] h-[150%] opacity-20"
           style={{
-            background: `
-              conic-gradient(from 0deg at 50% 50%, 
-                rgba(233, 30, 99, 0.1) 0deg,
-                rgba(76, 175, 80, 0.08) 90deg,
-                rgba(244, 143, 177, 0.12) 180deg,
-                rgba(233, 30, 99, 0.1) 270deg,
-                rgba(233, 30, 99, 0.1) 360deg
-              )
-            `,
+            background: heroBackgroundStyles.gradient,
           }}
         />
       </div>
 
       {/* Partículas flotantes */}
       <div ref={particlesRef} className="absolute inset-0 pointer-events-none">
-        {[...Array(12)].map((_, i) => (
+        {[...Array(particlesConfig.count)].map((_, i) => (
           <motion.div
             key={i}
             className="absolute w-2 h-2 rounded-full"
             style={{
-              background: i % 3 === 0 ? "rgba(233, 30, 99, 0.6)" : i % 3 === 1 ? "rgba(76, 175, 80, 0.5)" : "rgba(244, 143, 177, 0.7)",
-              left: `${10 + i * 8}%`,
-              top: `${20 + i * 6}%`,
+              background: particlesConfig.getColor(i),
+              ...particlesConfig.getPosition(i),
               filter: "blur(0.5px)",
             }}
             animate={{
-              scale: [0.8, 1.2, 0.8],
-              opacity: [0.3, 0.8, 0.3],
+              scale: particlesConfig.animation.scale,
+              opacity: particlesConfig.animation.opacity,
             }}
             transition={{
-              duration: 3 + i * 0.5,
+              duration: particlesConfig.animation.duration(i),
               repeat: Infinity,
               ease: "easeInOut",
-              delay: i * 0.3,
+              delay: particlesConfig.animation.delay(i),
             }}
           />
         ))}
@@ -216,21 +132,7 @@ export default function HeroSection() {
             <h1
               ref={titleRef}
               className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight"
-              style={{
-                background: `
-                  linear-gradient(135deg, 
-                    #333333 0%, 
-                    #e91e63 25%, 
-                    #333333 50%, 
-                    #4caf50 75%, 
-                    #333333 100%
-                  )`,
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
-                backgroundSize: "300% 300%",
-                animation: "gradientShift 8s ease-in-out infinite",
-              }}
+              style={heroTextStyles}
             >
               Toma Control de <span className="block lg:inline">tus Finanzas</span>
             </h1>
@@ -325,17 +227,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <style jsx>{`
-        @keyframes gradientShift {
-          0%,
-          100% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
-        }
-      `}</style>
+      <style jsx>{gradientKeyframes}</style>
     </section>
   );
 }
