@@ -21,7 +21,7 @@ echo "📥 Actualizando código fuente..."
 git add .
 git stash
 git pull origin main
-git stash pop
+
 
 # Instalar/actualizar dependencias
 echo "📦 Instalando dependencias..."
