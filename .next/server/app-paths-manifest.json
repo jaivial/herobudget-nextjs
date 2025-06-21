@@ -1,9 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/api/contact/route": "app/api/contact/route.js",
-  "/api/send-privacy-email/route": "app/api/send-privacy-email/route.js",
-  "/api/ticket/route": "app/api/ticket/route.js",
   "/page": "app/page.js",
+  "/api/send-privacy-email/route": "app/api/send-privacy-email/route.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/api/ticket/route": "app/api/ticket/route.js",
   "/soporte/page": "app/soporte/page.js",
   "/privacidad/page": "app/privacidad/page.js"
 }

@@ -93,12 +93,7 @@ export default function ScreenshotsSection() {
 
       <div className="container-custom relative z-10">
         {/* Encabezado de la sección */}
-        <motion.div
-          className="text-center mb-20"
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-          transition={{ duration: 0.8 }}
-        >
+        <div className="text-center mb-20">
           <h2
             className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8 leading-tight text-gray-900"
             style={titleGradientStyles}
@@ -106,16 +101,11 @@ export default function ScreenshotsSection() {
             <span className="block lg:inline">Capturas de </span>Pantalla
           </h2>
           
-          <motion.p
-            className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed"
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-          >
+          <p className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Explora cada detalle de Hero Budget. Diseñada con amor para hacer que 
             gestionar tu dinero sea una experiencia simple, elegante y poderosa.
-          </motion.p>
-        </motion.div>
+          </p>
+        </div>
 
         {/* Galería de screenshots con animaciones por filas */}
         <div className="max-w-7xl mx-auto">

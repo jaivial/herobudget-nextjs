@@ -12,7 +12,7 @@
       "static/chunks/fd9d1056-6922f449a204c2cc.js",
       "static/chunks/117-17922ea58dc960cc.js",
       "static/chunks/main-app-1ee8658265790cf1.js",
-      "static/css/9d4a9a685a6debb6.css",
+      "static/css/32abb1658eae2331.css",
       "static/chunks/app/layout-aad441f86ac62508.js"
     ],
     "/page": [
@@ -21,20 +21,20 @@
       "static/chunks/117-17922ea58dc960cc.js",
       "static/chunks/main-app-1ee8658265790cf1.js",
       "static/chunks/c15bf2b0-3fa3c123f635ab8d.js",
-      "static/chunks/996-886e089281d64a1f.js",
+      "static/chunks/647-9b35931297a2d8cc.js",
       "static/chunks/889-29955c627e988b6d.js",
       "static/chunks/339-fcd9160b0d6768f3.js",
-      "static/chunks/704-f4f03bd9b0bb40b8.js",
-      "static/chunks/app/page-fb987b7ab684d670.js"
+      "static/chunks/704-afe8c49189f2e4c3.js",
+      "static/chunks/app/page-65317b45b6d0abd5.js"
     ],
     "/soporte/page": [
       "static/chunks/webpack-03f7c6bc932ce1e3.js",
       "static/chunks/fd9d1056-6922f449a204c2cc.js",
       "static/chunks/117-17922ea58dc960cc.js",
       "static/chunks/main-app-1ee8658265790cf1.js",
-      "static/chunks/996-886e089281d64a1f.js",
-      "static/chunks/704-f4f03bd9b0bb40b8.js",
-      "static/chunks/app/soporte/page-7dd81eee2c8c44b4.js"
+      "static/chunks/647-9b35931297a2d8cc.js",
+      "static/chunks/704-afe8c49189f2e4c3.js",
+      "static/chunks/app/soporte/page-0242bf291d7ec758.js"
     ],
     "/privacidad/page": [
       "static/chunks/webpack-03f7c6bc932ce1e3.js",
@@ -42,10 +42,10 @@
       "static/chunks/117-17922ea58dc960cc.js",
       "static/chunks/main-app-1ee8658265790cf1.js",
       "static/chunks/c15bf2b0-3fa3c123f635ab8d.js",
-      "static/chunks/996-886e089281d64a1f.js",
+      "static/chunks/647-9b35931297a2d8cc.js",
       "static/chunks/889-29955c627e988b6d.js",
-      "static/chunks/704-f4f03bd9b0bb40b8.js",
-      "static/chunks/app/privacidad/page-5279e37220be923e.js"
+      "static/chunks/704-afe8c49189f2e4c3.js",
+      "static/chunks/app/privacidad/page-05670bc69b46fc4e.js"
     ]
   }
 }

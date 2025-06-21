@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Header from "@/components/Header";
 import FAQSection from "@/components/support/FAQSection";
-import ContactSection from "@/components/support/ContactSection";
+import ContactSection from "@/components/support/ContactSection_part2";
 import TutorialsSection from "@/components/support/TutorialsSection";
 import TicketSection from "@/components/support/TicketSection";
 

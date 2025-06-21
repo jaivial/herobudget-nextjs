@@ -15,9 +15,13 @@ if [ -d ".next" ]; then
     mv .next .next.backup.$(date +%Y%m%d_%H%M%S)
 fi
 
+
 # Actualizar código desde Git
 echo "📥 Actualizando código fuente..."
+git add .
+git stash
 git pull origin main
+git stash pop
 
 # Instalar/actualizar dependencias
 echo "📦 Instalando dependencias..."

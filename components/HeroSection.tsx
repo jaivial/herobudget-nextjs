@@ -4,15 +4,7 @@ import { useRef, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import { gsap } from "gsap";
-import {
-  heroAnimationConfig,
-  handleScrollToSection,
-  heroBackgroundStyles,
-  heroTextStyles,
-  particlesConfig,
-  gradientKeyframes,
-  type HeroSectionRefs
-} from "./HeroSection_part2";
+import { heroAnimationConfig, handleScrollToSection, heroBackgroundStyles, heroTextStyles, particlesConfig, gradientKeyframes, type HeroSectionRefs } from "./HeroSection_part2";
 
 /**
  * Hero Section Component - PARTE 1/2
@@ -70,12 +62,11 @@ export default function HeroSection() {
     return () => ctx.revert();
   }, [isInView]);
 
-
   return (
     <section
       id="inicio"
       ref={heroRef}
-      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-[90px] sm:pt-[70px] md:pt-[100px]"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-[180px] sm:pt-[70px] md:pt-[100px]"
       style={{
         background: heroBackgroundStyles.main,
         backgroundSize: "var(--bg-scale, 1) var(--bg-scale, 1)",
@@ -129,11 +120,7 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Contenido de texto */}
           <div className="text-center lg:text-left order-2 lg:order-1">
-            <h1
-              ref={titleRef}
-              className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight"
-              style={heroTextStyles}
-            >
+            <h1 ref={titleRef} className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight" style={heroTextStyles}>
               Toma Control de <span className="block lg:inline">tus Finanzas</span>
             </h1>
 

@@ -5,21 +5,7 @@ import { motion, useInView, useAnimation } from "framer-motion";
 import Stack from "./Stack";
 import StarBorder from "./StarBorder";
 import Image from "next/image";
-import {
-  downloadStats,
-  appImages,
-  containerVariants,
-  itemVariants,
-  sectionBackgroundStyles,
-  decorativeAnimationConfig,
-  statsCardStyles,
-  titleGradientStyles,
-  responsiveConfig,
-  floatingElementsConfig,
-  gradientKeyframes,
-  stackConfig,
-  type CounterProps
-} from "./DownloadSection_part2";
+import { downloadStats, appImages, containerVariants, itemVariants, sectionBackgroundStyles, decorativeAnimationConfig, statsCardStyles, titleGradientStyles, responsiveConfig, floatingElementsConfig, gradientKeyframes, stackConfig, type CounterProps } from "./DownloadSection_part2";
 
 /**
  * Download Section Component - PARTE 1/2
@@ -70,7 +56,6 @@ export default function DownloadSection() {
   const controls = useAnimation();
   const [screenWidth, setScreenWidth] = useState(0);
 
-
   useEffect(() => {
     if (isInView) {
       controls.start("visible");
@@ -92,8 +77,6 @@ export default function DownloadSection() {
     // Cleanup
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-
 
   return (
     <section
@@ -122,10 +105,7 @@ export default function DownloadSection() {
         <motion.div className="flex flex-col lg:flex-row flex-col-reverse lg:flex-row gap-56 sm:gap-52 md:gap-36 lg:gap-20 items-center justify-center w-full" variants={containerVariants} initial="hidden" animate={controls}>
           {/* Contenido principal */}
           <motion.div variants={itemVariants} className="space-y-6 sm:space-y-8 flex-1 lg:max-w-2xl px-4 sm:px-6 lg:px-0">
-            <h2
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-center lg:text-left mb-8 sm:mb-12 lg:mb-16 leading-tight"
-              style={titleGradientStyles}
-            >
+            <h2 className="text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-center lg:text-left mb-8 sm:mb-12 lg:mb-16 leading-tight" style={titleGradientStyles}>
               <span className="block lg:inline">Descarga </span>Hero Budget
             </h2>
 
@@ -134,11 +114,7 @@ export default function DownloadSection() {
             </motion.p>
 
             {/* Estadísticas mejoradas */}
-            <motion.div
-              className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 p-4 sm:p-6 md:p-8 rounded-2xl sm:rounded-3xl w-full max-w-sm sm:max-w-md lg:max-w-lg mx-auto lg:mx-0"
-              style={statsCardStyles}
-              variants={itemVariants}
-            >
+            <motion.div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 p-4 sm:p-6 md:p-8 rounded-2xl sm:rounded-3xl w-full max-w-sm sm:max-w-md lg:max-w-lg mx-auto lg:mx-0" style={statsCardStyles} variants={itemVariants}>
               {downloadStats.map((stat, index) => {
                 const IconComponent = stat.icon;
                 return (
@@ -204,25 +180,13 @@ export default function DownloadSection() {
                 marginRight: responsiveConfig.getMarginRight(screenWidth),
               }}
             >
-              <Stack
-                {...stackConfig}
-                cardDimensions={{ width: 280 }}
-                cardsData={appImages}
-              />
+              <Stack {...stackConfig} cardDimensions={{ width: 280 }} cardsData={appImages} />
             </div>
 
             {/* Efectos flotantes alrededor del stack ajustados */}
-            <motion.div
-              className={floatingElementsConfig.primary.className}
-              animate={floatingElementsConfig.primary.animate}
-              transition={floatingElementsConfig.primary.transition}
-            />
+            <motion.div className={floatingElementsConfig.primary.className} animate={floatingElementsConfig.primary.animate} transition={floatingElementsConfig.primary.transition} />
 
-            <motion.div
-              className={floatingElementsConfig.secondary.className}
-              animate={floatingElementsConfig.secondary.animate}
-              transition={floatingElementsConfig.secondary.transition}
-            />
+            <motion.div className={floatingElementsConfig.secondary.className} animate={floatingElementsConfig.secondary.animate} transition={floatingElementsConfig.secondary.transition} />
           </motion.div>
         </motion.div>
       </div>
