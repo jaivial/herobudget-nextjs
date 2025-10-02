@@ -4,13 +4,19 @@ import { useRef, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Shield, Lock, Eye, FileText, Calendar } from 'lucide-react';
 import { gsap } from 'gsap';
+import { getPrivacyTranslations } from '@/lib/i18n/privacy-translations';
 
 /**
  * Privacy Hero Section Component
  * Hero section para la página de privacidad con elementos de seguridad
  */
 
-export default function PrivacyHeroSection() {
+interface PrivacyHeroSectionProps {
+  locale: string;
+}
+
+export default function PrivacyHeroSection({ locale }: PrivacyHeroSectionProps) {
+  const t = getPrivacyTranslations(locale);
   const heroRef = useRef<HTMLElement>(null);
   const shieldRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(heroRef, { once: true, amount: 0.2 });
@@ -62,18 +68,18 @@ export default function PrivacyHeroSection() {
   const securityFeatures = [
     {
       icon: Shield,
-      title: 'Protección Total',
-      description: 'Encriptación de grado militar'
+      title: t.dataProtection.encryption.split(' ').slice(0, 2).join(' '),
+      description: t.dataProtection.encryption
     },
     {
       icon: Lock,
-      title: 'Datos Seguros',
-      description: 'Almacenamiento encriptado'
+      title: t.dataProtection.storage.split(' ').slice(0, 2).join(' '),
+      description: t.dataProtection.storage
     },
     {
       icon: Eye,
-      title: 'Transparencia',
-      description: 'Control total de tu información'
+      title: t.dataProtection.access.split(' ').slice(0, 2).join(' '),
+      description: t.dataProtection.access
     }
   ];
 
@@ -162,18 +168,18 @@ export default function PrivacyHeroSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <Calendar className="w-4 h-4" />
-              Actualizado: Diciembre 2024
+              {t.hero.lastUpdated}: December 2024
             </motion.div>
 
             <motion.h1
               className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight"
               style={{
                 background: `
-                  linear-gradient(135deg, 
-                    #1e40af 0%, 
-                    #3b82f6 25%, 
-                    #10b981 50%, 
-                    #059669 75%, 
+                  linear-gradient(135deg,
+                    #1e40af 0%,
+                    #3b82f6 25%,
+                    #10b981 50%,
+                    #059669 75%,
                     #1e40af 100%
                   )`,
                 WebkitBackgroundClip: 'text',
@@ -186,8 +192,7 @@ export default function PrivacyHeroSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 1, delay: 0.4 }}
             >
-              Tu Privacidad es{' '}
-              <span className="block lg:inline">Nuestra Prioridad</span>
+              {t.hero.title}
             </motion.h1>
 
             <motion.p
@@ -196,8 +201,7 @@ export default function PrivacyHeroSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              En Hero Budget, protegemos tu información financiera con los más altos 
-              estándares de seguridad y transparencia. Conoce cómo cuidamos tus datos.
+              {t.hero.subtitle}
             </motion.p>
 
             {/* Quick stats */}
@@ -208,9 +212,9 @@ export default function PrivacyHeroSection() {
               transition={{ duration: 0.8, delay: 0.8 }}
             >
               {[
-                { number: '256-bit', label: 'Encriptación' },
-                { number: '100%', label: 'Privacidad' },
-                { number: 'GDPR', label: 'Cumplimiento' }
+                { number: '256-bit', label: 'Encryption' },
+                { number: '100%', label: 'Privacy' },
+                { number: 'GDPR', label: 'Compliance' }
               ].map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-2xl lg:text-3xl font-black text-blue-600 mb-1">
@@ -233,7 +237,7 @@ export default function PrivacyHeroSection() {
               <motion.a
                 href="#policy"
                 className="group relative overflow-hidden bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg"
-                whileHover={{ 
+                whileHover={{
                   scale: 1.05,
                   boxShadow: '0 20px 40px rgba(59, 130, 246, 0.3)'
                 }}
@@ -241,22 +245,22 @@ export default function PrivacyHeroSection() {
               >
                 <span className="relative z-10 flex items-center gap-2">
                   <FileText className="w-5 h-5" />
-                  Leer Política
+                  {t.policy.title.split(' ').slice(0, 2).join(' ')}
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
               </motion.a>
-              
+
               <motion.a
                 href="#rights"
                 className="group relative border-2 border-blue-500 text-blue-500 px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-500 hover:text-white transition-all duration-300"
-                whileHover={{ 
+                whileHover={{
                   scale: 1.05,
                   backgroundColor: 'rgba(59, 130, 246, 1)',
                   color: 'white'
                 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Mis Derechos
+                {t.userRights.title}
               </motion.a>
             </motion.div>
           </motion.div>

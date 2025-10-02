@@ -6,6 +6,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Menu, X, Download } from 'lucide-react';
 import { useRouter, usePathname } from 'next/navigation';
+import LanguageSelector from './LanguageSelector';
+import { detectBrowserLocale } from '@/lib/i18n/locale-detector';
 
 /**
  * Header Component
@@ -19,8 +21,19 @@ interface HeaderProps {
 export default function Header({ className = '' }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [currentLocale, setCurrentLocale] = useState<string>('en_GB');
   const router = useRouter();
   const pathname = usePathname();
+
+  // Detect current locale from pathname or browser
+  useEffect(() => {
+    const pathParts = pathname.split('/');
+    if (pathParts.length >= 3 && pathParts[1] === 'privacidad') {
+      setCurrentLocale(pathParts[2]);
+    } else {
+      setCurrentLocale(detectBrowserLocale());
+    }
+  }, [pathname]);
 
   // Efecto de scroll para header
   useEffect(() => {
@@ -151,37 +164,24 @@ export default function Header({ className = '' }: HeaderProps) {
               ))}
             </ul>
 
-            {/* Botones de descarga */}
-            <div className="flex items-center space-x-3">
-              <motion.a
-                href="https://apps.apple.com/us/app/hero-budget/id6746946502"
-                className="download-btn"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Image
-                  src="/app-play-store/appstorebutton.png"
-                  alt="Download on App Store"
-                  width={120}
-                  height={35}
-                  className="h-9 w-auto"
-                />
-              </motion.a>
-              <motion.a
-                href="#"
-                className="download-btn"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Image
-                  src="/app-play-store/playstorebutton.png"
-                  alt="Get it on Google Play"
-                  width={120}
-                  height={35}
-                  className="h-9 w-auto"
-                />
-              </motion.a>
-            </div>
+            {/* Language Selector */}
+            <LanguageSelector currentLocale={currentLocale} variant="button" />
+
+            {/* Botón de descarga */}
+            <motion.a
+              href="https://apps.apple.com/us/app/hero-budget/id6746946502"
+              className="download-btn"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <Image
+                src="/app-play-store/appstorebutton.png"
+                alt="Download on App Store"
+                width={120}
+                height={35}
+                className="h-9 w-auto"
+              />
+            </motion.a>
           </div>
 
           {/* Botón menú móvil */}
@@ -283,6 +283,19 @@ export default function Header({ className = '' }: HeaderProps) {
                   ))}
                 </ul>
 
+                {/* Language Selector móvil */}
+                <motion.div
+                  className="mt-6 pt-6 border-t border-white/20"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.3, delay: 0.4 }}
+                >
+                  <h3 className="text-sm font-semibold text-gray-700 mb-4">
+                    Language
+                  </h3>
+                  <LanguageSelector currentLocale={currentLocale} variant="button" className="w-full justify-center" />
+                </motion.div>
+
                 {/* Sección de descargas móvil */}
                 <motion.div
                   className="mt-8 pt-6 border-t border-white/20"
@@ -294,26 +307,15 @@ export default function Header({ className = '' }: HeaderProps) {
                     <Download className="w-4 h-4 mr-2" />
                     Descargar App
                   </h3>
-                  <div className="space-y-3">
-                    <a href="https://apps.apple.com/us/app/hero-budget/id6746946502" className="block download-btn">
-                      <Image
-                        src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                        alt="Download on App Store"
-                        width={150}
-                        height={45}
-                        className="w-full h-auto max-w-[150px]"
-                      />
-                    </a>
-                    <a href="#" className="block download-btn">
-                      <Image
-                        src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                        alt="Get it on Google Play"
-                        width={150}
-                        height={45}
-                        className="w-full h-auto max-w-[150px]"
-                      />
-                    </a>
-                  </div>
+                  <a href="https://apps.apple.com/us/app/hero-budget/id6746946502" className="block download-btn">
+                    <Image
+                      src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                      alt="Download on App Store"
+                      width={150}
+                      height={45}
+                      className="w-full h-auto max-w-[150px]"
+                    />
+                  </a>
                 </motion.div>
               </nav>
             </motion.div>

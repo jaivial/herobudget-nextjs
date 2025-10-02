@@ -55,7 +55,11 @@ const contactMethods: ContactMethod[] = [
 
 const privacyTopics = ["Solicitud de datos personales", "Eliminación de cuenta", "Corrección de información", "Restricción de procesamiento", "Portabilidad de datos", "Objeción al procesamiento", "Configuración de privacidad", "Reporte de vulnerabilidad", "Consulta sobre cookies", "Otro tema de privacidad"];
 
-export default function ContactPrivacySection() {
+interface ContactPrivacySectionProps {
+  locale: string;
+}
+
+export default function ContactPrivacySection({ locale }: ContactPrivacySectionProps) {
   const [selectedTopic, setSelectedTopic] = useState("");
   const [formData, setFormData] = useState({
     name: "",

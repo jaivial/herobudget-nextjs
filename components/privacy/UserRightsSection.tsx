@@ -114,7 +114,11 @@ const privacyControls = [
   }
 ];
 
-export default function UserRightsSection() {
+interface UserRightsSectionProps {
+  locale: string;
+}
+
+export default function UserRightsSection({ locale }: UserRightsSectionProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 

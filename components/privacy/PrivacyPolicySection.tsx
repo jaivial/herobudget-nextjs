@@ -18,6 +18,10 @@ import {
  * Sección principal con el contenido completo de la política de privacidad
  */
 
+interface PrivacyPolicySectionProps {
+  locale: string;
+}
+
 interface PolicySection {
   id: string;
   title: string;
@@ -239,7 +243,7 @@ const policySections: PolicySection[] = [
   }
 ];
 
-export default function PrivacyPolicySection() {
+export default function PrivacyPolicySection({ locale }: PrivacyPolicySectionProps) {
   const [expandedSection, setExpandedSection] = useState<string | null>('introduction');
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });

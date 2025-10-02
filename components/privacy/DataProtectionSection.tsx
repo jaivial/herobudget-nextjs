@@ -96,7 +96,11 @@ const certifications = [
   },
 ];
 
-export default function DataProtectionSection() {
+interface DataProtectionSectionProps {
+  locale: string;
+}
+
+export default function DataProtectionSection({ locale }: DataProtectionSectionProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
