@@ -5,23 +5,33 @@ set -e
 
 echo "🚀 Iniciando deployment de HeroBudget Website..."
 
+# Conectar al servidor remoto y ejecutar deployment
+ssh root@178.16.130.178 << 'EOF'
 # Directorio del proyecto
 PROJECT_DIR="/var/www/website-herobudget"
 cd $PROJECT_DIR
 
+echo "📂 Directorio actual: $(pwd)"
+
 # Backup del build anterior
 if [ -d ".next" ]; then
     echo "📦 Creando backup del build anterior..."
-    mv .next .next.backup.$(date +%Y%m%d_%H%M%S)
+    mv .next .next.backup.$(date +%Y%m%d_%H%M%S) 2>/dev/null || true
 fi
 
-
 # Actualizar código desde Git
-echo "📥 Actualizando código fuente..."
-git add .
-git stash
-git pull origin main
+echo "🔄 Actualizando código desde repositorio remoto..."
+echo "Ejecutando git clean -fd..."
+git clean -fd
+echo "Ejecutando git reset --hard HEAD..."
+git reset --hard HEAD
+echo "Ejecutando git fetch origin..."
+git fetch origin
+echo "Ejecutando git reset --hard origin/main..."
+git reset --hard origin/main
 
+echo "Estado git final:"
+git status
 
 # Instalar/actualizar dependencias
 echo "📦 Instalando dependencias..."
@@ -82,4 +92,8 @@ fi
 
 echo "✅ Deployment completado exitosamente!"
 echo "🌐 Sitio disponible en: https://herobudgetapp.jaimedigitalstudio.com"
-echo "📊 Estado PM2: $(pm2 status | grep herobudget-website)"
+pm2 status | grep herobudget-website
+
+EOF
+
+echo "🎉 Deploy script finalizado!"
