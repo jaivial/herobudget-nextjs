@@ -1,17 +1,18 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { 
-  ChevronDown, 
-  Info, 
-  Database, 
-  Share, 
-  Cookie, 
-  Shield, 
-  Clock,
-  FileText
+import * as Accordion from '@radix-ui/react-accordion';
+import {
+  ChevronDown,
+  Info,
+  Database,
+  Share,
+  Cookie,
+  Shield,
+  Clock
 } from 'lucide-react';
+import { getPrivacyTranslations } from '@/lib/i18n/privacy-translations';
 
 /**
  * Privacy Policy Section Component
@@ -27,6 +28,7 @@ interface PolicySection {
   title: string;
   icon: React.ComponentType<{ className?: string }>;
   lastUpdated: string;
+  lastUpdatedDate: string;
   content: {
     subtitle?: string;
     paragraphs: string[];
@@ -37,220 +39,91 @@ interface PolicySection {
   };
 }
 
-const policySections: PolicySection[] = [
-  {
-    id: 'introduction',
-    title: 'Introducción y Alcance',
-    icon: Info,
-    lastUpdated: '15 de Diciembre, 2024',
-    content: {
-      paragraphs: [
-        'En Hero Budget, nos comprometemos a proteger y respetar tu privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos, compartimos y protegemos tu información personal cuando utilizas nuestra aplicación móvil y servicios relacionados.',
-        'Esta política se aplica a todos los usuarios de Hero Budget, independientemente de su ubicación geográfica, y cumple con las regulaciones internacionales de protección de datos, incluyendo el Reglamento General de Protección de Datos (GDPR) de la Unión Europea y la Ley de Privacidad del Consumidor de California (CCPA).',
-        'Al utilizar Hero Budget, aceptas las prácticas descritas en esta política. Si no estás de acuerdo con algún aspecto de esta política, por favor no utilices nuestros servicios.'
-      ]
-    }
-  },
-  {
-    id: 'data-collection',
-    title: 'Información que Recopilamos',
-    icon: Database,
-    lastUpdated: '15 de Diciembre, 2024',
-    content: {
-      paragraphs: [
-        'Recopilamos diferentes tipos de información para proporcionarte y mejorar nuestros servicios:',
-      ],
-      subsections: [
-        {
-          title: 'Información que proporcionas directamente:',
-          items: [
-            'Información de cuenta: nombre, dirección de correo electrónico, foto de perfil',
-            'Datos financieros: facturas recurrentes, categorías, metas de ahorro',
-            'Preferencias de usuario: configuraciones de la aplicación, notificaciones',
-          ]
-        },
-        {
-          title: 'Información recopilada automáticamente:',
-          items: [
-            'Información del dispositivo: modelo, sistema operativo, identificadores únicos',
-            'Datos de rendimiento: logs de errores, tiempo de respuesta, crashes',
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 'data-usage',
-    title: 'Cómo Utilizamos tu Información',
-    icon: Share,
-    lastUpdated: '15 de Diciembre, 2024',
-    content: {
-      paragraphs: [
-        'Utilizamos únicamente la información que tú introduces manualmente en la aplicación para los siguientes propósitos:',
-      ],
-      subsections: [
-        {
-          title: 'Provisión de servicios:',
-          items: [
-            'Almacenar los datos de facturas recurrentes que tú introduces manualmente',
-            'Generar recordatorios y análisis de tus facturas recurrentes',
-            'Sincronizar tus datos entre dispositivos donde uses la aplicación',
-            'Proporcionar soporte técnico y al cliente'
-          ]
-        },
-        {
-          title: 'Mejora y personalización:',
-          items: [
-            'Personalizar tu experiencia en la aplicación',
-            'Desarrollar nuevas funciones y mejoras',
-            'Realizar análisis de uso agregado y anónimo',
-            'Optimizar el rendimiento de la aplicación'
-          ]
-        },
-        {
-          title: 'Comunicación y seguridad:',
-          items: [
-            'Enviar notificaciones importantes sobre tu cuenta',
-            'Comunicar actualizaciones de la aplicación',
-            'Detectar y prevenir actividades fraudulentas',
-            'Cumplir con obligaciones legales y regulatorias'
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 'data-sharing',
-    title: 'Compartir Información',
-    icon: Share,
-    lastUpdated: '15 de Diciembre, 2024',
-    content: {
-      paragraphs: [
-        'No vendemos, alquilamos ni compartimos tu información personal con terceros para fines comerciales. Solo compartimos información en las siguientes circunstancias limitadas:',
-      ],
-      subsections: [
-        {
-          title: 'Proveedores de servicios:',
-          items: [
-            'Servicios de hosting en la nube con encriptación completa',
-            'Servicios de análisis agregado y anónimo',
-            'Servicios de soporte al cliente',
-            'Servicios de seguridad y prevención de fraudes'
-          ]
-        },
-        {
-          title: 'Requisitos legales:',
-          items: [
-            'Cuando sea requerido por ley o proceso legal válido',
-            'Para proteger los derechos y seguridad de Hero Budget y sus usuarios',
-            'En caso de fusión, adquisición o venta de activos (con notificación previa)'
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 'cookies',
-    title: 'Cookies y Tecnologías Similares',
-    icon: Cookie,
-    lastUpdated: '15 de Diciembre, 2024',
-    content: {
-      paragraphs: [
-        'Como aplicación móvil de Flutter, no utilizamos cookies tradicionales. Sin embargo, utilizamos tecnologías de almacenamiento local para mejorar tu experiencia:',
-      ],
-      subsections: [
-        {
-          title: 'Tipos de cookies que utilizamos:',
-          items: [
-            'Almacenamiento local: necesario para el funcionamiento básico de la aplicación',
-            'Datos de rendimiento: para analizar y mejorar el rendimiento de la aplicación',
-            'Preferencias de usuario: para recordar tus configuraciones personales',
-            'Tokens de seguridad: para proteger tu sesión y datos'
-          ]
-        },
-        {
-          title: 'Control de cookies:',
-          items: [
-            'Puedes gestionar el almacenamiento desde la configuración de la aplicación',
-            'Puedes borrar todos los datos locales desde los ajustes del dispositivo',
-            'Borrar el almacenamiento local afectará la funcionalidad de la aplicación',
-            'Algunos datos de configuración son esenciales para el funcionamiento'
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 'security',
-    title: 'Seguridad de Datos',
-    icon: Shield,
-    lastUpdated: '15 de Diciembre, 2024',
-    content: {
-      paragraphs: [
-        'Implementamos medidas de seguridad apropiadas para proteger la información que almacenas localmente en tu dispositivo:',
-      ],
-      subsections: [
-        {
-          title: 'Medidas técnicas:',
-          items: [
-            'Almacenamiento seguro local en tu dispositivo',
-            'Comunicación segura con nuestros servidores cuando sincronizas datos',
-            'Autenticación segura para acceder a tu cuenta',
-            'Protección básica contra accesos no autorizados'
-          ]
-        },
-        {
-          title: 'Medidas organizacionales:',
-          items: [
-            'Solo tú tienes acceso directo a los datos que introduces en la aplicación',
-            'Nuestro equipo sigue buenas prácticas de desarrollo seguro',
-            'Revisiones regulares de la seguridad de la aplicación',
-            'Procedimientos para reportar y resolver problemas de seguridad'
-          ]
-        }
-      ]
-    }
-  },
-  {
-    id: 'retention',
-    title: 'Retención de Datos',
-    icon: Clock,
-    lastUpdated: '15 de Diciembre, 2024',
-    content: {
-      paragraphs: [
-        'Conservamos tu información personal solo durante el tiempo necesario para cumplir con los propósitos descritos en esta política:',
-      ],
-      subsections: [
-        {
-          title: 'Períodos de retención:',
-          items: [
-            'Datos de cuenta: mientras mantengas una cuenta activa',
-            'Datos de transacciones: hasta 7 años para cumplimiento regulatorio',
-            'Datos de soporte: hasta 3 años después de la resolución',
-          ]
-        },
-        {
-          title: 'Eliminación de datos:',
-          items: [
-            'Eliminación automática cuando expiren los períodos de retención',
-            'Eliminación completa de los datos almacenados localmente',
-            'Posibilidad de solicitar eliminación anticipada (sujeto a restricciones legales)',
-            'Notificación de eliminación cuando sea técnicamente factible'
-          ]
-        }
-      ]
-    }
-  }
-];
-
 export default function PrivacyPolicySection({ locale }: PrivacyPolicySectionProps) {
-  const [expandedSection, setExpandedSection] = useState<string | null>('introduction');
+  const t = getPrivacyTranslations(locale);
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
-  const toggleSection = (sectionId: string) => {
-    setExpandedSection(expandedSection === sectionId ? null : sectionId);
-  };
+  // Map translations to policy sections with icons
+  const policySections: PolicySection[] = [
+    {
+      id: 'introduction',
+      title: t.policy.fullSections.introduction.title,
+      icon: Info,
+      lastUpdated: t.policy.fullSections.introduction.lastUpdated,
+      lastUpdatedDate: t.policy.fullSections.introduction.lastUpdatedDate,
+      content: {
+        paragraphs: t.policy.fullSections.introduction.paragraphs,
+        subsections: t.policy.fullSections.introduction.subsections
+      }
+    },
+    {
+      id: 'data-collection',
+      title: t.policy.fullSections.dataCollection.title,
+      icon: Database,
+      lastUpdated: t.policy.fullSections.dataCollection.lastUpdated,
+      lastUpdatedDate: t.policy.fullSections.dataCollection.lastUpdatedDate,
+      content: {
+        paragraphs: t.policy.fullSections.dataCollection.paragraphs,
+        subsections: t.policy.fullSections.dataCollection.subsections
+      }
+    },
+    {
+      id: 'data-usage',
+      title: t.policy.fullSections.dataUsage.title,
+      icon: Share,
+      lastUpdated: t.policy.fullSections.dataUsage.lastUpdated,
+      lastUpdatedDate: t.policy.fullSections.dataUsage.lastUpdatedDate,
+      content: {
+        paragraphs: t.policy.fullSections.dataUsage.paragraphs,
+        subsections: t.policy.fullSections.dataUsage.subsections
+      }
+    },
+    {
+      id: 'data-sharing',
+      title: t.policy.fullSections.dataSharing.title,
+      icon: Share,
+      lastUpdated: t.policy.fullSections.dataSharing.lastUpdated,
+      lastUpdatedDate: t.policy.fullSections.dataSharing.lastUpdatedDate,
+      content: {
+        paragraphs: t.policy.fullSections.dataSharing.paragraphs,
+        subsections: t.policy.fullSections.dataSharing.subsections
+      }
+    },
+    {
+      id: 'cookies',
+      title: t.policy.fullSections.cookies.title,
+      icon: Cookie,
+      lastUpdated: t.policy.fullSections.cookies.lastUpdated,
+      lastUpdatedDate: t.policy.fullSections.cookies.lastUpdatedDate,
+      content: {
+        paragraphs: t.policy.fullSections.cookies.paragraphs,
+        subsections: t.policy.fullSections.cookies.subsections
+      }
+    },
+    {
+      id: 'security',
+      title: t.policy.fullSections.security.title,
+      icon: Shield,
+      lastUpdated: t.policy.fullSections.security.lastUpdated,
+      lastUpdatedDate: t.policy.fullSections.security.lastUpdatedDate,
+      content: {
+        paragraphs: t.policy.fullSections.security.paragraphs,
+        subsections: t.policy.fullSections.security.subsections
+      }
+    },
+    {
+      id: 'retention',
+      title: t.policy.fullSections.retention.title,
+      icon: Clock,
+      lastUpdated: t.policy.fullSections.retention.lastUpdated,
+      lastUpdatedDate: t.policy.fullSections.retention.lastUpdatedDate,
+      content: {
+        paragraphs: t.policy.fullSections.retention.paragraphs,
+        subsections: t.policy.fullSections.retention.subsections
+      }
+    }
+  ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -299,10 +172,10 @@ export default function PrivacyPolicySection({ locale }: PrivacyPolicySectionPro
             className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8"
             style={{
               background: `
-                linear-gradient(135deg, 
-                  #1e40af 0%, 
-                  #3b82f6 30%, 
-                  #10b981 70%, 
+                linear-gradient(135deg,
+                  #1e40af 0%,
+                  #3b82f6 30%,
+                  #10b981 70%,
                   #059669 100%
                 )`,
               WebkitBackgroundClip: 'text',
@@ -311,111 +184,64 @@ export default function PrivacyPolicySection({ locale }: PrivacyPolicySectionPro
             }}
             variants={itemVariants}
           >
-            Política de Privacidad
+            {t.policy.title}
           </motion.h2>
-          
+
           <motion.p
             className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed"
             variants={itemVariants}
           >
-            Conoce en detalle cómo protegemos y manejamos tu información personal en Hero Budget
+            {t.policy.subtitle}
           </motion.p>
         </motion.div>
 
-        {/* Navegación rápida */}
-        <motion.div
-          className="bg-white rounded-2xl p-6 mb-12 shadow-lg border border-gray-100"
-          variants={itemVariants}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-        >
-          <div className="flex items-center gap-3 mb-4">
-            <FileText className="w-5 h-5 text-blue-600" />
-            <h3 className="text-lg font-semibold text-gray-900">
-              Navegación Rápida
-            </h3>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
-            {policySections.map((section) => (
-              <button
-                key={section.id}
-                onClick={() => toggleSection(section.id)}
-                className={`text-left p-3 rounded-lg transition-all duration-200 ${
-                  expandedSection === section.id
-                    ? 'bg-blue-50 text-blue-700 border-blue-200'
-                    : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
-                } border`}
-              >
-                <div className="text-sm font-medium">
-                  {section.title}
-                </div>
-              </button>
-            ))}
-          </div>
-        </motion.div>
+        {/* Quick navigation - removed as Accordion handles it */}
 
         {/* Secciones de la política */}
         <motion.div
-          className="max-w-4xl mx-auto space-y-6"
+          className="max-w-4xl mx-auto"
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
         >
-          {policySections.map((section) => {
-            const IconComponent = section.icon;
-            const isExpanded = expandedSection === section.id;
-            
-            return (
-              <motion.div
-                key={section.id}
-                className="overflow-hidden rounded-2xl"
-                style={{
-                  background: 'rgba(255, 255, 255, 0.9)',
-                  backdropFilter: 'blur(20px)',
-                  border: '1px solid rgba(255, 255, 255, 0.3)',
-                  boxShadow: '0 10px 30px rgba(0, 0, 0, 0.05)'
-                }}
-                variants={itemVariants}
-                layout
-              >
-                <motion.button
-                  onClick={() => toggleSection(section.id)}
-                  className="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50/50 transition-colors duration-200"
-                  whileHover={{ backgroundColor: 'rgba(0, 0, 0, 0.02)' }}
+          <Accordion.Root type="multiple" defaultValue={['introduction']} className="space-y-6">
+            {policySections.map((section) => {
+              const IconComponent = section.icon;
+
+              return (
+                <Accordion.Item
+                  key={section.id}
+                  value={section.id}
+                  className="overflow-hidden rounded-2xl"
+                  style={{
+                    background: 'rgba(255, 255, 255, 0.9)',
+                    backdropFilter: 'blur(20px)',
+                    border: '1px solid rgba(255, 255, 255, 0.3)',
+                    boxShadow: '0 10px 30px rgba(0, 0, 0, 0.05)'
+                  }}
                 >
-                  <div className="flex items-center gap-4 flex-1">
-                    <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                      <IconComponent className="w-6 h-6 text-blue-600" />
-                    </div>
-                    
-                    <div className="flex-1">
-                      <h3 className="text-xl font-bold text-gray-900 mb-1">
-                        {section.title}
-                      </h3>
-                      <div className="text-sm text-gray-500">
-                        Última actualización: {section.lastUpdated}
+                  <Accordion.Header>
+                    <Accordion.Trigger className="group w-full p-6 text-left flex items-center justify-between hover:bg-gray-50/50 transition-colors duration-200">
+                      <div className="flex items-center gap-4 flex-1">
+                        <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                          <IconComponent className="w-6 h-6 text-blue-600" />
+                        </div>
+
+                        <div className="flex-1">
+                          <h3 className="text-xl font-bold text-gray-900 mb-1">
+                            {section.title}
+                          </h3>
+                          <div className="text-sm text-gray-500">
+                            {section.lastUpdated}: {section.lastUpdatedDate}
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                  
-                  <motion.div
-                    animate={{ rotate: isExpanded ? 180 : 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="ml-4 flex-shrink-0"
-                  >
-                    <ChevronDown className="w-6 h-6 text-gray-400" />
-                  </motion.div>
-                </motion.button>
-                
-                {isExpanded && (
-                  <motion.div
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="overflow-hidden"
-                  >
+
+                      <ChevronDown className="w-6 h-6 text-gray-400 transition-transform duration-300 group-data-[state=open]:rotate-180 ml-4 flex-shrink-0" />
+                    </Accordion.Trigger>
+                  </Accordion.Header>
+
+                  <Accordion.Content className="overflow-hidden data-[state=open]:animate-accordion-down data-[state=closed]:animate-accordion-up">
                     <div className="px-6 pb-6">
                       <div className="pt-4 border-t border-gray-100">
                         {section.content.subtitle && (
@@ -423,13 +249,13 @@ export default function PrivacyPolicySection({ locale }: PrivacyPolicySectionPro
                             {section.content.subtitle}
                           </h4>
                         )}
-                        
+
                         {section.content.paragraphs.map((paragraph, index) => (
                           <p key={index} className="text-gray-600 leading-relaxed mb-4">
                             {paragraph}
                           </p>
                         ))}
-                        
+
                         {section.content.subsections?.map((subsection, index) => (
                           <div key={index} className="mb-6">
                             <h5 className="text-md font-semibold text-gray-800 mb-3">
@@ -449,54 +275,11 @@ export default function PrivacyPolicySection({ locale }: PrivacyPolicySectionPro
                         ))}
                       </div>
                     </div>
-                  </motion.div>
-                )}
-              </motion.div>
-            );
-          })}
-        </motion.div>
-
-        {/* CTA para descargar política */}
-        <motion.div
-          className="text-center mt-16"
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
-        >
-          <div 
-            className="inline-block p-8 rounded-3xl max-w-2xl mx-auto"
-            style={{
-              background: 'rgba(59, 130, 246, 0.05)',
-              backdropFilter: 'blur(20px)',
-              border: '1px solid rgba(59, 130, 246, 0.1)'
-            }}
-          >
-            <FileText className="w-12 h-12 text-blue-500 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              ¿Necesitas una copia de esta política?
-            </h3>
-            <p className="text-gray-600 mb-6">
-              Descarga una versión PDF de nuestra política de privacidad para tus archivos
-            </p>
-            <motion.button
-              className="bg-blue-500 text-white px-8 py-4 rounded-xl font-semibold"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={() => {
-                // Generar y descargar PDF
-                const printContent = document.getElementById('policy');
-                if (printContent) {
-                  const originalContents = document.body.innerHTML;
-                  document.body.innerHTML = printContent.innerHTML;
-                  window.print();
-                  document.body.innerHTML = originalContents;
-                  window.location.reload();
-                }
-              }}
-            >
-              Descargar PDF
-            </motion.button>
-          </div>
+                  </Accordion.Content>
+                </Accordion.Item>
+              );
+            })}
+          </Accordion.Root>
         </motion.div>
       </div>
     </section>

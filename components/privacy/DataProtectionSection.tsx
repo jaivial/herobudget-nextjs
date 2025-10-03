@@ -20,51 +20,51 @@ interface SecurityMeasure {
 
 const securityMeasures: SecurityMeasure[] = [
   {
-    id: "encryption",
-    title: "Almacenamiento Local Seguro",
-    description: "Tus datos se almacenan de forma segura en tu dispositivo, sin transmisión automática a servidores externos.",
+    id: "local-storage",
+    title: "Almacenamiento Local",
+    description: "Tus datos financieros se almacenan localmente en tu dispositivo usando AsyncStorage de React Native.",
     icon: Lock,
-    level: "enterprise",
+    level: "basic",
     color: "from-blue-500 to-blue-600",
   },
   {
     id: "authentication",
-    title: "Autenticación Multifactor",
-    description: "Protección adicional con autenticación de dos factores opcional para asegurar el acceso a tu cuenta.",
+    title: "Autenticación Segura",
+    description: "Acceso protegido mediante autenticación para mantener tu información personal segura.",
     icon: Key,
-    level: "advanced",
+    level: "basic",
     color: "from-green-500 to-green-600",
   },
   {
-    id: "infrastructure",
-    title: "Simplicidad y Transparencia",
-    description: "Mantenemos un modelo simple: tus datos permanecen en tu dispositivo, con sincronización opcional segura.",
+    id: "data-minimization",
+    title: "Mínima Recopilación de Datos",
+    description: "Solo recopilamos la información esencial que ingresas manualmente: facturas, categorías y recordatorios.",
     icon: Server,
-    level: "enterprise",
+    level: "basic",
     color: "from-purple-500 to-purple-600",
   },
   {
-    id: "privacy",
-    title: "Privacidad por Diseño",
-    description: "Implementamos principios de privacidad desde el desarrollo, minimizando la recopilación de datos.",
+    id: "user-control",
+    title: "Control del Usuario",
+    description: "Puedes eliminar tus datos en cualquier momento desde la configuración de la aplicación.",
     icon: Eye,
-    level: "advanced",
+    level: "basic",
     color: "from-indigo-500 to-indigo-600",
   },
   {
-    id: "monitoring",
-    title: "Control Total del Usuario",
-    description: "Tienes control completo sobre tus datos, puedes exportarlos o eliminarlos cuando desees.",
-    icon: AlertTriangle,
-    level: "enterprise",
+    id: "no-third-party",
+    title: "Sin Venta de Datos",
+    description: "No vendemos ni compartimos tu información personal con terceros para fines comerciales.",
+    icon: Shield,
+    level: "basic",
     color: "from-orange-500 to-orange-600",
   },
   {
-    id: "compliance",
-    title: "Cumplimiento Básico",
-    description: "Seguimos principios básicos de protección de datos y respetamos los derechos de privacidad de los usuarios.",
+    id: "transparency",
+    title: "Transparencia",
+    description: "Somos transparentes sobre qué datos recopilamos y cómo los usamos en nuestra política de privacidad.",
     icon: Globe,
-    level: "enterprise",
+    level: "basic",
     color: "from-teal-500 to-teal-600",
   },
 ];
@@ -188,7 +188,7 @@ export default function DataProtectionSection({ locale }: DataProtectionSectionP
           </motion.h2>
 
           <motion.p className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed" variants={itemVariants}>
-            Implementamos las medidas de seguridad más avanzadas para proteger tu información financiera
+            Implementamos medidas de seguridad básicas para proteger tu información personal
           </motion.p>
         </motion.div>
 
@@ -297,10 +297,10 @@ export default function DataProtectionSection({ locale }: DataProtectionSectionP
           >
             <Shield className="w-16 h-16 text-green-500 mx-auto mb-6" />
             <h3 className="text-3xl font-bold text-gray-900 mb-4">Compromiso con la Transparencia</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">Creemos en la transparencia total. Si tienes preguntas sobre cómo protegemos tus datos o quieres más detalles sobre nuestras medidas de seguridad, estamos aquí para ayudarte.</p>
+            <p className="text-gray-600 mb-6 leading-relaxed">Creemos en ser honestos sobre nuestras prácticas de privacidad. Si tienes preguntas sobre cómo manejamos tus datos, estamos aquí para ayudarte.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a href="#contact" className="bg-green-500 text-white px-8 py-4 rounded-xl font-semibold" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                Contactar Equipo de Seguridad
+                Contactar Soporte
               </motion.a>
             </div>
           </div>

@@ -168,7 +168,7 @@ export default function PrivacyHeroSection({ locale }: PrivacyHeroSectionProps) 
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <Calendar className="w-4 h-4" />
-              {t.hero.lastUpdated}: December 2024
+              {t.hero.lastUpdated}: {t.hero.updateDate}
             </motion.div>
 
             <motion.h1
@@ -206,15 +206,14 @@ export default function PrivacyHeroSection({ locale }: PrivacyHeroSectionProps) 
 
             {/* Quick stats */}
             <motion.div
-              className="grid grid-cols-3 gap-6 mb-8"
+              className="grid grid-cols-2 gap-6 mb-8"
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
               {[
-                { number: '256-bit', label: 'Encryption' },
-                { number: '100%', label: 'Privacy' },
-                { number: 'GDPR', label: 'Compliance' }
+                { number: t.hero.stats.privacy, label: t.hero.stats.privacyLabel },
+                { number: t.hero.stats.gdpr, label: t.hero.stats.gdprLabel }
               ].map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-2xl lg:text-3xl font-black text-blue-600 mb-1">
@@ -243,9 +242,9 @@ export default function PrivacyHeroSection({ locale }: PrivacyHeroSectionProps) 
                 }}
                 whileTap={{ scale: 0.98 }}
               >
-                <span className="relative z-10 flex items-center gap-2">
+                <span className="relative z-10 flex items-center gap-2 whitespace-nowrap">
                   <FileText className="w-5 h-5" />
-                  {t.policy.title.split(' ').slice(0, 2).join(' ')}
+                  {t.policy.title}
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
               </motion.a>
