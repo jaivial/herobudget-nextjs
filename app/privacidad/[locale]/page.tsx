@@ -140,7 +140,7 @@ export default function PrivacyLocalePage({ params }: PrivacyPageProps) {
         <PrivacyHeroSection locale={locale} />
         <PrivacyPolicySection locale={locale} />
         <DataProtectionSection locale={locale} />
-        <UserRightsSection locale={locale} />
+        {/* <UserRightsSection locale={locale} /> */}
         <ContactPrivacySection locale={locale} />
       </main>
 

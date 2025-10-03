@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { Menu, X, Download } from 'lucide-react';
 import { useRouter, usePathname } from 'next/navigation';
 import LanguageSelector from './LanguageSelector';
-import { detectBrowserLocale } from '@/lib/i18n/locale-detector';
+import { detectBrowserLocale, getPreferredLocale } from '@/lib/i18n/locale-detector';
 
 /**
  * Header Component
@@ -25,13 +25,13 @@ export default function Header({ className = '' }: HeaderProps) {
   const router = useRouter();
   const pathname = usePathname();
 
-  // Detect current locale from pathname or browser
+  // Detect current locale from pathname, localStorage, or browser
   useEffect(() => {
     const pathParts = pathname.split('/');
     if (pathParts.length >= 3 && pathParts[1] === 'privacidad') {
       setCurrentLocale(pathParts[2]);
     } else {
-      setCurrentLocale(detectBrowserLocale());
+      setCurrentLocale(getPreferredLocale());
     }
   }, [pathname]);
 
