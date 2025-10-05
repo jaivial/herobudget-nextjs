@@ -3,6 +3,7 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Mail, Phone, MapPin, Clock, Send, User, MessageSquare, Shield, FileText, CheckCircle, AlertCircle, Globe } from "lucide-react";
+import { getContactPrivacyTranslations } from '@/lib/i18n/contact-privacy-translations';
 
 /**
  * Contact Privacy Section Component
@@ -20,46 +21,47 @@ interface ContactMethod {
   priority: "high" | "medium" | "low";
 }
 
-const contactMethods: ContactMethod[] = [
-  {
-    id: "privacy-email",
-    title: "Oficial de Protección de Datos",
-    description: "Para consultas específicas sobre privacidad y protección de datos",
-    icon: Shield,
-    contact: "Disponible desde la app",
-    availability: "24/7",
-    responseTime: "24 horas",
-    priority: "high",
-  },
-  {
-    id: "legal-email",
-    title: "Departamento Legal",
-    description: "Para solicitudes formales relacionadas con derechos de datos",
-    icon: FileText,
-    contact: "Disponible desde la app",
-    availability: "Lunes a Viernes 9AM-1:30PM",
-    responseTime: "48 horas",
-    priority: "high",
-  },
-  {
-    id: "general-support",
-    title: "Soporte General",
-    description: "Para consultas generales sobre privacidad y configuración",
-    icon: MessageSquare,
-    contact: "Disponible desde la app",
-    availability: "Lunes a Viernes 9AM-1:30PM",
-    responseTime: "12 horas",
-    priority: "medium",
-  },
-];
-
-const privacyTopics = ["Solicitud de datos personales", "Eliminación de cuenta", "Corrección de información", "Restricción de procesamiento", "Portabilidad de datos", "Objeción al procesamiento", "Configuración de privacidad", "Reporte de vulnerabilidad", "Consulta sobre cookies", "Otro tema de privacidad"];
-
 interface ContactPrivacySectionProps {
   locale: string;
 }
 
 export default function ContactPrivacySection({ locale }: ContactPrivacySectionProps) {
+  const t = getContactPrivacyTranslations(locale);
+
+  const contactMethods: ContactMethod[] = [
+    {
+      id: "privacy-email",
+      title: t.contactChannels.dataProtectionOfficer.title,
+      description: t.contactChannels.dataProtectionOfficer.description,
+      icon: Shield,
+      contact: t.contactChannels.contactAvailable,
+      availability: t.contactChannels.dataProtectionOfficer.availability,
+      responseTime: t.contactChannels.dataProtectionOfficer.responseTime,
+      priority: "high",
+    },
+    {
+      id: "legal-email",
+      title: t.contactChannels.legalDepartment.title,
+      description: t.contactChannels.legalDepartment.description,
+      icon: FileText,
+      contact: t.contactChannels.contactAvailable,
+      availability: t.contactChannels.legalDepartment.availability,
+      responseTime: t.contactChannels.legalDepartment.responseTime,
+      priority: "high",
+    },
+    {
+      id: "general-support",
+      title: t.contactChannels.generalSupport.title,
+      description: t.contactChannels.generalSupport.description,
+      icon: MessageSquare,
+      contact: t.contactChannels.contactAvailable,
+      availability: t.contactChannels.generalSupport.availability,
+      responseTime: t.contactChannels.generalSupport.responseTime,
+      priority: "medium",
+    },
+  ];
+
+  const privacyTopics = t.form.topics;
   const [selectedTopic, setSelectedTopic] = useState("");
   const [formData, setFormData] = useState({
     name: "",
@@ -191,11 +193,11 @@ export default function ContactPrivacySection({ locale }: ContactPrivacySectionP
             }}
             variants={itemVariants}
           >
-            Contacto de Privacidad
+            {t.title}
           </motion.h2>
 
           <motion.p className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed" variants={itemVariants}>
-            Estamos aquí para ayudarte con cualquier consulta sobre privacidad, protección de datos o ejercicio de tus derechos
+            {t.subtitle}
           </motion.p>
         </motion.div>
 
@@ -203,7 +205,7 @@ export default function ContactPrivacySection({ locale }: ContactPrivacySectionP
           {/* Métodos de contacto */}
           <motion.div variants={containerVariants} initial="hidden" animate={isInView ? "visible" : "hidden"}>
             <motion.h3 className="text-3xl font-bold text-gray-900 mb-8" variants={itemVariants}>
-              Canales de Contacto
+              {t.contactChannels.title}
             </motion.h3>
 
             <div className="space-y-6">
@@ -242,33 +244,33 @@ export default function ContactPrivacySection({ locale }: ContactPrivacySectionP
           {/* Formulario de contacto */}
           <motion.div variants={containerVariants} initial="hidden" animate={isInView ? "visible" : "hidden"}>
             <motion.h3 className="text-3xl font-bold text-gray-900 mb-8" variants={itemVariants}>
-              Formulario de Privacidad
+              {t.form.title}
             </motion.h3>
 
             <motion.form onSubmit={handleSubmit} className="space-y-6" variants={itemVariants}>
               {/* Nombre */}
               <div>
                 <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
-                  Nombre Completo
+                  {t.form.fields.name.label}
                 </label>
-                <input type="text" id="name" name="name" value={formData.name} onChange={handleInputChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200" placeholder="Tu nombre completo" required />
+                <input type="text" id="name" name="name" value={formData.name} onChange={handleInputChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200" placeholder={t.form.fields.name.placeholder} required />
               </div>
 
               {/* Email */}
               <div>
                 <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
-                  Correo Electrónico
+                  {t.form.fields.email.label}
                 </label>
-                <input type="email" id="email" name="email" value={formData.email} onChange={handleInputChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200" placeholder="tu@email.com" required />
+                <input type="email" id="email" name="email" value={formData.email} onChange={handleInputChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200" placeholder={t.form.fields.email.placeholder} required />
               </div>
 
               {/* Tema */}
               <div>
                 <label htmlFor="topic" className="block text-sm font-semibold text-gray-700 mb-2">
-                  Tema de Privacidad
+                  {t.form.fields.topic.label}
                 </label>
                 <select id="topic" name="topic" value={formData.topic} onChange={handleInputChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200" required>
-                  <option value="">Selecciona un tema</option>
+                  <option value="">{t.form.fields.topic.placeholder}</option>
                   {privacyTopics.map((topic, index) => (
                     <option key={index} value={topic}>
                       {topic}
@@ -280,21 +282,21 @@ export default function ContactPrivacySection({ locale }: ContactPrivacySectionP
               {/* Prioridad */}
               <div>
                 <label htmlFor="priority" className="block text-sm font-semibold text-gray-700 mb-2">
-                  Prioridad
+                  {t.form.fields.priority.label}
                 </label>
                 <select id="priority" name="priority" value={formData.priority} onChange={handleInputChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200">
-                  <option value="low">Baja - Consulta general</option>
-                  <option value="medium">Media - Necesito ayuda</option>
-                  <option value="high">Alta - Asunto urgente</option>
+                  <option value="low">{t.form.fields.priority.options.low}</option>
+                  <option value="medium">{t.form.fields.priority.options.medium}</option>
+                  <option value="high">{t.form.fields.priority.options.high}</option>
                 </select>
               </div>
 
               {/* Mensaje */}
               <div>
                 <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
-                  Mensaje
+                  {t.form.fields.message.label}
                 </label>
-                <textarea id="message" name="message" value={formData.message} onChange={handleInputChange} rows={6} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200 resize-none" placeholder="Describe tu consulta o solicitud de privacidad..." required />
+                <textarea id="message" name="message" value={formData.message} onChange={handleInputChange} rows={6} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200 resize-none" placeholder={t.form.fields.message.placeholder} required />
               </div>
 
               {/* Botón de envío */}
@@ -308,22 +310,22 @@ export default function ContactPrivacySection({ locale }: ContactPrivacySectionP
                 {isSubmitting ? (
                   <>
                     <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                    Enviando...
+                    {t.form.submit.sending}
                   </>
                 ) : submitStatus === "success" ? (
                   <>
                     <CheckCircle className="w-5 h-5" />
-                    Mensaje Enviado
+                    {t.form.submit.success}
                   </>
                 ) : submitStatus === "error" ? (
                   <>
                     <AlertCircle className="w-5 h-5" />
-                    Error al Enviar
+                    {t.form.submit.error}
                   </>
                 ) : (
                   <>
                     <Send className="w-5 h-5" />
-                    Enviar Consulta
+                    {t.form.submit.idle}
                   </>
                 )}
               </motion.button>
@@ -333,7 +335,7 @@ export default function ContactPrivacySection({ locale }: ContactPrivacySectionP
                 <motion.div className="p-4 rounded-xl bg-green-50 border border-green-200" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
                   <div className="flex items-center gap-2 text-green-700">
                     <CheckCircle className="w-5 h-5" />
-                    <span className="font-medium">Tu consulta ha sido enviada exitosamente. Te responderemos pronto.</span>
+                    <span className="font-medium">{t.form.messages.success}</span>
                   </div>
                 </motion.div>
               )}
@@ -343,7 +345,7 @@ export default function ContactPrivacySection({ locale }: ContactPrivacySectionP
                 <motion.div className="p-4 rounded-xl bg-red-50 border border-red-200" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
                   <div className="flex items-center gap-2 text-red-700">
                     <AlertCircle className="w-5 h-5" />
-                    <span className="font-medium">Hubo un error al enviar tu consulta. Por favor, inténtalo de nuevo.</span>
+                    <span className="font-medium">{t.form.messages.error}</span>
                   </div>
                 </motion.div>
               )}
@@ -354,8 +356,8 @@ export default function ContactPrivacySection({ locale }: ContactPrivacySectionP
               <div className="flex items-start gap-3">
                 <Shield className="w-5 h-5 text-gray-500 flex-shrink-0 mt-0.5" />
                 <div className="text-sm text-gray-600">
-                  <p className="font-medium mb-1">Protección de tu consulta</p>
-                  <p>Todas las comunicaciones son tratadas de manera confidencial y están protegidas bajo nuestras políticas de privacidad. Solo personal autorizado accederá a tu información.</p>
+                  <p className="font-medium mb-1">{t.form.privacyNote.title}</p>
+                  <p>{t.form.privacyNote.description}</p>
                 </div>
               </div>
             </motion.div>

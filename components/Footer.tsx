@@ -9,7 +9,11 @@ import FooterContent from './FooterContent';
  * Footer principal con información de contacto, enlaces y redes sociales
  */
 
-export default function Footer() {
+interface FooterProps {
+  locale?: string;
+}
+
+export default function Footer({ locale = 'en_GB' }: FooterProps) {
 
   return (
     <footer className="bg-gray-900 text-white relative overflow-hidden">
@@ -51,7 +55,7 @@ export default function Footer() {
           viewport={{ once: true, amount: 0.3 }}
         >
           {/* Contenido principal del footer */}
-          <FooterContent />
+          <FooterContent locale={locale} />
 
         </motion.div>
       </div>

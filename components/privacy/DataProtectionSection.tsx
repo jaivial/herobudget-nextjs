@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Shield, Lock, Key, Server, Eye, AlertTriangle, CheckCircle, Globe } from "lucide-react";
+import { getPrivacyTranslations } from "@/lib/i18n/privacy-translations";
 
 /**
  * Data Protection Section Component
@@ -18,89 +19,90 @@ interface SecurityMeasure {
   color: string;
 }
 
-const securityMeasures: SecurityMeasure[] = [
-  {
-    id: "local-storage",
-    title: "Almacenamiento Local",
-    description: "Tus datos financieros se almacenan localmente en tu dispositivo usando AsyncStorage de React Native.",
-    icon: Lock,
-    level: "basic",
-    color: "from-blue-500 to-blue-600",
-  },
-  {
-    id: "authentication",
-    title: "Autenticación Segura",
-    description: "Acceso protegido mediante autenticación para mantener tu información personal segura.",
-    icon: Key,
-    level: "basic",
-    color: "from-green-500 to-green-600",
-  },
-  {
-    id: "data-minimization",
-    title: "Mínima Recopilación de Datos",
-    description: "Solo recopilamos la información esencial que ingresas manualmente: facturas, categorías y recordatorios.",
-    icon: Server,
-    level: "basic",
-    color: "from-purple-500 to-purple-600",
-  },
-  {
-    id: "user-control",
-    title: "Control del Usuario",
-    description: "Puedes eliminar tus datos en cualquier momento desde la configuración de la aplicación.",
-    icon: Eye,
-    level: "basic",
-    color: "from-indigo-500 to-indigo-600",
-  },
-  {
-    id: "no-third-party",
-    title: "Sin Venta de Datos",
-    description: "No vendemos ni compartimos tu información personal con terceros para fines comerciales.",
-    icon: Shield,
-    level: "basic",
-    color: "from-orange-500 to-orange-600",
-  },
-  {
-    id: "transparency",
-    title: "Transparencia",
-    description: "Somos transparentes sobre qué datos recopilamos y cómo los usamos en nuestra política de privacidad.",
-    icon: Globe,
-    level: "basic",
-    color: "from-teal-500 to-teal-600",
-  },
-];
-
-const certifications = [
-  {
-    name: "Protección Básica",
-    description: "Implementamos medidas básicas de protección de datos personales",
-    icon: CheckCircle,
-    verified: true,
-  },
-  {
-    name: "Almacenamiento Local",
-    description: "Los datos se mantienen principalmente en tu dispositivo",
-    icon: Shield,
-    verified: true,
-  },
-  {
-    name: "Transparencia",
-    description: "Políticas claras sobre qué datos recopilamos y cómo los usamos",
-    icon: Lock,
-    verified: true,
-  },
-  {
-    name: "Control del Usuario",
-    description: "Facilidades para que el usuario controle sus propios datos",
-    icon: Key,
-    verified: true,
-  },
-];
-
 interface DataProtectionSectionProps {
   locale: string;
 }
 
 export default function DataProtectionSection({ locale }: DataProtectionSectionProps) {
+  const t = getPrivacyTranslations(locale);
+
+  const securityMeasures: SecurityMeasure[] = [
+    {
+      id: "local-storage",
+      title: t.dataProtectionSection.securityMeasures.localStorage.title,
+      description: t.dataProtectionSection.securityMeasures.localStorage.description,
+      icon: Lock,
+      level: "basic",
+      color: "from-blue-500 to-blue-600",
+    },
+    {
+      id: "authentication",
+      title: t.dataProtectionSection.securityMeasures.authentication.title,
+      description: t.dataProtectionSection.securityMeasures.authentication.description,
+      icon: Key,
+      level: "basic",
+      color: "from-green-500 to-green-600",
+    },
+    {
+      id: "data-minimization",
+      title: t.dataProtectionSection.securityMeasures.dataMinimization.title,
+      description: t.dataProtectionSection.securityMeasures.dataMinimization.description,
+      icon: Server,
+      level: "basic",
+      color: "from-purple-500 to-purple-600",
+    },
+    {
+      id: "user-control",
+      title: t.dataProtectionSection.securityMeasures.userControl.title,
+      description: t.dataProtectionSection.securityMeasures.userControl.description,
+      icon: Eye,
+      level: "basic",
+      color: "from-indigo-500 to-indigo-600",
+    },
+    {
+      id: "no-third-party",
+      title: t.dataProtectionSection.securityMeasures.noThirdParty.title,
+      description: t.dataProtectionSection.securityMeasures.noThirdParty.description,
+      icon: Shield,
+      level: "basic",
+      color: "from-orange-500 to-orange-600",
+    },
+    {
+      id: "transparency",
+      title: t.dataProtectionSection.securityMeasures.transparency.title,
+      description: t.dataProtectionSection.securityMeasures.transparency.description,
+      icon: Globe,
+      level: "basic",
+      color: "from-teal-500 to-teal-600",
+    },
+  ];
+
+  const certifications = [
+    {
+      name: t.dataProtectionSection.certifications.basicProtection.name,
+      description: t.dataProtectionSection.certifications.basicProtection.description,
+      icon: CheckCircle,
+      verified: true,
+    },
+    {
+      name: t.dataProtectionSection.certifications.localStorage.name,
+      description: t.dataProtectionSection.certifications.localStorage.description,
+      icon: Shield,
+      verified: true,
+    },
+    {
+      name: t.dataProtectionSection.certifications.transparency.name,
+      description: t.dataProtectionSection.certifications.transparency.description,
+      icon: Lock,
+      verified: true,
+    },
+    {
+      name: t.dataProtectionSection.certifications.userControl.name,
+      description: t.dataProtectionSection.certifications.userControl.description,
+      icon: Key,
+      verified: true,
+    },
+  ];
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
@@ -172,10 +174,10 @@ export default function DataProtectionSection({ locale }: DataProtectionSectionP
             className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8"
             style={{
               background: `
-                linear-gradient(135deg, 
-                  #10b981 0%, 
-                  #059669 30%, 
-                  #3b82f6 70%, 
+                linear-gradient(135deg,
+                  #10b981 0%,
+                  #059669 30%,
+                  #3b82f6 70%,
                   #1e40af 100%
                 )`,
               WebkitBackgroundClip: "text",
@@ -184,11 +186,11 @@ export default function DataProtectionSection({ locale }: DataProtectionSectionP
             }}
             variants={itemVariants}
           >
-            Protección de Datos
+            {t.dataProtectionSection.title}
           </motion.h2>
 
           <motion.p className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed" variants={itemVariants}>
-            Implementamos medidas de seguridad básicas para proteger tu información personal
+            {t.dataProtectionSection.subtitle}
           </motion.p>
         </motion.div>
 
@@ -250,8 +252,8 @@ export default function DataProtectionSection({ locale }: DataProtectionSectionP
         {/* Certificaciones y cumplimiento */}
         <motion.div className="max-w-4xl mx-auto" variants={containerVariants} initial="hidden" animate={isInView ? "visible" : "hidden"}>
           <motion.div className="text-center mb-12" variants={itemVariants}>
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">Principios de Protección</h3>
-            <p className="text-xl text-gray-600 leading-relaxed">Nuestro enfoque de protección de datos se basa en principios simples y transparentes</p>
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">{t.dataProtectionSection.principlesTitle}</h3>
+            <p className="text-xl text-gray-600 leading-relaxed">{t.dataProtectionSection.principlesSubtitle}</p>
           </motion.div>
 
           <motion.div className="grid md:grid-cols-2 gap-6" variants={containerVariants}>
@@ -296,11 +298,11 @@ export default function DataProtectionSection({ locale }: DataProtectionSectionP
             }}
           >
             <Shield className="w-16 h-16 text-green-500 mx-auto mb-6" />
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">Compromiso con la Transparencia</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">Creemos en ser honestos sobre nuestras prácticas de privacidad. Si tienes preguntas sobre cómo manejamos tus datos, estamos aquí para ayudarte.</p>
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">{t.dataProtectionSection.commitmentTitle}</h3>
+            <p className="text-gray-600 mb-6 leading-relaxed">{t.dataProtectionSection.commitmentSubtitle}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a href="#contact" className="bg-green-500 text-white px-8 py-4 rounded-xl font-semibold" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                Contactar Soporte
+                {t.dataProtectionSection.contactSupport}
               </motion.a>
             </div>
           </div>

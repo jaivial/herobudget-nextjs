@@ -64,6 +64,29 @@ export interface PrivacyTranslations {
     storage: string;
     access: string;
   };
+  dataProtectionSection: {
+    title: string;
+    subtitle: string;
+    securityMeasures: {
+      localStorage: { title: string; description: string };
+      authentication: { title: string; description: string };
+      dataMinimization: { title: string; description: string };
+      userControl: { title: string; description: string };
+      noThirdParty: { title: string; description: string };
+      transparency: { title: string; description: string };
+    };
+    principlesTitle: string;
+    principlesSubtitle: string;
+    certifications: {
+      basicProtection: { name: string; description: string };
+      localStorage: { name: string; description: string };
+      transparency: { name: string; description: string };
+      userControl: { name: string; description: string };
+    };
+    commitmentTitle: string;
+    commitmentSubtitle: string;
+    contactSupport: string;
+  };
   userRights: {
     title: string;
     subtitle: string;
@@ -299,6 +322,59 @@ const en_GB: PrivacyTranslations = {
     encryption: 'End-to-end encryption for all data',
     storage: 'Secure cloud storage with regular backups',
     access: 'Strict access controls and authentication',
+  },
+  dataProtectionSection: {
+    title: 'Data Protection',
+    subtitle: 'We implement basic security measures to protect your personal information',
+    securityMeasures: {
+      localStorage: {
+        title: 'Local Storage',
+        description: 'Your financial data is stored locally on your device using React Native AsyncStorage.'
+      },
+      authentication: {
+        title: 'Secure Authentication',
+        description: 'Protected access through authentication to keep your personal information secure.'
+      },
+      dataMinimization: {
+        title: 'Minimal Data Collection',
+        description: 'We only collect essential information that you manually enter: invoices, categories and reminders.'
+      },
+      userControl: {
+        title: 'User Control',
+        description: 'You can delete your data at any time from the application settings.'
+      },
+      noThirdParty: {
+        title: 'No Data Sale',
+        description: 'We do not sell or share your personal information with third parties for commercial purposes.'
+      },
+      transparency: {
+        title: 'Transparency',
+        description: 'We are transparent about what data we collect and how we use it in our privacy policy.'
+      }
+    },
+    principlesTitle: 'Protection Principles',
+    principlesSubtitle: 'Our data protection approach is based on simple and transparent principles',
+    certifications: {
+      basicProtection: {
+        name: 'Basic Protection',
+        description: 'We implement basic personal data protection measures'
+      },
+      localStorage: {
+        name: 'Local Storage',
+        description: 'Data is kept primarily on your device'
+      },
+      transparency: {
+        name: 'Transparency',
+        description: 'Clear policies about what data we collect and how we use it'
+      },
+      userControl: {
+        name: 'User Control',
+        description: 'Facilities for users to control their own data'
+      }
+    },
+    commitmentTitle: 'Commitment to Transparency',
+    commitmentSubtitle: 'We believe in being honest about our privacy practices. If you have questions about how we handle your data, we are here to help.',
+    contactSupport: 'Contact Support'
   },
   userRights: {
     title: 'Your Rights',
@@ -543,6 +619,59 @@ const es_ES: PrivacyTranslations = {
     storage: 'Almacenamiento seguro en la nube con copias de seguridad regulares',
     access: 'Controles de acceso estrictos y autenticación',
   },
+  dataProtectionSection: {
+    title: 'Protección de Datos',
+    subtitle: 'Implementamos medidas de seguridad básicas para proteger tu información personal',
+    securityMeasures: {
+      localStorage: {
+        title: 'Almacenamiento Local',
+        description: 'Tus datos financieros se almacenan localmente en tu dispositivo usando AsyncStorage de React Native.'
+      },
+      authentication: {
+        title: 'Autenticación Segura',
+        description: 'Acceso protegido mediante autenticación para mantener tu información personal segura.'
+      },
+      dataMinimization: {
+        title: 'Mínima Recopilación de Datos',
+        description: 'Solo recopilamos la información esencial que ingresas manualmente: facturas, categorías y recordatorios.'
+      },
+      userControl: {
+        title: 'Control del Usuario',
+        description: 'Puedes eliminar tus datos en cualquier momento desde la configuración de la aplicación.'
+      },
+      noThirdParty: {
+        title: 'Sin Venta de Datos',
+        description: 'No vendemos ni compartimos tu información personal con terceros para fines comerciales.'
+      },
+      transparency: {
+        title: 'Transparencia',
+        description: 'Somos transparentes sobre qué datos recopilamos y cómo los usamos en nuestra política de privacidad.'
+      }
+    },
+    principlesTitle: 'Principios de Protección',
+    principlesSubtitle: 'Nuestro enfoque de protección de datos se basa en principios simples y transparentes',
+    certifications: {
+      basicProtection: {
+        name: 'Protección Básica',
+        description: 'Implementamos medidas básicas de protección de datos personales'
+      },
+      localStorage: {
+        name: 'Almacenamiento Local',
+        description: 'Los datos se mantienen principalmente en tu dispositivo'
+      },
+      transparency: {
+        name: 'Transparencia',
+        description: 'Políticas claras sobre qué datos recopilamos y cómo los usamos'
+      },
+      userControl: {
+        name: 'Control del Usuario',
+        description: 'Facilidades para que el usuario controle sus propios datos'
+      }
+    },
+    commitmentTitle: 'Compromiso con la Transparencia',
+    commitmentSubtitle: 'Creemos en ser honestos sobre nuestras prácticas de privacidad. Si tienes preguntas sobre cómo manejamos tus datos, estamos aquí para ayudarte.',
+    contactSupport: 'Contactar Soporte'
+  },
   userRights: {
     title: 'Tus Derechos',
     subtitle: 'Tienes control sobre tus datos',
@@ -786,6 +915,59 @@ const fr_FR: PrivacyTranslations = {
     storage: 'Stockage cloud sécurisé avec sauvegardes régulières',
     access: 'Contrôles d\'accès stricts et authentification',
   },
+  dataProtectionSection: {
+    title: 'Protection des Données',
+    subtitle: 'Nous mettons en œuvre des mesures de sécurité de base pour protéger vos informations personnelles',
+    securityMeasures: {
+      localStorage: {
+        title: 'Stockage Local',
+        description: 'Vos données financières sont stockées localement sur votre appareil en utilisant React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Authentification Sécurisée',
+        description: 'Accès protégé par authentification pour garder vos informations personnelles en sécurité'
+      },
+      dataMinimization: {
+        title: 'Collecte de Données Minimale',
+        description: 'Nous collectons uniquement les informations essentielles que vous saisissez manuellement : factures, catégories et rappels'
+      },
+      userControl: {
+        title: 'Contrôle Utilisateur',
+        description: 'Vous pouvez supprimer vos données à tout moment depuis les paramètres de l\'application'
+      },
+      noThirdParty: {
+        title: 'Aucune Vente de Données',
+        description: 'Nous ne vendons ni ne partageons vos informations personnelles avec des tiers à des fins commerciales'
+      },
+      transparency: {
+        title: 'Transparence',
+        description: 'Nous sommes transparents sur les données que nous collectons et comment nous les utilisons dans notre politique de confidentialité'
+      }
+    },
+    principlesTitle: 'Principes de Protection',
+    principlesSubtitle: 'Notre approche de la protection des données repose sur des principes simples et transparents',
+    certifications: {
+      basicProtection: {
+        name: 'Protection de Base',
+        description: 'Nous mettons en œuvre des mesures de base de protection des données personnelles'
+      },
+      localStorage: {
+        name: 'Stockage Local',
+        description: 'Les données sont conservées principalement sur votre appareil'
+      },
+      transparency: {
+        name: 'Transparence',
+        description: 'Politiques claires sur les données que nous collectons et comment nous les utilisons'
+      },
+      userControl: {
+        name: 'Contrôle Utilisateur',
+        description: 'Facilités permettant aux utilisateurs de contrôler leurs propres données'
+      }
+    },
+    commitmentTitle: 'Engagement envers la Transparence',
+    commitmentSubtitle: 'Nous croyons en l\'honnêteté de nos pratiques de confidentialité. Si vous avez des questions sur la façon dont nous traitons vos données, nous sommes là pour vous aider',
+    contactSupport: 'Contacter le Support'
+  },
   userRights: {
     title: 'Vos Droits',
     subtitle: 'Vous contrôlez vos données',
@@ -952,7 +1134,115 @@ const de_DE: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: 'Datensicherheit',
+        lastUpdated: 'Zuletzt aktualisiert',
+        lastUpdatedDate: '2. Oktober 2025',
+        paragraphs: [
+          'Wir implementieren angemessene Sicherheitsmaßnahmen zum Schutz der Informationen, die Sie lokal auf Ihrem Gerät speichern:'
+        ],
+        subsections: [
+          {
+            title: 'Technische Maßnahmen:',
+            items: [
+              'Sicherer lokaler Speicher auf Ihrem Gerät',
+              'Sichere Kommunikation mit unseren Servern bei der Datensynchronisierung',
+              'Sichere Authentifizierung für den Zugriff auf Ihr Konto',
+              'Grundlegender Schutz vor unbefugtem Zugriff'
+            ]
+          },
+          {
+            title: 'Organisatorische Maßnahmen:',
+            items: [
+              'Nur Sie haben direkten Zugriff auf die Daten, die Sie in der App eingeben',
+              'Unser Team folgt bewährten Praktiken für sichere Entwicklung',
+              'Regelmäßige Sicherheitsüberprüfungen der App',
+              'Verfahren zur Meldung und Behebung von Sicherheitsproblemen'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Datenspeicherung',
+        lastUpdated: 'Zuletzt aktualisiert',
+        lastUpdatedDate: '2. Oktober 2025',
+        paragraphs: [
+          'Wir bewahren Ihre persönlichen Daten nur so lange auf, wie es zur Erfüllung der in dieser Richtlinie beschriebenen Zwecke erforderlich ist:'
+        ],
+        subsections: [
+          {
+            title: 'Aufbewahrungsfristen:',
+            items: [
+              'Kontodaten: solange Sie ein aktives Konto unterhalten',
+              'Transaktionsdaten: bis zu 7 Jahre zur Einhaltung regulatorischer Vorschriften',
+              'Support-Daten: bis zu 3 Jahre nach der Lösung'
+            ]
+          },
+          {
+            title: 'Datenlöschung:',
+            items: [
+              'Automatische Löschung nach Ablauf der Aufbewahrungsfristen',
+              'Vollständige Löschung lokal gespeicherter Daten',
+              'Möglichkeit zur Beantragung einer vorzeitigen Löschung (vorbehaltlich gesetzlicher Einschränkungen)',
+              'Löschungsbenachrichtigung, wenn technisch machbar'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: 'Datenschutz',
+    subtitle: 'Wir implementieren grundlegende Sicherheitsmaßnahmen zum Schutz Ihrer persönlichen Daten',
+    securityMeasures: {
+      localStorage: {
+        title: 'Lokaler Speicher',
+        description: 'Ihre Finanzdaten werden lokal auf Ihrem Gerät mit React Native AsyncStorage gespeichert'
+      },
+      authentication: {
+        title: 'Sichere Authentifizierung',
+        description: 'Geschützter Zugang durch Authentifizierung, um Ihre persönlichen Daten sicher zu halten'
+      },
+      dataMinimization: {
+        title: 'Minimale Datenerhebung',
+        description: 'Wir sammeln nur wesentliche Informationen, die Sie manuell eingeben: Rechnungen, Kategorien und Erinnerungen'
+      },
+      userControl: {
+        title: 'Benutzerkontrolle',
+        description: 'Sie können Ihre Daten jederzeit in den Anwendungseinstellungen löschen'
+      },
+      noThirdParty: {
+        title: 'Kein Datenverkauf',
+        description: 'Wir verkaufen oder teilen Ihre persönlichen Daten nicht mit Dritten für kommerzielle Zwecke'
+      },
+      transparency: {
+        title: 'Transparenz',
+        description: 'Wir sind transparent darüber, welche Daten wir sammeln und wie wir sie in unserer Datenschutzrichtlinie verwenden'
+      }
+    },
+    principlesTitle: 'Schutzprinzipien',
+    principlesSubtitle: 'Unser Datenschutzansatz basiert auf einfachen und transparenten Prinzipien',
+    certifications: {
+      basicProtection: {
+        name: 'Grundlegender Schutz',
+        description: 'Wir implementieren grundlegende Maßnahmen zum Schutz personenbezogener Daten'
+      },
+      localStorage: {
+        name: 'Lokaler Speicher',
+        description: 'Daten werden hauptsächlich auf Ihrem Gerät gespeichert'
+      },
+      transparency: {
+        name: 'Transparenz',
+        description: 'Klare Richtlinien darüber, welche Daten wir sammeln und wie wir sie verwenden'
+      },
+      userControl: {
+        name: 'Benutzerkontrolle',
+        description: 'Möglichkeiten für Benutzer, ihre eigenen Daten zu kontrollieren'
+      }
+    },
+    commitmentTitle: 'Engagement für Transparenz',
+    commitmentSubtitle: 'Wir glauben daran, ehrlich über unsere Datenschutzpraktiken zu sein. Wenn Sie Fragen dazu haben, wie wir mit Ihren Daten umgehen, helfen wir Ihnen gerne weiter',
+    contactSupport: 'Support kontaktieren'
   },
 };
 
@@ -1104,7 +1394,115 @@ const it_IT: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: 'Sicurezza dei Dati',
+        lastUpdated: 'Ultimo aggiornamento',
+        lastUpdatedDate: '2 ottobre 2025',
+        paragraphs: [
+          'Implementiamo misure di sicurezza appropriate per proteggere le informazioni che memorizzi localmente sul tuo dispositivo:'
+        ],
+        subsections: [
+          {
+            title: 'Misure tecniche:',
+            items: [
+              'Archiviazione locale sicura sul tuo dispositivo',
+              'Comunicazione sicura con i nostri server durante la sincronizzazione dei dati',
+              'Autenticazione sicura per accedere al tuo account',
+              'Protezione di base contro l\'accesso non autorizzato'
+            ]
+          },
+          {
+            title: 'Misure organizzative:',
+            items: [
+              'Solo tu hai accesso diretto ai dati che inserisci nell\'app',
+              'Il nostro team segue le migliori pratiche di sviluppo sicuro',
+              'Revisioni regolari della sicurezza dell\'app',
+              'Procedure per segnalare e risolvere problemi di sicurezza'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Conservazione dei Dati',
+        lastUpdated: 'Ultimo aggiornamento',
+        lastUpdatedDate: '2 ottobre 2025',
+        paragraphs: [
+          'Conserviamo le tue informazioni personali solo per il tempo necessario a soddisfare gli scopi descritti in questa politica:'
+        ],
+        subsections: [
+          {
+            title: 'Periodi di conservazione:',
+            items: [
+              'Dati dell\'account: finché mantieni un account attivo',
+              'Dati delle transazioni: fino a 7 anni per conformità normativa',
+              'Dati di supporto: fino a 3 anni dopo la risoluzione'
+            ]
+          },
+          {
+            title: 'Cancellazione dei dati:',
+            items: [
+              'Cancellazione automatica alla scadenza dei periodi di conservazione',
+              'Cancellazione completa dei dati memorizzati localmente',
+              'Possibilità di richiedere la cancellazione anticipata (soggetta a restrizioni legali)',
+              'Notifica di cancellazione quando tecnicamente fattibile'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: 'Protezione dei Dati',
+    subtitle: 'Implementiamo misure di sicurezza di base per proteggere le tue informazioni personali',
+    securityMeasures: {
+      localStorage: {
+        title: 'Archiviazione Locale',
+        description: 'I tuoi dati finanziari sono memorizzati localmente sul tuo dispositivo utilizzando React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Autenticazione Sicura',
+        description: 'Accesso protetto tramite autenticazione per mantenere sicure le tue informazioni personali'
+      },
+      dataMinimization: {
+        title: 'Raccolta Dati Minimale',
+        description: 'Raccogliamo solo le informazioni essenziali che inserisci manualmente: fatture, categorie e promemoria'
+      },
+      userControl: {
+        title: 'Controllo Utente',
+        description: 'Puoi eliminare i tuoi dati in qualsiasi momento dalle impostazioni dell\'applicazione'
+      },
+      noThirdParty: {
+        title: 'Nessuna Vendita di Dati',
+        description: 'Non vendiamo né condividiamo le tue informazioni personali con terze parti per scopi commerciali'
+      },
+      transparency: {
+        title: 'Trasparenza',
+        description: 'Siamo trasparenti sui dati che raccogliamo e su come li utilizziamo nella nostra informativa sulla privacy'
+      }
+    },
+    principlesTitle: 'Principi di Protezione',
+    principlesSubtitle: 'Il nostro approccio alla protezione dei dati si basa su principi semplici e trasparenti',
+    certifications: {
+      basicProtection: {
+        name: 'Protezione di Base',
+        description: 'Implementiamo misure di base per la protezione dei dati personali'
+      },
+      localStorage: {
+        name: 'Archiviazione Locale',
+        description: 'I dati sono conservati principalmente sul tuo dispositivo'
+      },
+      transparency: {
+        name: 'Trasparenza',
+        description: 'Politiche chiare sui dati che raccogliamo e su come li utilizziamo'
+      },
+      userControl: {
+        name: 'Controllo Utente',
+        description: 'Funzionalità per consentire agli utenti di controllare i propri dati'
+      }
+    },
+    commitmentTitle: 'Impegno alla Trasparenza',
+    commitmentSubtitle: 'Crediamo nell\'essere onesti riguardo alle nostre pratiche sulla privacy. Se hai domande su come gestiamo i tuoi dati, siamo qui per aiutarti',
+    contactSupport: 'Contatta il Supporto'
   },
 };
 
@@ -1256,7 +1654,115 @@ const pt_BR: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: 'Segurança de Dados',
+        lastUpdated: 'Última atualização',
+        lastUpdatedDate: '2 de outubro de 2025',
+        paragraphs: [
+          'Implementamos medidas de segurança apropriadas para proteger as informações que você armazena localmente no seu dispositivo:'
+        ],
+        subsections: [
+          {
+            title: 'Medidas técnicas:',
+            items: [
+                'Armazenamento local seguro no seu dispositivo',
+                'Comunicação segura com nossos servidores ao sincronizar dados',
+                'Autenticação segura para acessar sua conta',
+                'Proteção básica contra acesso não autorizado'
+            ]
+          },
+          {
+            title: 'Medidas organizacionais:',
+            items: [
+                'Apenas você tem acesso direto aos dados que insere no aplicativo',
+                'Nossa equipe segue as melhores práticas de desenvolvimento seguro',
+                'Revisões regulares de segurança do aplicativo',
+                'Procedimentos para relatar e resolver problemas de segurança'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Retenção de Dados',
+        lastUpdated: 'Última atualização',
+        lastUpdatedDate: '2 de outubro de 2025',
+        paragraphs: [
+          'Retemos suas informações pessoais apenas pelo tempo necessário para cumprir os propósitos descritos nesta política:'
+        ],
+        subsections: [
+          {
+            title: 'Períodos de retenção:',
+            items: [
+                'Dados da conta: enquanto você mantiver uma conta ativa',
+                'Dados de transações: até 7 anos para conformidade regulatória',
+                'Dados de suporte: até 3 anos após a resolução'
+            ]
+          },
+          {
+            title: 'Exclusão de dados:',
+            items: [
+                'Exclusão automática quando os períodos de retenção expiram',
+                'Exclusão completa dos dados armazenados localmente',
+                'Possibilidade de solicitar exclusão antecipada (sujeita a restrições legais)',
+                'Notificação de exclusão quando tecnicamente viável'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: 'Proteção de Dados',
+    subtitle: 'Implementamos medidas básicas de segurança para proteger suas informações pessoais',
+    securityMeasures: {
+      localStorage: {
+        title: 'Armazenamento Local',
+        description: 'Seus dados financeiros são armazenados localmente no seu dispositivo usando React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Autenticação Segura',
+        description: 'Acesso protegido por autenticação para manter suas informações pessoais seguras'
+      },
+      dataMinimization: {
+        title: 'Coleta Mínima de Dados',
+        description: 'Coletamos apenas informações essenciais que você insere manualmente: faturas, categorias e lembretes'
+      },
+      userControl: {
+        title: 'Controle do Usuário',
+        description: 'Você pode excluir seus dados a qualquer momento nas configurações do aplicativo'
+      },
+      noThirdParty: {
+        title: 'Nenhuma Venda de Dados',
+        description: 'Não vendemos ou compartilhamos suas informações pessoais com terceiros para fins comerciais'
+      },
+      transparency: {
+        title: 'Transparência',
+        description: 'Somos transparentes sobre quais dados coletamos e como os usamos em nossa política de privacidade'
+      }
+    },
+    principlesTitle: 'Princípios de Proteção',
+    principlesSubtitle: 'Nossa abordagem de proteção de dados é baseada em princípios simples e transparentes',
+    certifications: {
+      basicProtection: {
+        name: 'Proteção Básica',
+        description: 'Implementamos medidas básicas de proteção de dados pessoais'
+      },
+      localStorage: {
+        name: 'Armazenamento Local',
+        description: 'Os dados são mantidos principalmente no seu dispositivo'
+      },
+      transparency: {
+        name: 'Transparência',
+        description: 'Políticas claras sobre quais dados coletamos e como os usamos'
+      },
+      userControl: {
+        name: 'Controle do Usuário',
+        description: 'Facilidades para os usuários controlarem seus próprios dados'
+      }
+    },
+    commitmentTitle: 'Compromisso com a Transparência',
+    commitmentSubtitle: 'Acreditamos em ser honestos sobre nossas práticas de privacidade. Se você tiver dúvidas sobre como lidamos com seus dados, estamos aqui para ajudar',
+    contactSupport: 'Contatar Suporte'
   },
 };
 
@@ -1408,7 +1914,115 @@ const ja_JP: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: 'データセキュリティ',
+        lastUpdated: '最終更新',
+        lastUpdatedDate: '2025年10月2日',
+        paragraphs: [
+          'お客様のデバイスにローカルに保存する情報を保護するために、適切なセキュリティ対策を実施しています:'
+        ],
+        subsections: [
+          {
+            title: '技術的対策:',
+            items: [
+              'お客様のデバイス上の安全なローカルストレージ',
+              'データ同期時のサーバーとの安全な通信',
+              'アカウントアクセスのための安全な認証',
+              '不正アクセスに対する基本的な保護'
+            ]
+          },
+          {
+            title: '組織的対策:',
+            items: [
+              'アプリに入力したデータに直接アクセスできるのはお客様のみです',
+              '当社のチームは安全な開発のベストプラクティスに従います',
+              '定期的なアプリセキュリティレビュー',
+              'セキュリティ問題を報告および解決するための手順'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'データ保持',
+        lastUpdated: '最終更新',
+        lastUpdatedDate: '2025年10月2日',
+        paragraphs: [
+          '本ポリシーに記載されている目的を達成するために必要な期間のみ、お客様の個人情報を保持します:'
+        ],
+        subsections: [
+          {
+            title: '保持期間:',
+            items: [
+              'アカウントデータ: アクティブなアカウントを維持している間',
+              '取引データ: 規制遵守のため最大7年間',
+              'サポートデータ: 解決後最大3年間'
+            ]
+          },
+          {
+            title: 'データ削除:',
+            items: [
+              '保持期間が終了すると自動削除',
+              'ローカルに保存されたデータの完全削除',
+              '早期削除を要求する可能性（法的制限の対象）',
+              '技術的に可能な場合の削除通知'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: 'データ保護',
+    subtitle: '個人情報を保護するための基本的なセキュリティ対策を実施しています',
+    securityMeasures: {
+      localStorage: {
+        title: 'ローカルストレージ',
+        description: '財務データはReact Native AsyncStorageを使用してデバイスにローカルに保存されます'
+      },
+      authentication: {
+        title: '安全な認証',
+        description: '個人情報を安全に保つための認証による保護されたアクセス'
+      },
+      dataMinimization: {
+        title: '最小限のデータ収集',
+        description: '手動で入力した必須情報のみを収集します：請求書、カテゴリ、リマインダー'
+      },
+      userControl: {
+        title: 'ユーザーコントロール',
+        description: 'アプリケーション設定からいつでもデータを削除できます'
+      },
+      noThirdParty: {
+        title: 'データ販売なし',
+        description: '商業目的で個人情報を第三者に販売または共有することはありません'
+      },
+      transparency: {
+        title: '透明性',
+        description: 'プライバシーポリシーで収集するデータとその使用方法について透明性を保っています'
+      }
+    },
+    principlesTitle: '保護原則',
+    principlesSubtitle: '当社のデータ保護アプローチは、シンプルで透明性のある原則に基づいています',
+    certifications: {
+      basicProtection: {
+        name: '基本的な保護',
+        description: '個人データ保護の基本的な対策を実施しています'
+      },
+      localStorage: {
+        name: 'ローカルストレージ',
+        description: 'データは主にお使いのデバイスに保存されます'
+      },
+      transparency: {
+        name: '透明性',
+        description: '収集するデータとその使用方法に関する明確なポリシー'
+      },
+      userControl: {
+        name: 'ユーザーコントロール',
+        description: 'ユーザーが自分のデータを管理するための機能'
+      }
+    },
+    commitmentTitle: '透明性へのコミットメント',
+    commitmentSubtitle: '当社はプライバシー慣行について正直であることを信じています。データの取り扱いについてご質問がある場合は、お手伝いいたします',
+    contactSupport: 'サポートに連絡'
   },
 };
 
@@ -1560,7 +2174,115 @@ const zh_CN: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: '数据安全',
+        lastUpdated: '最后更新',
+        lastUpdatedDate: '2025年10月2日',
+        paragraphs: [
+          '我们实施适当的安全措施来保护您在设备上本地存储的信息：'
+        ],
+        subsections: [
+          {
+            title: '技术措施：',
+            items: [
+                '设备上的安全本地存储',
+                '同步数据时与我们服务器的安全通信',
+                '访问您账户的安全身份验证',
+                '防止未经授权访问的基本保护'
+            ]
+          },
+          {
+            title: '组织措施：',
+            items: [
+                '只有您才能直接访问您在应用中输入的数据',
+                '我们的团队遵循安全开发最佳实践',
+                '定期进行应用安全审查',
+                '报告和解决安全问题的程序'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: '数据保留',
+        lastUpdated: '最后更新',
+        lastUpdatedDate: '2025年10月2日',
+        paragraphs: [
+          '我们仅在履行本政策中所述目的所需的时间内保留您的个人信息：'
+        ],
+        subsections: [
+          {
+            title: '保留期限：',
+            items: [
+                '账户数据：在您维持活跃账户期间',
+                '交易数据：最多7年以符合监管要求',
+                '支持数据：解决后最多3年'
+            ]
+          },
+          {
+            title: '数据删除：',
+            items: [
+                '保留期限到期时自动删除',
+                '完全删除本地存储的数据',
+                '可以请求提前删除（受法律限制）',
+                '在技术可行的情况下发送删除通知'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: '数据保护',
+    subtitle: '我们实施基本的安全措施来保护您的个人信息',
+    securityMeasures: {
+      localStorage: {
+        title: '本地存储',
+        description: '您的财务数据使用React Native AsyncStorage本地存储在您的设备上'
+      },
+      authentication: {
+        title: '安全认证',
+        description: '通过认证保护访问，确保您的个人信息安全'
+      },
+      dataMinimization: {
+        title: '最少数据收集',
+        description: '我们只收集您手动输入的基本信息：发票、类别和提醒'
+      },
+      userControl: {
+        title: '用户控制',
+        description: '您可以随时从应用程序设置中删除您的数据'
+      },
+      noThirdParty: {
+        title: '不出售数据',
+        description: '我们不会为商业目的向第三方出售或分享您的个人信息'
+      },
+      transparency: {
+        title: '透明度',
+        description: '我们在隐私政策中对收集哪些数据以及如何使用保持透明'
+      }
+    },
+    principlesTitle: '保护原则',
+    principlesSubtitle: '我们的数据保护方法基于简单透明的原则',
+    certifications: {
+      basicProtection: {
+        name: '基本保护',
+        description: '我们实施基本的个人数据保护措施'
+      },
+      localStorage: {
+        name: '本地存储',
+        description: '数据主要保存在您的设备上'
+      },
+      transparency: {
+        name: '透明度',
+        description: '关于我们收集哪些数据以及如何使用的明确政策'
+      },
+      userControl: {
+        name: '用户控制',
+        description: '为用户提供控制自己数据的功能'
+      }
+    },
+    commitmentTitle: '对透明度的承诺',
+    commitmentSubtitle: '我们相信诚实对待我们的隐私做法。如果您对我们如何处理您的数据有疑问，我们随时为您提供帮助',
+    contactSupport: '联系支持'
   },
 };
 
@@ -1712,7 +2434,115 @@ const ko_KR: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: '데이터 보안',
+        lastUpdated: '최종 업데이트',
+        lastUpdatedDate: '2025년 10월 2일',
+        paragraphs: [
+          '기기에 로컬로 저장하는 정보를 보호하기 위해 적절한 보안 조치를 구현합니다:'
+        ],
+        subsections: [
+          {
+            title: '기술적 조치:',
+            items: [
+              '기기의 안전한 로컬 스토리지',
+              '데이터 동기화 시 서버와의 안전한 통신',
+              '계정 액세스를 위한 안전한 인증',
+              '무단 액세스에 대한 기본 보호'
+            ]
+          },
+          {
+            title: '조직적 조치:',
+            items: [
+              '앱에 입력한 데이터에 직접 액세스할 수 있는 사람은 본인뿐입니다',
+              '팀은 안전한 개발 모범 사례를 따릅니다',
+              '정기적인 앱 보안 검토',
+              '보안 문제를 보고하고 해결하기 위한 절차'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: '데이터 보존',
+        lastUpdated: '최종 업데이트',
+        lastUpdatedDate: '2025년 10월 2일',
+        paragraphs: [
+          '본 정책에 명시된 목적을 달성하는 데 필요한 기간 동안만 개인 정보를 보존합니다:'
+        ],
+        subsections: [
+          {
+            title: '보존 기간:',
+            items: [
+              '계정 데이터: 활성 계정을 유지하는 동안',
+              '거래 데이터: 규제 준수를 위해 최대 7년',
+              '지원 데이터: 해결 후 최대 3년'
+            ]
+          },
+          {
+            title: '데이터 삭제:',
+            items: [
+              '보존 기간 만료 시 자동 삭제',
+              '로컬에 저장된 데이터의 완전한 삭제',
+              '조기 삭제를 요청할 가능성(법적 제한 적용)',
+              '기술적으로 가능한 경우 삭제 알림'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: '데이터 보호',
+    subtitle: '개인정보를 보호하기 위한 기본 보안 조치를 시행합니다',
+    securityMeasures: {
+      localStorage: {
+        title: '로컬 저장소',
+        description: '귀하의 재무 데이터는 React Native AsyncStorage를 사용하여 기기에 로컬로 저장됩니다'
+      },
+      authentication: {
+        title: '보안 인증',
+        description: '개인정보를 안전하게 유지하기 위한 인증을 통한 보호된 액세스'
+      },
+      dataMinimization: {
+        title: '최소 데이터 수집',
+        description: '수동으로 입력하는 필수 정보만 수집합니다: 청구서, 카테고리 및 알림'
+      },
+      userControl: {
+        title: '사용자 제어',
+        description: '애플리케이션 설정에서 언제든지 데이터를 삭제할 수 있습니다'
+      },
+      noThirdParty: {
+        title: '데이터 판매 없음',
+        description: '상업적 목적으로 제3자에게 개인정보를 판매하거나 공유하지 않습니다'
+      },
+      transparency: {
+        title: '투명성',
+        description: '개인정보 보호정책에서 수집하는 데이터와 사용 방법에 대해 투명하게 공개합니다'
+      }
+    },
+    principlesTitle: '보호 원칙',
+    principlesSubtitle: '데이터 보호 접근 방식은 간단하고 투명한 원칙을 기반으로 합니다',
+    certifications: {
+      basicProtection: {
+        name: '기본 보호',
+        description: '개인 데이터 보호를 위한 기본 조치를 시행합니다'
+      },
+      localStorage: {
+        name: '로컬 저장소',
+        description: '데이터는 주로 귀하의 기기에 보관됩니다'
+      },
+      transparency: {
+        name: '투명성',
+        description: '수집하는 데이터와 사용 방법에 대한 명확한 정책'
+      },
+      userControl: {
+        name: '사용자 제어',
+        description: '사용자가 자신의 데이터를 제어할 수 있는 기능'
+      }
+    },
+    commitmentTitle: '투명성에 대한 약속',
+    commitmentSubtitle: '개인정보 보호 관행에 대해 정직하게 공개하는 것을 믿습니다. 데이터 처리 방법에 대해 질문이 있으시면 도와드리겠습니다',
+    contactSupport: '지원팀에 문의'
   },
 };
 
@@ -1864,7 +2694,115 @@ const ru_RU: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: 'Безопасность данных',
+        lastUpdated: 'Последнее обновление',
+        lastUpdatedDate: '2 октября 2025',
+        paragraphs: [
+          'Мы применяем соответствующие меры безопасности для защиты информации, которую вы храните локально на своем устройстве:'
+        ],
+        subsections: [
+          {
+            title: 'Технические меры:',
+            items: [
+                'Безопасное локальное хранилище на вашем устройстве',
+                'Безопасная связь с нашими серверами при синхронизации данных',
+                'Безопасная аутентификация для доступа к вашей учетной записи',
+                'Базовая защита от несанкционированного доступа'
+            ]
+          },
+          {
+            title: 'Организационные меры:',
+            items: [
+                'Только вы имеете прямой доступ к данным, которые вводите в приложение',
+                'Наша команда следует лучшим практикам безопасной разработки',
+                'Регулярные проверки безопасности приложения',
+                'Процедуры для сообщения и решения проблем безопасности'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Хранение данных',
+        lastUpdated: 'Последнее обновление',
+        lastUpdatedDate: '2 октября 2025',
+        paragraphs: [
+          'Мы храним вашу личную информацию только в течение времени, необходимого для выполнения целей, описанных в этой политике:'
+        ],
+        subsections: [
+          {
+            title: 'Сроки хранения:',
+            items: [
+                'Данные учетной записи: пока вы поддерживаете активную учетную запись',
+                'Данные транзакций: до 7 лет для соблюдения нормативных требований',
+                'Данные поддержки: до 3 лет после решения'
+            ]
+          },
+          {
+            title: 'Удаление данных:',
+            items: [
+                'Автоматическое удаление по истечении сроков хранения',
+                'Полное удаление локально хранящихся данных',
+                'Возможность запросить досрочное удаление (с учетом законодательных ограничений)',
+                'Уведомление об удалении, когда это технически возможно'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: 'Защита данных',
+    subtitle: 'Мы применяем базовые меры безопасности для защиты вашей персональной информации',
+    securityMeasures: {
+      localStorage: {
+        title: 'Локальное хранилище',
+        description: 'Ваши финансовые данные хранятся локально на вашем устройстве с использованием React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Безопасная аутентификация',
+        description: 'Защищенный доступ через аутентификацию для обеспечения безопасности вашей персональной информации'
+      },
+      dataMinimization: {
+        title: 'Минимальный сбор данных',
+        description: 'Мы собираем только необходимую информацию, которую вы вводите вручную: счета, категории и напоминания'
+      },
+      userControl: {
+        title: 'Контроль пользователя',
+        description: 'Вы можете удалить свои данные в любое время из настроек приложения'
+      },
+      noThirdParty: {
+        title: 'Не продаем данные',
+        description: 'Мы не продаем и не передаем вашу персональную информацию третьим лицам в коммерческих целях'
+      },
+      transparency: {
+        title: 'Прозрачность',
+        description: 'Мы открыто сообщаем, какие данные мы собираем и как используем их в нашей политике конфиденциальности'
+      }
+    },
+    principlesTitle: 'Принципы защиты',
+    principlesSubtitle: 'Наш подход к защите данных основан на простых и прозрачных принципах',
+    certifications: {
+      basicProtection: {
+        name: 'Базовая защита',
+        description: 'Мы применяем базовые меры защиты персональных данных'
+      },
+      localStorage: {
+        name: 'Локальное хранилище',
+        description: 'Данные хранятся преимущественно на вашем устройстве'
+      },
+      transparency: {
+        name: 'Прозрачность',
+        description: 'Четкие политики о том, какие данные мы собираем и как используем'
+      },
+      userControl: {
+        name: 'Контроль пользователя',
+        description: 'Возможности для пользователей контролировать свои собственные данные'
+      }
+    },
+    commitmentTitle: 'Приверженность прозрачности',
+    commitmentSubtitle: 'Мы верим в честность в отношении наших практик конфиденциальности. Если у вас есть вопросы о том, как мы обрабатываем ваши данные, мы готовы помочь',
+    contactSupport: 'Связаться с поддержкой'
   },
 };
 
@@ -2016,7 +2954,115 @@ const ar_SA: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: 'أمن البيانات',
+        lastUpdated: 'آخر تحديث',
+        lastUpdatedDate: '2 أكتوبر 2025',
+        paragraphs: [
+          'نقوم بتنفيذ تدابير أمنية مناسبة لحماية المعلومات التي تخزنها محليًا على جهازك:'
+        ],
+        subsections: [
+          {
+            title: 'التدابير التقنية:',
+            items: [
+              'تخزين محلي آمن على جهازك',
+              'اتصال آمن مع خوادمنا عند مزامنة البيانات',
+              'مصادقة آمنة للوصول إلى حسابك',
+              'حماية أساسية ضد الوصول غير المصرح به'
+            ]
+          },
+          {
+            title: 'التدابير التنظيمية:',
+            items: [
+              'أنت فقط لديك وصول مباشر إلى البيانات التي تدخلها في التطبيق',
+              'يتبع فريقنا أفضل ممارسات التطوير الآمن',
+              'مراجعات أمنية منتظمة للتطبيق',
+              'إجراءات للإبلاغ عن المشكلات الأمنية وحلها'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'الاحتفاظ بالبيانات',
+        lastUpdated: 'آخر تحديث',
+        lastUpdatedDate: '2 أكتوبر 2025',
+        paragraphs: [
+          'نحتفظ بمعلوماتك الشخصية فقط للمدة اللازمة لتحقيق الأغراض الموضحة في هذه السياسة:'
+        ],
+        subsections: [
+          {
+            title: 'فترات الاحتفاظ:',
+            items: [
+              'بيانات الحساب: طالما تحتفظ بحساب نشط',
+              'بيانات المعاملات: حتى 7 سنوات للامتثال التنظيمي',
+              'بيانات الدعم: حتى 3 سنوات بعد الحل'
+            ]
+          },
+          {
+            title: 'حذف البيانات:',
+            items: [
+              'حذف تلقائي عند انتهاء فترات الاحتفاظ',
+              'حذف كامل للبيانات المخزنة محليًا',
+              'إمكانية طلب الحذف المبكر (مع مراعاة القيود القانونية)',
+              'إشعار الحذف عندما يكون ذلك ممكنًا تقنيًا'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: 'حماية البيانات',
+    subtitle: 'نطبق تدابير أمنية أساسية لحماية معلوماتك الشخصية',
+    securityMeasures: {
+      localStorage: {
+        title: 'التخزين المحلي',
+        description: 'يتم تخزين بياناتك المالية محليًا على جهازك باستخدام React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'المصادقة الآمنة',
+        description: 'وصول محمي من خلال المصادقة للحفاظ على أمان معلوماتك الشخصية'
+      },
+      dataMinimization: {
+        title: 'الحد الأدنى من جمع البيانات',
+        description: 'نجمع فقط المعلومات الأساسية التي تدخلها يدويًا: الفواتير والفئات والتذكيرات'
+      },
+      userControl: {
+        title: 'تحكم المستخدم',
+        description: 'يمكنك حذف بياناتك في أي وقت من إعدادات التطبيق'
+      },
+      noThirdParty: {
+        title: 'لا بيع للبيانات',
+        description: 'لا نبيع أو نشارك معلوماتك الشخصية مع أطراف ثالثة لأغراض تجارية'
+      },
+      transparency: {
+        title: 'الشفافية',
+        description: 'نحن شفافون بشأن البيانات التي نجمعها وكيفية استخدامها في سياسة الخصوصية الخاصة بنا'
+      }
+    },
+    principlesTitle: 'مبادئ الحماية',
+    principlesSubtitle: 'يعتمد نهجنا في حماية البيانات على مبادئ بسيطة وشفافة',
+    certifications: {
+      basicProtection: {
+        name: 'الحماية الأساسية',
+        description: 'نطبق تدابير أساسية لحماية البيانات الشخصية'
+      },
+      localStorage: {
+        name: 'التخزين المحلي',
+        description: 'يتم الاحتفاظ بالبيانات في المقام الأول على جهازك'
+      },
+      transparency: {
+        name: 'الشفافية',
+        description: 'سياسات واضحة حول البيانات التي نجمعها وكيفية استخدامها'
+      },
+      userControl: {
+        name: 'تحكم المستخدم',
+        description: 'تسهيلات للمستخدمين للتحكم في بياناتهم الخاصة'
+      }
+    },
+    commitmentTitle: 'الالتزام بالشفافية',
+    commitmentSubtitle: 'نؤمن بالصدق بشأن ممارساتنا المتعلقة بالخصوصية. إذا كانت لديك أسئلة حول كيفية تعاملنا مع بياناتك، فنحن هنا للمساعدة',
+    contactSupport: 'اتصل بالدعم'
   },
 };
 
@@ -2168,7 +3214,115 @@ const ca_ES: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: 'Seguretat de les Dades',
+        lastUpdated: 'Última actualització',
+        lastUpdatedDate: '2 d\'octubre de 2025',
+        paragraphs: [
+          'Implementem mesures de seguretat adequades per protegir la informació que emmagatzemeu localment al vostre dispositiu:'
+        ],
+        subsections: [
+          {
+            title: 'Mesures tècniques:',
+            items: [
+              'Emmagatzematge local segur al vostre dispositiu',
+              'Comunicació segura amb els nostres servidors en sincronitzar dades',
+              'Autenticació segura per accedir al vostre compte',
+              'Protecció bàsica contra accés no autoritzat'
+            ]
+          },
+          {
+            title: 'Mesures organitzatives:',
+            items: [
+              'Només vós teniu accés directe a les dades que introduïu a l\'aplicació',
+              'El nostre equip segueix les millors pràctiques de desenvolupament segur',
+              'Revisions de seguretat regulars de l\'aplicació',
+              'Procediments per informar i resoldre problemes de seguretat'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Retenció de Dades',
+        lastUpdated: 'Última actualització',
+        lastUpdatedDate: '2 d\'octubre de 2025',
+        paragraphs: [
+          'Conservem la vostra informació personal només durant el temps necessari per complir els propòsits descrits en aquesta política:'
+        ],
+        subsections: [
+          {
+            title: 'Períodes de retenció:',
+            items: [
+              'Dades del compte: mentre manteniu un compte actiu',
+              'Dades de transaccions: fins a 7 anys per compliment normatiu',
+              'Dades de suport: fins a 3 anys després de la resolució'
+            ]
+          },
+          {
+            title: 'Eliminació de dades:',
+            items: [
+              'Eliminació automàtica quan expiren els períodes de retenció',
+              'Eliminació completa de les dades emmagatzemades localment',
+              'Possibilitat de sol·licitar l\'eliminació anticipada (subjecte a restriccions legals)',
+              'Notificació d\'eliminació quan sigui tècnicament factible'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: 'Protecció de Dades',
+    subtitle: 'Implementem mesures de seguretat bàsiques per protegir la teva informació personal',
+    securityMeasures: {
+      localStorage: {
+        title: 'Emmagatzematge Local',
+        description: 'Les teves dades financeres s\'emmagatzemen localment al teu dispositiu utilitzant React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Autenticació Segura',
+        description: 'Accés protegit mitjançant autenticació per mantenir segura la teva informació personal'
+      },
+      dataMinimization: {
+        title: 'Recollida Mínima de Dades',
+        description: 'Només recopilem informació essencial que introdueixes manualment: factures, categories i recordatoris'
+      },
+      userControl: {
+        title: 'Control de l\'Usuari',
+        description: 'Pots eliminar les teves dades en qualsevol moment des de la configuració de l\'aplicació'
+      },
+      noThirdParty: {
+        title: 'No Venem Dades',
+        description: 'No venem ni compartim la teva informació personal amb tercers amb finalitats comercials'
+      },
+      transparency: {
+        title: 'Transparència',
+        description: 'Som transparents sobre quines dades recopilem i com les utilitzem a la nostra política de privadesa'
+      }
+    },
+    principlesTitle: 'Principis de Protecció',
+    principlesSubtitle: 'El nostre enfocament de protecció de dades es basa en principis simples i transparents',
+    certifications: {
+      basicProtection: {
+        name: 'Protecció Bàsica',
+        description: 'Implementem mesures bàsiques de protecció de dades personals'
+      },
+      localStorage: {
+        name: 'Emmagatzematge Local',
+        description: 'Les dades es mantenen principalment al teu dispositiu'
+      },
+      transparency: {
+        name: 'Transparència',
+        description: 'Polítiques clares sobre quines dades recopilem i com les utilitzem'
+      },
+      userControl: {
+        name: 'Control de l\'Usuari',
+        description: 'Facilitats perquè els usuaris controlin les seves pròpies dades'
+      }
+    },
+    commitmentTitle: 'Compromís amb la Transparència',
+    commitmentSubtitle: 'Creiem en ser honestos sobre les nostres pràctiques de privadesa. Si tens preguntes sobre com gestionem les teves dades, estem aquí per ajudar-te',
+    contactSupport: 'Contactar Suport'
   },
 };
 
@@ -2320,7 +3474,115 @@ const cs_CZ: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: 'Zabezpečení Dat',
+        lastUpdated: 'Poslední aktualizace',
+        lastUpdatedDate: '2. října 2025',
+        paragraphs: [
+          'Implementujeme vhodná bezpečnostní opatření k ochraně informací, které ukládáte místně na vašem zařízení:'
+        ],
+        subsections: [
+          {
+            title: 'Technická opatření:',
+            items: [
+              'Bezpečné lokální úložiště na vašem zařízení',
+              'Bezpečná komunikace s našimi servery při synchronizaci dat',
+              'Bezpečná autentizace pro přístup k vašemu účtu',
+              'Základní ochrana proti neoprávněnému přístupu'
+            ]
+          },
+          {
+            title: 'Organizační opatření:',
+            items: [
+              'Pouze vy máte přímý přístup k datům, která zadáváte do aplikace',
+              'Náš tým dodržuje osvědčené postupy bezpečného vývoje',
+              'Pravidelné bezpečnostní kontroly aplikace',
+              'Postupy pro hlášení a řešení bezpečnostních problémů'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Uchovávání Dat',
+        lastUpdated: 'Poslední aktualizace',
+        lastUpdatedDate: '2. října 2025',
+        paragraphs: [
+          'Vaše osobní údaje uchováváme pouze po dobu nezbytně nutnou k naplnění účelů popsaných v této politice:'
+        ],
+        subsections: [
+          {
+            title: 'Doby uchovávání:',
+            items: [
+              'Data účtu: po dobu, kdy udržujete aktivní účet',
+              'Transakční data: až 7 let pro regulační dodržování',
+              'Podpůrná data: až 3 roky po vyřešení'
+            ]
+          },
+          {
+            title: 'Mazání dat:',
+            items: [
+              'Automatické mazání po vypršení dob uchovávání',
+              'Úplné vymazání místně uložených dat',
+              'Možnost požádat o předčasné vymazání (s výhradou zákonných omezení)',
+              'Oznámení o vymazání, kdy je to technicky proveditelné'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: 'Ochrana Dat',
+    subtitle: 'Implementujeme základní bezpečnostní opatření k ochraně vašich osobních údajů',
+    securityMeasures: {
+      localStorage: {
+        title: 'Lokální Úložiště',
+        description: 'Vaše finanční data jsou uložena lokálně na vašem zařízení pomocí React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Bezpečná Autentizace',
+        description: 'Chráněný přístup prostřednictvím autentizace pro zachování bezpečnosti vašich osobních údajů'
+      },
+      dataMinimization: {
+        title: 'Minimální Sběr Dat',
+        description: 'Shromažďujeme pouze základní informace, které ručně zadáváte: faktury, kategorie a připomínky'
+      },
+      userControl: {
+        title: 'Kontrola Uživatele',
+        description: 'Svá data můžete kdykoli smazat z nastavení aplikace'
+      },
+      noThirdParty: {
+        title: 'Žádný Prodej Dat',
+        description: 'Neprodáváme ani nesdílíme vaše osobní údaje s třetími stranami pro komerční účely'
+      },
+      transparency: {
+        title: 'Transparentnost',
+        description: 'Jsme transparentní ohledně toho, jaká data shromažďujeme a jak je používáme v našich zásadách ochrany osobních údajů'
+      }
+    },
+    principlesTitle: 'Zásady Ochrany',
+    principlesSubtitle: 'Náš přístup k ochraně dat je založen na jednoduchých a transparentních zásadách',
+    certifications: {
+      basicProtection: {
+        name: 'Základní Ochrana',
+        description: 'Implementujeme základní opatření na ochranu osobních údajů'
+      },
+      localStorage: {
+        name: 'Lokální Úložiště',
+        description: 'Data jsou uložena především na vašem zařízení'
+      },
+      transparency: {
+        name: 'Transparentnost',
+        description: 'Jasné zásady ohledně toho, jaká data shromažďujeme a jak je používáme'
+      },
+      userControl: {
+        name: 'Kontrola Uživatele',
+        description: 'Možnosti pro uživatele kontrolovat svá vlastní data'
+      }
+    },
+    commitmentTitle: 'Závazek k Transparentnosti',
+    commitmentSubtitle: 'Věříme v upřímnost ohledně našich postupů ochrany soukromí. Pokud máte otázky ohledně toho, jak zacházíme s vašimi daty, jsme tu, abychom vám pomohli',
+    contactSupport: 'Kontaktovat Podporu'
   },
 };
 
@@ -2472,7 +3734,115 @@ const da_DK: PrivacyTranslations = {
           }
         ]
       },
+      security: {
+        title: 'Datasikkerhed',
+        lastUpdated: 'Sidst opdateret',
+        lastUpdatedDate: '2. oktober 2025',
+        paragraphs: [
+          'Vi implementerer passende sikkerhedsforanstaltninger for at beskytte de oplysninger, du gemmer lokalt på din enhed:'
+        ],
+        subsections: [
+          {
+            title: 'Tekniske foranstaltninger:',
+            items: [
+              'Sikker lokal lagring på din enhed',
+              'Sikker kommunikation med vores servere ved synkronisering af data',
+              'Sikker godkendelse for at få adgang til din konto',
+              'Grundlæggende beskyttelse mod uautoriseret adgang'
+            ]
+          },
+          {
+            title: 'Organisatoriske foranstaltninger:',
+            items: [
+              'Kun du har direkte adgang til de data, du indtaster i appen',
+              'Vores team følger sikre udviklingsbedste praksis',
+              'Regelmæssige app-sikkerhedsgennemgange',
+              'Procedurer til rapportering og løsning af sikkerhedsproblemer'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Dataopbevaring',
+        lastUpdated: 'Sidst opdateret',
+        lastUpdatedDate: '2. oktober 2025',
+        paragraphs: [
+          'Vi opbevarer kun dine personlige oplysninger så længe, det er nødvendigt for at opfylde de formål, der er beskrevet i denne politik:'
+        ],
+        subsections: [
+          {
+            title: 'Opbevaringsperioder:',
+            items: [
+              'Kontodata: mens du opretholder en aktiv konto',
+              'Transaktionsdata: op til 7 år for regulatorisk overholdelse',
+              'Supportdata: op til 3 år efter løsning'
+            ]
+          },
+          {
+            title: 'Datasletning:',
+            items: [
+              'Automatisk sletning, når opbevaringsperioder udløber',
+              'Fuldstændig sletning af lokalt lagrede data',
+              'Mulighed for at anmode om tidlig sletning (underlagt lovmæssige begrænsninger)',
+              'Sletningsmeddelelse, når det er teknisk muligt'
+            ]
+          }
+        ]
+      }
     },
+  },
+  dataProtectionSection: {
+    title: 'Databeskyttelse',
+    subtitle: 'Vi implementerer grundlæggende sikkerhedsforanstaltninger for at beskytte dine personlige oplysninger',
+    securityMeasures: {
+      localStorage: {
+        title: 'Lokal Lagring',
+        description: 'Dine finansielle data gemmes lokalt på din enhed ved hjælp af React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Sikker Godkendelse',
+        description: 'Beskyttet adgang gennem godkendelse for at holde dine personlige oplysninger sikre'
+      },
+      dataMinimization: {
+        title: 'Minimal Dataindsamling',
+        description: 'Vi indsamler kun væsentlige oplysninger, som du indtaster manuelt: fakturaer, kategorier og påmindelser'
+      },
+      userControl: {
+        title: 'Brugerkontrol',
+        description: 'Du kan slette dine data når som helst fra applikationsindstillingerne'
+      },
+      noThirdParty: {
+        title: 'Intet Datasalg',
+        description: 'Vi sælger eller deler ikke dine personlige oplysninger med tredjeparter til kommercielle formål'
+      },
+      transparency: {
+        title: 'Gennemsigtighed',
+        description: 'Vi er gennemsigtige om hvilke data vi indsamler og hvordan vi bruger dem i vores privatlivspolitik'
+      }
+    },
+    principlesTitle: 'Beskyttelsesprinciper',
+    principlesSubtitle: 'Vores tilgang til databeskyttelse er baseret på simple og gennemsigtige principper',
+    certifications: {
+      basicProtection: {
+        name: 'Grundlæggende Beskyttelse',
+        description: 'Vi implementerer grundlæggende foranstaltninger til beskyttelse af persondata'
+      },
+      localStorage: {
+        name: 'Lokal Lagring',
+        description: 'Data opbevares primært på din enhed'
+      },
+      transparency: {
+        name: 'Gennemsigtighed',
+        description: 'Klare politikker om hvilke data vi indsamler og hvordan vi bruger dem'
+      },
+      userControl: {
+        name: 'Brugerkontrol',
+        description: 'Faciliteter for brugere til at kontrollere deres egne data'
+      }
+    },
+    commitmentTitle: 'Forpligtelse til Gennemsigtighed',
+    commitmentSubtitle: 'Vi tror på at være ærlige om vores privatlivspraksis. Hvis du har spørgsmål om hvordan vi håndterer dine data, er vi her for at hjælpe',
+    contactSupport: 'Kontakt Support'
   },
 };
 
@@ -2715,6 +4085,59 @@ const es_MX: PrivacyTranslations = {
     storage: 'Almacenamiento seguro en la nube con respaldos regulares',
     access: 'Controles de acceso estrictos y autenticación',
   },
+  dataProtectionSection: {
+    title: 'Protección de Datos',
+    subtitle: 'Implementamos medidas de seguridad básicas para proteger tu información personal',
+    securityMeasures: {
+      localStorage: {
+        title: 'Almacenamiento Local',
+        description: 'Tus datos financieros se almacenan localmente en tu dispositivo usando React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Autenticación Segura',
+        description: 'Acceso protegido mediante autenticación para mantener segura tu información personal'
+      },
+      dataMinimization: {
+        title: 'Recolección Mínima de Datos',
+        description: 'Solo recopilamos información esencial que ingresas manualmente: facturas, categorías y recordatorios'
+      },
+      userControl: {
+        title: 'Control del Usuario',
+        description: 'Puedes eliminar tus datos en cualquier momento desde la configuración de la aplicación'
+      },
+      noThirdParty: {
+        title: 'No Vendemos Datos',
+        description: 'No vendemos ni compartimos tu información personal con terceros para fines comerciales'
+      },
+      transparency: {
+        title: 'Transparencia',
+        description: 'Somos transparentes sobre qué datos recopilamos y cómo los usamos en nuestra política de privacidad'
+      }
+    },
+    principlesTitle: 'Principios de Protección',
+    principlesSubtitle: 'Nuestro enfoque de protección de datos se basa en principios simples y transparentes',
+    certifications: {
+      basicProtection: {
+        name: 'Protección Básica',
+        description: 'Implementamos medidas básicas de protección de datos personales'
+      },
+      localStorage: {
+        name: 'Almacenamiento Local',
+        description: 'Los datos se mantienen principalmente en tu dispositivo'
+      },
+      transparency: {
+        name: 'Transparencia',
+        description: 'Políticas claras sobre qué datos recopilamos y cómo los usamos'
+      },
+      userControl: {
+        name: 'Control del Usuario',
+        description: 'Facilidades para que los usuarios controlen sus propios datos'
+      }
+    },
+    commitmentTitle: 'Compromiso con la Transparencia',
+    commitmentSubtitle: 'Creemos en ser honestos sobre nuestras prácticas de privacidad. Si tienes preguntas sobre cómo manejamos tus datos, estamos aquí para ayudarte',
+    contactSupport: 'Contactar Soporte'
+  },
   userRights: {
     title: 'Tus Derechos',
     subtitle: 'Tienes control sobre tus datos',
@@ -2938,6 +4361,59 @@ const fi_FI: PrivacyTranslations = {
       }
     },
   },
+  dataProtectionSection: {
+    title: 'Tietosuoja',
+    subtitle: 'Toteutamme perusturvatoimia henkilötietojesi suojaamiseksi',
+    securityMeasures: {
+      localStorage: {
+        title: 'Paikallinen Tallennus',
+        description: 'Taloudelliset tietosi tallennetaan paikallisesti laitteellesi React Native AsyncStoragea käyttäen'
+      },
+      authentication: {
+        title: 'Turvallinen Todennus',
+        description: 'Suojattu pääsy todennuksen kautta henkilötietojesi turvaamiseksi'
+      },
+      dataMinimization: {
+        title: 'Minimaalinen Tiedonkeruu',
+        description: 'Keräämme vain välttämättömät tiedot, jotka syötät manuaalisesti: laskut, kategoriat ja muistutukset'
+      },
+      userControl: {
+        title: 'Käyttäjän Hallinta',
+        description: 'Voit poistaa tietosi milloin tahansa sovelluksen asetuksista'
+      },
+      noThirdParty: {
+        title: 'Ei Tietojen Myyntiä',
+        description: 'Emme myy tai jaa henkilötietojasi kolmansille osapuolille kaupallisiin tarkoituksiin'
+      },
+      transparency: {
+        title: 'Läpinäkyvyys',
+        description: 'Olemme avoimia siitä, mitä tietoja keräämme ja miten käytämme niitä tietosuojakäytännössämme'
+      }
+    },
+    principlesTitle: 'Suojaperiaatteet',
+    principlesSubtitle: 'Tietosuojalähestymisemme perustuu yksinkertaisiin ja läpinäkyviin periaatteisiin',
+    certifications: {
+      basicProtection: {
+        name: 'Perussuoja',
+        description: 'Toteutamme henkilötietojen suojauksen perustoimenpiteitä'
+      },
+      localStorage: {
+        name: 'Paikallinen Tallennus',
+        description: 'Tiedot säilytetään pääasiassa laitteellasi'
+      },
+      transparency: {
+        name: 'Läpinäkyvyys',
+        description: 'Selkeät käytännöt siitä, mitä tietoja keräämme ja miten käytämme niitä'
+      },
+      userControl: {
+        name: 'Käyttäjän Hallinta',
+        description: 'Mahdollisuudet käyttäjille hallita omia tietojaan'
+      }
+    },
+    commitmentTitle: 'Sitoutuminen Läpinäkyvyyteen',
+    commitmentSubtitle: 'Uskomme rehellisyyteen tietosuojakäytäntöjemme suhteen. Jos sinulla on kysymyksiä siitä, miten käsittelemme tietojasi, olemme täällä auttamassa',
+    contactSupport: 'Ota Yhteyttä Tukeen'
+  },
 };
 
 // French (Canada)
@@ -3094,61 +4570,114 @@ const he_IL: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'Sécurité des Données',
-        lastUpdated: 'Dernière mise à jour',
-        lastUpdatedDate: '2 octobre 2025',
+        title: 'אבטחת נתונים',
+        lastUpdated: 'עודכן לאחרונה',
+        lastUpdatedDate: '2 באוקטובר 2025',
         paragraphs: [
-          'Nous mettons en œuvre des mesures de sécurité appropriées pour protéger les informations que vous stockez localement sur votre appareil :'
+          'אנו מיישמים אמצעי אבטחה מתאימים להגנה על המידע שאתה מאחסן באופן מקומי במכשיר שלך:'
         ],
         subsections: [
           {
-            title: 'Mesures techniques :',
+            title: 'אמצעים טכניים:',
             items: [
-                'Stockage local sécurisé sur votre appareil',
-                'Communication sécurisée avec nos serveurs lors de la synchronisation des données',
-                'Authentification sécurisée pour accéder à votre compte',
-                'Protection de base contre les accès non autorisés'
+              'אחסון מקומי מאובטח במכשיר שלך',
+              'תקשורת מאובטחת עם השרתים שלנו בעת סנכרון נתונים',
+              'אימות מאובטח לגישה לחשבון שלך',
+              'הגנה בסיסית מפני גישה לא מורשית'
             ]
           },
           {
-            title: 'Mesures organisationnelles :',
+            title: 'אמצעים ארגוניים:',
             items: [
-                'Seul vous avez un accès direct aux données que vous saisissez dans l\'application',
-                'Notre équipe suit les meilleures pratiques de développement sécurisé',
-                'Examens réguliers de la sécurité de l\'application',
-                'Procédures pour signaler et résoudre les problèmes de sécurité'
+              'רק לך יש גישה ישירה לנתונים שאתה מזין באפליקציה',
+              'הצוות שלנו עוקב אחר שיטות עבודה מומלצות לפיתוח מאובטח',
+              'סקירות אבטחה קבועות של האפליקציה',
+              'נהלים לדיווח ולפתרון בעיות אבטחה'
             ]
           }
         ]
       },
       retention: {
-        title: 'Conservation des Données',
-        lastUpdated: 'Dernière mise à jour',
-        lastUpdatedDate: '2 octobre 2025',
+        title: 'שמירת נתונים',
+        lastUpdated: 'עודכן לאחרונה',
+        lastUpdatedDate: '2 באוקטובר 2025',
         paragraphs: [
-          'Nous ne conservons vos informations personnelles que le temps nécessaire pour remplir les objectifs décrits dans cette politique :'
+          'אנו שומרים את המידע האישי שלך רק כל עוד נדרש כדי למלא את המטרות המתוארות במדיניות זו:'
         ],
         subsections: [
           {
-            title: 'Périodes de conservation :',
+            title: 'תקופות שמירה:',
             items: [
-                'Données de compte : tant que vous maintenez un compte actif',
-                'Données de transaction : jusqu\'à 7 ans pour la conformité réglementaire',
-                'Données de support : jusqu\'à 3 ans après la résolution'
+              'נתוני חשבון: כל עוד אתה מחזיק בחשבון פעיל',
+              'נתוני עסקאות: עד 7 שנים לצורך עמידה ברגולציה',
+              'נתוני תמיכה: עד 3 שנים לאחר הפתרון'
             ]
           },
           {
-            title: 'Suppression des données :',
+            title: 'מחיקת נתונים:',
             items: [
-                'Suppression automatique à l\'expiration des périodes de conservation',
-                'Suppression complète des données stockées localement',
-                'Possibilité de demander une suppression anticipée (sous réserve de restrictions légales)',
-                'Notification de suppression lorsque cela est techniquement possible'
+              'מחיקה אוטומטית כאשר תקופות השמירה פגות',
+              'מחיקה מלאה של נתונים המאוחסנים מקומית',
+              'אפשרות לבקש מחיקה מוקדמת (בכפוף למגבלות חוקיות)',
+              'הודעת מחיקה כאשר זה אפשרי מבחינה טכנית'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'הגנת מידע',
+    subtitle: 'אנו מיישמים אמצעי אבטחה בסיסיים להגנה על המידע האישי שלך',
+    securityMeasures: {
+      localStorage: {
+        title: 'אחסון מקומי',
+        description: 'הנתונים הפיננסיים שלך מאוחסנים מקומית במכשיר שלך באמצעות React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'אימות מאובטח',
+        description: 'גישה מוגנת באמצעות אימות לשמירה על אבטחת המידע האישי שלך'
+      },
+      dataMinimization: {
+        title: 'איסוף מידע מינימלי',
+        description: 'אנו אוספים רק מידע חיוני שאתה מזין ידנית: חשבוניות, קטגוריות ותזכורות'
+      },
+      userControl: {
+        title: 'שליטת משתמש',
+        description: 'אתה יכול למחוק את הנתונים שלך בכל עת מהגדרות האפליקציה'
+      },
+      noThirdParty: {
+        title: 'אין מכירת נתונים',
+        description: 'אנחנו לא מוכרים או משתפים את המידע האישי שלך עם צדדים שלישיים למטרות מסחריות'
+      },
+      transparency: {
+        title: 'שקיפות',
+        description: 'אנו שקופים לגבי הנתונים שאנו אוספים וכיצד אנו משתמשים בהם במדיניות הפרטיות שלנו'
+      }
+    },
+    principlesTitle: 'עקרונות הגנה',
+    principlesSubtitle: 'גישת הגנת המידע שלנו מבוססת על עקרונות פשוטים ושקופים',
+    certifications: {
+      basicProtection: {
+        name: 'הגנה בסיסית',
+        description: 'אנו מיישמים אמצעי הגנה בסיסיים למידע אישי'
+      },
+      localStorage: {
+        name: 'אחסון מקומי',
+        description: 'הנתונים נשמרים בעיקר במכשיר שלך'
+      },
+      transparency: {
+        name: 'שקיפות',
+        description: 'מדיניות ברורה לגבי הנתונים שאנו אוספים וכיצד אנו משתמשים בהם'
+      },
+      userControl: {
+        name: 'שליטת משתמש',
+        description: 'אפשרויות למשתמשים לשלוט בנתונים שלהם'
+      }
+    },
+    commitmentTitle: 'מחויבות לשקיפות',
+    commitmentSubtitle: 'אנו מאמינים בכנות לגבי נוהלי הפרטיות שלנו. אם יש לך שאלות על האופן שבו אנו מטפלים בנתונים שלך, אנחנו כאן לעזור',
+    contactSupport: 'צור קשר עם תמיכה'
   },
 };
 
@@ -3301,61 +4830,114 @@ const hi_IN: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'אבטחת נתונים',
-        lastUpdated: 'עודכן לאחרונה',
-        lastUpdatedDate: '2 באוקטובר 2025',
+        title: 'डेटा सुरक्षा',
+        lastUpdated: 'अंतिम अपडेट',
+        lastUpdatedDate: '2 अक्टूबर 2025',
         paragraphs: [
-          'אנו מיישמים אמצעי אבטחה מתאימים כדי להגן על המידע שאתה מאחסן באופן מקומי במכשיר שלך:'
+          'हम आपके डिवाइस पर स्थानीय रूप से संग्रहीत जानकारी की सुरक्षा के लिए उपयुक्त सुरक्षा उपाय लागू करते हैं:'
         ],
         subsections: [
           {
-            title: 'אמצעים טכניים:',
+            title: 'तकनीकी उपाय:',
             items: [
-                'אחסון מקומי מאובטח במכשיר שלך',
-                'תקשורת מאובטחת עם השרתים שלנו בעת סנכרון נתונים',
-                'אימות מאובטח לגישה לחשבון שלך',
-                'הגנה בסיסית מפני גישה לא מורשית'
+              'आपके डिवाइस पर सुरक्षित स्थानीय संग्रहण',
+              'डेटा सिंक करते समय हमारे सर्वर के साथ सुरक्षित संचार',
+              'आपके खाते तक पहुंचने के लिए सुरक्षित प्रमाणीकरण',
+              'अनधिकृत पहुंच के खिलाफ बुनियादी सुरक्षा'
             ]
           },
           {
-            title: 'אמצעים ארגוניים:',
+            title: 'संगठनात्मक उपाय:',
             items: [
-                'רק לך יש גישה ישירה לנתונים שאתה מזין באפליקציה',
-                'הצוות שלנו עוקב אחר שיטות עבודה מומלצות לפיתוח מאובטח',
-                'סקירות אבטחה קבועות של האפליקציה',
-                'נהלים לדיווח ופתרון בעיות אבטחה'
+              'केवल आपके पास ऐप में दर्ज किए गए डेटा तक सीधी पहुंच है',
+              'हमारी टीम सुरक्षित विकास की सर्वोत्तम प्रथाओं का पालन करती है',
+              'नियमित ऐप सुरक्षा समीक्षाएं',
+              'सुरक्षा मुद्दों की रिपोर्ट और समाधान के लिए प्रक्रियाएं'
             ]
           }
         ]
       },
       retention: {
-        title: 'שמירת נתונים',
-        lastUpdated: 'עודכן לאחרונה',
-        lastUpdatedDate: '2 באוקטובר 2025',
+        title: 'डेटा प्रतिधारण',
+        lastUpdated: 'अंतिम अपडेट',
+        lastUpdatedDate: '2 अक्टूबर 2025',
         paragraphs: [
-          'אנו שומרים את המידע האישי שלך רק כל עוד הכרחי למילוי המטרות המתוארות במדיניות זו:'
+          'हम आपकी व्यक्तिगत जानकारी केवल इस नीति में वर्णित उद्देश्यों को पूरा करने के लिए आवश्यक समय तक ही रखते हैं:'
         ],
         subsections: [
           {
-            title: 'תקופות שמירה:',
+            title: 'प्रतिधारण अवधि:',
             items: [
-                'נתוני חשבון: כל עוד אתה מקיים חשבון פעיל',
-                'נתוני עסקאות: עד 7 שנים לצורך עמידה ברגולציה',
-                'נתוני תמיכה: עד 3 שנים לאחר פתרון'
+              'खाता डेटा: जब तक आप एक सक्रिय खाता बनाए रखते हैं',
+              'लेनदेन डेटा: नियामक अनुपालन के लिए 7 वर्ष तक',
+              'सहायता डेटा: समाधान के बाद 3 वर्ष तक'
             ]
           },
           {
-            title: 'מחיקת נתונים:',
+            title: 'डेटा हटाना:',
             items: [
-                'מחיקה אוטומטית כאשר תקופות השמירה פגות',
-                'מחיקה מלאה של נתונים שנשמרו באופן מקומי',
-                'אפשרות לבקש מחיקה מוקדמת (בכפוף להגבלות משפטיות)',
-                'הודעת מחיקה כאשר אפשרי מבחינה טכנית'
+              'प्रतिधारण अवधि समाप्त होने पर स्वचालित हटाना',
+              'स्थानीय रूप से संग्रहीत डेटा का पूर्ण विलोपन',
+              'शीघ्र हटाने का अनुरोध करने की संभावना (कानूनी प्रतिबंधों के अधीन)',
+              'तकनीकी रूप से संभव होने पर हटाने की सूचना'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'डेटा सुरक्षा',
+    subtitle: 'हम आपकी व्यक्तिगत जानकारी की सुरक्षा के लिए बुनियादी सुरक्षा उपाय लागू करते हैं',
+    securityMeasures: {
+      localStorage: {
+        title: 'स्थानीय संग्रहण',
+        description: 'आपका वित्तीय डेटा React Native AsyncStorage का उपयोग करके आपके डिवाइस पर स्थानीय रूप से संग्रहीत किया जाता है'
+      },
+      authentication: {
+        title: 'सुरक्षित प्रमाणीकरण',
+        description: 'आपकी व्यक्तिगत जानकारी को सुरक्षित रखने के लिए प्रमाणीकरण के माध्यम से सुरक्षित पहुंच'
+      },
+      dataMinimization: {
+        title: 'न्यूनतम डेटा संग्रह',
+        description: 'हम केवल आवश्यक जानकारी एकत्र करते हैं जो आप मैन्युअल रूप से दर्ज करते हैं: चालान, श्रेणियां और अनुस्मारक'
+      },
+      userControl: {
+        title: 'उपयोगकर्ता नियंत्रण',
+        description: 'आप एप्लिकेशन सेटिंग्स से किसी भी समय अपना डेटा हटा सकते हैं'
+      },
+      noThirdParty: {
+        title: 'कोई डेटा बिक्री नहीं',
+        description: 'हम वाणिज्यिक उद्देश्यों के लिए तीसरे पक्ष के साथ आपकी व्यक्तिगत जानकारी बेचते या साझा नहीं करते हैं'
+      },
+      transparency: {
+        title: 'पारदर्शिता',
+        description: 'हम अपनी गोपनीयता नीति में पारदर्शी हैं कि हम कौन सा डेटा एकत्र करते हैं और इसका उपयोग कैसे करते हैं'
+      }
+    },
+    principlesTitle: 'सुरक्षा सिद्धांत',
+    principlesSubtitle: 'हमारा डेटा सुरक्षा दृष्टिकोण सरल और पारदर्शी सिद्धांतों पर आधारित है',
+    certifications: {
+      basicProtection: {
+        name: 'बुनियादी सुरक्षा',
+        description: 'हम व्यक्तिगत डेटा सुरक्षा के लिए बुनियादी उपाय लागू करते हैं'
+      },
+      localStorage: {
+        name: 'स्थानीय संग्रहण',
+        description: 'डेटा मुख्य रूप से आपके डिवाइस पर रखा जाता है'
+      },
+      transparency: {
+        name: 'पारदर्शिता',
+        description: 'हम कौन सा डेटा एकत्र करते हैं और इसका उपयोग कैसे करते हैं, इस बारे में स्पष्ट नीतियां'
+      },
+      userControl: {
+        name: 'उपयोगकर्ता नियंत्रण',
+        description: 'उपयोगकर्ताओं के लिए अपने स्वयं के डेटा को नियंत्रित करने की सुविधाएं'
+      }
+    },
+    commitmentTitle: 'पारदर्शिता के प्रति प्रतिबद्धता',
+    commitmentSubtitle: 'हम अपनी गोपनीयता प्रथाओं के बारे में ईमानदार होने में विश्वास करते हैं। यदि आपके पास इस बारे में प्रश्न हैं कि हम आपके डेटा को कैसे संभालते हैं, तो हम मदद के लिए यहां हैं',
+    contactSupport: 'सहायता से संपर्क करें'
   },
 };
 
@@ -3508,61 +5090,114 @@ const id_ID: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'डेटा सुरक्षा',
-        lastUpdated: 'अंतिम अपडेट',
-        lastUpdatedDate: '2 अक्टूबर 2025',
+        title: 'Keamanan Data',
+        lastUpdated: 'Terakhir diperbarui',
+        lastUpdatedDate: '2 Oktober 2025',
         paragraphs: [
-          'हम आपके डिवाइस पर स्थानीय रूप से संग्रहीत जानकारी की सुरक्षा के लिए उचित सुरक्षा उपाय लागू करते हैं:'
+          'Kami menerapkan langkah-langkah keamanan yang tepat untuk melindungi informasi yang Anda simpan secara lokal di perangkat Anda:'
         ],
         subsections: [
           {
-            title: 'तकनीकी उपाय:',
+            title: 'Langkah-langkah teknis:',
             items: [
-                'आपके डिवाइस पर सुरक्षित स्थानीय स्टोरेज',
-                'डेटा सिंक करते समय हमारे सर्वर के साथ सुरक्षित संचार',
-                'आपके खाते तक पहुंचने के लिए सुरक्षित प्रमाणीकरण',
-                'अनधिकृत पहुंच के खिलाफ बुनियादी सुरक्षा'
+              'Penyimpanan lokal yang aman di perangkat Anda',
+              'Komunikasi aman dengan server kami saat menyinkronkan data',
+              'Autentikasi aman untuk mengakses akun Anda',
+              'Perlindungan dasar terhadap akses tidak sah'
             ]
           },
           {
-            title: 'संगठनात्मक उपाय:',
+            title: 'Langkah-langkah organisasi:',
             items: [
-                'केवल आपके पास ऐप में दर्ज किए गए डेटा तक सीधी पहुंच है',
-                'हमारी टीम सुरक्षित विकास की सर्वोत्तम प्रथाओं का पालन करती है',
-                'ऐप की नियमित सुरक्षा समीक्षा',
-                'सुरक्षा समस्याओं की रिपोर्ट और समाधान के लिए प्रक्रियाएं'
+              'Hanya Anda yang memiliki akses langsung ke data yang Anda masukkan di aplikasi',
+              'Tim kami mengikuti praktik terbaik pengembangan yang aman',
+              'Tinjauan keamanan aplikasi secara berkala',
+              'Prosedur untuk melaporkan dan menyelesaikan masalah keamanan'
             ]
           }
         ]
       },
       retention: {
-        title: 'डेटा प्रतिधारण',
-        lastUpdated: 'अंतिम अपडेट',
-        lastUpdatedDate: '2 अक्टूबर 2025',
+        title: 'Penyimpanan Data',
+        lastUpdated: 'Terakhir diperbarui',
+        lastUpdatedDate: '2 Oktober 2025',
         paragraphs: [
-          'हम इस नीति में वर्णित उद्देश्यों को पूरा करने के लिए आवश्यक समय तक ही आपकी व्यक्तिगत जानकारी बनाए रखते हैं:'
+          'Kami hanya menyimpan informasi pribadi Anda selama diperlukan untuk memenuhi tujuan yang dijelaskan dalam kebijakan ini:'
         ],
         subsections: [
           {
-            title: 'प्रतिधारण अवधि:',
+            title: 'Periode penyimpanan:',
             items: [
-                'खाता डेटा: जब तक आप एक सक्रिय खाता बनाए रखते हैं',
-                'लेनदेन डेटा: नियामक अनुपालन के लिए 7 वर्ष तक',
-                'समर्थन डेटा: समाधान के बाद 3 वर्ष तक'
+              'Data akun: selama Anda mempertahankan akun aktif',
+              'Data transaksi: hingga 7 tahun untuk kepatuhan peraturan',
+              'Data dukungan: hingga 3 tahun setelah penyelesaian'
             ]
           },
           {
-            title: 'डेटा हटाना:',
+            title: 'Penghapusan data:',
             items: [
-                'प्रतिधारण अवधि समाप्त होने पर स्वचालित विलोपन',
-                'स्थानीय रूप से संग्रहीत डेटा का पूर्ण विलोपन',
-                'प्रारंभिक विलोपन का अनुरोध करने की संभावना (कानूनी प्रतिबंधों के अधीन)',
-                'तकनीकी रूप से संभव होने पर विलोपन अधिसूचना'
+              'Penghapusan otomatis saat periode penyimpanan berakhir',
+              'Penghapusan lengkap data yang disimpan secara lokal',
+              'Kemungkinan untuk meminta penghapusan lebih awal (tunduk pada pembatasan hukum)',
+              'Pemberitahuan penghapusan saat memungkinkan secara teknis'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'Perlindungan Data',
+    subtitle: 'Kami menerapkan langkah-langkah keamanan dasar untuk melindungi informasi pribadi Anda',
+    securityMeasures: {
+      localStorage: {
+        title: 'Penyimpanan Lokal',
+        description: 'Data keuangan Anda disimpan secara lokal di perangkat Anda menggunakan React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Autentikasi Aman',
+        description: 'Akses terlindungi melalui autentikasi untuk menjaga keamanan informasi pribadi Anda'
+      },
+      dataMinimization: {
+        title: 'Pengumpulan Data Minimal',
+        description: 'Kami hanya mengumpulkan informasi penting yang Anda masukkan secara manual: faktur, kategori, dan pengingat'
+      },
+      userControl: {
+        title: 'Kontrol Pengguna',
+        description: 'Anda dapat menghapus data Anda kapan saja dari pengaturan aplikasi'
+      },
+      noThirdParty: {
+        title: 'Tidak Ada Penjualan Data',
+        description: 'Kami tidak menjual atau membagikan informasi pribadi Anda kepada pihak ketiga untuk tujuan komersial'
+      },
+      transparency: {
+        title: 'Transparansi',
+        description: 'Kami transparan tentang data apa yang kami kumpulkan dan bagaimana kami menggunakannya dalam kebijakan privasi kami'
+      }
+    },
+    principlesTitle: 'Prinsip Perlindungan',
+    principlesSubtitle: 'Pendekatan perlindungan data kami didasarkan pada prinsip-prinsip yang sederhana dan transparan',
+    certifications: {
+      basicProtection: {
+        name: 'Perlindungan Dasar',
+        description: 'Kami menerapkan langkah-langkah perlindungan data pribadi dasar'
+      },
+      localStorage: {
+        name: 'Penyimpanan Lokal',
+        description: 'Data disimpan terutama di perangkat Anda'
+      },
+      transparency: {
+        name: 'Transparansi',
+        description: 'Kebijakan yang jelas tentang data apa yang kami kumpulkan dan bagaimana kami menggunakannya'
+      },
+      userControl: {
+        name: 'Kontrol Pengguna',
+        description: 'Fasilitas bagi pengguna untuk mengontrol data mereka sendiri'
+      }
+    },
+    commitmentTitle: 'Komitmen terhadap Transparansi',
+    commitmentSubtitle: 'Kami percaya dalam bersikap jujur tentang praktik privasi kami. Jika Anda memiliki pertanyaan tentang bagaimana kami menangani data Anda, kami siap membantu',
+    contactSupport: 'Hubungi Dukungan'
   },
 };
 
@@ -3715,61 +5350,114 @@ const nl_NL: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'Keamanan Data',
-        lastUpdated: 'Terakhir diperbarui',
-        lastUpdatedDate: '2 Oktober 2025',
+        title: 'Gegevensbeveiliging',
+        lastUpdated: 'Laatst bijgewerkt',
+        lastUpdatedDate: '2 oktober 2025',
         paragraphs: [
-          'Kami menerapkan langkah-langkah keamanan yang sesuai untuk melindungi informasi yang Anda simpan secara lokal di perangkat Anda:'
+          'We implementeren passende beveiligingsmaatregelen om de informatie te beschermen die u lokaal op uw apparaat opslaat:'
         ],
         subsections: [
           {
-            title: 'Langkah teknis:',
+            title: 'Technische maatregelen:',
             items: [
-                'Penyimpanan lokal yang aman di perangkat Anda',
-                'Komunikasi yang aman dengan server kami saat menyinkronkan data',
-                'Autentikasi yang aman untuk mengakses akun Anda',
-                'Perlindungan dasar terhadap akses yang tidak sah'
+                'Veilige lokale opslag op uw apparaat',
+                'Veilige communicatie met onze servers bij het synchroniseren van gegevens',
+                'Veilige authenticatie voor toegang tot uw account',
+                'Basisbescherming tegen ongeautoriseerde toegang'
             ]
           },
           {
-            title: 'Langkah organisasi:',
+            title: 'Organisatorische maatregelen:',
             items: [
-                'Hanya Anda yang memiliki akses langsung ke data yang Anda masukkan di aplikasi',
-                'Tim kami mengikuti praktik terbaik pengembangan yang aman',
-                'Tinjauan keamanan aplikasi secara berkala',
-                'Prosedur untuk melaporkan dan menyelesaikan masalah keamanan'
+                'Alleen u heeft directe toegang tot de gegevens die u in de app invoert',
+                'Ons team volgt beste praktijken voor veilige ontwikkeling',
+                'Regelmatige beveiligingsbeoordelingen van de app',
+                'Procedures voor het melden en oplossen van beveiligingsproblemen'
             ]
           }
         ]
       },
       retention: {
-        title: 'Penyimpanan Data',
-        lastUpdated: 'Terakhir diperbarui',
-        lastUpdatedDate: '2 Oktober 2025',
+        title: 'Gegevensbewaring',
+        lastUpdated: 'Laatst bijgewerkt',
+        lastUpdatedDate: '2 oktober 2025',
         paragraphs: [
-          'Kami hanya menyimpan informasi pribadi Anda selama diperlukan untuk memenuhi tujuan yang dijelaskan dalam kebijakan ini:'
+          'We bewaren uw persoonlijke informatie alleen zolang nodig is om de doeleinden beschreven in dit beleid te vervullen:'
         ],
         subsections: [
           {
-            title: 'Periode penyimpanan:',
+            title: 'Bewaringstermijnen:',
             items: [
-                'Data akun: selama Anda mempertahankan akun aktif',
-                'Data transaksi: hingga 7 tahun untuk kepatuhan regulasi',
-                'Data dukungan: hingga 3 tahun setelah penyelesaian'
+                'Accountgegevens: zolang u een actief account onderhoudt',
+                'Transactiegegevens: tot 7 jaar voor naleving van regelgeving',
+                'Ondersteuningsgegevens: tot 3 jaar na oplossing'
             ]
           },
           {
-            title: 'Penghapusan data:',
+            title: 'Gegevensverwijdering:',
             items: [
-                'Penghapusan otomatis saat periode penyimpanan berakhir',
-                'Penghapusan lengkap data yang disimpan secara lokal',
-                'Kemungkinan untuk meminta penghapusan lebih awal (tunduk pada pembatasan hukum)',
-                'Notifikasi penghapusan jika secara teknis memungkinkan'
+                'Automatische verwijdering wanneer bewaringstermijnen verlopen',
+                'Volledige verwijdering van lokaal opgeslagen gegevens',
+                'Mogelijkheid om vervroegde verwijdering aan te vragen (onderworpen aan wettelijke beperkingen)',
+                'Verwijderingsmelding indien technisch haalbaar'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'Gegevensbescherming',
+    subtitle: 'We implementeren basis beveiligingsmaatregelen om uw persoonlijke informatie te beschermen',
+    securityMeasures: {
+      localStorage: {
+        title: 'Lokale Opslag',
+        description: 'Uw financiële gegevens worden lokaal op uw apparaat opgeslagen met behulp van React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Veilige Authenticatie',
+        description: 'Beschermde toegang via authenticatie om uw persoonlijke informatie veilig te houden'
+      },
+      dataMinimization: {
+        title: 'Minimale Gegevensverzameling',
+        description: 'We verzamelen alleen essentiële informatie die u handmatig invoert: facturen, categorieën en herinneringen'
+      },
+      userControl: {
+        title: 'Gebruikerscontrole',
+        description: 'U kunt uw gegevens op elk moment verwijderen vanuit de applicatie-instellingen'
+      },
+      noThirdParty: {
+        title: 'Geen Gegevensverkoop',
+        description: 'We verkopen of delen uw persoonlijke informatie niet met derden voor commerciële doeleinden'
+      },
+      transparency: {
+        title: 'Transparantie',
+        description: 'We zijn transparant over welke gegevens we verzamelen en hoe we deze gebruiken in ons privacybeleid'
+      }
+    },
+    principlesTitle: 'Beschermingsprincipes',
+    principlesSubtitle: 'Onze benadering van gegevensbescherming is gebaseerd op eenvoudige en transparante principes',
+    certifications: {
+      basicProtection: {
+        name: 'Basisbescherming',
+        description: 'We implementeren basis persoonlijke gegevensbeschermingsmaatregelen'
+      },
+      localStorage: {
+        name: 'Lokale Opslag',
+        description: 'Gegevens worden voornamelijk op uw apparaat bewaard'
+      },
+      transparency: {
+        name: 'Transparantie',
+        description: 'Duidelijk beleid over welke gegevens we verzamelen en hoe we deze gebruiken'
+      },
+      userControl: {
+        name: 'Gebruikerscontrole',
+        description: 'Mogelijkheden voor gebruikers om hun eigen gegevens te beheren'
+      }
+    },
+    commitmentTitle: 'Toewijding aan Transparantie',
+    commitmentSubtitle: 'We geloven in eerlijk zijn over onze privacypraktijken. Als u vragen heeft over hoe we uw gegevens verwerken, zijn we er om te helpen',
+    contactSupport: 'Contact Opnemen met Ondersteuning'
   },
 };
 
@@ -3922,61 +5610,114 @@ const no_NO: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'Gegevensbeveiliging',
-        lastUpdated: 'Laatst bijgewerkt',
-        lastUpdatedDate: '2 oktober 2025',
+        title: 'Datasikkerhet',
+        lastUpdated: 'Sist oppdatert',
+        lastUpdatedDate: '2. oktober 2025',
         paragraphs: [
-          'We implementeren passende beveiligingsmaatregelen om de informatie te beschermen die u lokaal op uw apparaat opslaat:'
+          'Vi implementerer hensiktsmessige sikkerhetstiltak for å beskytte informasjonen du lagrer lokalt på enheten din:'
         ],
         subsections: [
           {
-            title: 'Technische maatregelen:',
+            title: 'Tekniske tiltak:',
             items: [
-                'Veilige lokale opslag op uw apparaat',
-                'Veilige communicatie met onze servers bij het synchroniseren van gegevens',
-                'Veilige authenticatie om toegang te krijgen tot uw account',
-                'Basisbescherming tegen ongeautoriseerde toegang'
+                'Sikker lokal lagring på enheten din',
+                'Sikker kommunikasjon med våre servere ved synkronisering av data',
+                'Sikker autentisering for å få tilgang til kontoen din',
+                'Grunnleggende beskyttelse mot uautorisert tilgang'
             ]
           },
           {
-            title: 'Organisatorische maatregelen:',
+            title: 'Organisatoriske tiltak:',
             items: [
-                'Alleen u heeft directe toegang tot de gegevens die u in de app invoert',
-                'Ons team volgt best practices voor veilige ontwikkeling',
-                'Regelmatige beveiligingsbeoordelingen van de app',
-                'Procedures om beveiligingsproblemen te melden en op te lossen'
+                'Bare du har direkte tilgang til dataene du legger inn i appen',
+                'Vårt team følger beste praksis for sikker utvikling',
+                'Regelmessige sikkerhetsgjennomganger av appen',
+                'Prosedyrer for å rapportere og løse sikkerhetsproblemer'
             ]
           }
         ]
       },
       retention: {
-        title: 'Gegevensbewaring',
-        lastUpdated: 'Laatst bijgewerkt',
-        lastUpdatedDate: '2 oktober 2025',
+        title: 'Datalagring',
+        lastUpdated: 'Sist oppdatert',
+        lastUpdatedDate: '2. oktober 2025',
         paragraphs: [
-          'We bewaren uw persoonlijke informatie alleen zolang als nodig is om de doeleinden te vervullen die in dit beleid worden beschreven:'
+          'Vi beholder din personlige informasjon bare så lenge som nødvendig for å oppfylle formålene beskrevet i denne policyen:'
         ],
         subsections: [
           {
-            title: 'Bewaringstermijnen:',
+            title: 'Lagringsperioder:',
             items: [
-                'Accountgegevens: zolang u een actief account onderhoudt',
-                'Transactiegegevens: tot 7 jaar voor naleving van regelgeving',
-                'Ondersteuningsgegevens: tot 3 jaar na oplossing'
+                'Kontodata: så lenge du opprettholder en aktiv konto',
+                'Transaksjonsdata: opptil 7 år for regeloverholdelse',
+                'Støttedata: opptil 3 år etter løsning'
             ]
           },
           {
-            title: 'Gegevensverwijdering:',
+            title: 'Datasletting:',
             items: [
-                'Automatische verwijdering wanneer bewaringstermijnen verlopen',
-                'Volledige verwijdering van lokaal opgeslagen gegevens',
-                'Mogelijkheid om vroegtijdige verwijdering aan te vragen (onder voorbehoud van wettelijke beperkingen)',
-                'Verwijderingsmelding wanneer technisch haalbaar'
+                'Automatisk sletting når lagringsperioder utløper',
+                'Fullstendig sletting av lokalt lagrede data',
+                'Mulighet til å be om tidlig sletting (med forbehold om juridiske restriksjoner)',
+                'Slettingsvarsel når det er teknisk mulig'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'Databeskyttelse',
+    subtitle: 'Vi implementerer grunnleggende sikkerhetstiltak for å beskytte din personlige informasjon',
+    securityMeasures: {
+      localStorage: {
+        title: 'Lokal Lagring',
+        description: 'Dine finansielle data lagres lokalt på enheten din ved hjelp av React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Sikker Autentisering',
+        description: 'Beskyttet tilgang gjennom autentisering for å holde din personlige informasjon sikker'
+      },
+      dataMinimization: {
+        title: 'Minimal Datainnsamling',
+        description: 'Vi samler kun inn essensiell informasjon som du manuelt legger inn: fakturaer, kategorier og påminnelser'
+      },
+      userControl: {
+        title: 'Brukerkontroll',
+        description: 'Du kan slette dataene dine når som helst fra applikasjonsinnstillingene'
+      },
+      noThirdParty: {
+        title: 'Ingen Datasalg',
+        description: 'Vi selger eller deler ikke din personlige informasjon med tredjeparter for kommersielle formål'
+      },
+      transparency: {
+        title: 'Åpenhet',
+        description: 'Vi er åpne om hvilke data vi samler inn og hvordan vi bruker dem i vår personvernerklæring'
+      }
+    },
+    principlesTitle: 'Beskyttelsesprinsipiper',
+    principlesSubtitle: 'Vår tilnærming til databeskyttelse er basert på enkle og åpne prinsipper',
+    certifications: {
+      basicProtection: {
+        name: 'Grunnleggende Beskyttelse',
+        description: 'Vi implementerer grunnleggende tiltak for beskyttelse av personopplysninger'
+      },
+      localStorage: {
+        name: 'Lokal Lagring',
+        description: 'Data oppbevares primært på enheten din'
+      },
+      transparency: {
+        name: 'Åpenhet',
+        description: 'Tydelige retningslinjer om hvilke data vi samler inn og hvordan vi bruker dem'
+      },
+      userControl: {
+        name: 'Brukerkontroll',
+        description: 'Muligheter for brukere til å kontrollere sine egne data'
+      }
+    },
+    commitmentTitle: 'Forpliktelse til Åpenhet',
+    commitmentSubtitle: 'Vi tror på å være ærlige om vår personvernpraksis. Hvis du har spørsmål om hvordan vi håndterer dataene dine, er vi her for å hjelpe',
+    contactSupport: 'Kontakt Støtte'
   },
 };
 
@@ -4129,61 +5870,114 @@ const pl_PL: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'Datasikkerhet',
-        lastUpdated: 'Sist oppdatert',
-        lastUpdatedDate: '2. oktober 2025',
+        title: 'Bezpieczeństwo Danych',
+        lastUpdated: 'Ostatnia aktualizacja',
+        lastUpdatedDate: '2 października 2025',
         paragraphs: [
-          'Vi implementerer passende sikkerhetstiltak for å beskytte informasjonen du lagrer lokalt på enheten din:'
+          'Wdrażamy odpowiednie środki bezpieczeństwa, aby chronić informacje przechowywane lokalnie na Twoim urządzeniu:'
         ],
         subsections: [
           {
-            title: 'Tekniske tiltak:',
+            title: 'Środki techniczne:',
             items: [
-                'Sikker lokal lagring på enheten din',
-                'Sikker kommunikasjon med våre servere ved synkronisering av data',
-                'Sikker autentisering for å få tilgang til kontoen din',
-                'Grunnleggende beskyttelse mot uautorisert tilgang'
+                'Bezpieczne lokalne przechowywanie na Twoim urządzeniu',
+                'Bezpieczna komunikacja z naszymi serwerami podczas synchronizacji danych',
+                'Bezpieczne uwierzytelnianie w celu uzyskania dostępu do Twojego konta',
+                'Podstawowa ochrona przed nieautoryzowanym dostępem'
             ]
           },
           {
-            title: 'Organisatoriske tiltak:',
+            title: 'Środki organizacyjne:',
             items: [
-                'Bare du har direkte tilgang til dataene du legger inn i appen',
-                'Vårt team følger beste praksis for sikker utvikling',
-                'Regelmessige sikkerhetsgjennomganger av appen',
-                'Prosedyrer for å rapportere og løse sikkerhetsproblemer'
+                'Tylko Ty masz bezpośredni dostęp do danych wprowadzanych do aplikacji',
+                'Nasz zespół stosuje najlepsze praktyki bezpiecznego rozwoju',
+                'Regularne przeglądy bezpieczeństwa aplikacji',
+                'Procedury zgłaszania i rozwiązywania problemów z bezpieczeństwem'
             ]
           }
         ]
       },
       retention: {
-        title: 'Datalagring',
-        lastUpdated: 'Sist oppdatert',
-        lastUpdatedDate: '2. oktober 2025',
+        title: 'Przechowywanie Danych',
+        lastUpdated: 'Ostatnia aktualizacja',
+        lastUpdatedDate: '2 października 2025',
         paragraphs: [
-          'Vi beholder din personlige informasjon bare så lenge som nødvendig for å oppfylle formålene beskrevet i denne policyen:'
+          'Przechowujemy Twoje dane osobowe tylko przez czas niezbędny do realizacji celów opisanych w niniejszej polityce:'
         ],
         subsections: [
           {
-            title: 'Lagringsperioder:',
+            title: 'Okresy przechowywania:',
             items: [
-                'Kontodata: så lenge du opprettholder en aktiv konto',
-                'Transaksjonsdata: opptil 7 år for regeloverholdelse',
-                'Støttedata: opptil 3 år etter løsning'
+                'Dane konta: przez czas utrzymywania aktywnego konta',
+                'Dane transakcji: do 7 lat w celu zapewnienia zgodności z przepisami',
+                'Dane wsparcia: do 3 lat po rozwiązaniu problemu'
             ]
           },
           {
-            title: 'Datasletting:',
+            title: 'Usuwanie danych:',
             items: [
-                'Automatisk sletting når lagringsperioder utløper',
-                'Fullstendig sletting av lokalt lagrede data',
-                'Mulighet til å be om tidlig sletting (med forbehold om juridiske restriksjoner)',
-                'Slettingsvarsel når det er teknisk mulig'
+                'Automatyczne usuwanie po upływie okresu przechowywania',
+                'Całkowite usunięcie lokalnie przechowywanych danych',
+                'Możliwość żądania wcześniejszego usunięcia (z zastrzeżeniem ograniczeń prawnych)',
+                'Powiadomienie o usunięciu, gdy jest to technicznie możliwe'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'Ochrona Danych',
+    subtitle: 'Wdrażamy podstawowe środki bezpieczeństwa w celu ochrony Twoich danych osobowych',
+    securityMeasures: {
+      localStorage: {
+        title: 'Przechowywanie Lokalne',
+        description: 'Twoje dane finansowe są przechowywane lokalnie na Twoim urządzeniu przy użyciu React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Bezpieczne Uwierzytelnianie',
+        description: 'Chroniony dostęp poprzez uwierzytelnianie, aby zapewnić bezpieczeństwo Twoich danych osobowych'
+      },
+      dataMinimization: {
+        title: 'Minimalne Zbieranie Danych',
+        description: 'Gromadzimy tylko niezbędne informacje, które wprowadzasz ręcznie: faktury, kategorie i przypomnienia'
+      },
+      userControl: {
+        title: 'Kontrola Użytkownika',
+        description: 'Możesz w każdej chwili usunąć swoje dane z ustawień aplikacji'
+      },
+      noThirdParty: {
+        title: 'Brak Sprzedaży Danych',
+        description: 'Nie sprzedajemy ani nie udostępniamy Twoich danych osobowych stronom trzecim w celach komercyjnych'
+      },
+      transparency: {
+        title: 'Przejrzystość',
+        description: 'Jesteśmy transparentni w kwestii tego, jakie dane gromadzimy i jak je wykorzystujemy w naszej polityce prywatności'
+      }
+    },
+    principlesTitle: 'Zasady Ochrony',
+    principlesSubtitle: 'Nasze podejście do ochrony danych opiera się na prostych i przejrzystych zasadach',
+    certifications: {
+      basicProtection: {
+        name: 'Podstawowa Ochrona',
+        description: 'Wdrażamy podstawowe środki ochrony danych osobowych'
+      },
+      localStorage: {
+        name: 'Przechowywanie Lokalne',
+        description: 'Dane są przechowywane głównie na Twoim urządzeniu'
+      },
+      transparency: {
+        name: 'Przejrzystość',
+        description: 'Jasne zasady dotyczące tego, jakie dane gromadzimy i jak je wykorzystujemy'
+      },
+      userControl: {
+        name: 'Kontrola Użytkownika',
+        description: 'Możliwości umożliwiające użytkownikom kontrolowanie własnych danych'
+      }
+    },
+    commitmentTitle: 'Zobowiązanie do Przejrzystości',
+    commitmentSubtitle: 'Wierzymy w uczciwość w kwestii naszych praktyk dotyczących prywatności. Jeśli masz pytania dotyczące tego, jak przetwarzamy Twoje dane, jesteśmy tutaj, aby pomóc',
+    contactSupport: 'Skontaktuj się z Pomocą'
   },
 };
 
@@ -4336,61 +6130,114 @@ const pt_PT: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'Bezpieczeństwo danych',
-        lastUpdated: 'Ostatnia aktualizacja',
-        lastUpdatedDate: '2 października 2025',
+        title: 'Segurança de Dados',
+        lastUpdated: 'Última atualização',
+        lastUpdatedDate: '2 de outubro de 2025',
         paragraphs: [
-          'Wdrażamy odpowiednie środki bezpieczeństwa w celu ochrony informacji przechowywanych lokalnie na Twoim urządzeniu:'
+          'Implementamos medidas de segurança apropriadas para proteger as informações que armazena localmente no seu dispositivo:'
         ],
         subsections: [
           {
-            title: 'Środki techniczne:',
+            title: 'Medidas técnicas:',
             items: [
-                'Bezpieczne przechowywanie lokalne na Twoim urządzeniu',
-                'Bezpieczna komunikacja z naszymi serwerami podczas synchronizacji danych',
-                'Bezpieczne uwierzytelnianie w celu uzyskania dostępu do Twojego konta',
-                'Podstawowa ochrona przed nieautoryzowanym dostępem'
+                'Armazenamento local seguro no seu dispositivo',
+                'Comunicação segura com os nossos servidores ao sincronizar dados',
+                'Autenticação segura para aceder à sua conta',
+                'Proteção básica contra acesso não autorizado'
             ]
           },
           {
-            title: 'Środki organizacyjne:',
+            title: 'Medidas organizacionais:',
             items: [
-                'Tylko Ty masz bezpośredni dostęp do danych wprowadzanych w aplikacji',
-                'Nasz zespół stosuje najlepsze praktyki bezpiecznego rozwoju',
-                'Regularne przeglądy bezpieczeństwa aplikacji',
-                'Procedury zgłaszania i rozwiązywania problemów bezpieczeństwa'
+                'Apenas você tem acesso direto aos dados que introduz na aplicação',
+                'A nossa equipa segue as melhores práticas de desenvolvimento seguro',
+                'Revisões regulares de segurança da aplicação',
+                'Procedimentos para reportar e resolver problemas de segurança'
             ]
           }
         ]
       },
       retention: {
-        title: 'Przechowywanie danych',
-        lastUpdated: 'Ostatnia aktualizacja',
-        lastUpdatedDate: '2 października 2025',
+        title: 'Retenção de Dados',
+        lastUpdated: 'Última atualização',
+        lastUpdatedDate: '2 de outubro de 2025',
         paragraphs: [
-          'Przechowujemy Twoje dane osobowe tylko tak długo, jak jest to konieczne do realizacji celów opisanych w tej polityce:'
+          'Retemos as suas informações pessoais apenas pelo tempo necessário para cumprir os propósitos descritos nesta política:'
         ],
         subsections: [
           {
-            title: 'Okresy przechowywania:',
+            title: 'Períodos de retenção:',
             items: [
-                'Dane konta: dopóki utrzymujesz aktywne konto',
-                'Dane transakcji: do 7 lat w celu zgodności z przepisami',
-                'Dane wsparcia: do 3 lat po rozwiązaniu'
+                'Dados da conta: enquanto mantiver uma conta ativa',
+                'Dados de transações: até 7 anos para conformidade regulamentar',
+                'Dados de suporte: até 3 anos após a resolução'
             ]
           },
           {
-            title: 'Usuwanie danych:',
+            title: 'Eliminação de dados:',
             items: [
-                'Automatyczne usunięcie po upływie okresów przechowywania',
-                'Całkowite usunięcie danych przechowywanych lokalnie',
-                'Możliwość żądania wcześniejszego usunięcia (z zastrzeżeniem ograniczeń prawnych)',
-                'Powiadomienie o usunięciu, gdy jest to technicznie możliwe'
+                'Eliminação automática quando os períodos de retenção expiram',
+                'Eliminação completa dos dados armazenados localmente',
+                'Possibilidade de solicitar eliminação antecipada (sujeita a restrições legais)',
+                'Notificação de eliminação quando tecnicamente viável'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'Proteção de Dados',
+    subtitle: 'Implementamos medidas de segurança básicas para proteger as suas informações pessoais',
+    securityMeasures: {
+      localStorage: {
+        title: 'Armazenamento Local',
+        description: 'Os seus dados financeiros são armazenados localmente no seu dispositivo usando React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Autenticação Segura',
+        description: 'Acesso protegido através de autenticação para manter as suas informações pessoais seguras'
+      },
+      dataMinimization: {
+        title: 'Recolha Mínima de Dados',
+        description: 'Recolhemos apenas informações essenciais que introduz manualmente: faturas, categorias e lembretes'
+      },
+      userControl: {
+        title: 'Controlo do Utilizador',
+        description: 'Pode eliminar os seus dados a qualquer momento nas definições da aplicação'
+      },
+      noThirdParty: {
+        title: 'Sem Venda de Dados',
+        description: 'Não vendemos nem partilhamos as suas informações pessoais com terceiros para fins comerciais'
+      },
+      transparency: {
+        title: 'Transparência',
+        description: 'Somos transparentes sobre que dados recolhemos e como os usamos na nossa política de privacidade'
+      }
+    },
+    principlesTitle: 'Princípios de Proteção',
+    principlesSubtitle: 'A nossa abordagem à proteção de dados baseia-se em princípios simples e transparentes',
+    certifications: {
+      basicProtection: {
+        name: 'Proteção Básica',
+        description: 'Implementamos medidas básicas de proteção de dados pessoais'
+      },
+      localStorage: {
+        name: 'Armazenamento Local',
+        description: 'Os dados são mantidos principalmente no seu dispositivo'
+      },
+      transparency: {
+        name: 'Transparência',
+        description: 'Políticas claras sobre que dados recolhemos e como os usamos'
+      },
+      userControl: {
+        name: 'Controlo do Utilizador',
+        description: 'Facilidades para os utilizadores controlarem os seus próprios dados'
+      }
+    },
+    commitmentTitle: 'Compromisso com a Transparência',
+    commitmentSubtitle: 'Acreditamos em ser honestos sobre as nossas práticas de privacidade. Se tiver dúvidas sobre como tratamos os seus dados, estamos aqui para ajudar',
+    contactSupport: 'Contactar Suporte'
   },
 };
 
@@ -4543,61 +6390,114 @@ const sv_SE: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'Segurança de Dados',
-        lastUpdated: 'Última atualização',
-        lastUpdatedDate: '2 de outubro de 2025',
+        title: 'Datasäkerhet',
+        lastUpdated: 'Senast uppdaterad',
+        lastUpdatedDate: '2 oktober 2025',
         paragraphs: [
-          'Implementamos medidas de segurança apropriadas para proteger as informações que armazena localmente no seu dispositivo:'
+          'Vi implementerar lämpliga säkerhetsåtgärder för att skydda informationen du lagrar lokalt på din enhet:'
         ],
         subsections: [
           {
-            title: 'Medidas técnicas:',
+            title: 'Tekniska åtgärder:',
             items: [
-                'Armazenamento local seguro no seu dispositivo',
-                'Comunicação segura com os nossos servidores ao sincronizar dados',
-                'Autenticação segura para aceder à sua conta',
-                'Proteção básica contra acesso não autorizado'
+                'Säker lokal lagring på din enhet',
+                'Säker kommunikation med våra servrar vid synkronisering av data',
+                'Säker autentisering för att få åtkomst till ditt konto',
+                'Grundläggande skydd mot obehörig åtkomst'
             ]
           },
           {
-            title: 'Medidas organizacionais:',
+            title: 'Organisatoriska åtgärder:',
             items: [
-                'Apenas você tem acesso direto aos dados que insere na aplicação',
-                'A nossa equipa segue as melhores práticas de desenvolvimento seguro',
-                'Revisões regulares de segurança da aplicação',
-                'Procedimentos para reportar e resolver problemas de segurança'
+                'Endast du har direkt åtkomst till de data du anger i appen',
+                'Vårt team följer bästa praxis för säker utveckling',
+                'Regelbundna säkerhetsgranskningar av appen',
+                'Rutiner för att rapportera och lösa säkerhetsproblem'
             ]
           }
         ]
       },
       retention: {
-        title: 'Retenção de Dados',
-        lastUpdated: 'Última atualização',
-        lastUpdatedDate: '2 de outubro de 2025',
+        title: 'Datalagring',
+        lastUpdated: 'Senast uppdaterad',
+        lastUpdatedDate: '2 oktober 2025',
         paragraphs: [
-          'Retemos as suas informações pessoais apenas pelo tempo necessário para cumprir os propósitos descritos nesta política:'
+          'Vi behåller din personliga information endast så länge som det är nödvändigt för att uppfylla de syften som beskrivs i denna policy:'
         ],
         subsections: [
           {
-            title: 'Períodos de retenção:',
+            title: 'Lagringsperioder:',
             items: [
-                'Dados da conta: enquanto mantiver uma conta ativa',
-                'Dados de transações: até 7 anos para conformidade regulatória',
-                'Dados de apoio: até 3 anos após a resolução'
+                'Kontodata: så länge du upprätthåller ett aktivt konto',
+                'Transaktionsdata: upp till 7 år för efterlevnad av regelverk',
+                'Supportdata: upp till 3 år efter lösning'
             ]
           },
           {
-            title: 'Eliminação de dados:',
+            title: 'Radering av data:',
             items: [
-                'Eliminação automática quando os períodos de retenção expiram',
-                'Eliminação completa de dados armazenados localmente',
-                'Possibilidade de solicitar eliminação antecipada (sujeita a restrições legais)',
-                'Notificação de eliminação quando tecnicamente viável'
+                'Automatisk radering när lagringsperioder löper ut',
+                'Fullständig radering av lokalt lagrad data',
+                'Möjlighet att begära tidig radering (med förbehåll för juridiska begränsningar)',
+                'Meddelande om radering när det är tekniskt möjligt'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'Dataskydd',
+    subtitle: 'Vi implementerar grundläggande säkerhetsåtgärder för att skydda din personliga information',
+    securityMeasures: {
+      localStorage: {
+        title: 'Lokal Lagring',
+        description: 'Din finansiella data lagras lokalt på din enhet med React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Säker Autentisering',
+        description: 'Skyddad åtkomst genom autentisering för att hålla din personliga information säker'
+      },
+      dataMinimization: {
+        title: 'Minimal Datainsamling',
+        description: 'Vi samlar endast in väsentlig information som du anger manuellt: fakturor, kategorier och påminnelser'
+      },
+      userControl: {
+        title: 'Användarkontroll',
+        description: 'Du kan radera dina data när som helst från applikationsinställningarna'
+      },
+      noThirdParty: {
+        title: 'Ingen Dataförsäljning',
+        description: 'Vi säljer eller delar inte din personliga information med tredje parter för kommersiella ändamål'
+      },
+      transparency: {
+        title: 'Transparens',
+        description: 'Vi är transparenta om vilken data vi samlar in och hur vi använder den i vår integritetspolicy'
+      }
+    },
+    principlesTitle: 'Skyddsprinciper',
+    principlesSubtitle: 'Vår dataskyddsansats baseras på enkla och transparenta principer',
+    certifications: {
+      basicProtection: {
+        name: 'Grundläggande Skydd',
+        description: 'Vi implementerar grundläggande åtgärder för personuppgiftsskydd'
+      },
+      localStorage: {
+        name: 'Lokal Lagring',
+        description: 'Data förvaras främst på din enhet'
+      },
+      transparency: {
+        name: 'Transparens',
+        description: 'Tydliga policyer om vilken data vi samlar in och hur vi använder den'
+      },
+      userControl: {
+        name: 'Användarkontroll',
+        description: 'Möjligheter för användare att kontrollera sin egen data'
+      }
+    },
+    commitmentTitle: 'Engagemang för Transparens',
+    commitmentSubtitle: 'Vi tror på att vara ärliga om våra integritetspraxis. Om du har frågor om hur vi hanterar din data är vi här för att hjälpa',
+    contactSupport: 'Kontakta Support'
   },
 };
 
@@ -4750,61 +6650,114 @@ const th_TH: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'Datasäkerhet',
-        lastUpdated: 'Senast uppdaterad',
-        lastUpdatedDate: '2 oktober 2025',
+        title: 'ความปลอดภัยของข้อมูล',
+        lastUpdated: 'อัปเดตล่าสุด',
+        lastUpdatedDate: '2 ตุลาคม 2025',
         paragraphs: [
-          'Vi implementerar lämpliga säkerhetsåtgärder för att skydda informationen du lagrar lokalt på din enhet:'
+          'เราใช้มาตรการรักษาความปลอดภัยที่เหมาะสมเพื่อปกป้องข้อมูลที่คุณจัดเก็บไว้ในอุปกรณ์ของคุณ:'
         ],
         subsections: [
           {
-            title: 'Tekniska åtgärder:',
+            title: 'มาตรการทางเทคนิค:',
             items: [
-                'Säker lokal lagring på din enhet',
-                'Säker kommunikation med våra servrar vid datasynkronisering',
-                'Säker autentisering för att komma åt ditt konto',
-                'Grundläggande skydd mot obehörig åtkomst'
+                'การจัดเก็บข้อมูลในเครื่องที่ปลอดภัยบนอุปกรณ์ของคุณ',
+                'การสื่อสารที่ปลอดภัยกับเซิร์ฟเวอร์ของเราเมื่อซิงค์ข้อมูล',
+                'การยืนยันตัวตนที่ปลอดภัยเพื่อเข้าถึงบัญชีของคุณ',
+                'การป้องกันพื้นฐานจากการเข้าถึงที่ไม่ได้รับอนุญาต'
             ]
           },
           {
-            title: 'Organisatoriska åtgärder:',
+            title: 'มาตรการขององค์กร:',
             items: [
-                'Endast du har direkt åtkomst till data du anger i appen',
-                'Vårt team följer bästa praxis för säker utveckling',
-                'Regelbundna säkerhetsgranskningar av appen',
-                'Procedurer för att rapportera och lösa säkerhetsproblem'
+                'เฉพาะคุณเท่านั้นที่สามารถเข้าถึงข้อมูลที่คุณป้อนในแอปได้โดยตรง',
+                'ทีมของเราปฏิบัติตามแนวทางปฏิบัติที่ดีที่สุดในการพัฒนาที่ปลอดภัย',
+                'การตรวจสอบความปลอดภัยของแอปอย่างสม่ำเสมอ',
+                'ขั้นตอนในการรายงานและแก้ไขปัญหาด้านความปลอดภัย'
             ]
           }
         ]
       },
       retention: {
-        title: 'Datalagring',
-        lastUpdated: 'Senast uppdaterad',
-        lastUpdatedDate: '2 oktober 2025',
+        title: 'การเก็บรักษาข้อมูล',
+        lastUpdated: 'อัปเดตล่าสุด',
+        lastUpdatedDate: '2 ตุลาคม 2025',
         paragraphs: [
-          'Vi behåller din personliga information endast så länge som det är nödvändigt för att uppfylla de syften som beskrivs i denna policy:'
+          'เราเก็บรักษาข้อมูลส่วนบุคคลของคุณเท่าที่จำเป็นเพื่อบรรลุวัตถุประสงค์ที่อธิบายไว้ในนโยบายนี้เท่านั้น:'
         ],
         subsections: [
           {
-            title: 'Lagringsperioder:',
+            title: 'ระยะเวลาการเก็บรักษา:',
             items: [
-                'Kontodata: så länge du upprätthåller ett aktivt konto',
-                'Transaktionsdata: upp till 7 år för regelefterlevnad',
-                'Supportdata: upp till 3 år efter lösning'
+                'ข้อมูลบัญชี: ตราบใดที่คุณยังคงมีบัญชีที่ใช้งานอยู่',
+                'ข้อมูลธุรกรรม: สูงสุด 7 ปีเพื่อปฏิบัติตามข้อกำหนด',
+                'ข้อมูลการสนับสนุน: สูงสุด 3 ปีหลังจากการแก้ไข'
             ]
           },
           {
-            title: 'Dataradering:',
+            title: 'การลบข้อมูล:',
             items: [
-                'Automatisk radering när lagringsperioder löper ut',
-                'Fullständig radering av lokalt lagrad data',
-                'Möjlighet att begära tidig radering (med förbehåll för juridiska begränsningar)',
-                'Raderingsmeddelande när det är tekniskt möjligt'
+                'การลบอัตโนมัติเมื่อระยะเวลาการเก็บรักษาหมดอายุ',
+                'การลบข้อมูลที่จัดเก็บไว้ในเครื่องอย่างสมบูรณ์',
+                'ความเป็นไปได้ในการขอลบก่อนกำหนด (ขึ้นอยู่กับข้อจำกัดทางกฎหมาย)',
+                'การแจ้งเตือนการลบเมื่อเป็นไปได้ทางเทคนิค'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'การปกป้องข้อมูล',
+    subtitle: 'เราใช้มาตรการรักษาความปลอดภัยพื้นฐานเพื่อปกป้องข้อมูลส่วนบุคคลของคุณ',
+    securityMeasures: {
+      localStorage: {
+        title: 'การจัดเก็บข้อมูลในเครื่อง',
+        description: 'ข้อมูลทางการเงินของคุณจะถูกจัดเก็บในเครื่องบนอุปกรณ์ของคุณโดยใช้ React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'การตรวจสอบสิทธิ์ที่ปลอดภัย',
+        description: 'การเข้าถึงที่ได้รับการปกป้องผ่านการตรวจสอบสิทธิ์เพื่อรักษาความปลอดภัยของข้อมูลส่วนบุคคลของคุณ'
+      },
+      dataMinimization: {
+        title: 'การเก็บรวบรวมข้อมูลเพียงเล็กน้อย',
+        description: 'เราเก็บรวบรวมเฉพาะข้อมูลที่จำเป็นที่คุณป้อนด้วยตนเอง: ใบแจ้งหนี้ หมวดหมู่ และการแจ้งเตือน'
+      },
+      userControl: {
+        title: 'การควบคุมโดยผู้ใช้',
+        description: 'คุณสามารถลบข้อมูลของคุณได้ตลอดเวลาจากการตั้งค่าแอปพลิเคชัน'
+      },
+      noThirdParty: {
+        title: 'ไม่มีการขายข้อมูล',
+        description: 'เราไม่ขายหรือแบ่งปันข้อมูลส่วนบุคคลของคุณกับบุคคลที่สามเพื่อวัตถุประสงค์ทางการค้า'
+      },
+      transparency: {
+        title: 'ความโปร่งใส',
+        description: 'เราโปร่งใสเกี่ยวกับข้อมูลที่เรารวบรวมและวิธีที่เราใช้ในนโยบายความเป็นส่วนตัวของเรา'
+      }
+    },
+    principlesTitle: 'หลักการปกป้อง',
+    principlesSubtitle: 'แนวทางการปกป้องข้อมูลของเราอิงตามหลักการที่เรียบง่ายและโปร่งใส',
+    certifications: {
+      basicProtection: {
+        name: 'การปกป้องพื้นฐาน',
+        description: 'เราใช้มาตรการปกป้องข้อมูลส่วนบุคคลพื้นฐาน'
+      },
+      localStorage: {
+        name: 'การจัดเก็บข้อมูลในเครื่อง',
+        description: 'ข้อมูลจะถูกเก็บไว้บนอุปกรณ์ของคุณเป็นหลัก'
+      },
+      transparency: {
+        name: 'ความโปร่งใส',
+        description: 'นโยบายที่ชัดเจนเกี่ยวกับข้อมูลที่เรารวบรวมและวิธีที่เราใช้'
+      },
+      userControl: {
+        name: 'การควบคุมโดยผู้ใช้',
+        description: 'สิ่งอำนวยความสะดวกสำหรับผู้ใช้ในการควบคุมข้อมูลของตนเอง'
+      }
+    },
+    commitmentTitle: 'ความมุ่งมั่นต่อความโปร่งใส',
+    commitmentSubtitle: 'เราเชื่อในความซื่อสัตย์เกี่ยวกับแนวปฏิบัติด้านความเป็นส่วนตัวของเรา หากคุณมีคำถามเกี่ยวกับวิธีที่เราจัดการข้อมูลของคุณ เราพร้อมช่วยเหลือ',
+    contactSupport: 'ติดต่อฝ่ายสนับสนุน'
   },
 };
 
@@ -4957,61 +6910,114 @@ const tr_TR: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'ความปลอดภัยของข้อมูล',
-        lastUpdated: 'อัปเดตล่าสุด',
-        lastUpdatedDate: '2 ตุลาคม 2025',
+        title: 'Veri Güvenliği',
+        lastUpdated: 'Son güncelleme',
+        lastUpdatedDate: '2 Ekim 2025',
         paragraphs: [
-          'เราใช้มาตรการรักษาความปลอดภัยที่เหมาะสมเพื่อปกป้องข้อมูลที่คุณจัดเก็บไว้ในเครื่องของคุณ:'
+          'Cihazınızda yerel olarak sakladığınız bilgileri korumak için uygun güvenlik önlemlerini uyguluyoruz:'
         ],
         subsections: [
           {
-            title: 'มาตรการทางเทคนิค:',
+            title: 'Teknik önlemler:',
             items: [
-                'พื้นที่จัดเก็บข้อมูลในเครื่องที่ปลอดภัยบนอุปกรณ์ของคุณ',
-                'การสื่อสารที่ปลอดภัยกับเซิร์ฟเวอร์ของเราเมื่อซิงค์ข้อมูล',
-                'การยืนยันตัวตนที่ปลอดภัยเพื่อเข้าถึงบัญชีของคุณ',
-                'การป้องกันขั้นพื้นฐานจากการเข้าถึงโดยไม่ได้รับอนุญาต'
+                'Cihazınızda güvenli yerel depolama',
+                'Veri senkronizasyonu sırasında sunucularımızla güvenli iletişim',
+                'Hesabınıza erişmek için güvenli kimlik doğrulama',
+                'Yetkisiz erişime karşı temel koruma'
             ]
           },
           {
-            title: 'มาตรการเชิงองค์กร:',
+            title: 'Organizasyonel önlemler:',
             items: [
-                'เฉพาะคุณเท่านั้นที่สามารถเข้าถึงข้อมูลที่คุณป้อนในแอปโดยตรง',
-                'ทีมของเราปฏิบัติตามแนวทางปฏิบัติที่ดีที่สุดในการพัฒนาที่ปลอดภัย',
-                'การตรวจสอบความปลอดภัยของแอปเป็นประจำ',
-                'ขั้นตอนในการรายงานและแก้ไขปัญหาความปลอดภัย'
+                'Yalnızca siz uygulamaya girdiğiniz verilere doğrudan erişebilirsiniz',
+                'Ekibimiz güvenli geliştirme en iyi uygulamalarını takip eder',
+                'Düzenli uygulama güvenlik incelemeleri',
+                'Güvenlik sorunlarını bildirmek ve çözmek için prosedürler'
             ]
           }
         ]
       },
       retention: {
-        title: 'การเก็บรักษาข้อมูล',
-        lastUpdated: 'อัปเดตล่าสุด',
-        lastUpdatedDate: '2 ตุลาคม 2025',
+        title: 'Veri Saklama',
+        lastUpdated: 'Son güncelleme',
+        lastUpdatedDate: '2 Ekim 2025',
         paragraphs: [
-          'เราเก็บรักษาข้อมูลส่วนบุคคลของคุณเพียงเท่าที่จำเป็นเพื่อบรรลุวัตถุประสงค์ที่อธิบายไว้ในนโยบายนี้:'
+          'Kişisel bilgilerinizi yalnızca bu politikada açıklanan amaçları yerine getirmek için gerekli olduğu sürece saklarız:'
         ],
         subsections: [
           {
-            title: 'ระยะเวลาการเก็บรักษา:',
+            title: 'Saklama süreleri:',
             items: [
-                'ข้อมูลบัญชี: ตราบใดที่คุณยังคงมีบัญชีที่ใช้งานอยู่',
-                'ข้อมูลการทำธุรกรรม: สูงสุด 7 ปีเพื่อการปฏิบัติตามกฎระเบียบ',
-                'ข้อมูลการสนับสนุน: สูงสุด 3 ปีหลังจากการแก้ไข'
+                'Hesap verileri: aktif bir hesap tuttuğunuz sürece',
+                'İşlem verileri: düzenleyici uyumluluk için 7 yıla kadar',
+                'Destek verileri: çözümden sonra 3 yıla kadar'
             ]
           },
           {
-            title: 'การลบข้อมูล:',
+            title: 'Veri silme:',
             items: [
-                'การลบอัตโนมัติเมื่อระยะเวลาการเก็บรักษาหมดอายุ',
-                'การลบข้อมูลที่จัดเก็บไว้ในเครื่องอย่างสมบูรณ์',
-                'ความเป็นไปได้ในการขอลบก่อนกำหนด (ภายใต้ข้อจำกัดทางกฎหมาย)',
-                'การแจ้งเตือนการลบเมื่อเป็นไปได้ทางเทคนิค'
+                'Saklama süreleri dolduğunda otomatik silme',
+                'Yerel olarak saklanan verilerin tamamen silinmesi',
+                'Erken silme talep etme imkanı (yasal kısıtlamalara tabi)',
+                'Teknik olarak uygun olduğunda silme bildirimi'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'Veri Koruma',
+    subtitle: 'Kişisel bilgilerinizi korumak için temel güvenlik önlemleri uyguluyoruz',
+    securityMeasures: {
+      localStorage: {
+        title: 'Yerel Depolama',
+        description: 'Finansal verileriniz React Native AsyncStorage kullanılarak cihazınızda yerel olarak depolanır'
+      },
+      authentication: {
+        title: 'Güvenli Kimlik Doğrulama',
+        description: 'Kişisel bilgilerinizi güvende tutmak için kimlik doğrulama yoluyla korumalı erişim'
+      },
+      dataMinimization: {
+        title: 'Minimum Veri Toplama',
+        description: 'Yalnızca manuel olarak girdiğiniz temel bilgileri topluyoruz: faturalar, kategoriler ve hatırlatıcılar'
+      },
+      userControl: {
+        title: 'Kullanıcı Kontrolü',
+        description: 'Uygulama ayarlarından verilerinizi istediğiniz zaman silebilirsiniz'
+      },
+      noThirdParty: {
+        title: 'Veri Satışı Yok',
+        description: 'Kişisel bilgilerinizi ticari amaçlarla üçüncü taraflarla satmıyor veya paylaşmıyoruz'
+      },
+      transparency: {
+        title: 'Şeffaflık',
+        description: 'Gizlilik politikamızda hangi verileri topladığımız ve nasıl kullandığımız konusunda şeffafız'
+      }
+    },
+    principlesTitle: 'Koruma İlkeleri',
+    principlesSubtitle: 'Veri koruma yaklaşımımız basit ve şeffaf ilkelere dayanmaktadır',
+    certifications: {
+      basicProtection: {
+        name: 'Temel Koruma',
+        description: 'Kişisel veri koruma için temel önlemler uyguluyoruz'
+      },
+      localStorage: {
+        name: 'Yerel Depolama',
+        description: 'Veriler öncelikle cihazınızda tutulur'
+      },
+      transparency: {
+        name: 'Şeffaflık',
+        description: 'Hangi verileri topladığımız ve nasıl kullandığımız hakkında net politikalar'
+      },
+      userControl: {
+        name: 'Kullanıcı Kontrolü',
+        description: 'Kullanıcıların kendi verilerini kontrol etmeleri için olanaklar'
+      }
+    },
+    commitmentTitle: 'Şeffaflığa Bağlılık',
+    commitmentSubtitle: 'Gizlilik uygulamalarımız konusunda dürüst olmaya inanıyoruz. Verilerinizi nasıl yönettiğimiz hakkında sorularınız varsa, yardımcı olmak için buradayız',
+    contactSupport: 'Desteğe Başvur'
   },
 };
 
@@ -5164,61 +7170,114 @@ const uk_UA: PrivacyTranslations = {
         ]
       },
       security: {
-        title: 'Veri Güvenliği',
-        lastUpdated: 'Son güncelleme',
-        lastUpdatedDate: '2 Ekim 2025',
+        title: 'Безпека даних',
+        lastUpdated: 'Останнє оновлення',
+        lastUpdatedDate: '2 жовтня 2025',
         paragraphs: [
-          'Cihazınızda yerel olarak sakladığınız bilgileri korumak için uygun güvenlik önlemlerini uyguluyoruz:'
+          'Ми впроваджуємо відповідні заходи безпеки для захисту інформації, яку ви зберігаєте локально на своєму пристрої:'
         ],
         subsections: [
           {
-            title: 'Teknik önlemler:',
+            title: 'Технічні заходи:',
             items: [
-                'Cihazınızda güvenli yerel depolama',
-                'Veri senkronizasyonu sırasında sunucularımızla güvenli iletişim',
-                'Hesabınıza erişim için güvenli kimlik doğrulama',
-                'Yetkisiz erişime karşı temel koruma'
+                'Безпечне локальне зберігання на вашому пристрої',
+                'Безпечний зв\'язок з нашими серверами під час синхронізації даних',
+                'Безпечна автентифікація для доступу до вашого облікового запису',
+                'Базовий захист від несанкціонованого доступу'
             ]
           },
           {
-            title: 'Organizasyonel önlemler:',
+            title: 'Організаційні заходи:',
             items: [
-                'Uygulamaya girdiğiniz verilere yalnızca sizin doğrudan erişiminiz vardır',
-                'Ekibimiz güvenli geliştirme en iyi uygulamalarını takip eder',
-                'Uygulamanın düzenli güvenlik incelemeleri',
-                'Güvenlik sorunlarını bildirme ve çözme prosedürleri'
+                'Тільки ви маєте прямий доступ до даних, які ви вводите в додаток',
+                'Наша команда дотримується найкращих практик безпечної розробки',
+                'Регулярні перевірки безпеки додатка',
+                'Процедури повідомлення та вирішення проблем безпеки'
             ]
           }
         ]
       },
       retention: {
-        title: 'Veri Saklama',
-        lastUpdated: 'Son güncelleme',
-        lastUpdatedDate: '2 Ekim 2025',
+        title: 'Зберігання даних',
+        lastUpdated: 'Останнє оновлення',
+        lastUpdatedDate: '2 жовтня 2025',
         paragraphs: [
-          'Kişisel bilgilerinizi yalnızca bu politikada açıklanan amaçları yerine getirmek için gerekli olduğu sürece saklarız:'
+          'Ми зберігаємо вашу особисту інформацію лише стільки, скільки необхідно для виконання цілей, описаних у цій політиці:'
         ],
         subsections: [
           {
-            title: 'Saklama süreleri:',
+            title: 'Терміни зберігання:',
             items: [
-                'Hesap verileri: aktif bir hesabı sürdürdüğünüz sürece',
-                'İşlem verileri: düzenleyici uyumluluk için 7 yıla kadar',
-                'Destek verileri: çözümden sonra 3 yıla kadar'
+                'Дані облікового запису: поки ви підтримуєте активний обліковий запис',
+                'Дані транзакцій: до 7 років для відповідності нормативним вимогам',
+                'Дані підтримки: до 3 років після вирішення'
             ]
           },
           {
-            title: 'Veri silme:',
+            title: 'Видалення даних:',
             items: [
-                'Saklama süreleri dolduğunda otomatik silme',
-                'Yerel olarak saklanan verilerin tamamen silinmesi',
-                'Erken silme talep etme olasılığı (yasal kısıtlamalara tabi)',
-                'Teknik olarak mümkün olduğunda silme bildirimi'
+                'Автоматичне видалення після закінчення термінів зберігання',
+                'Повне видалення локально збережених даних',
+                'Можливість запитувати дострокове видалення (з урахуванням законодавчих обмежень)',
+                'Повідомлення про видалення, коли це технічно можливо'
             ]
           }
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'Захист даних',
+    subtitle: 'Ми впроваджуємо базові заходи безпеки для захисту вашої особистої інформації',
+    securityMeasures: {
+      localStorage: {
+        title: 'Локальне сховище',
+        description: 'Ваші фінансові дані зберігаються локально на вашому пристрої за допомогою React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Безпечна автентифікація',
+        description: 'Захищений доступ через автентифікацію для забезпечення безпеки вашої особистої інформації'
+      },
+      dataMinimization: {
+        title: 'Мінімальний збір даних',
+        description: 'Ми збираємо лише необхідну інформацію, яку ви вводите вручну: рахунки-фактури, категорії та нагадування'
+      },
+      userControl: {
+        title: 'Контроль користувача',
+        description: 'Ви можете видалити свої дані в будь-який час з налаштувань додатка'
+      },
+      noThirdParty: {
+        title: 'Немає продажу даних',
+        description: 'Ми не продаємо та не передаємо вашу особисту інформацію третім сторонам у комерційних цілях'
+      },
+      transparency: {
+        title: 'Прозорість',
+        description: 'Ми прозоро повідомляємо, які дані збираємо та як використовуємо їх у нашій політиці конфіденційності'
+      }
+    },
+    principlesTitle: 'Принципи захисту',
+    principlesSubtitle: 'Наш підхід до захисту даних базується на простих та прозорих принципах',
+    certifications: {
+      basicProtection: {
+        name: 'Базовий захист',
+        description: 'Ми впроваджуємо базові заходи захисту особистих даних'
+      },
+      localStorage: {
+        name: 'Локальне сховище',
+        description: 'Дані зберігаються переважно на вашому пристрої'
+      },
+      transparency: {
+        name: 'Прозорість',
+        description: 'Чіткі політики щодо того, які дані ми збираємо та як їх використовуємо'
+      },
+      userControl: {
+        name: 'Контроль користувача',
+        description: 'Можливості для користувачів контролювати власні дані'
+      }
+    },
+    commitmentTitle: 'Зобов\'язання щодо прозорості',
+    commitmentSubtitle: 'Ми віримо в чесність щодо наших практик конфіденційності. Якщо у вас є запитання про те, як ми обробляємо ваші дані, ми готові допомогти',
+    contactSupport: 'Зв\'язатися з підтримкою'
   },
 };
 
@@ -5426,6 +7485,59 @@ const vi_VN: PrivacyTranslations = {
         ]
       }
     },
+  },
+  dataProtectionSection: {
+    title: 'Bảo vệ Dữ liệu',
+    subtitle: 'Chúng tôi thực hiện các biện pháp bảo mật cơ bản để bảo vệ thông tin cá nhân của bạn',
+    securityMeasures: {
+      localStorage: {
+        title: 'Lưu trữ Cục bộ',
+        description: 'Dữ liệu tài chính của bạn được lưu trữ cục bộ trên thiết bị của bạn bằng React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Xác thực An toàn',
+        description: 'Truy cập được bảo vệ thông qua xác thực để giữ thông tin cá nhân của bạn an toàn'
+      },
+      dataMinimization: {
+        title: 'Thu thập Dữ liệu Tối thiểu',
+        description: 'Chúng tôi chỉ thu thập thông tin cần thiết mà bạn nhập thủ công: hóa đơn, danh mục và lời nhắc'
+      },
+      userControl: {
+        title: 'Kiểm soát của Người dùng',
+        description: 'Bạn có thể xóa dữ liệu của mình bất kỳ lúc nào từ cài đặt ứng dụng'
+      },
+      noThirdParty: {
+        title: 'Không Bán Dữ liệu',
+        description: 'Chúng tôi không bán hoặc chia sẻ thông tin cá nhân của bạn với bên thứ ba cho mục đích thương mại'
+      },
+      transparency: {
+        title: 'Minh bạch',
+        description: 'Chúng tôi minh bạch về dữ liệu chúng tôi thu thập và cách chúng tôi sử dụng trong chính sách bảo mật của chúng tôi'
+      }
+    },
+    principlesTitle: 'Nguyên tắc Bảo vệ',
+    principlesSubtitle: 'Cách tiếp cận bảo vệ dữ liệu của chúng tôi dựa trên các nguyên tắc đơn giản và minh bạch',
+    certifications: {
+      basicProtection: {
+        name: 'Bảo vệ Cơ bản',
+        description: 'Chúng tôi thực hiện các biện pháp bảo vệ dữ liệu cá nhân cơ bản'
+      },
+      localStorage: {
+        name: 'Lưu trữ Cục bộ',
+        description: 'Dữ liệu được lưu giữ chủ yếu trên thiết bị của bạn'
+      },
+      transparency: {
+        name: 'Minh bạch',
+        description: 'Chính sách rõ ràng về dữ liệu chúng tôi thu thập và cách chúng tôi sử dụng'
+      },
+      userControl: {
+        name: 'Kiểm soát của Người dùng',
+        description: 'Các phương tiện để người dùng kiểm soát dữ liệu của họ'
+      }
+    },
+    commitmentTitle: 'Cam kết về Minh bạch',
+    commitmentSubtitle: 'Chúng tôi tin tưởng vào sự trung thực về các thực hành bảo mật của chúng tôi. Nếu bạn có câu hỏi về cách chúng tôi xử lý dữ liệu của bạn, chúng tôi ở đây để giúp đỡ',
+    contactSupport: 'Liên hệ Hỗ trợ'
   },
 };
 

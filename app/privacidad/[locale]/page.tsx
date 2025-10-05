@@ -144,7 +144,7 @@ export default function PrivacyLocalePage({ params }: PrivacyPageProps) {
         <ContactPrivacySection locale={locale} />
       </main>
 
-      <Footer />
+      <Footer locale={locale} />
     </>
   );
 }

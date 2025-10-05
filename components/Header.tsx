@@ -8,6 +8,7 @@ import { Menu, X, Download } from 'lucide-react';
 import { useRouter, usePathname } from 'next/navigation';
 import LanguageSelector from './LanguageSelector';
 import { detectBrowserLocale, getPreferredLocale } from '@/lib/i18n/locale-detector';
+import { getHeaderTranslations } from '@/lib/i18n/header-translations';
 
 /**
  * Header Component
@@ -59,12 +60,15 @@ export default function Header({ className = '' }: HeaderProps) {
     };
   }, [isMobileMenuOpen]);
 
+  // Get translations for current locale
+  const t = getHeaderTranslations(currentLocale);
+
   const navItems = [
-    { href: '#inicio', label: 'Inicio' },
-    { href: '#caracteristicas', label: 'Características' },
-    { href: '#descargas', label: 'Descargar' },
-    { href: '/soporte', label: 'Soporte' },
-    { href: '/privacidad', label: 'Privacidad' },
+    { href: '#inicio', label: t.nav.home },
+    { href: '#caracteristicas', label: t.nav.features },
+    { href: '#descargas', label: t.nav.download },
+    { href: '/soporte', label: t.nav.support },
+    { href: '/privacidad', label: t.nav.privacy },
   ];
 
   // Función para manejar navegación con redirección si es necesario
@@ -291,7 +295,7 @@ export default function Header({ className = '' }: HeaderProps) {
                   transition={{ duration: 0.3, delay: 0.4 }}
                 >
                   <h3 className="text-sm font-semibold text-gray-700 mb-4">
-                    Language
+                    {t.mobile.language}
                   </h3>
                   <LanguageSelector currentLocale={currentLocale} variant="button" className="w-full justify-center" />
                 </motion.div>
@@ -305,7 +309,7 @@ export default function Header({ className = '' }: HeaderProps) {
                 >
                   <h3 className="text-sm font-semibold text-gray-700 mb-4 flex items-center">
                     <Download className="w-4 h-4 mr-2" />
-                    Descargar App
+                    {t.mobile.downloadApp}
                   </h3>
                   <a href="https://apps.apple.com/us/app/hero-budget/id6746946502" className="block download-btn">
                     <Image

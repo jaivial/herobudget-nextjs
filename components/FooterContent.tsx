@@ -7,15 +7,23 @@ import { usePathname } from "next/navigation";
 import { Mail, MapPin, Phone, Heart, ExternalLink } from "lucide-react";
 import { getFooterSections } from "./FooterData";
 import { itemVariants, handleNavClick } from "./FooterAnimations";
+import { getFooterTranslations } from '@/lib/i18n/footer-translations';
+import { getPreferredLocale } from '@/lib/i18n/locale-detector';
 
 /**
  * FooterContent
  * Contenido principal del footer con información de contacto y enlaces
  */
 
-export default function FooterContent() {
+interface FooterContentProps {
+  locale?: string;
+}
+
+export default function FooterContent({ locale }: FooterContentProps) {
   const pathname = usePathname();
-  const footerSections = getFooterSections(pathname);
+  const currentLocale = locale || getPreferredLocale();
+  const t = getFooterTranslations(currentLocale);
+  const footerSections = getFooterSections(pathname, t);
 
   return (
     <>
@@ -30,25 +38,25 @@ export default function FooterContent() {
             <h3 className="text-2xl font-bold text-white">Hero Budget</h3>
           </div>
 
-          <p className="text-gray-300 mb-6 leading-relaxed">Tu compañero para la libertad financiera. Hero Budget te ayuda a tomar control de tus finanzas de manera simple, intuitiva y efectiva.</p>
+          <p className="text-gray-300 mb-6 leading-relaxed">{t.company.description}</p>
 
           {/* Información de contacto */}
           <div className="space-y-3">
             <motion.div className="flex items-center space-x-3 text-gray-300" whileHover={{ x: 5 }} transition={{ duration: 0.2 }}>
               <Mail className="w-5 h-5 text-primary-400" />
-              <a href="mailto:jaimevillalcon@hotmail.com" className="hover:text-white transition-colors">
-                jaimevillalcon@hotmail.com
+              <a href={`mailto:${t.company.contact.email}`} className="hover:text-white transition-colors">
+                {t.company.contact.email}
               </a>
             </motion.div>
 
             <motion.div className="flex items-center space-x-3 text-gray-300" whileHover={{ x: 5 }} transition={{ duration: 0.2 }}>
               <MapPin className="w-5 h-5 text-primary-400" />
-              <span>España</span>
+              <span>{t.company.contact.location}</span>
             </motion.div>
 
             <motion.div className="flex items-center space-x-3 text-gray-300" whileHover={{ x: 5 }} transition={{ duration: 0.2 }}>
               <Phone className="w-5 h-5 text-primary-400" />
-              <span>Soporte 24/7</span>
+              <span>{t.company.contact.support}</span>
             </motion.div>
           </div>
         </motion.div>
@@ -90,8 +98,8 @@ export default function FooterContent() {
       <motion.div className="border-t border-gray-700 pt-8" variants={itemVariants}>
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex items-center space-x-2 text-gray-400">
-            <span>&copy; 2025 Jaime Digital Studios ©.</span>
-            <span>Todos los derechos reservados.</span>
+            <span>&copy; 2025 {t.copyright.company}</span>
+            <span>{t.copyright.allRightsReserved}</span>
           </div>
         </div>
       </motion.div>
