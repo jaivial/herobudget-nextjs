@@ -6330,6 +6330,11 @@ const pt_PT: PrivacyTranslations = {
         description: 'Somos transparentes sobre que dados recolhemos e como os usamos na nossa política de privacidade'
       }
     },
+    levels: {
+      basic: 'Básico',
+      advanced: 'Avançado',
+      enterprise: 'Empresarial'
+    },
     principlesTitle: 'Princípios de Proteção',
     principlesSubtitle: 'A nossa abordagem à proteção de dados baseia-se em princípios simples e transparentes',
     certifications: {
