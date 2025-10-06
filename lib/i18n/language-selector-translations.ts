@@ -123,6 +123,25 @@ const de_DE: LanguageSelectorTranslations = {
   },
 };
 
+const el_GR: LanguageSelectorTranslations = {
+  modal: {
+    title: 'Επιλογή Γλώσσας',
+    searchPlaceholder: 'Αναζήτηση γλωσσών...',
+    noLanguages: 'Δεν βρέθηκαν γλώσσες',
+    languagesAvailable: 'διαθέσιμες',
+    language: 'γλώσσα',
+    languages: 'γλώσσες',
+  },
+  aria: {
+    close: 'Κλείσιμο',
+    selectLanguage: 'Επιλογή γλώσσας',
+  },
+};
+
+const en_AU: LanguageSelectorTranslations = {
+  ...en_GB,
+};
+
 const en_CA: LanguageSelectorTranslations = {
   modal: {
     title: 'Select Language',
@@ -243,6 +262,36 @@ const he_IL: LanguageSelectorTranslations = {
   },
 };
 
+const hr_HR: LanguageSelectorTranslations = {
+  modal: {
+    title: 'Odaberi Jezik',
+    searchPlaceholder: 'Traži jezike...',
+    noLanguages: 'Nema pronađenih jezika',
+    languagesAvailable: 'dostupno',
+    language: 'jezik',
+    languages: 'jezici',
+  },
+  aria: {
+    close: 'Zatvori',
+    selectLanguage: 'Odaberi jezik',
+  },
+};
+
+const hu_HU: LanguageSelectorTranslations = {
+  modal: {
+    title: 'Nyelv Kiválasztása',
+    searchPlaceholder: 'Nyelvek keresése...',
+    noLanguages: 'Nem találhatók nyelvek',
+    languagesAvailable: 'elérhető',
+    language: 'nyelv',
+    languages: 'nyelvek',
+  },
+  aria: {
+    close: 'Bezárás',
+    selectLanguage: 'Nyelv kiválasztása',
+  },
+};
+
 const hi_IN: LanguageSelectorTranslations = {
   modal: {
     title: 'भाषा चुनें',
@@ -315,6 +364,21 @@ const ko_KR: LanguageSelectorTranslations = {
   aria: {
     close: '닫기',
     selectLanguage: '언어 선택',
+  },
+};
+
+const ms_MY: LanguageSelectorTranslations = {
+  modal: {
+    title: 'Pilih Bahasa',
+    searchPlaceholder: 'Cari bahasa...',
+    noLanguages: 'Tiada bahasa dijumpai',
+    languagesAvailable: 'tersedia',
+    language: 'bahasa',
+    languages: 'bahasa',
+  },
+  aria: {
+    close: 'Tutup',
+    selectLanguage: 'Pilih bahasa',
   },
 };
 
@@ -393,6 +457,21 @@ const pt_PT: LanguageSelectorTranslations = {
   },
 };
 
+const ro_RO: LanguageSelectorTranslations = {
+  modal: {
+    title: 'Selectați Limba',
+    searchPlaceholder: 'Căutați limbi...',
+    noLanguages: 'Nu s-au găsit limbi',
+    languagesAvailable: 'disponibile',
+    language: 'limbă',
+    languages: 'limbi',
+  },
+  aria: {
+    close: 'Închide',
+    selectLanguage: 'Selectați limba',
+  },
+};
+
 const ru_RU: LanguageSelectorTranslations = {
   modal: {
     title: 'Выбрать Язык',
@@ -405,6 +484,21 @@ const ru_RU: LanguageSelectorTranslations = {
   aria: {
     close: 'Закрыть',
     selectLanguage: 'Выбрать язык',
+  },
+};
+
+const sk_SK: LanguageSelectorTranslations = {
+  modal: {
+    title: 'Vybrať Jazyk',
+    searchPlaceholder: 'Hľadať jazyky...',
+    noLanguages: 'Neboli nájdené žiadne jazyky',
+    languagesAvailable: 'dostupné',
+    language: 'jazyk',
+    languages: 'jazyky',
+  },
+  aria: {
+    close: 'Zavrieť',
+    selectLanguage: 'Vybrať jazyk',
   },
 };
 
@@ -505,6 +599,8 @@ const translations: Record<string, LanguageSelectorTranslations> = {
   da_DK,
   de_CH,
   de_DE,
+  el_GR,
+  en_AU,
   en_CA,
   en_GB,
   en_US,
@@ -514,17 +610,22 @@ const translations: Record<string, LanguageSelectorTranslations> = {
   fr_CA,
   fr_FR,
   he_IL,
+  hr_HR,
+  hu_HU,
   hi_IN,
   id_ID,
   it_IT,
   ja_JP,
   ko_KR,
+  ms_MY,
   nl_NL,
   no_NO,
   pl_PL,
   pt_BR,
   pt_PT,
+  ro_RO,
   ru_RU,
+  sk_SK,
   sv_SE,
   th_TH,
   tr_TR,

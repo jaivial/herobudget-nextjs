@@ -570,6 +570,136 @@ const de_CH: ContactPrivacyTranslations = {
   ...de_DE,
 };
 
+const el_GR: ContactPrivacyTranslations = {
+  title: 'Επικοινωνία Απορρήτου',
+  subtitle: 'Είμαστε εδώ για να σας βοηθήσουμε με οποιεσδήποτε ερωτήσεις σχετικά με το απόρρητο, την προστασία δεδομένων ή την άσκηση των δικαιωμάτων σας',
+  contactChannels: {
+    title: 'Κανάλια Επικοινωνίας',
+    dataProtectionOfficer: {
+      title: 'Υπεύθυνος Προστασίας Δεδομένων',
+      description: 'Για συγκεκριμένες ερωτήσεις σχετικά με το απόρρητο και την προστασία δεδομένων',
+      availability: '24/7',
+      responseTime: '24 ώρες',
+    },
+    legalDepartment: {
+      title: 'Νομικό Τμήμα',
+      description: 'Για επίσημα αιτήματα σχετικά με δικαιώματα δεδομένων',
+      availability: 'Δευτέρα έως Παρασκευή 9ΠΜ-1:30ΜΜ',
+      responseTime: '48 ώρες',
+    },
+    generalSupport: {
+      title: 'Γενική Υποστήριξη',
+      description: 'Για γενικές ερωτήσεις σχετικά με το απόρρητο και τις ρυθμίσεις',
+      availability: 'Δευτέρα έως Παρασκευή 9ΠΜ-1:30ΜΜ',
+      responseTime: '12 ώρες',
+    },
+    contactAvailable: 'Διαθέσιμο από την εφαρμογή',
+  },
+  form: {
+    title: 'Φόρμα Απορρήτου',
+    fields: {
+      name: {
+        label: 'Πλήρες Όνομα',
+        placeholder: 'Το πλήρες όνομά σας',
+      },
+      email: {
+        label: 'Διεύθυνση Email',
+        placeholder: 'your@email.com',
+      },
+      topic: {
+        label: 'Θέμα Απορρήτου',
+        placeholder: 'Επιλέξτε θέμα',
+      },
+      priority: {
+        label: 'Προτεραιότητα',
+        options: {
+          low: 'Χαμηλή - Γενική ερώτηση',
+          medium: 'Μεσαία - Χρειάζομαι βοήθεια',
+          high: 'Υψηλή - Επείγον θέμα',
+        },
+      },
+      message: {
+        label: 'Μήνυμα',
+        placeholder: 'Περιγράψτε την ερώτηση ή το αίτημά σας για το απόρρητο...',
+      },
+    },
+    topics: [
+      'Αίτημα προσωπικών δεδομένων',
+      'Διαγραφή λογαριασμού',
+      'Διόρθωση πληροφοριών',
+      'Περιορισμός επεξεργασίας',
+      'Φορητότητα δεδομένων',
+      'Αντίρρηση επεξεργασίας',
+      'Ρυθμίσεις απορρήτου',
+      'Αναφορά ευπάθειας',
+      'Ερώτηση για cookies',
+      'Άλλο θέμα απορρήτου',
+    ],
+    submit: {
+      idle: 'Υποβολή Ερώτησης',
+      sending: 'Αποστολή...',
+      success: 'Μήνυμα Απεστάλη',
+      error: 'Σφάλμα Αποστολής',
+    },
+    messages: {
+      success: 'Η ερώτησή σας έχει σταλεί επιτυχώς. Θα απαντήσουμε σύντομα.',
+      error: 'Παρουσιάστηκε σφάλμα κατά την αποστολή της ερώτησής σας. Παρακαλώ δοκιμάστε ξανά.',
+    },
+    privacyNote: {
+      title: 'Προστασία της ερώτησής σας',
+      description: 'Όλες οι επικοινωνίες αντιμετωπίζονται εμπιστευτικά και προστατεύονται από τις πολιτικές απορρήτου μας. Μόνο εξουσιοδοτημένο προσωπικό θα έχει πρόσβαση στις πληροφορίες σας.',
+    },
+  },
+};
+
+const en_AU: ContactPrivacyTranslations = {
+  ...en_GB,
+  contactChannels: {
+    ...en_GB.contactChannels,
+    title: 'Contact Channels',
+    dataProtectionOfficer: {
+      ...en_GB.contactChannels.dataProtectionOfficer,
+      title: 'Data Protection Officer',
+      description: 'For specific enquiries about privacy and data protection',
+    },
+    generalSupport: {
+      ...en_GB.contactChannels.generalSupport,
+      description: 'For general enquiries about privacy and settings',
+    },
+  },
+  form: {
+    ...en_GB.form,
+    fields: {
+      ...en_GB.form.fields,
+      priority: {
+        ...en_GB.form.fields.priority,
+        options: {
+          low: 'Low - General enquiry',
+          medium: 'Medium - Need assistance',
+          high: 'High - Urgent matter',
+        },
+      },
+      message: {
+        ...en_GB.form.fields.message,
+        placeholder: 'Describe your privacy enquiry or request...',
+      },
+    },
+    submit: {
+      ...en_GB.form.submit,
+      idle: 'Submit Enquiry',
+    },
+    messages: {
+      success: 'Your enquiry has been sent successfully. We will respond soon.',
+      error: 'There was an error sending your enquiry. Please try again.',
+    },
+    privacyNote: {
+      ...en_GB.form.privacyNote,
+      title: 'Protection of your enquiry',
+      description: 'All communications are treated confidentially and are protected under our privacy policies. Only authorised personnel will access your information.',
+    },
+  },
+};
+
 const en_CA: ContactPrivacyTranslations = {
   ...en_GB,
 };
@@ -910,6 +1040,170 @@ const he_IL: ContactPrivacyTranslations = {
     privacyNote: {
       title: 'הגנה על שאלתך',
       description: 'כל התקשורת מטופלת בסודיות ומוגנת תחת מדיניות הפרטיות שלנו. רק צוות מורשה יוכל לגשת למידע שלך.',
+    },
+  },
+};
+
+const hr_HR: ContactPrivacyTranslations = {
+  title: 'Kontakt za privatnost',
+  subtitle: 'Ovdje smo kako bismo vam pomogli s bilo kojim upitima o privatnosti, zaštiti podataka ili ostvarivanju vaših prava',
+  contactChannels: {
+    title: 'Kanali za kontakt',
+    dataProtectionOfficer: {
+      title: 'Službenik za zaštitu podataka',
+      description: 'Za specifične upite o privatnosti i zaštiti podataka',
+      availability: '24/7',
+      responseTime: '24 sata',
+    },
+    legalDepartment: {
+      title: 'Pravni odjel',
+      description: 'Za formalne zahtjeve vezane uz prava podataka',
+      availability: 'Ponedjeljak do petak 9:00-13:30',
+      responseTime: '48 sati',
+    },
+    generalSupport: {
+      title: 'Opća podrška',
+      description: 'Za opće upite o privatnosti i postavkama',
+      availability: 'Ponedjeljak do petak 9:00-13:30',
+      responseTime: '12 sati',
+    },
+    contactAvailable: 'Dostupno iz aplikacije',
+  },
+  form: {
+    title: 'Obrazac za privatnost',
+    fields: {
+      name: {
+        label: 'Puno ime',
+        placeholder: 'Vaše puno ime',
+      },
+      email: {
+        label: 'Adresa e-pošte',
+        placeholder: 'your@email.com',
+      },
+      topic: {
+        label: 'Tema privatnosti',
+        placeholder: 'Odaberite temu',
+      },
+      priority: {
+        label: 'Prioritet',
+        options: {
+          low: 'Nizak - Opće pitanje',
+          medium: 'Srednji - Potrebna pomoć',
+          high: 'Visok - Hitno pitanje',
+        },
+      },
+      message: {
+        label: 'Poruka',
+        placeholder: 'Opišite svoje pitanje ili zahtjev o privatnosti...',
+      },
+    },
+    topics: [
+      'Zahtjev za osobnim podacima',
+      'Brisanje računa',
+      'Ispravak podataka',
+      'Ograničenje obrade',
+      'Prenosivost podataka',
+      'Prigovor na obradu',
+      'Postavke privatnosti',
+      'Prijavljivanje ranjivosti',
+      'Pitanje o kolačićima',
+      'Drugo pitanje o privatnosti',
+    ],
+    submit: {
+      idle: 'Pošalji upit',
+      sending: 'Slanje...',
+      success: 'Poruka poslana',
+      error: 'Greška pri slanju',
+    },
+    messages: {
+      success: 'Vaš upit je uspješno poslan. Uskoro ćemo odgovoriti.',
+      error: 'Došlo je do greške pri slanju vašeg upita. Pokušajte ponovno.',
+    },
+    privacyNote: {
+      title: 'Zaštita vašeg upita',
+      description: 'Sva komunikacija se obrađuje povjerljivo i zaštićena je našom politikom privatnosti. Samo ovlašteno osoblje može pristupiti vašim podacima.',
+    },
+  },
+};
+
+const hu_HU: ContactPrivacyTranslations = {
+  title: 'Adatvédelmi Kapcsolat',
+  subtitle: 'Itt vagyunk, hogy segítsünk bármilyen adatvédelemmel, adatvédelemmel vagy jogai gyakorlásával kapcsolatos kérdésben',
+  contactChannels: {
+    title: 'Kapcsolatfelvételi Csatornák',
+    dataProtectionOfficer: {
+      title: 'Adatvédelmi Tisztviselő',
+      description: 'Konkrét kérdésekhez az adatvédelemről és adatvédelemről',
+      availability: '24/7',
+      responseTime: '24 óra',
+    },
+    legalDepartment: {
+      title: 'Jogi Osztály',
+      description: 'Adatjogokkal kapcsolatos formális kérésekhez',
+      availability: 'Hétfőtől péntekig 9:00-13:30',
+      responseTime: '48 óra',
+    },
+    generalSupport: {
+      title: 'Általános Támogatás',
+      description: 'Általános kérdésekhez az adatvédelemről és beállításokról',
+      availability: 'Hétfőtől péntekig 9:00-13:30',
+      responseTime: '12 óra',
+    },
+    contactAvailable: 'Elérhető az alkalmazásból',
+  },
+  form: {
+    title: 'Adatvédelmi Űrlap',
+    fields: {
+      name: {
+        label: 'Teljes Név',
+        placeholder: 'Az Ön teljes neve',
+      },
+      email: {
+        label: 'Email Cím',
+        placeholder: 'your@email.com',
+      },
+      topic: {
+        label: 'Adatvédelmi Téma',
+        placeholder: 'Válasszon témát',
+      },
+      priority: {
+        label: 'Prioritás',
+        options: {
+          low: 'Alacsony - Általános kérdés',
+          medium: 'Közepes - Segítségre van szükségem',
+          high: 'Magas - Sürgős ügy',
+        },
+      },
+      message: {
+        label: 'Üzenet',
+        placeholder: 'Írja le adatvédelmi kérdését vagy kérését...',
+      },
+    },
+    topics: [
+      'Személyes adatok kérése',
+      'Fiók törlése',
+      'Információ javítása',
+      'Feldolgozás korlátozása',
+      'Adathordozhatóság',
+      'Feldolgozás elleni kifogás',
+      'Adatvédelmi beállítások',
+      'Sebezhetőség jelentése',
+      'Cookie kérdés',
+      'Egyéb adatvédelmi ügy',
+    ],
+    submit: {
+      idle: 'Kérdés Küldése',
+      sending: 'Küldés...',
+      success: 'Üzenet Elküldve',
+      error: 'Küldési Hiba',
+    },
+    messages: {
+      success: 'Kérdését sikeresen elküldtük. Hamarosan válaszolunk.',
+      error: 'Hiba történt a kérdés elküldésekor. Kérjük, próbálja újra.',
+    },
+    privacyNote: {
+      title: 'Kérdésének védelme',
+      description: 'Minden kommunikációt bizalmasan kezelünk és adatvédelmi szabályzatunk védi. Csak felhatalmazott személyzet férhet hozzá az információihoz.',
     },
   },
 };
@@ -1324,6 +1618,88 @@ const ko_KR: ContactPrivacyTranslations = {
   },
 };
 
+const ms_MY: ContactPrivacyTranslations = {
+  title: 'Hubungan Privasi',
+  subtitle: 'Kami di sini untuk membantu anda dengan sebarang pertanyaan mengenai privasi, perlindungan data atau menggunakan hak anda',
+  contactChannels: {
+    title: 'Saluran Hubungan',
+    dataProtectionOfficer: {
+      title: 'Pegawai Perlindungan Data',
+      description: 'Untuk pertanyaan khusus mengenai privasi dan perlindungan data',
+      availability: '24/7',
+      responseTime: '24 jam',
+    },
+    legalDepartment: {
+      title: 'Jabatan Undang-undang',
+      description: 'Untuk permintaan formal berkaitan hak data',
+      availability: 'Isnin hingga Jumaat 9AM-1:30PM',
+      responseTime: '48 jam',
+    },
+    generalSupport: {
+      title: 'Sokongan Umum',
+      description: 'Untuk pertanyaan umum mengenai privasi dan tetapan',
+      availability: 'Isnin hingga Jumaat 9AM-1:30PM',
+      responseTime: '12 jam',
+    },
+    contactAvailable: 'Tersedia dari apl',
+  },
+  form: {
+    title: 'Borang Privasi',
+    fields: {
+      name: {
+        label: 'Nama Penuh',
+        placeholder: 'Nama penuh anda',
+      },
+      email: {
+        label: 'Alamat Email',
+        placeholder: 'your@email.com',
+      },
+      topic: {
+        label: 'Topik Privasi',
+        placeholder: 'Pilih topik',
+      },
+      priority: {
+        label: 'Keutamaan',
+        options: {
+          low: 'Rendah - Pertanyaan umum',
+          medium: 'Sederhana - Perlukan bantuan',
+          high: 'Tinggi - Perkara mendesak',
+        },
+      },
+      message: {
+        label: 'Mesej',
+        placeholder: 'Terangkan pertanyaan atau permintaan privasi anda...',
+      },
+    },
+    topics: [
+      'Permintaan data peribadi',
+      'Pemadaman akaun',
+      'Pembetulan maklumat',
+      'Sekatan pemprosesan',
+      'Kemudahalihan data',
+      'Bantahan pemprosesan',
+      'Tetapan privasi',
+      'Laporan kelemahan',
+      'Pertanyaan kuki',
+      'Perkara privasi lain',
+    ],
+    submit: {
+      idle: 'Hantar Pertanyaan',
+      sending: 'Menghantar...',
+      success: 'Mesej Dihantar',
+      error: 'Ralat Menghantar',
+    },
+    messages: {
+      success: 'Pertanyaan anda telah berjaya dihantar. Kami akan menjawab tidak lama lagi.',
+      error: 'Terdapat ralat semasa menghantar pertanyaan anda. Sila cuba lagi.',
+    },
+    privacyNote: {
+      title: 'Perlindungan pertanyaan anda',
+      description: 'Semua komunikasi dirawat dengan sulit dan dilindungi di bawah dasar privasi kami. Hanya kakitangan yang diberi kuasa akan mengakses maklumat anda.',
+    },
+  },
+};
+
 const nl_NL: ContactPrivacyTranslations = {
   title: 'Privacy Contact',
   subtitle: 'We zijn er om u te helpen met vragen over privacy, gegevensbescherming of het uitoefenen van uw rechten',
@@ -1734,6 +2110,88 @@ const pt_PT: ContactPrivacyTranslations = {
   },
 };
 
+const ro_RO: ContactPrivacyTranslations = {
+  title: 'Contact Confidențialitate',
+  subtitle: 'Suntem aici pentru a vă ajuta cu orice întrebări despre confidențialitate, protecția datelor sau exercitarea drepturilor dumneavoastră',
+  contactChannels: {
+    title: 'Canale de Contact',
+    dataProtectionOfficer: {
+      title: 'Ofițer Protecția Datelor',
+      description: 'Pentru întrebări specifice despre confidențialitate și protecția datelor',
+      availability: '24/7',
+      responseTime: '24 ore',
+    },
+    legalDepartment: {
+      title: 'Departament Juridic',
+      description: 'Pentru solicitări formale legate de drepturile asupra datelor',
+      availability: 'Luni până vineri 9:00-13:30',
+      responseTime: '48 ore',
+    },
+    generalSupport: {
+      title: 'Asistență Generală',
+      description: 'Pentru întrebări generale despre confidențialitate și setări',
+      availability: 'Luni până vineri 9:00-13:30',
+      responseTime: '12 ore',
+    },
+    contactAvailable: 'Disponibil din aplicație',
+  },
+  form: {
+    title: 'Formular Confidențialitate',
+    fields: {
+      name: {
+        label: 'Nume Complet',
+        placeholder: 'Numele dumneavoastră complet',
+      },
+      email: {
+        label: 'Adresă Email',
+        placeholder: 'your@email.com',
+      },
+      topic: {
+        label: 'Subiect Confidențialitate',
+        placeholder: 'Selectați un subiect',
+      },
+      priority: {
+        label: 'Prioritate',
+        options: {
+          low: 'Scăzută - Întrebare generală',
+          medium: 'Medie - Necesit asistență',
+          high: 'Ridicată - Chestiune urgentă',
+        },
+      },
+      message: {
+        label: 'Mesaj',
+        placeholder: 'Descrieți întrebarea sau solicitarea dumneavoastră de confidențialitate...',
+      },
+    },
+    topics: [
+      'Solicitare date personale',
+      'Ștergere cont',
+      'Corectare informații',
+      'Restricționare prelucrare',
+      'Portabilitate date',
+      'Opoziție prelucrare',
+      'Setări confidențialitate',
+      'Raport vulnerabilitate',
+      'Întrebare despre cookie-uri',
+      'Altă chestiune de confidențialitate',
+    ],
+    submit: {
+      idle: 'Trimite Întrebarea',
+      sending: 'Se trimite...',
+      success: 'Mesaj Trimis',
+      error: 'Eroare la Trimitere',
+    },
+    messages: {
+      success: 'Întrebarea dumneavoastră a fost trimisă cu succes. Vom răspunde în curând.',
+      error: 'A apărut o eroare la trimiterea întrebării dumneavoastră. Vă rugăm să încercați din nou.',
+    },
+    privacyNote: {
+      title: 'Protecția întrebării dumneavoastră',
+      description: 'Toate comunicările sunt tratate confidențial și sunt protejate de politicile noastre de confidențialitate. Doar personalul autorizat va avea acces la informațiile dumneavoastră.',
+    },
+  },
+};
+
 const ru_RU: ContactPrivacyTranslations = {
   title: 'Контакт по вопросам конфиденциальности',
   subtitle: 'Мы здесь, чтобы помочь вам с любыми вопросами о конфиденциальности, защите данных или осуществлении ваших прав',
@@ -1812,6 +2270,88 @@ const ru_RU: ContactPrivacyTranslations = {
     privacyNote: {
       title: 'Защита вашего запроса',
       description: 'Все сообщения обрабатываются конфиденциально и защищены в соответствии с нашей политикой конфиденциальности. Только уполномоченный персонал получит доступ к вашей информации.',
+    },
+  },
+};
+
+const sk_SK: ContactPrivacyTranslations = {
+  title: 'Kontakt na ochranu súkromia',
+  subtitle: 'Sme tu, aby sme vám pomohli s akýmikoľvek otázkami o ochrane súkromia, ochrane údajov alebo výkone vašich práv',
+  contactChannels: {
+    title: 'Kontaktné kanály',
+    dataProtectionOfficer: {
+      title: 'Zodpovedná osoba za ochranu údajov',
+      description: 'Pre konkrétne otázky o ochrane súkromia a ochrane údajov',
+      availability: '24/7',
+      responseTime: '24 hodín',
+    },
+    legalDepartment: {
+      title: 'Právne oddelenie',
+      description: 'Pre formálne žiadosti týkajúce sa práv k údajom',
+      availability: 'Pondelok až piatok 9:00-13:30',
+      responseTime: '48 hodín',
+    },
+    generalSupport: {
+      title: 'Všeobecná podpora',
+      description: 'Pre všeobecné otázky o ochrane súkromia a nastaveniach',
+      availability: 'Pondelok až piatok 9:00-13:30',
+      responseTime: '12 hodín',
+    },
+    contactAvailable: 'Dostupné z aplikácie',
+  },
+  form: {
+    title: 'Formulár ochrany súkromia',
+    fields: {
+      name: {
+        label: 'Celé meno',
+        placeholder: 'Vaše celé meno',
+      },
+      email: {
+        label: 'Emailová adresa',
+        placeholder: 'your@email.com',
+      },
+      topic: {
+        label: 'Téma ochrany súkromia',
+        placeholder: 'Vyberte tému',
+      },
+      priority: {
+        label: 'Priorita',
+        options: {
+          low: 'Nízka - Všeobecný dotaz',
+          medium: 'Stredná - Potrebujem pomoc',
+          high: 'Vysoká - Naliehavá záležitosť',
+        },
+      },
+      message: {
+        label: 'Správa',
+        placeholder: 'Opíšte váš dotaz alebo žiadosť týkajúcu sa ochrany súkromia...',
+      },
+    },
+    topics: [
+      'Žiadosť o osobné údaje',
+      'Vymazanie účtu',
+      'Oprava informácií',
+      'Obmedzenie spracovania',
+      'Prenosnosť údajov',
+      'Námietka proti spracovaniu',
+      'Nastavenia ochrany súkromia',
+      'Hlásenie zraniteľnosti',
+      'Otázka o cookies',
+      'Iná záležitosť ochrany súkromia',
+    ],
+    submit: {
+      idle: 'Odoslať dotaz',
+      sending: 'Odosielanie...',
+      success: 'Správa odoslaná',
+      error: 'Chyba odosielania',
+    },
+    messages: {
+      success: 'Váš dotaz bol úspešne odoslaný. Čoskoro odpovieme.',
+      error: 'Pri odosielaní vášho dotazu došlo k chybe. Skúste to prosím znova.',
+    },
+    privacyNote: {
+      title: 'Ochrana vášho dotazu',
+      description: 'Všetky komunikácie sú spracované dôverne a chránené našimi zásadami ochrany súkromia. Len oprávnení zamestnanci budú mať prístup k vašim informáciám.',
     },
   },
 };
@@ -2316,6 +2856,8 @@ const translations: Record<string, ContactPrivacyTranslations> = {
   da_DK,
   de_CH,
   de_DE,
+  el_GR,
+  en_AU,
   en_CA,
   en_GB,
   en_US,
@@ -2325,17 +2867,22 @@ const translations: Record<string, ContactPrivacyTranslations> = {
   fr_CA,
   fr_FR,
   he_IL,
+  hr_HR,
+  hu_HU,
   hi_IN,
   id_ID,
   it_IT,
   ja_JP,
   ko_KR,
+  ms_MY,
   nl_NL,
   no_NO,
   pl_PL,
   pt_BR,
   pt_PT,
+  ro_RO,
   ru_RU,
+  sk_SK,
   sv_SE,
   th_TH,
   tr_TR,

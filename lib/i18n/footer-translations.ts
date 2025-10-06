@@ -259,6 +259,53 @@ const de_CH: FooterTranslations = {
   ...de_DE,
 };
 
+const el_GR: FooterTranslations = {
+  company: {
+    description: 'Ο σύντροφός σας για οικονομική ελευθερία. Το Hero Budget σας βοηθά να αναλάβετε τον έλεγχο των οικονομικών σας με απλό, διαισθητικό και αποτελεσματικό τρόπο.',
+    contact: {
+      email: 'jaimevillalcon@hotmail.com',
+      location: 'Ισπανία',
+      support: 'Υποστήριξη 24/7',
+    },
+  },
+  sections: {
+    product: {
+      title: 'Προϊόν',
+      features: 'Χαρακτηριστικά',
+      screenshots: 'Στιγμιότυπα οθόνης',
+      download: 'Λήψη',
+    },
+    support: {
+      title: 'Υποστήριξη',
+      helpCenter: 'Κέντρο βοήθειας',
+      contact: 'Επικοινωνία',
+      reportBug: 'Αναφορά σφάλματος',
+      requestFeature: 'Αίτημα χαρακτηριστικού',
+    },
+    legal: {
+      title: 'Νομικά',
+      privacyPolicy: 'Πολιτική απορρήτου',
+      dataProtection: 'Προστασία δεδομένων',
+      yourRights: 'Τα δικαιώματά σας',
+    },
+  },
+  copyright: {
+    company: 'Jaime Digital Studios ©',
+    allRightsReserved: 'Όλα τα δικαιώματα διατηρούνται.',
+  },
+};
+
+const en_AU: FooterTranslations = {
+  ...en_GB,
+  sections: {
+    ...en_GB.sections,
+    support: {
+      ...en_GB.sections.support,
+      helpCenter: 'Help Centre',
+    },
+  },
+};
+
 const en_CA: FooterTranslations = {
   ...en_GB,
   sections: {
@@ -423,6 +470,78 @@ const he_IL: FooterTranslations = {
   copyright: {
     company: 'Jaime Digital Studios ©',
     allRightsReserved: 'כל הזכויות שמורות.',
+  },
+};
+
+const hr_HR: FooterTranslations = {
+  company: {
+    description: 'Vaš partner za financijsku slobodu. Hero Budget vam pomaže preuzeti kontrolu nad svojim financijama na jednostavan, intuitivan i učinkovit način.',
+    contact: {
+      email: 'jaimevillalcon@hotmail.com',
+      location: 'Španjolska',
+      support: 'Podrška 24/7',
+    },
+  },
+  sections: {
+    product: {
+      title: 'Proizvod',
+      features: 'Značajke',
+      screenshots: 'Snimke zaslona',
+      download: 'Preuzmi',
+    },
+    support: {
+      title: 'Podrška',
+      helpCenter: 'Centar za pomoć',
+      contact: 'Kontakt',
+      reportBug: 'Prijavi grešku',
+      requestFeature: 'Zatraži značajku',
+    },
+    legal: {
+      title: 'Pravno',
+      privacyPolicy: 'Politika privatnosti',
+      dataProtection: 'Zaštita podataka',
+      yourRights: 'Vaša prava',
+    },
+  },
+  copyright: {
+    company: 'Jaime Digital Studios ©',
+    allRightsReserved: 'Sva prava pridržana.',
+  },
+};
+
+const hu_HU: FooterTranslations = {
+  company: {
+    description: 'Az Ön társa a pénzügyi szabadsághoz. A Hero Budget segít egyszerű, intuitív és hatékony módon átvegye pénzügyei irányítását.',
+    contact: {
+      email: 'jaimevillalcon@hotmail.com',
+      location: 'Spanyolország',
+      support: 'Támogatás 24/7',
+    },
+  },
+  sections: {
+    product: {
+      title: 'Termék',
+      features: 'Funkciók',
+      screenshots: 'Képernyőképek',
+      download: 'Letöltés',
+    },
+    support: {
+      title: 'Támogatás',
+      helpCenter: 'Segítség központ',
+      contact: 'Kapcsolat',
+      reportBug: 'Hiba jelentése',
+      requestFeature: 'Funkció kérése',
+    },
+    legal: {
+      title: 'Jogi',
+      privacyPolicy: 'Adatvédelmi irányelvek',
+      dataProtection: 'Adatvédelem',
+      yourRights: 'Az Ön jogai',
+    },
+  },
+  copyright: {
+    company: 'Jaime Digital Studios ©',
+    allRightsReserved: 'Minden jog fenntartva.',
   },
 };
 
@@ -606,6 +725,42 @@ const ko_KR: FooterTranslations = {
   },
 };
 
+const ms_MY: FooterTranslations = {
+  company: {
+    description: 'Teman anda untuk kebebasan kewangan. Hero Budget membantu anda mengawal kewangan anda dengan cara yang mudah, intuitif dan berkesan.',
+    contact: {
+      email: 'jaimevillalcon@hotmail.com',
+      location: 'Sepanyol',
+      support: 'Sokongan 24/7',
+    },
+  },
+  sections: {
+    product: {
+      title: 'Produk',
+      features: 'Ciri-ciri',
+      screenshots: 'Tangkapan skrin',
+      download: 'Muat turun',
+    },
+    support: {
+      title: 'Sokongan',
+      helpCenter: 'Pusat bantuan',
+      contact: 'Hubungi',
+      reportBug: 'Laporkan pepijat',
+      requestFeature: 'Minta ciri',
+    },
+    legal: {
+      title: 'Undang-undang',
+      privacyPolicy: 'Dasar privasi',
+      dataProtection: 'Perlindungan data',
+      yourRights: 'Hak anda',
+    },
+  },
+  copyright: {
+    company: 'Jaime Digital Studios ©',
+    allRightsReserved: 'Hak cipta terpelihara.',
+  },
+};
+
 const nl_NL: FooterTranslations = {
   company: {
     description: 'Uw metgezel voor financiële vrijheid. Hero Budget helpt u de controle over uw financiën te nemen op een eenvoudige, intuïtieve en effectieve manier.',
@@ -786,6 +941,42 @@ const pt_PT: FooterTranslations = {
   },
 };
 
+const ro_RO: FooterTranslations = {
+  company: {
+    description: 'Partenerul dumneavoastră pentru libertate financiară. Hero Budget vă ajută să preluați controlul finanțelor într-un mod simplu, intuitiv și eficient.',
+    contact: {
+      email: 'jaimevillalcon@hotmail.com',
+      location: 'Spania',
+      support: 'Asistență 24/7',
+    },
+  },
+  sections: {
+    product: {
+      title: 'Produs',
+      features: 'Caracteristici',
+      screenshots: 'Capturi de ecran',
+      download: 'Descarcă',
+    },
+    support: {
+      title: 'Asistență',
+      helpCenter: 'Centru de ajutor',
+      contact: 'Contact',
+      reportBug: 'Raportați eroare',
+      requestFeature: 'Solicitați funcție',
+    },
+    legal: {
+      title: 'Legal',
+      privacyPolicy: 'Politica de confidențialitate',
+      dataProtection: 'Protecția datelor',
+      yourRights: 'Drepturile dumneavoastră',
+    },
+  },
+  copyright: {
+    company: 'Jaime Digital Studios ©',
+    allRightsReserved: 'Toate drepturile rezervate.',
+  },
+};
+
 const ru_RU: FooterTranslations = {
   company: {
     description: 'Ваш спутник на пути к финансовой свободе. Hero Budget помогает вам контролировать свои финансы простым, интуитивным и эффективным способом.',
@@ -819,6 +1010,42 @@ const ru_RU: FooterTranslations = {
   copyright: {
     company: 'Jaime Digital Studios ©',
     allRightsReserved: 'Все права защищены.',
+  },
+};
+
+const sk_SK: FooterTranslations = {
+  company: {
+    description: 'Váš spoločník pre finančnú slobodu. Hero Budget vám pomáha prevziať kontrolu nad vašimi financiami jednoduchým, intuitívnym a efektívnym spôsobom.',
+    contact: {
+      email: 'jaimevillalcon@hotmail.com',
+      location: 'Španielsko',
+      support: 'Podpora 24/7',
+    },
+  },
+  sections: {
+    product: {
+      title: 'Produkt',
+      features: 'Funkcie',
+      screenshots: 'Snímky obrazovky',
+      download: 'Stiahnuť',
+    },
+    support: {
+      title: 'Podpora',
+      helpCenter: 'Centrum pomoci',
+      contact: 'Kontakt',
+      reportBug: 'Nahlásiť chybu',
+      requestFeature: 'Požiadať o funkciu',
+    },
+    legal: {
+      title: 'Právne',
+      privacyPolicy: 'Zásady ochrany osobných údajov',
+      dataProtection: 'Ochrana údajov',
+      yourRights: 'Vaše práva',
+    },
+  },
+  copyright: {
+    company: 'Jaime Digital Studios ©',
+    allRightsReserved: 'Všetky práva vyhradené.',
   },
 };
 
@@ -1046,6 +1273,8 @@ const translations: Record<string, FooterTranslations> = {
   da_DK,
   de_CH,
   de_DE,
+  el_GR,
+  en_AU,
   en_CA,
   en_GB,
   en_US,
@@ -1055,17 +1284,22 @@ const translations: Record<string, FooterTranslations> = {
   fr_CA,
   fr_FR,
   he_IL,
+  hr_HR,
+  hu_HU,
   hi_IN,
   id_ID,
   it_IT,
   ja_JP,
   ko_KR,
+  ms_MY,
   nl_NL,
   no_NO,
   pl_PL,
   pt_BR,
   pt_PT,
+  ro_RO,
   ru_RU,
+  sk_SK,
   sv_SE,
   th_TH,
   tr_TR,

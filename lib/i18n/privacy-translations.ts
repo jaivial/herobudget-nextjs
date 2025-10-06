@@ -2596,6 +2596,306 @@ const ko_KR: PrivacyTranslations = {
   },
 };
 
+// Romanian (Romania)
+const ro_RO: PrivacyTranslations = {
+  hero: {
+    title: 'Politica de Confidențialitate',
+    subtitle: 'Confidențialitatea dumneavoastră contează pentru noi. Aflați cum vă protejăm informațiile personale.',
+    lastUpdated: 'Ultima actualizare',
+    updateDate: 'Octombrie 2025',
+    stats: {
+      privacy: '100%',
+      privacyLabel: 'Confidențialitate',
+      gdpr: 'GDPR',
+      gdprLabel: 'Conformitate',
+    },
+  },
+  policy: {
+    title: 'Politica de Confidențialitate',
+    subtitle: 'Aflați în detaliu cum protejăm și gestionăm informațiile dumneavoastră personale la Hero Budget',
+    intro: 'Hero Budget se angajează să vă protejeze confidențialitatea și să asigure securitatea informațiilor dumneavoastră personale.',
+    quickNavigation: 'Navigare Rapidă',
+    readFullPolicy: 'Citește Politica Completă',
+    sections: {
+      dataCollection: {
+        title: 'Colectarea Datelor',
+        content: 'Colectăm doar informațiile necesare pentru a vă oferi cea mai bună experiență de bugetare.',
+      },
+      dataUsage: {
+        title: 'Cum Folosim Datele Dumneavoastră',
+        content: 'Datele dumneavoastră sunt folosite exclusiv pentru a vă îmbunătăți experiența și pentru a oferi informații financiare personalizate.',
+      },
+      dataSecurity: {
+        title: 'Securitatea Datelor',
+        content: 'Implementăm măsuri de securitate standard în industrie pentru a vă proteja informațiile.',
+      },
+    },
+    fullSections: {
+      introduction: {
+        title: 'Introducere și Domeniu de Aplicare',
+        lastUpdated: 'Ultima actualizare',
+        lastUpdatedDate: '2 octombrie 2025',
+        paragraphs: [
+          'La Hero Budget, ne angajăm să vă protejăm și să vă respectăm confidențialitatea. Această Politică de Confidențialitate explică modul în care colectăm, folosim, partajăm și protejăm informațiile dumneavoastră personale atunci când folosiți aplicația noastră mobilă și serviciile conexe.',
+          'Această politică se aplică tuturor utilizatorilor Hero Budget, indiferent de locația lor geografică, și respectă reglementările internaționale privind protecția datelor, inclusiv Regulamentul General privind Protecția Datelor (GDPR) al Uniunii Europene și Legea Confidențialității Consumatorilor din California (CCPA).',
+          'Prin utilizarea Hero Budget, acceptați practicile descrise în această politică. Dacă nu sunteți de acord cu orice aspect al acestei politici, vă rugăm să nu utilizați serviciile noastre.'
+        ]
+      },
+      dataCollection: {
+        title: 'Informațiile pe Care le Colectăm',
+        lastUpdated: 'Ultima actualizare',
+        lastUpdatedDate: '2 octombrie 2025',
+        paragraphs: [
+          'Colectăm diferite tipuri de informații pentru a furniza și îmbunătăți serviciile noastre:'
+        ],
+        subsections: [
+          {
+            title: 'Informații pe care le furnizați direct:',
+            items: [
+              'Informații despre cont: nume, adresă de email, fotografie de profil',
+              'Date financiare: facturi recurente, categorii, obiective de economisire',
+              'Preferințe utilizator: setări aplicație, notificări'
+            ]
+          },
+          {
+            title: 'Informații colectate automat:',
+            items: [
+              'Informații despre dispozitiv: model, sistem de operare, identificatori unici',
+              'Date de performanță: jurnale de erori, timp de răspuns, blocări'
+            ]
+          }
+        ]
+      },
+      dataUsage: {
+        title: 'Cum Folosim Informațiile Dumneavoastră',
+        lastUpdated: 'Ultima actualizare',
+        lastUpdatedDate: '2 octombrie 2025',
+        paragraphs: [
+          'Folosim doar informațiile pe care le introduceți manual în aplicație în următoarele scopuri:'
+        ],
+        subsections: [
+          {
+            title: 'Furnizarea serviciilor:',
+            items: [
+              'Stocarea datelor despre facturile recurente pe care le introduceți manual',
+              'Generarea de mementouri și analize ale facturilor dumneavoastră recurente',
+              'Sincronizarea datelor dumneavoastră între dispozitivele pe care folosiți aplicația',
+              'Furnizarea de asistență tehnică și servicii pentru clienți'
+            ]
+          },
+          {
+            title: 'Îmbunătățire și personalizare:',
+            items: [
+              'Personalizarea experienței dumneavoastră în aplicație',
+              'Dezvoltarea de noi funcționalități și îmbunătățiri',
+              'Efectuarea de analize agregate și anonime ale utilizării',
+              'Optimizarea performanței aplicației'
+            ]
+          },
+          {
+            title: 'Comunicare și securitate:',
+            items: [
+              'Trimiterea de notificări importante despre contul dumneavoastră',
+              'Comunicarea actualizărilor aplicației'
+            ]
+          }
+        ]
+      },
+      dataSharing: {
+        title: 'Partajarea Informațiilor',
+        lastUpdated: 'Ultima actualizare',
+        lastUpdatedDate: '2 octombrie 2025',
+        paragraphs: [
+          'Nu vindem, nu închiriem și nu partajăm informațiile dumneavoastră personale cu terți în scopuri comerciale. Partajăm informații doar în următoarele circumstanțe limitate:'
+        ],
+        subsections: [
+          {
+            title: 'Furnizori de servicii:',
+            items: [
+              'Servicii de găzduire în cloud cu criptare completă',
+              'Servicii de analiză agregate și anonime',
+              'Servicii de asistență pentru clienți',
+              'Servicii de securitate și prevenire a fraudelor'
+            ]
+          },
+          {
+            title: 'Cerințe legale:',
+            items: [
+              'Când este cerut de lege sau de un proces legal valid',
+              'Pentru a proteja drepturile și siguranța Hero Budget și a utilizatorilor săi',
+              'În cazul unei fuziuni, achiziții sau vânzări de active (cu notificare prealabilă)'
+            ]
+          }
+        ]
+      },
+      cookies: {
+        title: 'Cookie-uri și Tehnologii Similare',
+        lastUpdated: 'Ultima actualizare',
+        lastUpdatedDate: '2 octombrie 2025',
+        paragraphs: [
+          'Ca aplicație mobilă React Native, nu folosim cookie-uri web tradiționale. În schimb, folosim tehnologii de stocare locală pe dispozitivul dumneavoastră pentru a îmbunătăți experiența și a activa funcționalități esențiale:'
+        ],
+        subsections: [
+          {
+            title: 'Tehnologii de stocare locală pe care le folosim:',
+            items: [
+              'AsyncStorage: pentru a stoca preferințele, setările și configurația aplicației dumneavoastră',
+              'Stocare securizată: pentru a proteja date sensibile precum token-urile de autentificare',
+              'Stocare în cache: pentru a îmbunătăți performanța aplicației și a activa funcționalitatea offline',
+              'Date de sesiune: pentru a menține starea de conectare între sesiunile aplicației'
+            ]
+          },
+          {
+            title: 'Gestionarea datelor dumneavoastră:',
+            items: [
+              'Puteți șterge datele cache-uite din meniul de setări al aplicației',
+              'Puteți să vă deconectați pentru a elimina token-urile de sesiune și datele sensibile',
+              'Puteți dezinstala aplicația pentru a elimina complet toate datele locale',
+              'Ștergerea anumitor date poate necesita reconectarea sau reconfigurarea setărilor'
+            ]
+          }
+        ]
+      },
+      security: {
+        title: 'Securitatea Datelor',
+        lastUpdated: 'Ultima actualizare',
+        lastUpdatedDate: '2 octombrie 2025',
+        paragraphs: [
+          'Implementăm măsuri de securitate adecvate pentru a proteja informațiile pe care le stocați local pe dispozitivul dumneavoastră:'
+        ],
+        subsections: [
+          {
+            title: 'Măsuri tehnice:',
+            items: [
+              'Stocare locală securizată pe dispozitivul dumneavoastră',
+              'Comunicare securizată cu serverele noastre la sincronizarea datelor',
+              'Autentificare securizată pentru accesarea contului dumneavoastră',
+              'Protecție de bază împotriva accesului neautorizat'
+            ]
+          },
+          {
+            title: 'Măsuri organizaționale:',
+            items: [
+              'Doar dumneavoastră aveți acces direct la datele pe care le introduceți în aplicație',
+              'Echipa noastră respectă cele mai bune practici de dezvoltare securizată',
+              'Revizuiri regulate de securitate a aplicației',
+              'Proceduri pentru raportarea și rezolvarea problemelor de securitate'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Retenția Datelor',
+        lastUpdated: 'Ultima actualizare',
+        lastUpdatedDate: '2 octombrie 2025',
+        paragraphs: [
+          'Păstrăm informațiile dumneavoastră personale doar atât timp cât este necesar pentru a îndeplini scopurile descrise în această politică:'
+        ],
+        subsections: [
+          {
+            title: 'Perioade de retenție:',
+            items: [
+              'Date de cont: cât timp mențineți un cont activ',
+              'Date de tranzacții: până la 7 ani pentru conformitatea reglementară',
+              'Date de asistență: până la 3 ani după rezolvare'
+            ]
+          },
+          {
+            title: 'Ștergerea datelor:',
+            items: [
+              'Ștergere automată când perioadele de retenție expiră',
+              'Ștergere completă a datelor stocate local',
+              'Posibilitatea de a solicita ștergerea anticipată (supusă restricțiilor legale)',
+              'Notificare de ștergere când este fezabil din punct de vedere tehnic'
+            ]
+          }
+        ]
+      }
+    }
+  },
+  dataProtection: {
+    title: 'Protecția Datelor',
+    subtitle: 'Cum vă păstrăm informațiile în siguranță',
+    encryption: 'Criptare end-to-end pentru toate datele',
+    storage: 'Stocare securizată în cloud cu copii de siguranță regulate',
+    access: 'Controale stricte de acces și autentificare',
+  },
+  dataProtectionSection: {
+    title: 'Protecția Datelor',
+    subtitle: 'Implementăm măsuri de securitate de bază pentru a vă proteja informațiile personale',
+    securityMeasures: {
+      localStorage: {
+        title: 'Stocare Locală',
+        description: 'Datele dumneavoastră financiare sunt stocate local pe dispozitivul dumneavoastră folosind React Native AsyncStorage.'
+      },
+      authentication: {
+        title: 'Autentificare Securizată',
+        description: 'Acces protejat prin autentificare pentru a vă menține informațiile personale în siguranță.'
+      },
+      dataMinimization: {
+        title: 'Colectare Minimă de Date',
+        description: 'Colectăm doar informațiile esențiale pe care le introduceți manual: facturi, categorii și mementouri.'
+      },
+      userControl: {
+        title: 'Control Utilizator',
+        description: 'Puteți șterge datele dumneavoastră oricând din setările aplicației.'
+      },
+      noThirdParty: {
+        title: 'Fără Vânzare de Date',
+        description: 'Nu vindem și nu partajăm informațiile dumneavoastră personale cu terți în scopuri comerciale.'
+      },
+      transparency: {
+        title: 'Transparență',
+        description: 'Suntem transparenți în privința datelor pe care le colectăm și modul în care le folosim în politica noastră de confidențialitate.'
+      }
+    },
+    levels: {
+      basic: 'De Bază',
+      advanced: 'Avansat',
+      enterprise: 'Entreprise'
+    },
+    principlesTitle: 'Principii de Protecție',
+    principlesSubtitle: 'Abordarea noastră privind protecția datelor se bazează pe principii simple și transparente',
+    certifications: {
+      basicProtection: {
+        name: 'Protecție de Bază',
+        description: 'Implementăm măsuri de protecție de bază a datelor personale'
+      },
+      localStorage: {
+        name: 'Stocare Locală',
+        description: 'Datele sunt păstrate în principal pe dispozitivul dumneavoastră'
+      },
+      transparency: {
+        name: 'Transparență',
+        description: 'Politici clare privind datele pe care le colectăm și modul în care le folosim'
+      },
+      userControl: {
+        name: 'Control Utilizator',
+        description: 'Facilități pentru utilizatori de a-și controla propriile date'
+      }
+    },
+    commitmentTitle: 'Angajament față de Transparență',
+    commitmentSubtitle: 'Credem în a fi sinceri despre practicile noastre de confidențialitate. Dacă aveți întrebări despre modul în care gestionăm datele dumneavoastră, suntem aici să vă ajutăm.',
+    contactSupport: 'Contactați Asistența'
+  },
+  userRights: {
+    title: 'Drepturile Dumneavoastră',
+    subtitle: 'Aveți control asupra datelor dumneavoastră',
+    rights: [
+      'Accesați datele dumneavoastră personale',
+      'Solicitați corectarea datelor',
+      'Ștergeți contul și datele dumneavoastră',
+      'Exportați informațiile dumneavoastră',
+      'Dezabonați-vă de la comunicările de marketing',
+    ],
+  },
+  contact: {
+    title: 'Contactați-ne',
+    subtitle: 'Aveți întrebări despre politica noastră de confidențialitate?',
+    email: 'privacy@herobudget.app',
+  },
+};
+
 // Russian (Russia)
 const ru_RU: PrivacyTranslations = {
   ...en_GB,
@@ -3926,6 +4226,311 @@ const de_CH: PrivacyTranslations = {
   ...de_DE,
 };
 
+// Greek (Greece)
+const el_GR: PrivacyTranslations = {
+  hero: {
+    title: 'Πολιτική Απορρήτου',
+    subtitle: 'Το απόρρητό σας είναι σημαντικό για εμάς. Μάθετε πώς προστατεύουμε τα προσωπικά σας δεδομένα.',
+    lastUpdated: 'Τελευταία ενημέρωση',
+    updateDate: 'Οκτώβριος 2025',
+    stats: {
+      privacy: '100%',
+      privacyLabel: 'Απόρρητο',
+      gdpr: 'GDPR',
+      gdprLabel: 'Συμμόρφωση',
+    },
+  },
+  policy: {
+    title: 'Πολιτική Απορρήτου',
+    subtitle: 'Μάθετε λεπτομερώς πώς προστατεύουμε και διαχειριζόμαστε τα προσωπικά σας δεδομένα στο Hero Budget',
+    intro: 'Το Hero Budget δεσμεύεται να προστατεύει το απόρρητό σας και να διασφαλίζει την ασφάλεια των προσωπικών σας πληροφοριών.',
+    quickNavigation: 'Γρήγορη Πλοήγηση',
+    readFullPolicy: 'Διαβάστε την Πλήρη Πολιτική',
+    sections: {
+      dataCollection: {
+        title: 'Συλλογή Δεδομένων',
+        content: 'Συλλέγουμε μόνο τις πληροφορίες που είναι απαραίτητες για να σας παρέχουμε την καλύτερη εμπειρία προϋπολογισμού.',
+      },
+      dataUsage: {
+        title: 'Πώς Χρησιμοποιούμε τα Δεδομένα σας',
+        content: 'Τα δεδομένα σας χρησιμοποιούνται αποκλειστικά για τη βελτίωση της εμπειρίας σας και την παροχή εξατομικευμένων οικονομικών πληροφοριών.',
+      },
+      dataSecurity: {
+        title: 'Ασφάλεια Δεδομένων',
+        content: 'Εφαρμόζουμε βιομηχανικά πρότυπα ασφαλείας για την προστασία των πληροφοριών σας.',
+      },
+    },
+    fullSections: {
+      introduction: {
+        title: 'Εισαγωγή και Πεδίο Εφαρμογής',
+        lastUpdated: 'Τελευταία ενημέρωση',
+        lastUpdatedDate: '2 Οκτωβρίου 2025',
+        paragraphs: [
+          'Στο Hero Budget, δεσμευόμαστε να προστατεύουμε και να σεβόμαστε το απόρρητό σας. Αυτή η Πολιτική Απορρήτου εξηγεί πώς συλλέγουμε, χρησιμοποιούμε, μοιραζόμαστε και προστατεύουμε τα προσωπικά σας δεδομένα όταν χρησιμοποιείτε την εφαρμογή μας για κινητά και τις σχετικές υπηρεσίες.',
+          'Αυτή η πολιτική ισχύει για όλους τους χρήστες του Hero Budget, ανεξάρτητα από τη γεωγραφική τους τοποθεσία, και συμμορφώνεται με τους διεθνείς κανονισμούς προστασίας δεδομένων, συμπεριλαμβανομένου του Γενικού Κανονισμού Προστασίας Δεδομένων (GDPR) της Ευρωπαϊκής Ένωσης και του Νόμου Απορρήτου Καταναλωτών της Καλιφόρνιας (CCPA).',
+          'Χρησιμοποιώντας το Hero Budget, αποδέχεστε τις πρακτικές που περιγράφονται σε αυτήν την πολιτική. Εάν διαφωνείτε με οποιαδήποτε πτυχή αυτής της πολιτικής, παρακαλούμε μην χρησιμοποιείτε τις υπηρεσίες μας.'
+        ]
+      },
+      dataCollection: {
+        title: 'Πληροφορίες που Συλλέγουμε',
+        lastUpdated: 'Τελευταία ενημέρωση',
+        lastUpdatedDate: '2 Οκτωβρίου 2025',
+        paragraphs: [
+          'Συλλέγουμε διάφορους τύπους πληροφοριών για την παροχή και βελτίωση των υπηρεσιών μας:'
+        ],
+        subsections: [
+          {
+            title: 'Πληροφορίες που παρέχετε άμεσα:',
+            items: [
+              'Πληροφορίες λογαριασμού: όνομα, διεύθυνση email, φωτογραφία προφίλ',
+              'Οικονομικά δεδομένα: επαναλαμβανόμενοι λογαριασμοί, κατηγορίες, στόχοι αποταμίευσης',
+              'Προτιμήσεις χρήστη: ρυθμίσεις εφαρμογής, ειδοποιήσεις'
+            ]
+          },
+          {
+            title: 'Πληροφορίες που συλλέγονται αυτόματα:',
+            items: [
+              'Πληροφορίες συσκευής: μοντέλο, λειτουργικό σύστημα, μοναδικά αναγνωριστικά',
+              'Δεδομένα απόδοσης: αρχεία καταγραφής σφαλμάτων, χρόνος απόκρισης, διακοπές λειτουργίας'
+            ]
+          }
+        ]
+      },
+      dataUsage: {
+        title: 'Πώς Χρησιμοποιούμε τις Πληροφορίες σας',
+        lastUpdated: 'Τελευταία ενημέρωση',
+        lastUpdatedDate: '2 Οκτωβρίου 2025',
+        paragraphs: [
+          'Χρησιμοποιούμε μόνο τις πληροφορίες που εισάγετε χειροκίνητα στην εφαρμογή για τους ακόλουθους σκοπούς:'
+        ],
+        subsections: [
+          {
+            title: 'Παροχή υπηρεσιών:',
+            items: [
+              'Αποθήκευση των δεδομένων επαναλαμβανόμενων λογαριασμών που εισάγετε χειροκίνητα',
+              'Δημιουργία υπενθυμίσεων και αναλύσεων των επαναλαμβανόμενων λογαριασμών σας',
+              'Συγχρονισμός των δεδομένων σας μεταξύ συσκευών όπου χρησιμοποιείτε την εφαρμογή',
+              'Παροχή τεχνικής υποστήριξης και εξυπηρέτησης πελατών'
+            ]
+          },
+          {
+            title: 'Βελτίωση και εξατομίκευση:',
+            items: [
+              'Εξατομίκευση της εμπειρίας σας στην εφαρμογή',
+              'Ανάπτυξη νέων λειτουργιών και βελτιώσεων',
+              'Διεξαγωγή συγκεντρωτικών και ανώνυμων αναλύσεων χρήσης',
+              'Βελτιστοποίηση της απόδοσης της εφαρμογής'
+            ]
+          },
+          {
+            title: 'Επικοινωνία και ασφάλεια:',
+            items: [
+              'Αποστολή σημαντικών ειδοποιήσεων σχετικά με τον λογαριασμό σας',
+              'Ενημέρωση για ενημερώσεις της εφαρμογής'
+            ]
+          }
+        ]
+      },
+      dataSharing: {
+        title: 'Κοινοποίηση Πληροφοριών',
+        lastUpdated: 'Τελευταία ενημέρωση',
+        lastUpdatedDate: '2 Οκτωβρίου 2025',
+        paragraphs: [
+          'Δεν πουλάμε, δεν ενοικιάζουμε ούτε μοιραζόμαστε τα προσωπικά σας δεδομένα με τρίτους για εμπορικούς σκοπούς. Μοιραζόμαστε πληροφορίες μόνο στις ακόλουθες περιορισμένες περιπτώσεις:'
+        ],
+        subsections: [
+          {
+            title: 'Πάροχοι υπηρεσιών:',
+            items: [
+              'Υπηρεσίες φιλοξενίας cloud με πλήρη κρυπτογράφηση',
+              'Υπηρεσίες συγκεντρωτικής και ανώνυμης ανάλυσης',
+              'Υπηρεσίες υποστήριξης πελατών',
+              'Υπηρεσίες ασφαλείας και πρόληψης απάτης'
+            ]
+          },
+          {
+            title: 'Νομικές απαιτήσεις:',
+            items: [
+              'Όταν απαιτείται από το νόμο ή έγκυρη νομική διαδικασία',
+              'Για την προστασία των δικαιωμάτων και της ασφάλειας του Hero Budget και των χρηστών του',
+              'Σε περίπτωση συγχώνευσης, εξαγοράς ή πώλησης περιουσιακών στοιχείων (με προηγούμενη ειδοποίηση)'
+            ]
+          }
+        ]
+      },
+      cookies: {
+        title: 'Cookies και Παρόμοιες Τεχνολογίες',
+        lastUpdated: 'Τελευταία ενημέρωση',
+        lastUpdatedDate: '2 Οκτωβρίου 2025',
+        paragraphs: [
+          'Ως εφαρμογή React Native για κινητά, δεν χρησιμοποιούμε παραδοσιακά cookies ιστού. Αντ\' αυτού, χρησιμοποιούμε τεχνολογίες τοπικής αποθήκευσης στη συσκευή σας για τη βελτίωση της εμπειρίας σας και την ενεργοποίηση βασικών λειτουργιών:'
+        ],
+        subsections: [
+          {
+            title: 'Τεχνολογίες τοπικής αποθήκευσης που χρησιμοποιούμε:',
+            items: [
+              'AsyncStorage: για την αποθήκευση των προτιμήσεων, ρυθμίσεων και διαμόρφωσης της εφαρμογής σας',
+              'Ασφαλής αποθήκευση: για την προστασία ευαίσθητων δεδομένων όπως τα tokens ταυτοποίησης',
+              'Αποθήκευση cache: για τη βελτίωση της απόδοσης της εφαρμογής και την ενεργοποίηση λειτουργικότητας εκτός σύνδεσης',
+              'Δεδομένα συνεδρίας: για τη διατήρηση της κατάστασης σύνδεσής σας μεταξύ συνεδριών εφαρμογής'
+            ]
+          },
+          {
+            title: 'Διαχείριση των δεδομένων σας:',
+            items: [
+              'Μπορείτε να διαγράψετε τα δεδομένα cache από το μενού ρυθμίσεων της εφαρμογής',
+              'Μπορείτε να αποσυνδεθείτε για να αφαιρέσετε τα tokens συνεδρίας και τα ευαίσθητα δεδομένα',
+              'Μπορείτε να απεγκαταστήσετε την εφαρμογή για να αφαιρέσετε πλήρως όλα τα τοπικά δεδομένα',
+              'Η διαγραφή ορισμένων δεδομένων μπορεί να απαιτεί εκ νέου σύνδεση ή επαναδιαμόρφωση ρυθμίσεων'
+            ]
+          }
+        ]
+      },
+      security: {
+        title: 'Ασφάλεια Δεδομένων',
+        lastUpdated: 'Τελευταία ενημέρωση',
+        lastUpdatedDate: '2 Οκτωβρίου 2025',
+        paragraphs: [
+          'Εφαρμόζουμε κατάλληλα μέτρα ασφαλείας για την προστασία των πληροφοριών που αποθηκεύετε τοπικά στη συσκευή σας:'
+        ],
+        subsections: [
+          {
+            title: 'Τεχνικά μέτρα:',
+            items: [
+              'Ασφαλής τοπική αποθήκευση στη συσκευή σας',
+              'Ασφαλής επικοινωνία με τους διακομιστές μας κατά τον συγχρονισμό δεδομένων',
+              'Ασφαλής ταυτοποίηση για πρόσβαση στον λογαριασμό σας',
+              'Βασική προστασία κατά της μη εξουσιοδοτημένης πρόσβασης'
+            ]
+          },
+          {
+            title: 'Οργανωτικά μέτρα:',
+            items: [
+              'Μόνο εσείς έχετε άμεση πρόσβαση στα δεδομένα που εισάγετε στην εφαρμογή',
+              'Η ομάδα μας ακολουθεί βέλτιστες πρακτικές ασφαλούς ανάπτυξης',
+              'Τακτικοί έλεγχοι ασφαλείας της εφαρμογής',
+              'Διαδικασίες αναφοράς και επίλυσης θεμάτων ασφαλείας'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Διατήρηση Δεδομένων',
+        lastUpdated: 'Τελευταία ενημέρωση',
+        lastUpdatedDate: '2 Οκτωβρίου 2025',
+        paragraphs: [
+          'Διατηρούμε τα προσωπικά σας δεδομένα μόνο για όσο χρόνο είναι απαραίτητο για την εκπλήρωση των σκοπών που περιγράφονται σε αυτήν την πολιτική:'
+        ],
+        subsections: [
+          {
+            title: 'Περίοδοι διατήρησης:',
+            items: [
+              'Δεδομένα λογαριασμού: όσο διατηρείτε έναν ενεργό λογαριασμό',
+              'Δεδομένα συναλλαγών: έως 7 χρόνια για κανονιστική συμμόρφωση',
+              'Δεδομένα υποστήριξης: έως 3 χρόνια μετά την επίλυση'
+            ]
+          },
+          {
+            title: 'Διαγραφή δεδομένων:',
+            items: [
+              'Αυτόματη διαγραφή όταν λήγουν οι περίοδοι διατήρησης',
+              'Πλήρης διαγραφή των τοπικά αποθηκευμένων δεδομένων',
+              'Δυνατότητα αίτησης πρόωρης διαγραφής (υπόκειται σε νομικούς περιορισμούς)',
+              'Ειδοποίηση διαγραφής όταν είναι τεχνικά εφικτό'
+            ]
+          }
+        ]
+      }
+    }
+  },
+  dataProtection: {
+    title: 'Προστασία Δεδομένων',
+    subtitle: 'Πώς διατηρούμε τις πληροφορίες σας ασφαλείς',
+    encryption: 'Κρυπτογράφηση από άκρο σε άκρο για όλα τα δεδομένα',
+    storage: 'Ασφαλής αποθήκευση στο cloud με τακτικά αντίγραφα ασφαλείας',
+    access: 'Αυστηροί έλεγχοι πρόσβασης και ταυτοποίησης',
+  },
+  dataProtectionSection: {
+    title: 'Προστασία Δεδομένων',
+    subtitle: 'Εφαρμόζουμε βασικά μέτρα ασφαλείας για την προστασία των προσωπικών σας πληροφοριών',
+    securityMeasures: {
+      localStorage: {
+        title: 'Τοπική Αποθήκευση',
+        description: 'Τα οικονομικά σας δεδομένα αποθηκεύονται τοπικά στη συσκευή σας χρησιμοποιώντας το React Native AsyncStorage.'
+      },
+      authentication: {
+        title: 'Ασφαλής Ταυτοποίηση',
+        description: 'Προστατευμένη πρόσβαση μέσω ταυτοποίησης για να διατηρούνται ασφαλείς οι προσωπικές σας πληροφορίες.'
+      },
+      dataMinimization: {
+        title: 'Ελάχιστη Συλλογή Δεδομένων',
+        description: 'Συλλέγουμε μόνο τις απαραίτητες πληροφορίες που εισάγετε χειροκίνητα: λογαριασμούς, κατηγορίες και υπενθυμίσεις.'
+      },
+      userControl: {
+        title: 'Έλεγχος Χρήστη',
+        description: 'Μπορείτε να διαγράψετε τα δεδομένα σας οποιαδήποτε στιγμή από τις ρυθμίσεις της εφαρμογής.'
+      },
+      noThirdParty: {
+        title: 'Χωρίς Πώληση Δεδομένων',
+        description: 'Δεν πουλάμε ούτε μοιραζόμαστε τα προσωπικά σας δεδομένα με τρίτους για εμπορικούς σκοπούς.'
+      },
+      transparency: {
+        title: 'Διαφάνεια',
+        description: 'Είμαστε διαφανείς σχετικά με τα δεδομένα που συλλέγουμε και τον τρόπο που τα χρησιμοποιούμε στην πολιτική απορρήτου μας.'
+      }
+    },
+    levels: {
+      basic: 'Βασικό',
+      advanced: 'Προχωρημένο',
+      enterprise: 'Επιχειρηματικό'
+    },
+    principlesTitle: 'Αρχές Προστασίας',
+    principlesSubtitle: 'Η προσέγγισή μας στην προστασία δεδομένων βασίζεται σε απλές και διαφανείς αρχές',
+    certifications: {
+      basicProtection: {
+        name: 'Βασική Προστασία',
+        description: 'Εφαρμόζουμε βασικά μέτρα προστασίας προσωπικών δεδομένων'
+      },
+      localStorage: {
+        name: 'Τοπική Αποθήκευση',
+        description: 'Τα δεδομένα διατηρούνται κυρίως στη συσκευή σας'
+      },
+      transparency: {
+        name: 'Διαφάνεια',
+        description: 'Σαφείς πολιτικές σχετικά με τα δεδομένα που συλλέγουμε και τον τρόπο που τα χρησιμοποιούμε'
+      },
+      userControl: {
+        name: 'Έλεγχος Χρήστη',
+        description: 'Δυνατότητες για τους χρήστες να ελέγχουν τα δικά τους δεδομένα'
+      }
+    },
+    commitmentTitle: 'Δέσμευση στη Διαφάνεια',
+    commitmentSubtitle: 'Πιστεύουμε στην ειλικρίνεια σχετικά με τις πρακτικές απορρήτου μας. Εάν έχετε ερωτήσεις σχετικά με τον τρόπο διαχείρισης των δεδομένων σας, είμαστε εδώ για να βοηθήσουμε.',
+    contactSupport: 'Επικοινωνήστε με την Υποστήριξη'
+  },
+  userRights: {
+    title: 'Τα Δικαιώματά σας',
+    subtitle: 'Έχετε τον έλεγχο των δεδομένων σας',
+    rights: [
+      'Πρόσβαση στα προσωπικά σας δεδομένα',
+      'Αίτημα διόρθωσης δεδομένων',
+      'Διαγραφή του λογαριασμού και των δεδομένων σας',
+      'Εξαγωγή των πληροφοριών σας',
+      'Απεγγραφή από επικοινωνίες μάρκετινγκ',
+    ],
+  },
+  contact: {
+    title: 'Επικοινωνήστε Μαζί μας',
+    subtitle: 'Έχετε ερωτήσεις σχετικά με την πολιτική απορρήτου μας;',
+    email: 'privacy@herobudget.app',
+  },
+};
+
+// English (Australia)
+const en_AU: PrivacyTranslations = {
+  ...en_GB
+};
+
 // English (Canada)
 const en_CA: PrivacyTranslations = {
   ...en_GB,
@@ -4771,6 +5376,317 @@ const he_IL: PrivacyTranslations = {
   },
 };
 
+// Croatian (Croatia)
+const hr_HR: PrivacyTranslations = {
+  hero: {
+    title: 'Politika privatnosti',
+    subtitle: 'Vaša privatnost nam je važna. Saznajte kako štitimo vaše osobne podatke.',
+    lastUpdated: 'Zadnje ažurirano',
+    updateDate: 'Listopad 2025',
+    stats: {
+      privacy: '100%',
+      privacyLabel: 'Privatnost',
+      gdpr: 'GDPR',
+      gdprLabel: 'Usklađenost',
+    },
+  },
+  policy: {
+    title: 'Politika privatnosti',
+    subtitle: 'Detaljno saznajte kako štitimo i upravljamo vašim osobnim podacima u Hero Budget',
+    intro: 'Hero Budget je predan zaštiti vaše privatnosti i osiguravanju sigurnosti vaših osobnih podataka.',
+    quickNavigation: 'Brza navigacija',
+    readFullPolicy: 'Pročitaj cijelu politiku',
+    sections: {
+      dataCollection: {
+        title: 'Prikupljanje podataka',
+        content: 'Prikupljamo samo informacije potrebne da vam pružimo najbolje iskustvo budžetiranja.',
+      },
+      dataUsage: {
+        title: 'Kako koristimo vaše podatke',
+        content: 'Vaši podaci se koriste isključivo za poboljšanje vašeg iskustva i pružanje personaliziranih financijskih uvida.',
+      },
+      dataSecurity: {
+        title: 'Sigurnost podataka',
+        content: 'Primjenjujemo industrijske standarde sigurnosti za zaštitu vaših podataka.',
+      },
+    },
+    fullSections: {
+      introduction: {
+        title: 'Uvod i opseg',
+        lastUpdated: 'Zadnje ažurirano',
+        lastUpdatedDate: '2. listopada 2025.',
+        paragraphs: [
+          'U Hero Budget predani smo zaštiti i poštivanju vaše privatnosti. Ova Politika privatnosti objašnjava kako prikupljamo, koristimo, dijelimo i štitimo vaše osobne podatke kada koristite našu mobilnu aplikaciju i povezane usluge.',
+          'Ova politika vrijedi za sve korisnike Hero Budget, bez obzira na njihovu geografsku lokaciju, i u skladu je s međunarodnim propisima o zaštiti podataka, uključujući Opću uredbu o zaštiti podataka (GDPR) Europske unije i Kalifornijski zakon o privatnosti potrošača (CCPA).',
+          'Korištenjem Hero Budget prihvaćate prakse opisane u ovoj politici. Ako se ne slažete s bilo kojim aspektom ove politike, molimo ne koristite naše usluge.'
+        ]
+      },
+      dataCollection: {
+        title: 'Podaci koje prikupljamo',
+        lastUpdated: 'Zadnje ažurirano',
+        lastUpdatedDate: '2. listopada 2025.',
+        paragraphs: [
+          'Prikupljamo različite vrste informacija kako bismo pružili i poboljšali naše usluge:'
+        ],
+        subsections: [
+          {
+            title: 'Informacije koje direktno pružate:',
+            items: [
+              'Podaci o računu: ime, e-mail adresa, profilna slika',
+              'Financijski podaci: ponavljajući računi, kategorije, ciljevi štednje',
+              'Korisničke preference: postavke aplikacije, obavijesti'
+            ]
+          },
+          {
+            title: 'Automatski prikupljene informacije:',
+            items: [
+              'Informacije o uređaju: model, operativni sustav, jedinstveni identifikatori',
+              'Podaci o performansama: zapisi grešaka, vrijeme odgovora, padovi'
+            ]
+          }
+        ]
+      },
+      dataUsage: {
+        title: 'Kako koristimo vaše podatke',
+        lastUpdated: 'Zadnje ažurirano',
+        lastUpdatedDate: '2. listopada 2025.',
+        paragraphs: [
+          'Koristimo samo informacije koje ručno unosite u aplikaciju u sljedeće svrhe:'
+        ],
+        subsections: [
+          {
+            title: 'Pružanje usluga:',
+            items: [
+              'Pohrana podataka o ponavljajućim računima koje ručno unosite',
+              'Stvaranje podsjetnika i analiza vaših ponavljajućih računa',
+              'Sinkronizacija vaših podataka između uređaja na kojima koristite aplikaciju',
+              'Pružanje tehničke podrške i korisničke službe'
+            ]
+          },
+          {
+            title: 'Poboljšanje i personalizacija:',
+            items: [
+              'Personalizacija vašeg iskustva u aplikaciji',
+              'Razvoj novih značajki i poboljšanja',
+              'Provođenje agregiranih i anonimiziranih analiza korištenja',
+              'Optimizacija performansi aplikacije'
+            ]
+          },
+          {
+            title: 'Komunikacija i sigurnost:',
+            items: [
+              'Slanje važnih obavijesti o vašem računu',
+              'Ažuriranje o ažuriranjima aplikacije'
+            ]
+          }
+        ]
+      },
+      dataSharing: {
+        title: 'Dijeljenje podataka',
+        lastUpdated: 'Zadnje ažurirano',
+        lastUpdatedDate: '2. listopada 2025.',
+        paragraphs: [
+          'Ne prodajemo, iznajmljujemo niti dijelimo vaše osobne podatke s trećim stranama u komercijalne svrhe. Dijelimo informacije samo u sljedećim ograničenim okolnostima:'
+        ],
+        subsections: [
+          {
+            title: 'Pružatelji usluga:',
+            items: [
+              'Usluge cloud hostinga s potpunom enkripcijom',
+              'Agregirane i anonimizirane analitičke usluge',
+              'Usluge korisničke podrške',
+              'Sigurnosne usluge i prevencija prijevara'
+            ]
+          },
+          {
+            title: 'Zakonski zahtjevi:',
+            items: [
+              'Kada je potrebno po zakonu ili važećem pravnom postupku',
+              'Za zaštitu prava i sigurnosti Hero Budget i njegovih korisnika',
+              'U slučaju spajanja, akvizicije ili prodaje imovine (uz prethodnu obavijest)'
+            ]
+          }
+        ]
+      },
+      cookies: {
+        title: 'Kolačići i slične tehnologije',
+        lastUpdated: 'Zadnje ažurirano',
+        lastUpdatedDate: '2. listopada 2025.',
+        paragraphs: [
+          'Kao mobilna React Native aplikacija, ne koristimo tradicionalne web kolačiće. Umjesto toga, koristimo tehnologije lokalnog pohrane na vašem uređaju kako bismo poboljšali vaše iskustvo i omogućili osnovne funkcionalnosti:'
+        ],
+        subsections: [
+          {
+            title: 'Tehnologije lokalnog pohrane koje koristimo:',
+            items: [
+              'AsyncStorage: za pohranu vaših postavki, konfiguracija i postavki aplikacije',
+              'Sigurna pohrana: za zaštitu osjetljivih podataka poput tokena autentifikacije',
+              'Pohrana predmemorije: za poboljšanje performansi aplikacije i omogućavanje funkcionalnosti bez internetske veze',
+              'Podaci o sesiji: za održavanje vašeg stanja prijave između pokretanja aplikacije'
+            ]
+          },
+          {
+            title: 'Upravljanje vašim podacima:',
+            items: [
+              'Možete obrisati predmemorirane podatke iz izbornika postavki aplikacije',
+              'Možete se odjaviti kako biste uklonili tokene sesije i osjetljive podatke',
+              'Možete deinstalirati aplikaciju kako biste u potpunosti uklonili sve lokalne podatke',
+              'Brisanje određenih podataka može zahtijevati ponovnu prijavu ili ponovno postavljanje postavki'
+            ]
+          }
+        ]
+      },
+      security: {
+        title: 'Sigurnost podataka',
+        lastUpdated: 'Zadnje ažurirano',
+        lastUpdatedDate: '2. listopada 2025.',
+        paragraphs: [
+          'Primjenjujemo odgovarajuće sigurnosne mjere za zaštitu informacija koje lokalno pohranjujete na svom uređaju:'
+        ],
+        subsections: [
+          {
+            title: 'Tehničke mjere:',
+            items: [
+              'Sigurna lokalna pohrana na vašem uređaju',
+              'Sigurna komunikacija s našim poslužiteljima prilikom sinkronizacije podataka',
+              'Sigurna autentifikacija za pristup vašem računu',
+              'Osnovna zaštita od neovlaštenog pristupa'
+            ]
+          },
+          {
+            title: 'Organizacijske mjere:',
+            items: [
+              'Samo vi imate izravni pristup podacima koje unosite u aplikaciju',
+              'Naš tim slijedi najbolje prakse za sigurni razvoj',
+              'Redovite sigurnosne provjere aplikacije',
+              'Postupci za prijavljivanje i rješavanje sigurnosnih problema'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Zadržavanje podataka',
+        lastUpdated: 'Zadnje ažurirano',
+        lastUpdatedDate: '2. listopada 2025.',
+        paragraphs: [
+          'Zadržavamo vaše osobne podatke samo onoliko dugo koliko je potrebno za ispunjavanje svrha opisanih u ovoj politici:'
+        ],
+        subsections: [
+          {
+            title: 'Periodi zadržavanja:',
+            items: [
+              'Podaci o računu: dok imate aktivan račun',
+              'Podaci o transakcijama: do 7 godina radi usklađenosti s propisima',
+              'Podaci podrške: do 3 godine nakon rješavanja'
+            ]
+          },
+          {
+            title: 'Brisanje podataka:',
+            items: [
+              'Automatsko brisanje kada isteknu periodi zadržavanja',
+              'Potpuno brisanje lokalno pohranjenih podataka',
+              'Mogućnost zahtjeva za ranije brisanje (podložno zakonskim ograničenjima)',
+              'Potvrda brisanja kada je tehnički moguće'
+            ]
+          }
+        ]
+      }
+    },
+  },
+  dataProtection: {
+    title: 'Zaštita podataka',
+    subtitle: 'Vaši podaci su sigurni s nama',
+    encryption: 'Enkripcija podataka',
+    storage: 'Sigurna pohrana',
+    access: 'Kontroliran pristup',
+  },
+  dataProtectionSection: {
+    title: 'Zaštita podataka',
+    subtitle: 'Primjenjujemo osnovne sigurnosne mjere za zaštitu vaših osobnih podataka',
+    securityMeasures: {
+      localStorage: {
+        title: 'Lokalna pohrana',
+        description: 'Vaši financijski podaci pohranjuju se lokalno na vašem uređaju koristeći React Native AsyncStorage'
+      },
+      authentication: {
+        title: 'Sigurna autentifikacija',
+        description: 'Pristup zaštićen autentifikacijom za održavanje sigurnosti vaših osobnih podataka'
+      },
+      dataMinimization: {
+        title: 'Minimalno prikupljanje podataka',
+        description: 'Prikupljamo samo bitne informacije koje ručno unosite: račune, kategorije i podsjetnike'
+      },
+      userControl: {
+        title: 'Korisnička kontrola',
+        description: 'Možete izbrisati svoje podatke bilo kada iz postavki aplikacije'
+      },
+      noThirdParty: {
+        title: 'Bez prodaje podataka',
+        description: 'Ne prodajemo niti dijelimo vaše osobne podatke s trećim stranama u komercijalne svrhe'
+      },
+      transparency: {
+        title: 'Transparentnost',
+        description: 'Transparentni smo o podacima koje prikupljamo i kako ih koristimo u našoj politici privatnosti'
+      }
+    },
+    levels: {
+      basic: 'Osnovno',
+      advanced: 'Napredno',
+      enterprise: 'Poslovno'
+    },
+    principlesTitle: 'Načela zaštite',
+    principlesSubtitle: 'Naš pristup zaštiti podataka temelji se na jednostavnim i transparentnim načelima',
+    certifications: {
+      basicProtection: {
+        name: 'Osnovna zaštita',
+        description: 'Primjenjujemo osnovne zaštitne mjere za osobne podatke'
+      },
+      localStorage: {
+        name: 'Lokalna pohrana',
+        description: 'Podaci se uglavnom pohranjuju na vašem uređaju'
+      },
+      transparency: {
+        name: 'Transparentnost',
+        description: 'Jasne politike o podacima koje prikupljamo i kako ih koristimo'
+      },
+      userControl: {
+        name: 'Korisnička kontrola',
+        description: 'Mogućnosti za korisnike da kontroliraju svoje podatke'
+      }
+    },
+    commitmentTitle: 'Predanost transparentnosti',
+    commitmentSubtitle: 'Vjerujemo u iskrenost o našim praksama privatnosti. Ako imate pitanja o tome kako upravljamo vašim podacima, tu smo da vam pomognemo',
+    contactSupport: 'Kontaktirajte podršku'
+  },
+  userRights: {
+    title: 'Vaša prava',
+    subtitle: 'Imate sljedeća prava u vezi s vašim osobnim podacima',
+    rights: [
+      'Pristup vašim podacima',
+      'Ispravljanje netočnih podataka',
+      'Brisanje vaših podataka',
+      'Ograničavanje obrade',
+      'Prenosivost podataka',
+      'Prigovor na obradu'
+    ],
+  },
+  contact: {
+    title: 'Kontaktirajte nas',
+    subtitle: 'Ako imate bilo kakvih pitanja o ovoj Politici privatnosti',
+    email: 'jaimevillalcon@hotmail.com',
+  },
+};
+
+// Hungarian (Hungary)
+const hu_HU: PrivacyTranslations = {
+  ...en_GB,
+  hero: {
+    ...en_GB.hero,
+    title: 'Adatvédelmi Irányelvek',
+    subtitle: 'Az Ön adatainak védelme fontos számunkra. Ismerje meg, hogyan védjük személyes adatait.',
+  },
+};
+
 // Hindi (India)
 const hi_IN: PrivacyTranslations = {
   ...en_GB,
@@ -5298,6 +6214,306 @@ const id_ID: PrivacyTranslations = {
     commitmentTitle: 'Komitmen terhadap Transparansi',
     commitmentSubtitle: 'Kami percaya dalam bersikap jujur tentang praktik privasi kami. Jika Anda memiliki pertanyaan tentang bagaimana kami menangani data Anda, kami siap membantu',
     contactSupport: 'Hubungi Dukungan'
+  },
+};
+
+// Malay (Malaysia)
+const ms_MY: PrivacyTranslations = {
+  hero: {
+    title: 'Dasar Privasi',
+    subtitle: 'Privasi anda penting bagi kami. Ketahui bagaimana kami melindungi maklumat peribadi anda.',
+    lastUpdated: 'Kemaskini terakhir',
+    updateDate: 'Oktober 2025',
+    stats: {
+      privacy: '100%',
+      privacyLabel: 'Privasi',
+      gdpr: 'GDPR',
+      gdprLabel: 'Pematuhan',
+    },
+  },
+  policy: {
+    title: 'Dasar Privasi',
+    subtitle: 'Ketahui secara terperinci bagaimana kami melindungi dan menguruskan maklumat peribadi anda di Hero Budget',
+    intro: 'Hero Budget komited untuk melindungi privasi anda dan memastikan keselamatan maklumat peribadi anda.',
+    quickNavigation: 'Navigasi Pantas',
+    readFullPolicy: 'Baca Dasar Lengkap',
+    sections: {
+      dataCollection: {
+        title: 'Pengumpulan Data',
+        content: 'Kami hanya mengumpul maklumat yang diperlukan untuk memberi anda pengalaman belanjawan terbaik.',
+      },
+      dataUsage: {
+        title: 'Cara Kami Menggunakan Data Anda',
+        content: 'Data anda digunakan semata-mata untuk meningkatkan pengalaman anda dan menyediakan pandangan kewangan yang diperibadikan.',
+      },
+      dataSecurity: {
+        title: 'Keselamatan Data',
+        content: 'Kami melaksanakan langkah keselamatan standard industri untuk melindungi maklumat anda.',
+      },
+    },
+    fullSections: {
+      introduction: {
+        title: 'Pengenalan dan Skop',
+        lastUpdated: 'Kemaskini terakhir',
+        lastUpdatedDate: '2 Oktober 2025',
+        paragraphs: [
+          'Di Hero Budget, kami komited untuk melindungi dan menghormati privasi anda. Dasar Privasi ini menerangkan bagaimana kami mengumpul, menggunakan, berkongsi dan melindungi maklumat peribadi anda apabila anda menggunakan aplikasi mudah alih dan perkhidmatan berkaitan kami.',
+          'Dasar ini terpakai kepada semua pengguna Hero Budget, tanpa mengira lokasi geografi mereka, dan mematuhi peraturan perlindungan data antarabangsa, termasuk Peraturan Perlindungan Data Am (GDPR) Kesatuan Eropah dan Akta Privasi Pengguna California (CCPA).',
+          'Dengan menggunakan Hero Budget, anda menerima amalan yang diterangkan dalam dasar ini. Jika anda tidak bersetuju dengan mana-mana aspek dasar ini, sila jangan gunakan perkhidmatan kami.'
+        ]
+      },
+      dataCollection: {
+        title: 'Maklumat Yang Kami Kumpul',
+        lastUpdated: 'Kemaskini terakhir',
+        lastUpdatedDate: '2 Oktober 2025',
+        paragraphs: [
+          'Kami mengumpul pelbagai jenis maklumat untuk menyediakan dan menambah baik perkhidmatan kami:'
+        ],
+        subsections: [
+          {
+            title: 'Maklumat yang anda berikan secara langsung:',
+            items: [
+              'Maklumat akaun: nama, alamat e-mel, foto profil',
+              'Data kewangan: bil berulang, kategori, matlamat simpanan',
+              'Pilihan pengguna: tetapan aplikasi, pemberitahuan'
+            ]
+          },
+          {
+            title: 'Maklumat yang dikumpul secara automatik:',
+            items: [
+              'Maklumat peranti: model, sistem operasi, pengecam unik',
+              'Data prestasi: log ralat, masa tindak balas, kerosakan'
+            ]
+          }
+        ]
+      },
+      dataUsage: {
+        title: 'Cara Kami Menggunakan Maklumat Anda',
+        lastUpdated: 'Kemaskini terakhir',
+        lastUpdatedDate: '2 Oktober 2025',
+        paragraphs: [
+          'Kami hanya menggunakan maklumat yang anda masukkan secara manual dalam aplikasi untuk tujuan berikut:'
+        ],
+        subsections: [
+          {
+            title: 'Penyediaan perkhidmatan:',
+            items: [
+              'Menyimpan data bil berulang yang anda masukkan secara manual',
+              'Menjana peringatan dan analisis bil berulang anda',
+              'Menyegerakkan data anda merentasi peranti di mana anda menggunakan aplikasi',
+              'Menyediakan sokongan teknikal dan perkhidmatan pelanggan'
+            ]
+          },
+          {
+            title: 'Penambahbaikan dan pemperibadian:',
+            items: [
+              'Memperibadikan pengalaman anda dalam aplikasi',
+              'Membangunkan ciri dan penambahbaikan baharu',
+              'Menjalankan analisis penggunaan agregat dan tanpa nama',
+              'Mengoptimumkan prestasi aplikasi'
+            ]
+          },
+          {
+            title: 'Komunikasi dan keselamatan:',
+            items: [
+              'Menghantar pemberitahuan penting tentang akaun anda',
+              'Berkomunikasi tentang kemas kini aplikasi'
+            ]
+          }
+        ]
+      },
+      dataSharing: {
+        title: 'Perkongsian Maklumat',
+        lastUpdated: 'Kemaskini terakhir',
+        lastUpdatedDate: '2 Oktober 2025',
+        paragraphs: [
+          'Kami tidak menjual, menyewa atau berkongsi maklumat peribadi anda dengan pihak ketiga untuk tujuan komersial. Kami hanya berkongsi maklumat dalam keadaan terhad berikut:'
+        ],
+        subsections: [
+          {
+            title: 'Penyedia perkhidmatan:',
+            items: [
+              'Perkhidmatan pengehosan awan dengan penyulitan lengkap',
+              'Perkhidmatan analitik agregat dan tanpa nama',
+              'Perkhidmatan sokongan pelanggan',
+              'Perkhidmatan keselamatan dan pencegahan penipuan'
+            ]
+          },
+          {
+            title: 'Keperluan undang-undang:',
+            items: [
+              'Apabila dikehendaki oleh undang-undang atau proses undang-undang yang sah',
+              'Untuk melindungi hak dan keselamatan Hero Budget dan penggunanya',
+              'Dalam kes penggabungan, pengambilalihan atau penjualan aset (dengan notis awal)'
+            ]
+          }
+        ]
+      },
+      cookies: {
+        title: 'Kuki dan Teknologi Serupa',
+        lastUpdated: 'Kemaskini terakhir',
+        lastUpdatedDate: '2 Oktober 2025',
+        paragraphs: [
+          'Sebagai aplikasi mudah alih React Native, kami tidak menggunakan kuki web tradisional. Sebaliknya, kami menggunakan teknologi penyimpanan tempatan pada peranti anda untuk meningkatkan pengalaman anda dan mengaktifkan fungsi penting:'
+        ],
+        subsections: [
+          {
+            title: 'Teknologi penyimpanan tempatan yang kami gunakan:',
+            items: [
+              'AsyncStorage: untuk menyimpan pilihan, tetapan dan konfigurasi aplikasi anda',
+              'Penyimpanan selamat: untuk melindungi data sensitif seperti token pengesahan',
+              'Penyimpanan cache: untuk meningkatkan prestasi aplikasi dan mengaktifkan fungsi luar talian',
+              'Data sesi: untuk mengekalkan status log masuk anda merentasi sesi aplikasi'
+            ]
+          },
+          {
+            title: 'Menguruskan data anda:',
+            items: [
+              'Anda boleh mengosongkan data cache dari menu tetapan aplikasi',
+              'Anda boleh log keluar untuk mengalih keluar token sesi dan data sensitif',
+              'Anda boleh nyahpasang aplikasi untuk mengalih keluar sepenuhnya semua data tempatan',
+              'Mengosongkan data tertentu mungkin memerlukan anda log masuk semula atau mengkonfigurasi semula tetapan'
+            ]
+          }
+        ]
+      },
+      security: {
+        title: 'Keselamatan Data',
+        lastUpdated: 'Kemaskini terakhir',
+        lastUpdatedDate: '2 Oktober 2025',
+        paragraphs: [
+          'Kami melaksanakan langkah keselamatan yang sesuai untuk melindungi maklumat yang anda simpan secara tempatan pada peranti anda:'
+        ],
+        subsections: [
+          {
+            title: 'Langkah teknikal:',
+            items: [
+              'Penyimpanan tempatan selamat pada peranti anda',
+              'Komunikasi selamat dengan pelayan kami semasa menyegerakkan data',
+              'Pengesahan selamat untuk mengakses akaun anda',
+              'Perlindungan asas terhadap akses tidak dibenarkan'
+            ]
+          },
+          {
+            title: 'Langkah organisasi:',
+            items: [
+              'Hanya anda yang mempunyai akses langsung kepada data yang anda masukkan dalam aplikasi',
+              'Pasukan kami mengikuti amalan terbaik pembangunan selamat',
+              'Semakan keselamatan aplikasi berkala',
+              'Prosedur untuk melaporkan dan menyelesaikan isu keselamatan'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Pengekalan Data',
+        lastUpdated: 'Kemaskini terakhir',
+        lastUpdatedDate: '2 Oktober 2025',
+        paragraphs: [
+          'Kami mengekalkan maklumat peribadi anda hanya selama yang perlu untuk memenuhi tujuan yang diterangkan dalam dasar ini:'
+        ],
+        subsections: [
+          {
+            title: 'Tempoh pengekalan:',
+            items: [
+              'Data akaun: selagi anda mengekalkan akaun aktif',
+              'Data transaksi: sehingga 7 tahun untuk pematuhan peraturan',
+              'Data sokongan: sehingga 3 tahun selepas penyelesaian'
+            ]
+          },
+          {
+            title: 'Pemadaman data:',
+            items: [
+              'Pemadaman automatik apabila tempoh pengekalan tamat',
+              'Pemadaman lengkap data yang disimpan secara tempatan',
+              'Kemungkinan untuk meminta pemadaman awal (tertakluk kepada sekatan undang-undang)',
+              'Pemberitahuan pemadaman apabila boleh dilaksanakan secara teknikal'
+            ]
+          }
+        ]
+      }
+    }
+  },
+  dataProtection: {
+    title: 'Perlindungan Data',
+    subtitle: 'Bagaimana kami menjaga maklumat anda selamat',
+    encryption: 'Penyulitan hujung ke hujung untuk semua data',
+    storage: 'Penyimpanan awan selamat dengan sandaran berkala',
+    access: 'Kawalan akses dan pengesahan yang ketat',
+  },
+  dataProtectionSection: {
+    title: 'Perlindungan Data',
+    subtitle: 'Kami melaksanakan langkah keselamatan asas untuk melindungi maklumat peribadi anda',
+    securityMeasures: {
+      localStorage: {
+        title: 'Penyimpanan Tempatan',
+        description: 'Data kewangan anda disimpan secara tempatan pada peranti anda menggunakan React Native AsyncStorage.'
+      },
+      authentication: {
+        title: 'Pengesahan Selamat',
+        description: 'Akses dilindungi melalui pengesahan untuk menjaga maklumat peribadi anda selamat.'
+      },
+      dataMinimization: {
+        title: 'Pengumpulan Data Minimum',
+        description: 'Kami hanya mengumpul maklumat penting yang anda masukkan secara manual: invois, kategori dan peringatan.'
+      },
+      userControl: {
+        title: 'Kawalan Pengguna',
+        description: 'Anda boleh memadamkan data anda pada bila-bila masa dari tetapan aplikasi.'
+      },
+      noThirdParty: {
+        title: 'Tiada Penjualan Data',
+        description: 'Kami tidak menjual atau berkongsi maklumat peribadi anda dengan pihak ketiga untuk tujuan komersial.'
+      },
+      transparency: {
+        title: 'Ketelusan',
+        description: 'Kami telus tentang data yang kami kumpul dan cara kami menggunakannya dalam dasar privasi kami.'
+      }
+    },
+    levels: {
+      basic: 'Asas',
+      advanced: 'Lanjutan',
+      enterprise: 'Perusahaan'
+    },
+    principlesTitle: 'Prinsip Perlindungan',
+    principlesSubtitle: 'Pendekatan kami terhadap perlindungan data berdasarkan prinsip yang mudah dan telus',
+    certifications: {
+      basicProtection: {
+        name: 'Perlindungan Asas',
+        description: 'Kami melaksanakan langkah perlindungan data peribadi asas'
+      },
+      localStorage: {
+        name: 'Penyimpanan Tempatan',
+        description: 'Data disimpan terutamanya pada peranti anda'
+      },
+      transparency: {
+        name: 'Ketelusan',
+        description: 'Dasar yang jelas tentang data yang kami kumpul dan cara kami menggunakannya'
+      },
+      userControl: {
+        name: 'Kawalan Pengguna',
+        description: 'Kemudahan untuk pengguna mengawal data mereka sendiri'
+      }
+    },
+    commitmentTitle: 'Komitmen terhadap Ketelusan',
+    commitmentSubtitle: 'Kami percaya untuk bersikap jujur tentang amalan privasi kami. Jika anda mempunyai soalan tentang cara kami mengendalikan data anda, kami di sini untuk membantu.',
+    contactSupport: 'Hubungi Sokongan'
+  },
+  userRights: {
+    title: 'Hak Anda',
+    subtitle: 'Anda mempunyai kawalan ke atas data anda',
+    rights: [
+      'Akses data peribadi anda',
+      'Minta pembetulan data',
+      'Padamkan akaun dan data anda',
+      'Eksport maklumat anda',
+      'Tarik diri daripada komunikasi pemasaran',
+    ],
+  },
+  contact: {
+    title: 'Hubungi Kami',
+    subtitle: 'Mempunyai soalan tentang dasar privasi kami?',
+    email: 'privacy@herobudget.app',
   },
 };
 
@@ -6358,6 +7574,306 @@ const pt_PT: PrivacyTranslations = {
     commitmentTitle: 'Compromisso com a Transparência',
     commitmentSubtitle: 'Acreditamos em ser honestos sobre as nossas práticas de privacidade. Se tiver dúvidas sobre como tratamos os seus dados, estamos aqui para ajudar',
     contactSupport: 'Contactar Suporte'
+  },
+};
+
+// Slovak (Slovakia)
+const sk_SK: PrivacyTranslations = {
+  hero: {
+    title: 'Zásady ochrany osobných údajov',
+    subtitle: 'Vaše súkromie je pre nás dôležité. Dozviete sa, ako chránime vaše osobné informácie.',
+    lastUpdated: 'Posledná aktualizácia',
+    updateDate: 'Október 2025',
+    stats: {
+      privacy: '100%',
+      privacyLabel: 'Súkromie',
+      gdpr: 'GDPR',
+      gdprLabel: 'Súlad',
+    },
+  },
+  policy: {
+    title: 'Zásady ochrany osobných údajov',
+    subtitle: 'Zistite podrobne, ako chránime a spravujeme vaše osobné údaje v Hero Budget',
+    intro: 'Hero Budget sa zaväzuje chrániť vaše súkromie a zabezpečiť bezpečnosť vašich osobných údajov.',
+    quickNavigation: 'Rýchla Navigácia',
+    readFullPolicy: 'Prečítať Celé Zásady',
+    sections: {
+      dataCollection: {
+        title: 'Zhromažďovanie Údajov',
+        content: 'Zhromažďujeme iba informácie potrebné na poskytnutie najlepšieho rozpočtového zážitku.',
+      },
+      dataUsage: {
+        title: 'Ako Používame Vaše Údaje',
+        content: 'Vaše údaje sa používajú výlučne na zlepšenie vášho zážitku a poskytovanie personalizovaných finančných informácií.',
+      },
+      dataSecurity: {
+        title: 'Bezpečnosť Údajov',
+        content: 'Implementujeme priemyselné štandardy bezpečnosti na ochranu vašich informácií.',
+      },
+    },
+    fullSections: {
+      introduction: {
+        title: 'Úvod a Rozsah',
+        lastUpdated: 'Posledná aktualizácia',
+        lastUpdatedDate: '2. október 2025',
+        paragraphs: [
+          'V Hero Budget sme odhodlaní chrániť a rešpektovať vaše súkromie. Tieto Zásady ochrany osobných údajov vysvetľujú, ako zhromažďujeme, používame, zdieľame a chránime vaše osobné údaje pri používaní našej mobilnej aplikácie a súvisiacich služieb.',
+          'Tieto zásady sa vzťahujú na všetkých používateľov Hero Budget bez ohľadu na ich geografickú polohu a sú v súlade s medzinárodnými predpismi o ochrane údajov, vrátane Všeobecného nariadenia o ochrane údajov (GDPR) Európskej únie a Kalifornského zákona o ochrane súkromia spotrebiteľov (CCPA).',
+          'Používaním Hero Budget súhlasíte s praktikami opísanými v týchto zásadách. Ak nesúhlasíte s akýmkoľvek aspektom týchto zásad, nepoužívajte prosím naše služby.'
+        ]
+      },
+      dataCollection: {
+        title: 'Informácie, Ktoré Zhromažďujeme',
+        lastUpdated: 'Posledná aktualizácia',
+        lastUpdatedDate: '2. október 2025',
+        paragraphs: [
+          'Zhromažďujeme rôzne typy informácií na poskytovanie a zlepšovanie našich služieb:'
+        ],
+        subsections: [
+          {
+            title: 'Informácie, ktoré poskytujete priamo:',
+            items: [
+              'Informácie o účte: meno, e-mailová adresa, profilová fotografia',
+              'Finančné údaje: opakujúce sa faktúry, kategórie, ciele úspor',
+              'Používateľské preferencie: nastavenia aplikácie, upozornenia'
+            ]
+          },
+          {
+            title: 'Automaticky zhromažďované informácie:',
+            items: [
+              'Informácie o zariadení: model, operačný systém, jedinečné identifikátory',
+              'Údaje o výkone: záznamy chýb, čas odozvy, zlyhania'
+            ]
+          }
+        ]
+      },
+      dataUsage: {
+        title: 'Ako Používame Vaše Informácie',
+        lastUpdated: 'Posledná aktualizácia',
+        lastUpdatedDate: '2. október 2025',
+        paragraphs: [
+          'Používame iba informácie, ktoré ručne zadávate do aplikácie, na nasledujúce účely:'
+        ],
+        subsections: [
+          {
+            title: 'Poskytovanie služieb:',
+            items: [
+              'Uchovávanie údajov o opakujúcich sa faktúrach, ktoré ručne zadávate',
+              'Generovanie pripomienok a analýz vašich opakujúcich sa faktúr',
+              'Synchronizácia vašich údajov medzi zariadeniami, kde používate aplikáciu',
+              'Poskytovanie technickej podpory a zákazníckych služieb'
+            ]
+          },
+          {
+            title: 'Zlepšovanie a prispôsobovanie:',
+            items: [
+              'Prispôsobenie vášho zážitku v aplikácii',
+              'Vývoj nových funkcií a vylepšení',
+              'Vykonávanie agregovaných a anonymných analýz používania',
+              'Optimalizácia výkonu aplikácie'
+            ]
+          },
+          {
+            title: 'Komunikácia a bezpečnosť:',
+            items: [
+              'Odosielanie dôležitých upozornení týkajúcich sa vášho účtu',
+              'Komunikácia aktualizácií aplikácie'
+            ]
+          }
+        ]
+      },
+      dataSharing: {
+        title: 'Zdieľanie Informácií',
+        lastUpdated: 'Posledná aktualizácia',
+        lastUpdatedDate: '2. október 2025',
+        paragraphs: [
+          'Nepredávame, neprenajímame ani nezdieľame vaše osobné údaje s tretími stranami na komerčné účely. Informácie zdieľame iba v nasledujúcich obmedzených prípadoch:'
+        ],
+        subsections: [
+          {
+            title: 'Poskytovatelia služieb:',
+            items: [
+              'Cloudové hostingové služby s úplným šifrovaním',
+              'Agregované a anonymné analytické služby',
+              'Služby zákazníckej podpory',
+              'Bezpečnostné služby a služby prevencie podvodov'
+            ]
+          },
+          {
+            title: 'Zákonné požiadavky:',
+            items: [
+              'Keď to vyžaduje zákon alebo platný právny proces',
+              'Na ochranu práv a bezpečnosti Hero Budget a jeho používateľov',
+              'V prípade fúzie, akvizície alebo predaja aktív (s predchádzajúcim upozornením)'
+            ]
+          }
+        ]
+      },
+      cookies: {
+        title: 'Súbory Cookie a Podobné Technológie',
+        lastUpdated: 'Posledná aktualizácia',
+        lastUpdatedDate: '2. október 2025',
+        paragraphs: [
+          'Ako mobilná aplikácia React Native nepoužívame tradičné webové súbory cookie. Namiesto toho používame technológie lokálneho ukladania na vašom zariadení na zlepšenie vášho zážitku a umožnenie základných funkcií:'
+        ],
+        subsections: [
+          {
+            title: 'Technológie lokálneho ukladania, ktoré používame:',
+            items: [
+              'AsyncStorage: na uloženie vašich preferencií, nastavení a konfigurácie aplikácie',
+              'Bezpečné úložisko: na ochranu citlivých údajov ako tokeny overenia',
+              'Úložisko vyrovnávacej pamäte: na zlepšenie výkonu aplikácie a umožnenie offline funkčnosti',
+              'Údaje relácie: na udržanie stavu prihlásenia medzi reláciami aplikácie'
+            ]
+          },
+          {
+            title: 'Správa vašich údajov:',
+            items: [
+              'Údaje vyrovnávacej pamäte môžete vymazať z ponuky nastavení aplikácie',
+              'Môžete sa odhlásiť a odstrániť tokeny relácie a citlivé údaje',
+              'Môžete odinštalovať aplikáciu a úplne odstrániť všetky lokálne údaje',
+              'Vymazanie určitých údajov môže vyžadovať opätovné prihlásenie alebo prekonfigurovanie nastavení'
+            ]
+          }
+        ]
+      },
+      security: {
+        title: 'Bezpečnosť Údajov',
+        lastUpdated: 'Posledná aktualizácia',
+        lastUpdatedDate: '2. október 2025',
+        paragraphs: [
+          'Implementujeme primerané bezpečnostné opatrenia na ochranu informácií, ktoré ukladáte lokálne na vašom zariadení:'
+        ],
+        subsections: [
+          {
+            title: 'Technické opatrenia:',
+            items: [
+              'Bezpečné lokálne úložisko na vašom zariadení',
+              'Bezpečná komunikácia s našimi servermi pri synchronizácii údajov',
+              'Bezpečné overenie na prístup k vášmu účtu',
+              'Základná ochrana proti neoprávnenému prístupu'
+            ]
+          },
+          {
+            title: 'Organizačné opatrenia:',
+            items: [
+              'Iba vy máte priamy prístup k údajom, ktoré zadávate do aplikácie',
+              'Náš tím dodržiava osvedčené postupy bezpečného vývoja',
+              'Pravidelné bezpečnostné kontroly aplikácie',
+              'Postupy na nahlasovanie a riešenie bezpečnostných problémov'
+            ]
+          }
+        ]
+      },
+      retention: {
+        title: 'Uchovávanie Údajov',
+        lastUpdated: 'Posledná aktualizácia',
+        lastUpdatedDate: '2. október 2025',
+        paragraphs: [
+          'Vaše osobné údaje uchovávame iba tak dlho, ako je potrebné na splnenie účelov opísaných v týchto zásadách:'
+        ],
+        subsections: [
+          {
+            title: 'Obdobia uchovávania:',
+            items: [
+              'Údaje účtu: pokiaľ udržiavate aktívny účet',
+              'Transakčné údaje: až 7 rokov pre regulačný súlad',
+              'Údaje podpory: až 3 roky po vyriešení'
+            ]
+          },
+          {
+            title: 'Vymazanie údajov:',
+            items: [
+              'Automatické vymazanie po uplynutí obdobia uchovávania',
+              'Úplné vymazanie lokálne uložených údajov',
+              'Možnosť požiadať o predčasné vymazanie (podlieha zákonným obmedzeniam)',
+              'Oznámenie o vymazaní, keď je to technicky možné'
+            ]
+          }
+        ]
+      }
+    }
+  },
+  dataProtection: {
+    title: 'Ochrana Údajov',
+    subtitle: 'Ako udržiavame vaše informácie v bezpečí',
+    encryption: 'End-to-end šifrovanie pre všetky údaje',
+    storage: 'Bezpečné cloudové úložisko s pravidelnými zálohami',
+    access: 'Prísne kontroly prístupu a overovania',
+  },
+  dataProtectionSection: {
+    title: 'Ochrana Údajov',
+    subtitle: 'Implementujeme základné bezpečnostné opatrenia na ochranu vašich osobných údajov',
+    securityMeasures: {
+      localStorage: {
+        title: 'Lokálne Úložisko',
+        description: 'Vaše finančné údaje sú uložené lokálne na vašom zariadení pomocou React Native AsyncStorage.'
+      },
+      authentication: {
+        title: 'Bezpečné Overenie',
+        description: 'Chránený prístup prostredníctvom overovania na zabezpečenie vašich osobných údajov.'
+      },
+      dataMinimization: {
+        title: 'Minimálne Zhromažďovanie Údajov',
+        description: 'Zhromažďujeme iba nevyhnutné informácie, ktoré ručne zadávate: faktúry, kategórie a pripomienky.'
+      },
+      userControl: {
+        title: 'Kontrola Používateľa',
+        description: 'Svoje údaje môžete kedykoľvek vymazať z nastavení aplikácie.'
+      },
+      noThirdParty: {
+        title: 'Žiadny Predaj Údajov',
+        description: 'Vaše osobné údaje nepredávame ani nezdieľame s tretími stranami na komerčné účely.'
+      },
+      transparency: {
+        title: 'Transparentnosť',
+        description: 'Sme transparentní v tom, aké údaje zhromažďujeme a ako ich používame v našich zásadách ochrany osobných údajov.'
+      }
+    },
+    levels: {
+      basic: 'Základná',
+      advanced: 'Pokročilá',
+      enterprise: 'Podniková'
+    },
+    principlesTitle: 'Princípy Ochrany',
+    principlesSubtitle: 'Náš prístup k ochrane údajov je založený na jednoduchých a transparentných princípoch',
+    certifications: {
+      basicProtection: {
+        name: 'Základná Ochrana',
+        description: 'Implementujeme základné opatrenia na ochranu osobných údajov'
+      },
+      localStorage: {
+        name: 'Lokálne Úložisko',
+        description: 'Údaje sú uchovávané predovšetkým na vašom zariadení'
+      },
+      transparency: {
+        name: 'Transparentnosť',
+        description: 'Jasné zásady o tom, aké údaje zhromažďujeme a ako ich používame'
+      },
+      userControl: {
+        name: 'Kontrola Používateľa',
+        description: 'Možnosti pre používateľov kontrolovať vlastné údaje'
+      }
+    },
+    commitmentTitle: 'Záväzok k Transparentnosti',
+    commitmentSubtitle: 'Veríme v čestnosť ohľadom našich praktík ochrany osobných údajov. Ak máte otázky o tom, ako spracovávame vaše údaje, sme tu, aby sme vám pomohli.',
+    contactSupport: 'Kontaktovať Podporu'
+  },
+  userRights: {
+    title: 'Vaše Práva',
+    subtitle: 'Máte kontrolu nad svojimi údajmi',
+    rights: [
+      'Prístup k svojim osobným údajom',
+      'Žiadosť o opravu údajov',
+      'Vymazanie účtu a údajov',
+      'Export svojich informácií',
+      'Odhlásenie z marketingovej komunikácie',
+    ],
+  },
+  contact: {
+    title: 'Kontaktujte Nás',
+    subtitle: 'Máte otázky týkajúce sa našich zásad ochrany osobných údajov?',
+    email: 'privacy@herobudget.app',
   },
 };
 
@@ -7692,6 +9208,7 @@ export const PRIVACY_TRANSLATIONS: Record<string, PrivacyTranslations> = {
   en_GB,
   en_US,
   en_CA,
+  en_AU,
 
   // Spanish variants
   es_ES,
@@ -7705,6 +9222,9 @@ export const PRIVACY_TRANSLATIONS: Record<string, PrivacyTranslations> = {
   de_DE,
   de_CH,
 
+  // Greek
+  el_GR,
+
   // Italian
   it_IT,
 
@@ -7716,16 +9236,21 @@ export const PRIVACY_TRANSLATIONS: Record<string, PrivacyTranslations> = {
   ja_JP,
   zh_CN,
   ko_KR,
+  ms_MY,
 
   // Russian and Eastern European
   ru_RU,
   uk_UA,
   pl_PL,
   cs_CZ,
+  sk_SK,
+  ro_RO,
+  hu_HU,
 
   // Middle East and South Asia
   ar_SA,
   he_IL,
+  hr_HR,
   hi_IN,
   tr_TR,
 

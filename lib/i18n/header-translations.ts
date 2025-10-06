@@ -105,6 +105,24 @@ const de_CH: HeaderTranslations = {
   ...de_DE,
 };
 
+const el_GR: HeaderTranslations = {
+  nav: {
+    home: 'Αρχική',
+    features: 'Χαρακτηριστικά',
+    download: 'Λήψη',
+    support: 'Υποστήριξη',
+    privacy: 'Απόρρητο',
+  },
+  mobile: {
+    language: 'Γλώσσα',
+    downloadApp: 'Λήψη εφαρμογής',
+  },
+};
+
+const en_AU: HeaderTranslations = {
+  ...en_GB,
+};
+
 const en_CA: HeaderTranslations = {
   ...en_GB,
 };
@@ -174,6 +192,34 @@ const he_IL: HeaderTranslations = {
   mobile: {
     language: 'שפה',
     downloadApp: 'הורד אפליקציה',
+  },
+};
+
+const hr_HR: HeaderTranslations = {
+  nav: {
+    home: 'Početna',
+    features: 'Značajke',
+    download: 'Preuzmi',
+    support: 'Podrška',
+    privacy: 'Privatnost',
+  },
+  mobile: {
+    language: 'Jezik',
+    downloadApp: 'Preuzmi aplikaciju',
+  },
+};
+
+const hu_HU: HeaderTranslations = {
+  nav: {
+    home: 'Kezdőlap',
+    features: 'Funkciók',
+    download: 'Letöltés',
+    support: 'Támogatás',
+    privacy: 'Adatvédelem',
+  },
+  mobile: {
+    language: 'Nyelv',
+    downloadApp: 'Alkalmazás letöltése',
   },
 };
 
@@ -247,6 +293,20 @@ const ko_KR: HeaderTranslations = {
   },
 };
 
+const ms_MY: HeaderTranslations = {
+  nav: {
+    home: 'Laman Utama',
+    features: 'Ciri-ciri',
+    download: 'Muat turun',
+    support: 'Sokongan',
+    privacy: 'Privasi',
+  },
+  mobile: {
+    language: 'Bahasa',
+    downloadApp: 'Muat turun Apl',
+  },
+};
+
 const nl_NL: HeaderTranslations = {
   nav: {
     home: 'Home',
@@ -317,6 +377,20 @@ const pt_PT: HeaderTranslations = {
   },
 };
 
+const ro_RO: HeaderTranslations = {
+  nav: {
+    home: 'Acasă',
+    features: 'Caracteristici',
+    download: 'Descarcă',
+    support: 'Asistență',
+    privacy: 'Confidențialitate',
+  },
+  mobile: {
+    language: 'Limbă',
+    downloadApp: 'Descarcă aplicația',
+  },
+};
+
 const ru_RU: HeaderTranslations = {
   nav: {
     home: 'Главная',
@@ -328,6 +402,20 @@ const ru_RU: HeaderTranslations = {
   mobile: {
     language: 'Язык',
     downloadApp: 'Скачать приложение',
+  },
+};
+
+const sk_SK: HeaderTranslations = {
+  nav: {
+    home: 'Domov',
+    features: 'Funkcie',
+    download: 'Stiahnuť',
+    support: 'Podpora',
+    privacy: 'Súkromie',
+  },
+  mobile: {
+    language: 'Jazyk',
+    downloadApp: 'Stiahnuť aplikáciu',
   },
 };
 
@@ -423,6 +511,8 @@ const translations: Record<string, HeaderTranslations> = {
   da_DK,
   de_CH,
   de_DE,
+  el_GR,
+  en_AU,
   en_CA,
   en_GB,
   en_US,
@@ -432,17 +522,22 @@ const translations: Record<string, HeaderTranslations> = {
   fr_CA,
   fr_FR,
   he_IL,
+  hr_HR,
+  hu_HU,
   hi_IN,
   id_ID,
   it_IT,
   ja_JP,
   ko_KR,
+  ms_MY,
   nl_NL,
   no_NO,
   pl_PL,
   pt_BR,
   pt_PT,
+  ro_RO,
   ru_RU,
+  sk_SK,
   sv_SE,
   th_TH,
   tr_TR,

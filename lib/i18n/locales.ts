@@ -47,6 +47,18 @@ export const LOCALES: Record<string, Locale> = {
     nativeName: 'Deutsch (Deutschland)',
     flag: '🇩🇪',
   },
+  el_GR: {
+    code: 'el_GR',
+    name: 'Greek (Greece)',
+    nativeName: 'Ελληνικά (Ελλάδα)',
+    flag: '🇬🇷',
+  },
+  en_AU: {
+    code: 'en_AU',
+    name: 'English (Australia)',
+    nativeName: 'English (Australia)',
+    flag: '🇦🇺',
+  },
   en_CA: {
     code: 'en_CA',
     name: 'English (Canada)',
@@ -101,6 +113,18 @@ export const LOCALES: Record<string, Locale> = {
     nativeName: 'עברית (ישראל)',
     flag: '🇮🇱',
   },
+  hr_HR: {
+    code: 'hr_HR',
+    name: 'Croatian (Croatia)',
+    nativeName: 'Hrvatski (Hrvatska)',
+    flag: '🇭🇷',
+  },
+  hu_HU: {
+    code: 'hu_HU',
+    name: 'Hungarian (Hungary)',
+    nativeName: 'Magyar (Magyarország)',
+    flag: '🇭🇺',
+  },
   hi_IN: {
     code: 'hi_IN',
     name: 'Hindi (India)',
@@ -130,6 +154,12 @@ export const LOCALES: Record<string, Locale> = {
     name: 'Korean (South Korea)',
     nativeName: '한국어 (대한민국)',
     flag: '🇰🇷',
+  },
+  ms_MY: {
+    code: 'ms_MY',
+    name: 'Malay (Malaysia)',
+    nativeName: 'Bahasa Melayu (Malaysia)',
+    flag: '🇲🇾',
   },
   nl_NL: {
     code: 'nl_NL',
@@ -161,11 +191,23 @@ export const LOCALES: Record<string, Locale> = {
     nativeName: 'Português (Portugal)',
     flag: '🇵🇹',
   },
+  ro_RO: {
+    code: 'ro_RO',
+    name: 'Romanian (Romania)',
+    nativeName: 'Română (România)',
+    flag: '🇷🇴',
+  },
   ru_RU: {
     code: 'ru_RU',
     name: 'Russian (Russia)',
     nativeName: 'Русский (Россия)',
     flag: '🇷🇺',
+  },
+  sk_SK: {
+    code: 'sk_SK',
+    name: 'Slovak (Slovakia)',
+    nativeName: 'Slovenčina (Slovensko)',
+    flag: '🇸🇰',
   },
   sv_SE: {
     code: 'sv_SE',
