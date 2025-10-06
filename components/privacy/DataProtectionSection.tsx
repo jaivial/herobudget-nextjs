@@ -145,13 +145,13 @@ export default function DataProtectionSection({ locale }: DataProtectionSectionP
   const getLevelText = (level: string) => {
     switch (level) {
       case "basic":
-        return "Básico";
+        return t.dataProtectionSection.levels.basic;
       case "advanced":
-        return "Avanzado";
+        return t.dataProtectionSection.levels.advanced;
       case "enterprise":
-        return "Empresarial";
+        return t.dataProtectionSection.levels.enterprise;
       default:
-        return "Básico";
+        return t.dataProtectionSection.levels.basic;
     }
   };
 

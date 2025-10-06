@@ -75,6 +75,11 @@ export interface PrivacyTranslations {
       noThirdParty: { title: string; description: string };
       transparency: { title: string; description: string };
     };
+    levels: {
+      basic: string;
+      advanced: string;
+      enterprise: string;
+    };
     principlesTitle: string;
     principlesSubtitle: string;
     certifications: {
@@ -351,6 +356,11 @@ const en_GB: PrivacyTranslations = {
         title: 'Transparency',
         description: 'We are transparent about what data we collect and how we use it in our privacy policy.'
       }
+    },
+    levels: {
+      basic: 'Basic',
+      advanced: 'Advanced',
+      enterprise: 'Enterprise'
     },
     principlesTitle: 'Protection Principles',
     principlesSubtitle: 'Our data protection approach is based on simple and transparent principles',
@@ -648,6 +658,11 @@ const es_ES: PrivacyTranslations = {
         description: 'Somos transparentes sobre qué datos recopilamos y cómo los usamos en nuestra política de privacidad.'
       }
     },
+    levels: {
+      basic: 'Básico',
+      advanced: 'Avanzado',
+      enterprise: 'Empresarial'
+    },
     principlesTitle: 'Principios de Protección',
     principlesSubtitle: 'Nuestro enfoque de protección de datos se basa en principios simples y transparentes',
     certifications: {
@@ -944,6 +959,11 @@ const fr_FR: PrivacyTranslations = {
         description: 'Nous sommes transparents sur les données que nous collectons et comment nous les utilisons dans notre politique de confidentialité'
       }
     },
+    levels: {
+      basic: 'Base',
+      advanced: 'Avancé',
+      enterprise: 'Entreprise'
+    },
     principlesTitle: 'Principes de Protection',
     principlesSubtitle: 'Notre approche de la protection des données repose sur des principes simples et transparents',
     certifications: {
@@ -1220,6 +1240,11 @@ const de_DE: PrivacyTranslations = {
         description: 'Wir sind transparent darüber, welche Daten wir sammeln und wie wir sie in unserer Datenschutzrichtlinie verwenden'
       }
     },
+    levels: {
+      basic: 'Grundlegend',
+      advanced: 'Fortgeschritten',
+      enterprise: 'Unternehmen'
+    },
     principlesTitle: 'Schutzprinzipien',
     principlesSubtitle: 'Unser Datenschutzansatz basiert auf einfachen und transparenten Prinzipien',
     certifications: {
@@ -1479,6 +1504,11 @@ const it_IT: PrivacyTranslations = {
         title: 'Trasparenza',
         description: 'Siamo trasparenti sui dati che raccogliamo e su come li utilizziamo nella nostra informativa sulla privacy'
       }
+    },
+    levels: {
+      basic: 'Base',
+      advanced: 'Avanzato',
+      enterprise: 'Aziendale'
     },
     principlesTitle: 'Principi di Protezione',
     principlesSubtitle: 'Il nostro approccio alla protezione dei dati si basa su principi semplici e trasparenti',
@@ -1740,6 +1770,11 @@ const pt_BR: PrivacyTranslations = {
         description: 'Somos transparentes sobre quais dados coletamos e como os usamos em nossa política de privacidade'
       }
     },
+    levels: {
+      basic: 'Básico',
+      advanced: 'Avançado',
+      enterprise: 'Empresarial'
+    },
     principlesTitle: 'Princípios de Proteção',
     principlesSubtitle: 'Nossa abordagem de proteção de dados é baseada em princípios simples e transparentes',
     certifications: {
@@ -1999,6 +2034,11 @@ const ja_JP: PrivacyTranslations = {
         title: '透明性',
         description: 'プライバシーポリシーで収集するデータとその使用方法について透明性を保っています'
       }
+    },
+    levels: {
+      basic: '基本',
+      advanced: '上級',
+      enterprise: 'エンタープライズ'
     },
     principlesTitle: '保護原則',
     principlesSubtitle: '当社のデータ保護アプローチは、シンプルで透明性のある原則に基づいています',
@@ -2260,6 +2300,11 @@ const zh_CN: PrivacyTranslations = {
         description: '我们在隐私政策中对收集哪些数据以及如何使用保持透明'
       }
     },
+    levels: {
+      basic: '基础',
+      advanced: '高级',
+      enterprise: '企业'
+    },
     principlesTitle: '保护原则',
     principlesSubtitle: '我们的数据保护方法基于简单透明的原则',
     certifications: {
@@ -2519,6 +2564,11 @@ const ko_KR: PrivacyTranslations = {
         title: '투명성',
         description: '개인정보 보호정책에서 수집하는 데이터와 사용 방법에 대해 투명하게 공개합니다'
       }
+    },
+    levels: {
+      basic: '기본',
+      advanced: '고급',
+      enterprise: '기업'
     },
     principlesTitle: '보호 원칙',
     principlesSubtitle: '데이터 보호 접근 방식은 간단하고 투명한 원칙을 기반으로 합니다',
@@ -2780,6 +2830,11 @@ const ru_RU: PrivacyTranslations = {
         description: 'Мы открыто сообщаем, какие данные мы собираем и как используем их в нашей политике конфиденциальности'
       }
     },
+    levels: {
+      basic: 'Базовый',
+      advanced: 'Продвинутый',
+      enterprise: 'Корпоративный'
+    },
     principlesTitle: 'Принципы защиты',
     principlesSubtitle: 'Наш подход к защите данных основан на простых и прозрачных принципах',
     certifications: {
@@ -3039,6 +3094,11 @@ const ar_SA: PrivacyTranslations = {
         title: 'الشفافية',
         description: 'نحن شفافون بشأن البيانات التي نجمعها وكيفية استخدامها في سياسة الخصوصية الخاصة بنا'
       }
+    },
+    levels: {
+      basic: 'أساسي',
+      advanced: 'متقدم',
+      enterprise: 'مؤسسي'
     },
     principlesTitle: 'مبادئ الحماية',
     principlesSubtitle: 'يعتمد نهجنا في حماية البيانات على مبادئ بسيطة وشفافة',
@@ -3300,6 +3360,11 @@ const ca_ES: PrivacyTranslations = {
         description: 'Som transparents sobre quines dades recopilem i com les utilitzem a la nostra política de privadesa'
       }
     },
+    levels: {
+      basic: 'Bàsic',
+      advanced: 'Avançat',
+      enterprise: 'Empresarial'
+    },
     principlesTitle: 'Principis de Protecció',
     principlesSubtitle: 'El nostre enfocament de protecció de dades es basa en principis simples i transparents',
     certifications: {
@@ -3560,6 +3625,11 @@ const cs_CZ: PrivacyTranslations = {
         description: 'Jsme transparentní ohledně toho, jaká data shromažďujeme a jak je používáme v našich zásadách ochrany osobních údajů'
       }
     },
+    levels: {
+      basic: 'Základní',
+      advanced: 'Pokročilý',
+      enterprise: 'Podnikový'
+    },
     principlesTitle: 'Zásady Ochrany',
     principlesSubtitle: 'Náš přístup k ochraně dat je založen na jednoduchých a transparentních zásadách',
     certifications: {
@@ -3819,6 +3889,11 @@ const da_DK: PrivacyTranslations = {
         title: 'Gennemsigtighed',
         description: 'Vi er gennemsigtige om hvilke data vi indsamler og hvordan vi bruger dem i vores privatlivspolitik'
       }
+    },
+    levels: {
+      basic: 'Grundlæggende',
+      advanced: 'Avanceret',
+      enterprise: 'Virksomhed'
     },
     principlesTitle: 'Beskyttelsesprinciper',
     principlesSubtitle: 'Vores tilgang til databeskyttelse er baseret på simple og gennemsigtige principper',
@@ -4114,6 +4189,11 @@ const es_MX: PrivacyTranslations = {
         description: 'Somos transparentes sobre qué datos recopilamos y cómo los usamos en nuestra política de privacidad'
       }
     },
+    levels: {
+      basic: 'Básico',
+      advanced: 'Avanzado',
+      enterprise: 'Empresarial'
+    },
     principlesTitle: 'Principios de Protección',
     principlesSubtitle: 'Nuestro enfoque de protección de datos se basa en principios simples y transparentes',
     certifications: {
@@ -4390,6 +4470,11 @@ const fi_FI: PrivacyTranslations = {
         description: 'Olemme avoimia siitä, mitä tietoja keräämme ja miten käytämme niitä tietosuojakäytännössämme'
       }
     },
+    levels: {
+      basic: 'Perus',
+      advanced: 'Edistynyt',
+      enterprise: 'Yritys'
+    },
     principlesTitle: 'Suojaperiaatteet',
     principlesSubtitle: 'Tietosuojalähestymisemme perustuu yksinkertaisiin ja läpinäkyviin periaatteisiin',
     certifications: {
@@ -4655,6 +4740,11 @@ const he_IL: PrivacyTranslations = {
         description: 'אנו שקופים לגבי הנתונים שאנו אוספים וכיצד אנו משתמשים בהם במדיניות הפרטיות שלנו'
       }
     },
+    levels: {
+      basic: 'בסיסי',
+      advanced: 'מתקדם',
+      enterprise: 'ארגוני'
+    },
     principlesTitle: 'עקרונות הגנה',
     principlesSubtitle: 'גישת הגנת המידע שלנו מבוססת על עקרונות פשוטים ושקופים',
     certifications: {
@@ -4914,6 +5004,11 @@ const hi_IN: PrivacyTranslations = {
         title: 'पारदर्शिता',
         description: 'हम अपनी गोपनीयता नीति में पारदर्शी हैं कि हम कौन सा डेटा एकत्र करते हैं और इसका उपयोग कैसे करते हैं'
       }
+    },
+    levels: {
+      basic: 'बुनियादी',
+      advanced: 'उन्नत',
+      enterprise: 'एंटरप्राइज़'
     },
     principlesTitle: 'सुरक्षा सिद्धांत',
     principlesSubtitle: 'हमारा डेटा सुरक्षा दृष्टिकोण सरल और पारदर्शी सिद्धांतों पर आधारित है',
@@ -5175,6 +5270,11 @@ const id_ID: PrivacyTranslations = {
         description: 'Kami transparan tentang data apa yang kami kumpulkan dan bagaimana kami menggunakannya dalam kebijakan privasi kami'
       }
     },
+    levels: {
+      basic: 'Dasar',
+      advanced: 'Lanjutan',
+      enterprise: 'Perusahaan'
+    },
     principlesTitle: 'Prinsip Perlindungan',
     principlesSubtitle: 'Pendekatan perlindungan data kami didasarkan pada prinsip-prinsip yang sederhana dan transparan',
     certifications: {
@@ -5434,6 +5534,11 @@ const nl_NL: PrivacyTranslations = {
         title: 'Transparantie',
         description: 'We zijn transparant over welke gegevens we verzamelen en hoe we deze gebruiken in ons privacybeleid'
       }
+    },
+    levels: {
+      basic: 'Basis',
+      advanced: 'Geavanceerd',
+      enterprise: 'Enterprise'
     },
     principlesTitle: 'Beschermingsprincipes',
     principlesSubtitle: 'Onze benadering van gegevensbescherming is gebaseerd op eenvoudige en transparante principes',
@@ -5695,6 +5800,11 @@ const no_NO: PrivacyTranslations = {
         description: 'Vi er åpne om hvilke data vi samler inn og hvordan vi bruker dem i vår personvernerklæring'
       }
     },
+    levels: {
+      basic: 'Grunnleggende',
+      advanced: 'Avansert',
+      enterprise: 'Bedrift'
+    },
     principlesTitle: 'Beskyttelsesprinsipiper',
     principlesSubtitle: 'Vår tilnærming til databeskyttelse er basert på enkle og åpne prinsipper',
     certifications: {
@@ -5954,6 +6064,11 @@ const pl_PL: PrivacyTranslations = {
         title: 'Przejrzystość',
         description: 'Jesteśmy transparentni w kwestii tego, jakie dane gromadzimy i jak je wykorzystujemy w naszej polityce prywatności'
       }
+    },
+    levels: {
+      basic: 'Podstawowy',
+      advanced: 'Zaawansowany',
+      enterprise: 'Korporacyjny'
     },
     principlesTitle: 'Zasady Ochrony',
     principlesSubtitle: 'Nasze podejście do ochrony danych opiera się na prostych i przejrzystych zasadach',
@@ -6475,6 +6590,11 @@ const sv_SE: PrivacyTranslations = {
         description: 'Vi är transparenta om vilken data vi samlar in och hur vi använder den i vår integritetspolicy'
       }
     },
+    levels: {
+      basic: 'Grundläggande',
+      advanced: 'Avancerad',
+      enterprise: 'Företag'
+    },
     principlesTitle: 'Skyddsprinciper',
     principlesSubtitle: 'Vår dataskyddsansats baseras på enkla och transparenta principer',
     certifications: {
@@ -6734,6 +6854,11 @@ const th_TH: PrivacyTranslations = {
         title: 'ความโปร่งใส',
         description: 'เราโปร่งใสเกี่ยวกับข้อมูลที่เรารวบรวมและวิธีที่เราใช้ในนโยบายความเป็นส่วนตัวของเรา'
       }
+    },
+    levels: {
+      basic: 'พื้นฐาน',
+      advanced: 'ขั้นสูง',
+      enterprise: 'องค์กร'
     },
     principlesTitle: 'หลักการปกป้อง',
     principlesSubtitle: 'แนวทางการปกป้องข้อมูลของเราอิงตามหลักการที่เรียบง่ายและโปร่งใส',
@@ -6995,6 +7120,11 @@ const tr_TR: PrivacyTranslations = {
         description: 'Gizlilik politikamızda hangi verileri topladığımız ve nasıl kullandığımız konusunda şeffafız'
       }
     },
+    levels: {
+      basic: 'Temel',
+      advanced: 'Gelişmiş',
+      enterprise: 'Kurumsal'
+    },
     principlesTitle: 'Koruma İlkeleri',
     principlesSubtitle: 'Veri koruma yaklaşımımız basit ve şeffaf ilkelere dayanmaktadır',
     certifications: {
@@ -7255,6 +7385,11 @@ const uk_UA: PrivacyTranslations = {
         description: 'Ми прозоро повідомляємо, які дані збираємо та як використовуємо їх у нашій політиці конфіденційності'
       }
     },
+    levels: {
+      basic: 'Базовий',
+      advanced: 'Просунутий',
+      enterprise: 'Корпоративний'
+    },
     principlesTitle: 'Принципи захисту',
     principlesSubtitle: 'Наш підхід до захисту даних базується на простих та прозорих принципах',
     certifications: {
@@ -7514,6 +7649,11 @@ const vi_VN: PrivacyTranslations = {
         title: 'Minh bạch',
         description: 'Chúng tôi minh bạch về dữ liệu chúng tôi thu thập và cách chúng tôi sử dụng trong chính sách bảo mật của chúng tôi'
       }
+    },
+    levels: {
+      basic: 'Cơ bản',
+      advanced: 'Nâng cao',
+      enterprise: 'Doanh nghiệp'
     },
     principlesTitle: 'Nguyên tắc Bảo vệ',
     principlesSubtitle: 'Cách tiếp cận bảo vệ dữ liệu của chúng tôi dựa trên các nguyên tắc đơn giản và minh bạch',

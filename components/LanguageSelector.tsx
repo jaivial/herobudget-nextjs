@@ -7,6 +7,7 @@ import { Globe, Search, X, Check } from 'lucide-react';
 import { useRouter, usePathname } from 'next/navigation';
 import { LOCALES, LOCALE_CODES, getLocale } from '@/lib/i18n/locales';
 import { detectBrowserLocale, saveLocalePreference } from '@/lib/i18n/locale-detector';
+import { getLanguageSelectorTranslations } from '@/lib/i18n/language-selector-translations';
 
 /**
  * LanguageSelector Component
@@ -101,6 +102,7 @@ export default function LanguageSelector({
   }, [isOpen]);
 
   const currentLocaleData = getLocale(selectedLocale);
+  const t = getLanguageSelectorTranslations(selectedLocale);
 
   if (!currentLocaleData) {
     return null;
@@ -140,12 +142,12 @@ export default function LanguageSelector({
                 <div className="flex items-center justify-between p-6 border-b border-gray-200">
                   <div className="flex items-center space-x-3">
                     <Globe className="w-6 h-6 text-primary-500" />
-                    <h2 className="text-2xl font-bold text-gray-900">Select Language</h2>
+                    <h2 className="text-2xl font-bold text-gray-900">{t.modal.title}</h2>
                   </div>
                   <button
                     onClick={() => setIsOpen(false)}
                     className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
-                    aria-label="Close"
+                    aria-label={t.aria.close}
                   >
                     <X className="w-5 h-5 text-gray-500" />
                   </button>
@@ -157,7 +159,7 @@ export default function LanguageSelector({
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                     <input
                       type="text"
-                      placeholder="Search languages..."
+                      placeholder={t.modal.searchPlaceholder}
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
                       className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg
@@ -171,7 +173,7 @@ export default function LanguageSelector({
                 <div className="overflow-y-auto max-h-[50vh] p-4">
                   {filteredLocales.length === 0 ? (
                     <div className="text-center py-8 text-gray-500">
-                      <p>No languages found</p>
+                      <p>{t.modal.noLanguages}</p>
                     </div>
                   ) : (
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -215,7 +217,7 @@ export default function LanguageSelector({
                 {/* Footer */}
                 <div className="p-6 border-t border-gray-200 bg-gray-50">
                   <p className="text-sm text-gray-600 text-center">
-                    {filteredLocales.length} language{filteredLocales.length !== 1 ? 's' : ''} available
+                    {filteredLocales.length} {filteredLocales.length === 1 ? t.modal.language : t.modal.languages} {t.modal.languagesAvailable}
                   </p>
                 </div>
               </motion.div>
@@ -234,7 +236,7 @@ export default function LanguageSelector({
             transition-colors border border-gray-200 ${className}`}
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
-          aria-label="Select language"
+          aria-label={t.aria.selectLanguage}
         >
           <Globe className="w-4 h-4 text-gray-700" />
           <span className="text-sm font-medium text-gray-700">
@@ -248,7 +250,7 @@ export default function LanguageSelector({
             transition-colors ${className}`}
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
-          aria-label="Select language"
+          aria-label={t.aria.selectLanguage}
         >
           <Globe className="w-5 h-5 text-gray-700" />
           <span className="text-sm font-medium text-gray-700">

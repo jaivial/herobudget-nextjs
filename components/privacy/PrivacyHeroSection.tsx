@@ -248,19 +248,6 @@ export default function PrivacyHeroSection({ locale }: PrivacyHeroSectionProps) 
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
               </motion.a>
-
-              <motion.a
-                href="#rights"
-                className="group relative border-2 border-blue-500 text-blue-500 px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-500 hover:text-white transition-all duration-300"
-                whileHover={{
-                  scale: 1.05,
-                  backgroundColor: 'rgba(59, 130, 246, 1)',
-                  color: 'white'
-                }}
-                whileTap={{ scale: 0.98 }}
-              >
-                {t.userRights.title}
-              </motion.a>
             </motion.div>
           </motion.div>
 
