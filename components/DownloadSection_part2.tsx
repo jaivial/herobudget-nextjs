@@ -4,7 +4,7 @@
  * PARTE 2/2: Configuraciones, tipos y funciones auxiliares
  */
 
-import { Globe, Star } from 'lucide-react';
+import { Globe, Star } from "lucide-react";
 
 /**
  * Props para el contador animado
@@ -32,7 +32,7 @@ export const downloadStats = [
     icon: Star,
     number: 100,
     suffix: "%",
-    label: "Gratis", 
+    label: "Gratis",
     duration: 2.2,
     decimal: false,
   },
@@ -42,12 +42,14 @@ export const downloadStats = [
  * Imágenes para el stack interactivo de la app
  */
 export const appImages = [
-  { id: 1, img: "/images/69/169.png", alt: "Hero Budget - Dashboard" },
-  { id: 2, img: "/images/69/269.png", alt: "Hero Budget - Gastos" },
-  { id: 3, img: "/images/69/369.png", alt: "Hero Budget - Presupuestos" },
-  { id: 4, img: "/images/69/469.png", alt: "Hero Budget - Análisis" },
-  { id: 5, img: "/images/69/569.png", alt: "Hero Budget - Categorías" },
-  { id: 6, img: "/images/69/669.png", alt: "Hero Budget - Reportes" },
+  { id: 1, img: "/images/iphone/1-v2-6.5.png", alt: "Hero Budget - Dashboard" },
+  { id: 2, img: "/images/iphone/2-v2-6.5.png", alt: "Hero Budget - Gastos" },
+  { id: 3, img: "/images/iphone/3-v2-6.5.png", alt: "Hero Budget - Presupuestos" },
+  { id: 4, img: "/images/iphone/4-v2-6.5.png", alt: "Hero Budget - Análisis" },
+  { id: 5, img: "/images/iphone/5-v2-6.5.png", alt: "Hero Budget - Categorías" },
+  { id: 6, img: "/images/iphone/6-v2-6.5.png", alt: "Hero Budget - Reportes" },
+  { id: 7, img: "/images/iphone/7-v2-6.5.png", alt: "Hero Budget - Reportes" },
+  { id: 8, img: "/images/iphone/8-v2-6.5.png", alt: "Hero Budget - Reportes" },
 ];
 
 /**
@@ -150,7 +152,7 @@ export const responsiveConfig = {
     if (screenWidth >= 768 && screenWidth < 1024) return "137vh";
     return "max(100vh, 800px)";
   },
-  
+
   getStackScale: (screenWidth: number): string => {
     if (screenWidth < 270) return "scale(0.65)";
     if (screenWidth < 280) return "scale(0.7)";

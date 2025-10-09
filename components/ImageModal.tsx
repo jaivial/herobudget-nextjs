@@ -194,10 +194,10 @@ export default function ImageModal({
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  src={`/images/69/${currentImage.filename}`}
+                  src={`/images/iphone/${currentImage.filename}`}
                   alt={currentImage.title}
-                  width={currentImage.width * 2}
-                  height={currentImage.height * 2}
+                  width={currentImage.width}
+                  height={currentImage.height}
                   className="object-contain rounded-xl shadow-2xl"
                   style={{
                     aspectRatio: `${currentImage.width} / ${currentImage.height}`,

@@ -1,7 +1,7 @@
 "use client";
 
-import { motion } from 'framer-motion';
-import Image from 'next/image';
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 /**
  * Interfaz para definir las propiedades de Screenshot
@@ -13,7 +13,7 @@ interface Screenshot {
   title: string;
   description: string;
   icon: React.ComponentType<{ className?: string }>;
-  category: 'iphone' | 'ipad';
+  category: "iphone" | "ipad";
   width: number;
   height: number;
 }
@@ -29,14 +29,14 @@ interface ScreenshotCardProps {
 
 /**
  * Componente ScreenshotCard
- * 
+ *
  * Componente individual que muestra una tarjeta con captura de pantalla
  * de la aplicación. Incluye imagen, título, descripción y efectos visuales
  * de hover para mejorar la experiencia del usuario.
- * 
+ *
  * @param {ScreenshotCardProps} props - Propiedades del componente
  * @returns {JSX.Element} Elemento JSX de la tarjeta de captura
- * 
+ *
  * Características principales:
  * - Imagen con proporción original mantenida
  * - Efectos hover con escalado y overlay
@@ -46,21 +46,21 @@ interface ScreenshotCardProps {
  */
 export default function ScreenshotCard({ screenshot, IconComponent }: ScreenshotCardProps): JSX.Element {
   return (
-    <div 
-      className="relative rounded-3xl p-6 transition-all duration-500"
+    <div
+      className="relative rounded-3xl p-3 sm:p-4 lg:p-6 transition-all duration-500"
       style={{
-        background: 'rgba(255, 255, 255, 0.8)',
-        backdropFilter: 'blur(20px)',
-        border: '1px solid rgba(255, 255, 255, 0.3)',
-        boxShadow: '0 10px 40px rgba(0, 0, 0, 0.1)'
+        background: "rgba(255, 255, 255, 0.8)",
+        backdropFilter: "blur(20px)",
+        border: "1px solid rgba(255, 255, 255, 0.3)",
+        boxShadow: "0 10px 40px rgba(0, 0, 0, 0.1)",
       }}
     >
       {/* Contenedor de imagen - mantiene proporción original con bordes redondeados */}
-      <div className="relative mb-6 overflow-hidden rounded-3xl bg-gradient-to-br from-gray-50 to-gray-100">
+      <div className="relative mb-3 sm:mb-4 lg:mb-6 overflow-hidden rounded-2xl lg:rounded-3xl bg-gradient-to-br from-gray-50 to-gray-100 w-fit mx-auto group">
         <motion.div
-          className="relative"
+          className="relative max-h-[75vh] sm:max-h-[620px] lg:max-h-none"
           style={{
-            aspectRatio: `${screenshot.width} / ${screenshot.height}`
+            aspectRatio: `${screenshot.width} / ${screenshot.height}`,
           }}
           whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.4 }}
@@ -71,13 +71,13 @@ export default function ScreenshotCard({ screenshot, IconComponent }: Screenshot
             Se aplica drop-shadow para mayor profundidad visual
           */}
           <Image
-            src={`/images/69/${screenshot.filename}`}
+            src={`/images/iphone/${screenshot.filename}`}
             alt={screenshot.title}
             width={screenshot.width}
             height={screenshot.height}
             className="w-full h-full object-contain rounded-3xl"
             style={{
-              filter: 'drop-shadow(0 4px 20px rgba(0, 0, 0, 0.1))'
+              filter: "drop-shadow(0 4px 20px rgba(0, 0, 0, 0.1))",
             }}
             placeholder="blur"
             blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJIgDvgjHqx55JnxeUa1LvNOGjLdawfnkqBEHhNxhEP8V4LNWjF8s8bNTAJbMHbBIq0SbH3LE5kQfABrLwO0ND1iGmgPz7+nxwTYN4T3"
@@ -89,36 +89,22 @@ export default function ScreenshotCard({ screenshot, IconComponent }: Screenshot
           Utiliza gradiente sutil para no ocultar completamente la imagen
           El icono se centra y escala suavemente con animaciones
         */}
-        <motion.div
-          className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-400 flex items-center justify-center"
-          initial={{ opacity: 0 }}
-          whileHover={{ opacity: 1 }}
-        >
-          <motion.div
-            className="w-16 h-16 bg-white/95 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg"
-            initial={{ scale: 0.8, opacity: 0 }}
-            whileHover={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.3 }}
-          >
+        <motion.div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-400 flex items-center justify-center" initial={{ opacity: 0 }} whileHover={{ opacity: 1 }}>
+          <motion.div className="w-16 h-16 bg-white/95 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg" initial={{ scale: 0.8, opacity: 0 }} whileHover={{ scale: 1, opacity: 1 }} transition={{ duration: 0.3 }}>
             <IconComponent className="w-7 h-7 text-primary-500" />
           </motion.div>
         </motion.div>
       </div>
 
-      {/* 
+      {/*
         Contenido textual de la tarjeta
         Título y descripción centrados con tipografía responsiva
       */}
       <div className="text-center">
-        <motion.h3 
-          className="text-xl lg:text-2xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors duration-300"
-          whileHover={{ scale: 1.02 }}
-        >
+        <motion.h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-primary-600 transition-colors duration-300" whileHover={{ scale: 1.02 }}>
           {screenshot.title}
         </motion.h3>
-        <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
-          {screenshot.description}
-        </p>
+        <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base">{screenshot.description}</p>
       </div>
 
       {/* 
@@ -129,15 +115,15 @@ export default function ScreenshotCard({ screenshot, IconComponent }: Screenshot
       <motion.div
         className="absolute top-4 right-4 px-3 py-1.5 rounded-full text-xs font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300"
         style={{
-          background: 'rgba(233, 30, 99, 0.1)',
-          color: '#e91e63',
-          backdropFilter: 'blur(10px)',
-          border: '1px solid rgba(233, 30, 99, 0.2)'
+          background: "rgba(233, 30, 99, 0.1)",
+          color: "#e91e63",
+          backdropFilter: "blur(10px)",
+          border: "1px solid rgba(233, 30, 99, 0.2)",
         }}
         initial={{ scale: 0.8, y: -10 }}
         whileHover={{ scale: 1, y: 0 }}
       >
-        📱 {screenshot.category === 'iphone' ? 'iPhone' : 'iPad'}
+        📱 {screenshot.category === "iphone" ? "iPhone" : "iPad"}
       </motion.div>
 
       {/* 
@@ -155,7 +141,7 @@ export default function ScreenshotCard({ screenshot, IconComponent }: Screenshot
               rgba(76, 175, 80, 0.1) 100%
             )
           `,
-          filter: 'blur(1px)'
+          filter: "blur(1px)",
         }}
       />
     </div>

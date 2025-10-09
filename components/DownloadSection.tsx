@@ -152,14 +152,14 @@ export default function DownloadSection() {
             </motion.div>
 
             {/* Botones de descarga con StarBorder */}
-            <motion.div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-10 lg:mb-12 items-center justify-center lg:justify-start" variants={itemVariants}>
+            <motion.div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-10 lg:mb-12 items-center justify-center lg:justify-center lg:w-[75%]" variants={itemVariants}>
               <StarBorder as="a" href="https://apps.apple.com/us/app/hero-budget/id6746946502" target="_blank" rel="noopener noreferrer" className="-" color="magenta" speed="5s" thickness={10}>
                 <Image src="/app-play-store/appstorebutton.png" alt="Descárgalo en el App Store" width={200} height={60} className="h-12 sm:h-14 md:h-16 lg:h-18 xl:h-20 w-auto" />
               </StarBorder>
 
-              <StarBorder as="button" href="#" className="-" color="magenta" speed="5s" thickness={10}>
+              {/* <StarBorder as="button" href="#" className="-" color="magenta" speed="5s" thickness={10}>
                 <Image src="/app-play-store/playstorebutton.png" alt="Disponible en Google Play" width={200} height={60} className="h-12 sm:h-14 md:h-16 lg:h-18 xl:h-20 w-auto" />
-              </StarBorder>
+              </StarBorder> */}
             </motion.div>
           </motion.div>
 

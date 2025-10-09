@@ -29,102 +29,102 @@ export interface Screenshot {
 export const screenshots: Screenshot[] = [
   {
     id: 'auth',
-    filename: '169.png',
+    filename: '1-v2-6.5.png',
     title: 'Autentificación',
     description: 'Múltiples sistemas de autentificación y registro, usa tu email, tu cuenta de Google o inicia sesión con Apple.',
     icon: Lock,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   },
   {
     id: 'movements',
-    filename: '269.png',
+    filename: '2-v2-6.5.png',
     title: 'Registra movimientos',
     description: 'Registra nuevos ingresos, gastos y facturas recurrentes para estar al día en tu control financiero.',
     icon: Smartphone,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   },
   {
     id: 'categories',
-    filename: '369.png',
+    filename: '3-v2-6.5.png',
     title: 'Categoriza cada movimiento',
     description: 'Crea categorías y asígnalas a cada movimiento para controlar el flujo de tu economía por categorías.',
     icon: Target,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   },
   {
     id: 'analytics',
-    filename: '469.png',
+    filename: '4-v2-6.5.png',
     title: 'Análisis y gráficas',
     description: 'Visualiza tus patrones de gasto con gráficas intuitivas y análisis detallados de tu comportamiento financiero.',
     icon: PieChart,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   },
   {
     id: 'budgets',
-    filename: '569.png',
+    filename: '5-v2-6.5.png',
     title: 'Presupuestos inteligentes',
     description: 'Crea presupuestos personalizados y recibe alertas cuando te acerques a tus límites de gasto.',
     icon: PiggyBank,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   },
   {
     id: 'reports',
-    filename: '669.png',
+    filename: '6-v2-6.5.png',
     title: 'Reportes detallados',
     description: 'Genera reportes completos de tus finanzas con exportación a PDF y análisis de tendencias.',
     icon: Receipt,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   },
   {
     id: 'history',
-    filename: '769.png',
+    filename: '7-v2-6.5.png',
     title: 'Historial completo',
     description: 'Accede a todo tu historial financiero con filtros avanzados y búsqueda inteligente.',
     icon: History,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   },
   {
     id: 'goals',
-    filename: '869.png',
+    filename: '8-v2-6.5.png',
     title: 'Metas de ahorro',
     description: 'Define objetivos de ahorro realistas y sigue tu progreso con motivación visual.',
     icon: Target,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   },
   {
     id: 'settings',
-    filename: '969.png',
+    filename: '9-v2-6.5.png',
     title: 'Configuración completa',
     description: 'Personaliza completamente la aplicación con configuraciones avanzadas y preferencias.',
     icon: Settings,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   },
   {
     id: 'dashboard',
-    filename: '1069.png',
+    filename: '10-v2-6.5.png',
     title: 'Dashboard intuitivo',
     description: 'Panel principal con toda tu información financiera organizada de forma clara y accesible.',
     icon: Monitor,
     category: 'iphone',
-    width: 295,
-    height: 640
+    width: 1242,
+    height: 2688
   }
 ];
