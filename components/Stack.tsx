@@ -2,6 +2,7 @@
 
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 /**
  * Card Rotate Component
@@ -166,15 +167,18 @@ export default function Stack({
                   : 'drop-shadow(0 15px 30px rgba(0, 0, 0, 0.2))'
               }}
             >
-              <img
+              <Image
                 src={card.img}
                 alt={card.alt || `Hero Budget Screenshot ${card.id}`}
+                width={cardDimensions.width}
+                height={cardDimensions.width * 1.8}
                 className="w-full h-auto object-contain pointer-events-none"
-                loading="lazy"
                 style={{
                   maxWidth: cardDimensions.width,
                   height: 'auto'
                 }}
+                quality={85}
+                unoptimized={false}
               />
             </motion.div>
           </CardRotate>

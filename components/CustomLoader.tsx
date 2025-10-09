@@ -168,10 +168,12 @@ export default function CustomLoader({
               }}
             >
               <Image
-                src="/herobudgeticon.png"
+                src="https://herobudgetapp.jaimedigitalstudio.com/herobudgeticon.png"
                 alt="Hero Budget Icon"
                 fill
                 className="object-contain"
+                priority
+                quality={95}
               />
             </motion.div>
           </div>

@@ -1,3 +1,10 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/api/ticket/route": "app/api/ticket/route.js",
+  "/api/send-privacy-email/route": "app/api/send-privacy-email/route.js",
+  "/page": "app/page.js",
+  "/privacidad/page": "app/privacidad/page.js",
+  "/soporte/page": "app/soporte/page.js",
+  "/privacidad/[locale]/page": "app/privacidad/[locale]/page.js"
 }

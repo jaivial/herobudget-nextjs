@@ -201,7 +201,7 @@ export default function HeroSection() {
                   filter: "drop-shadow(0 25px 50px rgba(233, 30, 99, 0.3))",
                 }}
               >
-                <Image src="/herobudgeticon.png" alt="Hero Budget App Icon" fill className="object-contain" priority sizes="(max-width: 640px) 224px, (max-width: 1024px) 256px, 320px" />
+                <Image src="https://herobudgetapp.jaimedigitalstudio.com/herobudgeticon.png" alt="Hero Budget App Icon" fill className="object-contain" priority quality={95} sizes="(max-width: 640px) 224px, (max-width: 1024px) 256px, 320px" />
               </div>
 
               {/* Anillos orbitales */}

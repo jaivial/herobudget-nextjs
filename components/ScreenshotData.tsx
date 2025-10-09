@@ -16,6 +16,12 @@ export interface Screenshot {
 }
 
 /**
+ * Base URL para imágenes hospedadas remotamente
+ * Mejora la velocidad de carga usando CDN/servidor optimizado
+ */
+export const IMAGE_BASE_URL = 'https://herobudgetapp.jaimedigitalstudio.com/images';
+
+/**
  * Datos de capturas de pantalla de la aplicación Hero Budget
  * 
  * Array que contiene todas las capturas disponibles con su información completa:

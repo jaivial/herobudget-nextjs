@@ -194,7 +194,7 @@ export default function ImageModal({
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  src={`/images/iphone/${currentImage.filename}`}
+                  src={`https://herobudgetapp.jaimedigitalstudio.com/images/iphone/${currentImage.filename}`}
                   alt={currentImage.title}
                   width={currentImage.width}
                   height={currentImage.height}
@@ -205,6 +205,7 @@ export default function ImageModal({
                     width: 'auto'
                   }}
                   priority
+                  quality={90}
                 />
               </motion.div>
 

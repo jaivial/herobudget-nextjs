@@ -22,6 +22,18 @@ const nextConfig = {
         hostname: 'play.google.com',
         port: '',
         pathname: '/intl/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'herobudgetapp.jaimedigitalstudio.com',
+        port: '',
+        pathname: '/images/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'herobudgetapp.jaimedigitalstudio.com',
+        port: '',
+        pathname: '/**'
       }
     ]
   },

@@ -40,16 +40,17 @@ export const downloadStats = [
 
 /**
  * Imágenes para el stack interactivo de la app
+ * Usando URLs remotas para mejor rendimiento de carga
  */
 export const appImages = [
-  { id: 1, img: "/images/iphone/1-v2-6.5.png", alt: "Hero Budget - Dashboard" },
-  { id: 2, img: "/images/iphone/2-v2-6.5.png", alt: "Hero Budget - Gastos" },
-  { id: 3, img: "/images/iphone/3-v2-6.5.png", alt: "Hero Budget - Presupuestos" },
-  { id: 4, img: "/images/iphone/4-v2-6.5.png", alt: "Hero Budget - Análisis" },
-  { id: 5, img: "/images/iphone/5-v2-6.5.png", alt: "Hero Budget - Categorías" },
-  { id: 6, img: "/images/iphone/6-v2-6.5.png", alt: "Hero Budget - Reportes" },
-  { id: 7, img: "/images/iphone/7-v2-6.5.png", alt: "Hero Budget - Reportes" },
-  { id: 8, img: "/images/iphone/8-v2-6.5.png", alt: "Hero Budget - Reportes" },
+  { id: 1, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/1-v2-6.5.png", alt: "Hero Budget - Dashboard" },
+  { id: 2, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/2-v2-6.5.png", alt: "Hero Budget - Gastos" },
+  { id: 3, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/3-v2-6.5.png", alt: "Hero Budget - Presupuestos" },
+  { id: 4, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/4-v2-6.5.png", alt: "Hero Budget - Análisis" },
+  { id: 5, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/5-v2-6.5.png", alt: "Hero Budget - Categorías" },
+  { id: 6, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/6-v2-6.5.png", alt: "Hero Budget - Reportes" },
+  { id: 7, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/7-v2-6.5.png", alt: "Hero Budget - Reportes" },
+  { id: 8, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/8-v2-6.5.png", alt: "Hero Budget - Reportes" },
 ];
 
 /**

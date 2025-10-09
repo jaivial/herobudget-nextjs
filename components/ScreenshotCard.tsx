@@ -71,7 +71,7 @@ export default function ScreenshotCard({ screenshot, IconComponent }: Screenshot
             Se aplica drop-shadow para mayor profundidad visual
           */}
           <Image
-            src={`/images/iphone/${screenshot.filename}`}
+            src={`https://herobudgetapp.jaimedigitalstudio.com/images/iphone/${screenshot.filename}`}
             alt={screenshot.title}
             width={screenshot.width}
             height={screenshot.height}
@@ -79,8 +79,7 @@ export default function ScreenshotCard({ screenshot, IconComponent }: Screenshot
             style={{
               filter: "drop-shadow(0 4px 20px rgba(0, 0, 0, 0.1))",
             }}
-            placeholder="blur"
-            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJIgDvgjHqx55JnxeUa1LvNOGjLdawfnkqBEHhNxhEP8V4LNWjF8s8bNTAJbMHbBIq0SbH3LE5kQfABrLwO0ND1iGmgPz7+nxwTYN4T3"
+            quality={85}
           />
         </motion.div>
 
