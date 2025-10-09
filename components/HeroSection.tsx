@@ -156,13 +156,13 @@ export default function HeroSection() {
               </motion.button>
             </div>
 
-            <motion.div className="flex gap-4 mt-4 mx-auto ml-4" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 2 }}>
-              <motion.a href="https://apps.apple.com/us/app/hero-budget/id6746946502" className="block w-44 h-24 relative" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+            <motion.div className="flex gap-4 mt-4 lg:w-[82%] justify-start" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 2 }}>
+              <motion.a href="https://apps.apple.com/us/app/hero-budget/id6746946502" className="block w-44 h-24 relative justify-center mx-auto" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Image src="/app-play-store/appstorebutton.png" alt="Descargar en App Store" fill className="object-contain" sizes="128px" />
               </motion.a>
-              <motion.a href="#descargas" className="block w-48 h-24 relative" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              {/* <motion.a href="#descargas" className="block w-48 h-24 relative" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Image src="/app-play-store/playstorebutton.png" alt="Descargar en Google Play" fill className="object-contain" sizes="128px" />
-              </motion.a>
+              </motion.a> */}
             </motion.div>
           </div>
 
