@@ -1,6 +1,8 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { usePathname } from 'next/navigation';
 import { containerVariants } from './FooterAnimations';
 import FooterContent from './FooterContent';
 
@@ -13,7 +15,27 @@ interface FooterProps {
   locale?: string;
 }
 
-export default function Footer({ locale = 'en_GB' }: FooterProps) {
+export default function Footer({ locale }: FooterProps) {
+  const pathname = usePathname();
+  const [currentLocale, setCurrentLocale] = useState<string>(locale || 'en_GB');
+
+  // Load locale based on current pathname if not provided as prop
+  useEffect(() => {
+    if (!locale) {
+      const pathParts = pathname.split('/').filter(Boolean);
+      let detectedLocale = 'en_GB'; // Default locale
+
+      // Detect locale from URL
+      if (pathParts.length >= 1 && pathParts[0].includes('_')) {
+        detectedLocale = pathParts[0];
+      }
+
+      console.log('[Footer] Detected locale from pathname:', pathname, '→', detectedLocale);
+      setCurrentLocale(detectedLocale);
+    } else {
+      setCurrentLocale(locale);
+    }
+  }, [pathname, locale]);
 
   return (
     <footer className="bg-gray-900 text-white relative overflow-hidden">
@@ -55,7 +77,7 @@ export default function Footer({ locale = 'en_GB' }: FooterProps) {
           viewport={{ once: true, amount: 0.3 }}
         >
           {/* Contenido principal del footer */}
-          <FooterContent locale={locale} />
+          <FooterContent locale={currentLocale} />
 
         </motion.div>
       </div>

@@ -208,6 +208,47 @@ import screenshots_uk_UA from './screenshots-section/uk_UA.json';
 import screenshots_vi_VN from './screenshots-section/vi_VN.json';
 import screenshots_zh_CN from './screenshots-section/zh_CN.json';
 
+// CTASection translations
+import cta_ar_SA from './cta-section/ar_SA.json';
+import cta_ca_ES from './cta-section/ca_ES.json';
+import cta_cs_CZ from './cta-section/cs_CZ.json';
+import cta_da_DK from './cta-section/da_DK.json';
+import cta_de_CH from './cta-section/de_CH.json';
+import cta_de_DE from './cta-section/de_DE.json';
+import cta_el_GR from './cta-section/el_GR.json';
+import cta_en_AU from './cta-section/en_AU.json';
+import cta_en_CA from './cta-section/en_CA.json';
+import cta_en_GB from './cta-section/en_GB.json';
+import cta_en_US from './cta-section/en_US.json';
+import cta_es_ES from './cta-section/es_ES.json';
+import cta_es_MX from './cta-section/es_MX.json';
+import cta_fi_FI from './cta-section/fi_FI.json';
+import cta_fr_CA from './cta-section/fr_CA.json';
+import cta_fr_FR from './cta-section/fr_FR.json';
+import cta_he_IL from './cta-section/he_IL.json';
+import cta_hr_HR from './cta-section/hr_HR.json';
+import cta_hu_HU from './cta-section/hu_HU.json';
+import cta_hi_IN from './cta-section/hi_IN.json';
+import cta_id_ID from './cta-section/id_ID.json';
+import cta_it_IT from './cta-section/it_IT.json';
+import cta_ja_JP from './cta-section/ja_JP.json';
+import cta_ko_KR from './cta-section/ko_KR.json';
+import cta_ms_MY from './cta-section/ms_MY.json';
+import cta_nl_NL from './cta-section/nl_NL.json';
+import cta_no_NO from './cta-section/no_NO.json';
+import cta_pl_PL from './cta-section/pl_PL.json';
+import cta_pt_BR from './cta-section/pt_BR.json';
+import cta_pt_PT from './cta-section/pt_PT.json';
+import cta_ro_RO from './cta-section/ro_RO.json';
+import cta_ru_RU from './cta-section/ru_RU.json';
+import cta_sk_SK from './cta-section/sk_SK.json';
+import cta_sv_SE from './cta-section/sv_SE.json';
+import cta_th_TH from './cta-section/th_TH.json';
+import cta_tr_TR from './cta-section/tr_TR.json';
+import cta_uk_UA from './cta-section/uk_UA.json';
+import cta_vi_VN from './cta-section/vi_VN.json';
+import cta_zh_CN from './cta-section/zh_CN.json';
+
 export interface HeroSectionTranslations {
   title: string;
   subtitle: string;
@@ -594,4 +635,74 @@ export function getScreenshotsSectionTranslations(locale: string): ScreenshotsSe
  */
 export function hasScreenshotsSectionTranslation(locale: string): boolean {
   return locale in screenshotsSectionTranslations;
+}
+
+// ===== CTASection Translations =====
+
+export interface CTASectionTranslations {
+  title: string;
+  description: string;
+  buttonText: string;
+}
+
+// Translations map for cta-section
+const ctaSectionTranslations: Record<string, CTASectionTranslations> = {
+  ar_SA: cta_ar_SA,
+  ca_ES: cta_ca_ES,
+  cs_CZ: cta_cs_CZ,
+  da_DK: cta_da_DK,
+  de_CH: cta_de_CH,
+  de_DE: cta_de_DE,
+  el_GR: cta_el_GR,
+  en_AU: cta_en_AU,
+  en_CA: cta_en_CA,
+  en_GB: cta_en_GB,
+  en_US: cta_en_US,
+  es_ES: cta_es_ES,
+  es_MX: cta_es_MX,
+  fi_FI: cta_fi_FI,
+  fr_CA: cta_fr_CA,
+  fr_FR: cta_fr_FR,
+  he_IL: cta_he_IL,
+  hr_HR: cta_hr_HR,
+  hu_HU: cta_hu_HU,
+  hi_IN: cta_hi_IN,
+  id_ID: cta_id_ID,
+  it_IT: cta_it_IT,
+  ja_JP: cta_ja_JP,
+  ko_KR: cta_ko_KR,
+  ms_MY: cta_ms_MY,
+  nl_NL: cta_nl_NL,
+  no_NO: cta_no_NO,
+  pl_PL: cta_pl_PL,
+  pt_BR: cta_pt_BR,
+  pt_PT: cta_pt_PT,
+  ro_RO: cta_ro_RO,
+  ru_RU: cta_ru_RU,
+  sk_SK: cta_sk_SK,
+  sv_SE: cta_sv_SE,
+  th_TH: cta_th_TH,
+  tr_TR: cta_tr_TR,
+  uk_UA: cta_uk_UA,
+  vi_VN: cta_vi_VN,
+  zh_CN: cta_zh_CN,
+};
+
+/**
+ * Get CTASection translations for a specific locale
+ * @param locale - Locale code (e.g., 'en_GB')
+ * @returns CTASection translation object
+ */
+export function getCTASectionTranslations(locale: string): CTASectionTranslations {
+  // Return the translation for the requested locale or fallback to en_GB
+  return ctaSectionTranslations[locale] || ctaSectionTranslations.en_GB;
+}
+
+/**
+ * Check if a locale has CTASection translations available
+ * @param locale - Locale code
+ * @returns boolean
+ */
+export function hasCTASectionTranslation(locale: string): boolean {
+  return locale in ctaSectionTranslations;
 }
