@@ -28,10 +28,18 @@ export default function Header({ className = '' }: HeaderProps) {
 
   // Detect current locale from pathname, localStorage, or browser
   useEffect(() => {
-    const pathParts = pathname.split('/');
-    if (pathParts.length >= 3 && pathParts[1] === 'privacidad') {
-      setCurrentLocale(pathParts[2]);
-    } else {
+    const pathParts = pathname.split('/').filter(Boolean); // Remove empty strings
+
+    // Check if first path segment is a valid locale (e.g., /en_GB, /es_ES)
+    if (pathParts.length >= 1 && pathParts[0].includes('_')) {
+      setCurrentLocale(pathParts[0]);
+    }
+    // Check for privacy page locale (e.g., /privacidad/es_ES)
+    else if (pathParts.length >= 2 && pathParts[0] === 'privacidad') {
+      setCurrentLocale(pathParts[1]);
+    }
+    // Default to preferred locale
+    else {
       setCurrentLocale(getPreferredLocale());
     }
   }, [pathname]);
@@ -74,10 +82,13 @@ export default function Header({ className = '' }: HeaderProps) {
   // Función para manejar navegación con redirección si es necesario
   const handleNavClick = (href: string) => {
     setIsMobileMenuOpen(false);
-    
+
     if (href.startsWith('#')) {
+      const pathParts = pathname.split('/').filter(Boolean);
+      const isHomePage = pathParts.length === 1 && pathParts[0].includes('_');
+
       // Si estamos en la página principal, hacer scroll normal
-      if (pathname === '/') {
+      if (isHomePage || pathname === '/') {
         const element = document.querySelector(href);
         if (element) {
           const headerHeight = 70;
@@ -90,16 +101,20 @@ export default function Header({ className = '' }: HeaderProps) {
           });
         }
       } else {
-        // Si estamos en otra página, redirigir a home con el hash
-        router.push(`/${href}`);
+        // Si estamos en otra página, redirigir a home con el hash y mantener locale
+        router.push(`/${currentLocale}${href}`);
       }
     }
   };
 
   // Función para manejar click en logo/título
   const handleLogoClick = () => {
-    if (pathname !== '/') {
-      router.push('/');
+    const pathParts = pathname.split('/').filter(Boolean);
+    const isHomePage = pathParts.length === 1 && pathParts[0].includes('_');
+
+    if (!isHomePage && pathname !== '/') {
+      // Redirigir a home con el locale actual
+      router.push(`/${currentLocale}`);
     } else {
       // Si ya estamos en home, hacer scroll al inicio
       window.scrollTo({

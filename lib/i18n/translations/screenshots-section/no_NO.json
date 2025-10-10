@@ -1,0 +1,53 @@
+{
+  "title": "Skjermbilder",
+  "description": "Utforsk hver detalj av Hero Budget. Designet med kjærlighet for å gjøre administrasjon av pengene dine til en enkel, elegant og kraftig opplevelse.",
+  "statsTitle": "Komplett visuell opplevelse",
+  "stats": [
+    { "label": "Skjermer" },
+    { "label": "Funksjoner" },
+    { "label": "Diagrammer" },
+    { "label": "Kategorier" }
+  ],
+  "screenshots": [
+    {
+      "title": "Autentisering",
+      "description": "Flere autentiserings- og registreringssystemer, bruk e-posten din, Google-konto eller logg inn med Apple."
+    },
+    {
+      "title": "Registrer bevegelser",
+      "description": "Registrer nye inntekter, utgifter og gjentakende regninger for å holde deg oppdatert med din økonomiske kontroll."
+    },
+    {
+      "title": "Kategoriser hver bevegelse",
+      "description": "Opprett kategorier og tildel dem til hver bevegelse for å kontrollere flyten av din økonomi etter kategorier."
+    },
+    {
+      "title": "Analyse og diagrammer",
+      "description": "Visualiser forbruksmønstrene dine med intuitive grafer og detaljert analyse av din økonomiske atferd."
+    },
+    {
+      "title": "Smarte budsjetter",
+      "description": "Opprett personlige budsjetter og motta varsler når du nærmer deg forbruksgrensene dine."
+    },
+    {
+      "title": "Detaljerte rapporter",
+      "description": "Generer komplette rapporter om økonomien din med PDF-eksport og trendanalyse."
+    },
+    {
+      "title": "Komplett historikk",
+      "description": "Få tilgang til hele din økonomiske historikk med avanserte filtre og intelligent søk."
+    },
+    {
+      "title": "Sparemål",
+      "description": "Sett realistiske sparemål og spor fremgangen din med visuell motivasjon."
+    },
+    {
+      "title": "Komplette innstillinger",
+      "description": "Tilpass applikasjonen fullstendig med avanserte innstillinger og preferanser."
+    },
+    {
+      "title": "Intuitivt dashbord",
+      "description": "Hovedpanel med all din økonomiske informasjon organisert på en klar og tilgjengelig måte."
+    }
+  ]
+}

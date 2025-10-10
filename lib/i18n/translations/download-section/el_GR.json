@@ -1,0 +1,23 @@
+{
+  "title": "Λήψη Hero Budget",
+  "description": "Διαθέσιμο για iOS και Android. Εντελώς δωρεάν εφαρμογή διαθέσιμη σε περισσότερες από 30 γλώσσες για χρήστες παγκοσμίως.",
+  "stats": [
+    {
+      "label": "Γλώσσες"
+    },
+    {
+      "label": "Δωρεάν"
+    }
+  ],
+  "appStoreAlt": "Λήψη στο App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Πίνακας ελέγχου" },
+    { "alt": "Hero Budget - Έξοδα" },
+    { "alt": "Hero Budget - Προϋπολογισμοί" },
+    { "alt": "Hero Budget - Ανάλυση" },
+    { "alt": "Hero Budget - Κατηγορίες" },
+    { "alt": "Hero Budget - Αναφορές" },
+    { "alt": "Hero Budget - Αναφορές" },
+    { "alt": "Hero Budget - Αναφορές" }
+  ]
+}

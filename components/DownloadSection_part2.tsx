@@ -39,19 +39,36 @@ export const downloadStats = [
 ];
 
 /**
- * Imágenes para el stack interactivo de la app
- * Usando URLs remotas para mejor rendimiento de carga
+ * Base images for the interactive app stack
+ * Using remote URLs for better loading performance
+ * Alt texts are provided through translations
  */
-export const appImages = [
-  { id: 1, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/1-v2-6.5.png", alt: "Hero Budget - Dashboard" },
-  { id: 2, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/2-v2-6.5.png", alt: "Hero Budget - Gastos" },
-  { id: 3, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/3-v2-6.5.png", alt: "Hero Budget - Presupuestos" },
-  { id: 4, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/4-v2-6.5.png", alt: "Hero Budget - Análisis" },
-  { id: 5, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/5-v2-6.5.png", alt: "Hero Budget - Categorías" },
-  { id: 6, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/6-v2-6.5.png", alt: "Hero Budget - Reportes" },
-  { id: 7, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/7-v2-6.5.png", alt: "Hero Budget - Reportes" },
-  { id: 8, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/8-v2-6.5.png", alt: "Hero Budget - Reportes" },
+const appImagesBase = [
+  { id: 1, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/1-v2-6.5.png" },
+  { id: 2, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/2-v2-6.5.png" },
+  { id: 3, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/3-v2-6.5.png" },
+  { id: 4, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/4-v2-6.5.png" },
+  { id: 5, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/5-v2-6.5.png" },
+  { id: 6, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/6-v2-6.5.png" },
+  { id: 7, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/7-v2-6.5.png" },
+  { id: 8, img: "https://herobudgetapp.jaimedigitalstudio.com/images/iphone/8-v2-6.5.png" },
 ];
+
+/**
+ * Combine base images with translated alt texts
+ */
+export function getAppImages(altTexts: Array<{ alt: string }>) {
+  return appImagesBase.map((img, index) => ({
+    ...img,
+    alt: altTexts[index]?.alt || `Hero Budget - Image ${index + 1}`,
+  }));
+}
+
+// Fallback for backward compatibility
+export const appImages = appImagesBase.map((img, index) => ({
+  ...img,
+  alt: `Hero Budget - Image ${index + 1}`,
+}));
 
 /**
  * Configuración de animaciones para el contenedor principal

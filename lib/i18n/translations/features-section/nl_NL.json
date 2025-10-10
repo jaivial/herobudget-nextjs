@@ -1,0 +1,40 @@
+{
+  "heading": "Waarom kiezen voor Hero Budget?",
+  "subtitle": "Ontdek de functies die Hero Budget de beste keuze maken voor het beheren van uw persoonlijke financiën",
+  "features": [
+    {
+      "title": "Uitgaven bijhouden",
+      "description": "Registreer en categoriseer uw uitgaven automatisch om uw financiële gewoonten beter te begrijpen."
+    },
+    {
+      "title": "Spaardoelen",
+      "description": "Stel realistische spaardoelen in en ontvang meldingen om uw voortgang bij te houden."
+    },
+    {
+      "title": "Terugkerende rekeningen",
+      "description": "Plan en beheer uw terugkerende rekeningen zodat u nooit een betaling vergeet."
+    },
+    {
+      "title": "Veilige gegevens",
+      "description": "Uw financiële informatie wordt beschermd met geavanceerde beveiligingsmaatregelen."
+    },
+    {
+      "title": "Intuïtieve interface",
+      "description": "Eenvoudig en elegant ontwerp dat geldbeheer gemakkelijk en plezierig maakt."
+    },
+    {
+      "title": "Visuele rapporten",
+      "description": "Duidelijke grafieken die uw financiële vooruitgang in één oogopslag tonen."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Beschikbare talen"
+    },
+    {
+      "number": "100%",
+      "label": "Volledig gratis"
+    }
+  ]
+}

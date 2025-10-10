@@ -1,0 +1,40 @@
+{
+  "heading": "Miért válassza a Hero Budget-et?",
+  "subtitle": "Fedezze fel azokat a funkciókat, amelyek a Hero Budget-et a legjobb választássá teszik személyes pénzügyei kezeléséhez",
+  "features": [
+    {
+      "title": "Kiadások követése",
+      "description": "Rögzítse és kategorizálja kiadásait automatikusan, hogy jobban megértse pénzügyi szokásait."
+    },
+    {
+      "title": "Megtakarítási célok",
+      "description": "Állítson be reális megtakarítási célokat és kapjon értesítéseket előrehaladása fenntartásához."
+    },
+    {
+      "title": "Ismétlődő számlák",
+      "description": "Ütemezze és kezelje ismétlődő számláit, hogy soha ne felejtsen el fizetést."
+    },
+    {
+      "title": "Biztonságos adatok",
+      "description": "Pénzügyi információit fejlett biztonsági intézkedések védik."
+    },
+    {
+      "title": "Intuitív felület",
+      "description": "Egyszerű és elegáns dizájn, amely a pénzkezelést könnyűvé és élvezetessé teszi."
+    },
+    {
+      "title": "Vizuális jelentések",
+      "description": "Egyértelmű grafikonok, amelyek egy pillantásra megmutatják pénzügyi előrehaladását."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Elérhető nyelvek"
+    },
+    {
+      "number": "100%",
+      "label": "Teljesen ingyenes"
+    }
+  ]
+}

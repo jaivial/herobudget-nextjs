@@ -1,0 +1,23 @@
+{
+  "title": "Descarcă Hero Budget",
+  "description": "Disponibil pentru iOS și Android. Aplicație complet gratuită disponibilă în peste 30 de limbi pentru utilizatori din întreaga lume.",
+  "stats": [
+    {
+      "label": "Limbi"
+    },
+    {
+      "label": "Gratuit"
+    }
+  ],
+  "appStoreAlt": "Descarcă din App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Panou de control" },
+    { "alt": "Hero Budget - Cheltuieli" },
+    { "alt": "Hero Budget - Bugete" },
+    { "alt": "Hero Budget - Analiză" },
+    { "alt": "Hero Budget - Categorii" },
+    { "alt": "Hero Budget - Rapoarte" },
+    { "alt": "Hero Budget - Rapoarte" },
+    { "alt": "Hero Budget - Rapoarte" }
+  ]
+}

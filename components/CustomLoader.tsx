@@ -3,11 +3,14 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
+import { getCustomLoaderTranslations, type CustomLoaderTranslations } from '@/lib/i18n/translations/translation-loader';
 
 /**
  * Custom Loader Component
  * Loader personalizado que aparece mientras se carga el contenido completo
  * Incluye animaciones fluidas y logo de Hero Budget
+ * Soporte multiidioma con traducciones dinámicas
  */
 
 interface CustomLoaderProps {
@@ -19,15 +22,46 @@ interface CustomLoaderProps {
   minimumDuration?: number;
 }
 
-export default function CustomLoader({ 
-  isLoading, 
-  loadingText = "Cargando Hero Budget...",
-  minimumDuration = 1000 
+export default function CustomLoader({
+  isLoading,
+  loadingText,
+  minimumDuration = 1000
 }: CustomLoaderProps) {
+  const pathname = usePathname();
+  const [translations, setTranslations] = useState<CustomLoaderTranslations>({
+    loadingText: "Loading Hero Budget...",
+  });
+
   // Estado para controlar la visibilidad del loader con duración mínima
   const [showLoader, setShowLoader] = useState(isLoading);
   // Estado para el progreso simulado de carga
   const [progress, setProgress] = useState(0);
+
+  // Load translations based on current locale
+  useEffect(() => {
+    const pathParts = pathname.split('/').filter(Boolean);
+    let locale = 'en_GB'; // Default locale
+
+    // Detect locale from URL
+    if (pathParts.length >= 1 && pathParts[0].includes('_')) {
+      locale = pathParts[0];
+    }
+
+    console.log('[CustomLoader] Detected locale from pathname:', pathname, '→', locale);
+
+    // Load translations for the detected locale
+    try {
+      const t = getCustomLoaderTranslations(locale);
+      console.log('[CustomLoader] Loaded translations:', t);
+      setTranslations(t);
+    } catch (error) {
+      console.error('[CustomLoader] Error loading translations:', error);
+      // Fallback to English if there's an error
+      setTranslations({
+        loadingText: "Loading Hero Budget...",
+      });
+    }
+  }, [pathname]);
 
   // Efecto para simular progreso de carga y manejar duración mínima
   useEffect(() => {
@@ -200,11 +234,11 @@ export default function CustomLoader({
         </motion.h2>
 
         {/* Texto de carga */}
-        <motion.p 
+        <motion.p
           className="text-gray-600 mb-8 text-lg"
           variants={itemVariants}
         >
-          {loadingText}
+          {loadingText || translations.loadingText}
         </motion.p>
 
         {/* Barra de progreso animada */}

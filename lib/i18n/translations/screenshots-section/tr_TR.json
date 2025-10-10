@@ -1,0 +1,53 @@
+{
+  "title": "Ekran Görüntüleri",
+  "description": "Hero Budget'ın her ayrıntısını keşfedin. Paranızı yönetmeyi basit, zarif ve güçlü bir deneyim haline getirmek için sevgiyle tasarlandı.",
+  "statsTitle": "Eksiksiz Görsel Deneyim",
+  "stats": [
+    { "label": "Ekranlar" },
+    { "label": "Özellikler" },
+    { "label": "Grafikler" },
+    { "label": "Kategoriler" }
+  ],
+  "screenshots": [
+    {
+      "title": "Kimlik Doğrulama",
+      "description": "Birden fazla kimlik doğrulama ve kayıt sistemi, e-postanızı, Google hesabınızı kullanın veya Apple ile oturum açın."
+    },
+    {
+      "title": "Hareketleri kaydedin",
+      "description": "Finansal kontrolünüzle güncel kalmak için yeni gelir, gider ve tekrarlayan faturaları kaydedin."
+    },
+    {
+      "title": "Her hareketi kategorize edin",
+      "description": "Kategoriler oluşturun ve ekonominizin akışını kategorilere göre kontrol etmek için her harekete atayın."
+    },
+    {
+      "title": "Analiz ve grafikler",
+      "description": "Harcama desenlerinizi sezgisel grafikler ve finansal davranışınızın ayrıntılı analizi ile görselleştirin."
+    },
+    {
+      "title": "Akıllı bütçeler",
+      "description": "Kişiselleştirilmiş bütçeler oluşturun ve harcama limitinize yaklaştığınızda uyarılar alın."
+    },
+    {
+      "title": "Ayrıntılı raporlar",
+      "description": "PDF dışa aktarma ve trend analizi ile finanslarınızın eksiksiz raporlarını oluşturun."
+    },
+    {
+      "title": "Eksiksiz geçmiş",
+      "description": "Gelişmiş filtreler ve akıllı arama ile tüm finansal geçmişinize erişin."
+    },
+    {
+      "title": "Tasarruf hedefleri",
+      "description": "Gerçekçi tasarruf hedefleri belirleyin ve görsel motivasyonla ilerlemenizi takip edin."
+    },
+    {
+      "title": "Eksiksiz ayarlar",
+      "description": "Gelişmiş ayarlar ve tercihlerle uygulamayı tamamen özelleştirin."
+    },
+    {
+      "title": "Sezgisel kontrol paneli",
+      "description": "Tüm finansal bilgilerinizi net ve erişilebilir bir şekilde düzenlenmiş ana panel."
+    }
+  ]
+}

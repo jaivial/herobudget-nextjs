@@ -1,0 +1,23 @@
+{
+  "title": "Unduh Hero Budget",
+  "description": "Tersedia untuk iOS dan Android. Aplikasi sepenuhnya gratis tersedia dalam lebih dari 30 bahasa untuk pengguna di seluruh dunia.",
+  "stats": [
+    {
+      "label": "Bahasa"
+    },
+    {
+      "label": "Gratis"
+    }
+  ],
+  "appStoreAlt": "Unduh di App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Dasbor" },
+    { "alt": "Hero Budget - Pengeluaran" },
+    { "alt": "Hero Budget - Anggaran" },
+    { "alt": "Hero Budget - Analisis" },
+    { "alt": "Hero Budget - Kategori" },
+    { "alt": "Hero Budget - Laporan" },
+    { "alt": "Hero Budget - Laporan" },
+    { "alt": "Hero Budget - Laporan" }
+  ]
+}

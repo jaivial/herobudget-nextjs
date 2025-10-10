@@ -1,0 +1,53 @@
+{
+  "title": "Snímky obrazovky",
+  "description": "Preskúmajte každý detail aplikácie Hero Budget. Navrhnuté s láskou, aby bolo riadenie vašich peňazí jednoduchým, elegantným a výkonným zážitkom.",
+  "statsTitle": "Kompletný vizuálny zážitok",
+  "stats": [
+    { "label": "Obrazovky" },
+    { "label": "Funkcie" },
+    { "label": "Grafy" },
+    { "label": "Kategórie" }
+  ],
+  "screenshots": [
+    {
+      "title": "Overenie",
+      "description": "Viacero systémov overovania a registrácie, použite svoj e-mail, účet Google alebo sa prihláste pomocou Apple."
+    },
+    {
+      "title": "Zaznamenávanie pohybov",
+      "description": "Zaznamenajte nové príjmy, výdavky a opakujúce sa účty, aby ste mali prehľad o svojej finančnej kontrole."
+    },
+    {
+      "title": "Kategorizujte každý pohyb",
+      "description": "Vytvárajte kategórie a priraďujte ich jednotlivým pohybom pre kontrolu toku vašej ekonomiky podľa kategórií."
+    },
+    {
+      "title": "Analýza a grafy",
+      "description": "Vizualizujte svoje výdavkové vzorce pomocou intuitívnych grafov a podrobnej analýzy vášho finančného správania."
+    },
+    {
+      "title": "Inteligentné rozpočty",
+      "description": "Vytvárajte personalizované rozpočty a dostávajte upozornenia, keď sa blížite k limitom výdavkov."
+    },
+    {
+      "title": "Podrobné správy",
+      "description": "Generujte kompletné správy o vašich financiách s exportom do PDF a analýzou trendov."
+    },
+    {
+      "title": "Kompletná história",
+      "description": "Prístup k celej vašej finančnej histórii s pokročilými filtrami a inteligentným vyhľadávaním."
+    },
+    {
+      "title": "Ciele úspor",
+      "description": "Stanovte si realistické ciele úspor a sledujte svoj pokrok s vizuálnou motiváciou."
+    },
+    {
+      "title": "Kompletné nastavenia",
+      "description": "Plne prispôsobte aplikáciu s pokročilými nastaveniami a preferenciami."
+    },
+    {
+      "title": "Intuitívny prehľad",
+      "description": "Hlavný panel so všetkými vašimi finančnými informáciami organizovanými jasným a prístupným způsobom."
+    }
+  ]
+}

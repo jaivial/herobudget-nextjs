@@ -1,0 +1,23 @@
+{
+  "title": "Download Hero Budget",
+  "description": "Available for iOS and Android. Completely free application available in over 30 languages for users worldwide.",
+  "stats": [
+    {
+      "label": "Languages"
+    },
+    {
+      "label": "Free"
+    }
+  ],
+  "appStoreAlt": "Download on the App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Dashboard" },
+    { "alt": "Hero Budget - Expenses" },
+    { "alt": "Hero Budget - Budgets" },
+    { "alt": "Hero Budget - Analysis" },
+    { "alt": "Hero Budget - Categories" },
+    { "alt": "Hero Budget - Reports" },
+    { "alt": "Hero Budget - Reports" },
+    { "alt": "Hero Budget - Reports" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Ladda ner Hero Budget",
+  "description": "Tillgänglig för iOS och Android. Helt gratis app tillgänglig på över 30 språk för användare världen över.",
+  "stats": [
+    {
+      "label": "Språk"
+    },
+    {
+      "label": "Gratis"
+    }
+  ],
+  "appStoreAlt": "Ladda ner på App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Instrumentpanel" },
+    { "alt": "Hero Budget - Utgifter" },
+    { "alt": "Hero Budget - Budgetar" },
+    { "alt": "Hero Budget - Analys" },
+    { "alt": "Hero Budget - Kategorier" },
+    { "alt": "Hero Budget - Rapporter" },
+    { "alt": "Hero Budget - Rapporter" },
+    { "alt": "Hero Budget - Rapporter" }
+  ]
+}

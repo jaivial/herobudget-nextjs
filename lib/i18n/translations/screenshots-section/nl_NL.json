@@ -1,0 +1,53 @@
+{
+  "title": "Schermafbeeldingen",
+  "description": "Verken elk detail van Hero Budget. Met liefde ontworpen om van het beheren van uw geld een eenvoudige, elegante en krachtige ervaring te maken.",
+  "statsTitle": "Volledige visuele ervaring",
+  "stats": [
+    { "label": "Schermen" },
+    { "label": "Functies" },
+    { "label": "Grafieken" },
+    { "label": "Categorieën" }
+  ],
+  "screenshots": [
+    {
+      "title": "Authenticatie",
+      "description": "Meerdere authenticatie- en registratiesystemen, gebruik uw e-mail, Google-account of meld u aan met Apple."
+    },
+    {
+      "title": "Bewegingen registreren",
+      "description": "Registreer nieuwe inkomsten, uitgaven en terugkerende rekeningen om up-to-date te blijven met uw financiële controle."
+    },
+    {
+      "title": "Categoriseer elke beweging",
+      "description": "Maak categorieën aan en wijs ze toe aan elke beweging om de stroom van uw economie per categorie te controleren."
+    },
+    {
+      "title": "Analyse en grafieken",
+      "description": "Visualiseer uw bestedingspatronen met intuïtieve grafieken en gedetailleerde analyse van uw financieel gedrag."
+    },
+    {
+      "title": "Slimme budgetten",
+      "description": "Maak gepersonaliseerde budgetten en ontvang waarschuwingen wanneer u uw bestedingslimieten nadert."
+    },
+    {
+      "title": "Gedetailleerde rapporten",
+      "description": "Genereer volledige rapporten van uw financiën met PDF-export en trendanalyse."
+    },
+    {
+      "title": "Volledige geschiedenis",
+      "description": "Toegang tot uw volledige financiële geschiedenis met geavanceerde filters en intelligente zoekopdrachten."
+    },
+    {
+      "title": "Spaardoelen",
+      "description": "Stel realistische spaardoelen in en volg uw voortgang met visuele motivatie."
+    },
+    {
+      "title": "Volledige instellingen",
+      "description": "Pas de applicatie volledig aan met geavanceerde instellingen en voorkeuren."
+    },
+    {
+      "title": "Intuïtief dashboard",
+      "description": "Hoofdpaneel met al uw financiële informatie overzichtelijk en toegankelijk georganiseerd."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "heading": "De ce să alegi Hero Budget?",
+  "subtitle": "Descoperă funcțiile care fac din Hero Budget cea mai bună alegere pentru gestionarea finanțelor personale",
+  "features": [
+    {
+      "title": "Urmărirea cheltuielilor",
+      "description": "Înregistrează și categorisește-ți cheltuielile automat pentru a-ți înțelege mai bine obiceiurile financiare."
+    },
+    {
+      "title": "Obiective de economisire",
+      "description": "Stabilește obiective de economisire realiste și primește notificări pentru a-ți menține progresul."
+    },
+    {
+      "title": "Facturi recurente",
+      "description": "Programează și gestionează facturile recurente pentru a nu uita niciodată o plată."
+    },
+    {
+      "title": "Date securizate",
+      "description": "Informațiile tale financiare sunt protejate cu măsuri de securitate avansate."
+    },
+    {
+      "title": "Interfață intuitivă",
+      "description": "Design simplu și elegant care face gestionarea banilor ușoară și plăcută."
+    },
+    {
+      "title": "Rapoarte vizuale",
+      "description": "Grafice clare care arată progresul tău financiar dintr-o privire."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Limbi disponibile"
+    },
+    {
+      "number": "100%",
+      "label": "Complet gratuit"
+    }
+  ]
+}

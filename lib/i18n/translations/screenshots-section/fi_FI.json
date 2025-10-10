@@ -1,0 +1,53 @@
+{
+  "title": "Kuvakaappaukset",
+  "description": "Tutustu jokaiseen Hero Budget -sovelluksen yksityiskohtaan. Suunniteltu rakkaudella tekemään rahojesi hallinnasta yksinkertainen, tyylikäs ja tehokas kokemus.",
+  "statsTitle": "Täydellinen visuaalinen kokemus",
+  "stats": [
+    { "label": "Näytöt" },
+    { "label": "Ominaisuudet" },
+    { "label": "Kaaviot" },
+    { "label": "Kategoriat" }
+  ],
+  "screenshots": [
+    {
+      "title": "Tunnistautuminen",
+      "description": "Useita tunnistautumis- ja rekisteröintijärjestelmiä, käytä sähköpostiasi, Google-tiliäsi tai kirjaudu sisään Applella."
+    },
+    {
+      "title": "Tallenna liikkeet",
+      "description": "Tallenna uudet tulot, menot ja toistuvat laskut pysyäksesi ajan tasalla taloudellisesta hallinnastasi."
+    },
+    {
+      "title": "Luokittele jokainen liike",
+      "description": "Luo kategorioita ja määritä ne jokaiselle liikkeelle hallitaksesi taloutesi virtaa kategorioittain."
+    },
+    {
+      "title": "Analyysit ja kaaviot",
+      "description": "Visualisoi kulutustottumuksesi intuitiivisilla kaavioilla ja yksityiskohtaisella taloudellisen käyttäytymisesi analyysillä."
+    },
+    {
+      "title": "Älykkäät budjetit",
+      "description": "Luo henkilökohtaisia budjetteja ja vastaanota hälytyksiä, kun lähestyt kulutusrajojasi."
+    },
+    {
+      "title": "Yksityiskohtaiset raportit",
+      "description": "Luo täydelliset raportit taloudestasi PDF-viennillä ja trendianalyysillä."
+    },
+    {
+      "title": "Täydellinen historia",
+      "description": "Pääsy koko taloushistoriaasi edistyneillä suodattimilla ja älykkäällä haulla."
+    },
+    {
+      "title": "Säästötavoitteet",
+      "description": "Aseta realistiset säästötavoitteet ja seuraa edistymistäsi visuaalisella motivaatiolla."
+    },
+    {
+      "title": "Täydelliset asetukset",
+      "description": "Mukauta sovellusta täysin edistyneillä asetuksilla ja mieltymyksillä."
+    },
+    {
+      "title": "Intuitiivinen kojelauta",
+      "description": "Pääpaneeli, jossa kaikki taloudelliset tietosi on järjestetty selkeästi ja helposti saatavilla."
+    }
+  ]
+}

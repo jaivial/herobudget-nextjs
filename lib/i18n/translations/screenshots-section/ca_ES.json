@@ -1,0 +1,53 @@
+{
+  "title": "Captures de pantalla",
+  "description": "Explora cada detall de Hero Budget. Dissenyat amb amor per fer que la gestió dels teus diners sigui una experiència senzilla, elegant i potent.",
+  "statsTitle": "Experiència visual completa",
+  "stats": [
+    { "label": "Pantalles" },
+    { "label": "Funcions" },
+    { "label": "Gràfics" },
+    { "label": "Categories" }
+  ],
+  "screenshots": [
+    {
+      "title": "Autenticació",
+      "description": "Múltiples sistemes d'autenticació i registre, utilitza el teu correu electrònic, compte de Google o inicia sessió amb Apple."
+    },
+    {
+      "title": "Registra moviments",
+      "description": "Registra nous ingressos, despeses i factures recurrents per mantenir-te al dia amb el teu control financer."
+    },
+    {
+      "title": "Categoritza cada moviment",
+      "description": "Crea categories i assigna-les a cada moviment per controlar el flux de la teva economia per categories."
+    },
+    {
+      "title": "Anàlisi i gràfics",
+      "description": "Visualitza els teus patrons de despesa amb gràfics intuïtius i anàlisi detallada del teu comportament financer."
+    },
+    {
+      "title": "Pressupostos intel·ligents",
+      "description": "Crea pressupostos personalitzats i rep alertes quan t'aproximis als teus límits de despesa."
+    },
+    {
+      "title": "Informes detallats",
+      "description": "Genera informes complets de les teves finances amb exportació PDF i anàlisi de tendències."
+    },
+    {
+      "title": "Historial complet",
+      "description": "Accedeix a tot el teu historial financer amb filtres avançats i cerca intel·ligent."
+    },
+    {
+      "title": "Objectius d'estalvi",
+      "description": "Estableix objectius d'estalvi realistes i segueix el teu progrés amb motivació visual."
+    },
+    {
+      "title": "Configuració completa",
+      "description": "Personalitza completament l'aplicació amb configuracions i preferències avançades."
+    },
+    {
+      "title": "Tauler intuïtiu",
+      "description": "Panell principal amb tota la teva informació financera organitzada de manera clara i accessible."
+    }
+  ]
+}

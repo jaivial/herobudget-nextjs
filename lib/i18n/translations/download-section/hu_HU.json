@@ -1,0 +1,23 @@
+{
+  "title": "Hero Budget letöltése",
+  "description": "Elérhető iOS-re és Androidra. Teljesen ingyenes alkalmazás, amely több mint 30 nyelven érhető el felhasználók számára világszerte.",
+  "stats": [
+    {
+      "label": "Nyelvek"
+    },
+    {
+      "label": "Ingyenes"
+    }
+  ],
+  "appStoreAlt": "Letöltés az App Store-ból",
+  "appImages": [
+    { "alt": "Hero Budget - Irányítópult" },
+    { "alt": "Hero Budget - Kiadások" },
+    { "alt": "Hero Budget - Költségvetések" },
+    { "alt": "Hero Budget - Elemzés" },
+    { "alt": "Hero Budget - Kategóriák" },
+    { "alt": "Hero Budget - Jelentések" },
+    { "alt": "Hero Budget - Jelentések" },
+    { "alt": "Hero Budget - Jelentések" }
+  ]
+}

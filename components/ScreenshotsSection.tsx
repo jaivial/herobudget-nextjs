@@ -1,10 +1,12 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
+import { usePathname } from 'next/navigation';
 import ImageModal from './ImageModal';
 import ScreenshotCard from './ScreenshotCard';
 import { screenshots, Screenshot } from './ScreenshotData';
+import { getScreenshotsSectionTranslations, type ScreenshotsSectionTranslations } from '@/lib/i18n/translations/translation-loader';
 import {
   sectionBackgroundStyles,
   decorativeAnimationConfig,
@@ -39,10 +41,47 @@ import { MobileGallery, TabletGallery, DesktopGallery } from './ScreenshotsSecti
  * Configuración y datos auxiliares en ScreenshotsSection_part2.tsx
  */
 export default function ScreenshotsSection() {
+  const pathname = usePathname();
+  const [translations, setTranslations] = useState<ScreenshotsSectionTranslations>({
+    title: "Screenshots",
+    description: "Explore every detail of Hero Budget. Designed with love to make managing your money a simple, elegant and powerful experience.",
+    statsTitle: "Complete Visual Experience",
+    stats: [
+      { label: "Screens" },
+      { label: "Features" },
+      { label: "Charts" },
+      { label: "Categories" }
+    ],
+    screenshots: screenshots.map(s => ({ title: s.title, description: s.description }))
+  });
+
   const ref = useRef(null);
   const isInView = useInView(ref, sectionInViewConfig);
   const [selectedImage, setSelectedImage] = useState<Screenshot | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Load translations based on current locale
+  useEffect(() => {
+    const pathParts = pathname.split('/').filter(Boolean);
+    let locale = 'en_GB'; // Default locale
+
+    // Detect locale from URL
+    if (pathParts.length >= 1 && pathParts[0].includes('_')) {
+      locale = pathParts[0];
+    }
+
+    console.log('[ScreenshotsSection] Detected locale from pathname:', pathname, '→', locale);
+
+    // Load translations for the detected locale
+    try {
+      const t = getScreenshotsSectionTranslations(locale);
+      console.log('[ScreenshotsSection] Loaded translations:', t);
+      setTranslations(t);
+    } catch (error) {
+      console.error('[ScreenshotsSection] Error loading translations:', error);
+      // Fallback already set in initial state
+    }
+  }, [pathname]);
 
   /**
    * Función para abrir el modal de imagen
@@ -98,20 +137,19 @@ export default function ScreenshotsSection() {
             className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8 leading-tight text-gray-900"
             style={titleGradientStyles}
           >
-            <span className="block lg:inline">Capturas de </span>Pantalla
+            {translations.title}
           </h2>
-          
+
           <p className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Explora cada detalle de Hero Budget. Diseñada con amor para hacer que 
-            gestionar tu dinero sea una experiencia simple, elegante y poderosa.
+            {translations.description}
           </p>
         </div>
 
         {/* Galería de screenshots con animaciones por filas */}
         <div className="max-w-7xl mx-auto">
-          <MobileGallery openModal={openModal} />
-          <TabletGallery openModal={openModal} />
-          <DesktopGallery openModal={openModal} />
+          <MobileGallery openModal={openModal} translations={translations.screenshots} />
+          <TabletGallery openModal={openModal} translations={translations.screenshots} />
+          <DesktopGallery openModal={openModal} translations={translations.screenshots} />
         </div>
 
         {/* Sección de estadísticas de funcionalidades */}
@@ -121,14 +159,14 @@ export default function ScreenshotsSection() {
           animate={isInView ? statsAnimationConfig.container.whileInView : statsAnimationConfig.container.initial}
           transition={statsAnimationConfig.container.transition}
         >
-          <div 
+          <div
             className="inline-block p-8 rounded-3xl max-w-4xl mx-auto"
             style={statsCardStyles}
           >
             <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
-              Experiencia Visual Completa
+              {translations.statsTitle}
             </h3>
-            
+
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
               {screenshotsStats.map((stat, index) => {
                 const StatIcon = stat.icon;
@@ -138,7 +176,7 @@ export default function ScreenshotsSection() {
                     className="text-center"
                     {...statsAnimationConfig.item}
                   >
-                    <motion.div 
+                    <motion.div
                       className={`inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br ${stat.color} rounded-2xl mb-4 shadow-lg`}
                       {...statsAnimationConfig.icon}
                     >
@@ -148,7 +186,7 @@ export default function ScreenshotsSection() {
                       {stat.value}
                     </div>
                     <div className="text-sm lg:text-base text-gray-600 font-medium">
-                      {stat.label}
+                      {translations.stats[index]?.label || stat.label}
                     </div>
                   </motion.div>
                 );

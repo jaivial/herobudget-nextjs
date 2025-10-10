@@ -1,0 +1,40 @@
+{
+  "heading": "Mengapa Memilih Hero Budget?",
+  "subtitle": "Temukan fitur-fitur yang menjadikan Hero Budget pilihan terbaik untuk mengelola keuangan pribadi Anda",
+  "features": [
+    {
+      "title": "Pelacakan Pengeluaran",
+      "description": "Catat dan kategorikan pengeluaran Anda secara otomatis untuk memahami kebiasaan keuangan Anda dengan lebih baik."
+    },
+    {
+      "title": "Target Tabungan",
+      "description": "Tetapkan target tabungan yang realistis dan terima notifikasi untuk mempertahankan kemajuan Anda."
+    },
+    {
+      "title": "Tagihan Berulang",
+      "description": "Jadwalkan dan kelola tagihan berulang Anda agar tidak pernah lupa melakukan pembayaran."
+    },
+    {
+      "title": "Data Aman",
+      "description": "Informasi keuangan Anda dilindungi dengan langkah-langkah keamanan tingkat lanjut."
+    },
+    {
+      "title": "Antarmuka Intuitif",
+      "description": "Desain sederhana dan elegan yang membuat pengelolaan uang menjadi mudah dan menyenangkan."
+    },
+    {
+      "title": "Laporan Visual",
+      "description": "Grafik yang jelas menunjukkan kemajuan keuangan Anda sekilas."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Bahasa Tersedia"
+    },
+    {
+      "number": "100%",
+      "label": "Sepenuhnya Gratis"
+    }
+  ]
+}

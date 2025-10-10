@@ -2,10 +2,12 @@
 
 import { useRef, useEffect, useState } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
+import { usePathname } from "next/navigation";
 import Stack from "./Stack";
 import StarBorder from "./StarBorder";
 import Image from "next/image";
-import { downloadStats, appImages, containerVariants, itemVariants, sectionBackgroundStyles, decorativeAnimationConfig, statsCardStyles, titleGradientStyles, responsiveConfig, floatingElementsConfig, gradientKeyframes, stackConfig, type CounterProps } from "./DownloadSection_part2";
+import { downloadStats, getAppImages, containerVariants, itemVariants, sectionBackgroundStyles, decorativeAnimationConfig, statsCardStyles, titleGradientStyles, responsiveConfig, floatingElementsConfig, gradientKeyframes, stackConfig, type CounterProps } from "./DownloadSection_part2";
+import { getDownloadSectionTranslations, type DownloadSectionTranslations } from "@/lib/i18n/translations/translation-loader";
 
 /**
  * Download Section Component - PARTE 1/2
@@ -51,10 +53,54 @@ function AnimatedCounter({ end, duration, suffix = "", decimal = false }: Counte
 }
 
 export default function DownloadSection() {
+  const pathname = usePathname();
+  const [translations, setTranslations] = useState<DownloadSectionTranslations>({
+    title: "Download Hero Budget",
+    description: "Available for iOS and Android. Completely free application available in over 30 languages for users worldwide.",
+    stats: [
+      { label: "Languages" },
+      { label: "Free" }
+    ],
+    appStoreAlt: "Download on the App Store",
+    appImages: [
+      { alt: "Hero Budget - Dashboard" },
+      { alt: "Hero Budget - Expenses" },
+      { alt: "Hero Budget - Budgets" },
+      { alt: "Hero Budget - Analysis" },
+      { alt: "Hero Budget - Categories" },
+      { alt: "Hero Budget - Reports" },
+      { alt: "Hero Budget - Reports" },
+      { alt: "Hero Budget - Reports" }
+    ]
+  });
+
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
   const controls = useAnimation();
   const [screenWidth, setScreenWidth] = useState(0);
+
+  // Load translations based on current locale
+  useEffect(() => {
+    const pathParts = pathname.split('/').filter(Boolean);
+    let locale = 'en_GB'; // Default locale
+
+    // Detect locale from URL
+    if (pathParts.length >= 1 && pathParts[0].includes('_')) {
+      locale = pathParts[0];
+    }
+
+    console.log('[DownloadSection] Detected locale from pathname:', pathname, '→', locale);
+
+    // Load translations for the detected locale
+    try {
+      const t = getDownloadSectionTranslations(locale);
+      console.log('[DownloadSection] Loaded translations:', t);
+      setTranslations(t);
+    } catch (error) {
+      console.error('[DownloadSection] Error loading translations:', error);
+      // Fallback already set in initial state
+    }
+  }, [pathname]);
 
   useEffect(() => {
     if (isInView) {
@@ -106,11 +152,11 @@ export default function DownloadSection() {
           {/* Contenido principal */}
           <motion.div variants={itemVariants} className="space-y-6 sm:space-y-8 flex-1 lg:max-w-2xl px-4 sm:px-6 lg:px-0">
             <h2 className="text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-center lg:text-left mb-8 sm:mb-12 lg:mb-16 leading-tight" style={titleGradientStyles}>
-              <span className="block lg:inline">Descarga </span>Hero Budget
+              {translations.title}
             </h2>
 
             <motion.p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-600 mb-8 sm:mb-10 lg:mb-12 leading-relaxed text-center lg:text-left my-0" variants={itemVariants}>
-              Disponible para iOS y Android. Aplicación completamente gratuita disponible en más de 30 idiomas para usuarios de todo el mundo.
+              {translations.description}
             </motion.p>
 
             {/* Estadísticas mejoradas */}
@@ -145,7 +191,7 @@ export default function DownloadSection() {
                     <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-primary-600 mb-1 sm:mb-2">
                       <AnimatedCounter end={stat.number} duration={stat.duration} suffix={stat.suffix} decimal={stat.decimal} />
                     </div>
-                    <div className="text-xs sm:text-sm lg:text-base text-gray-600 font-medium">{stat.label}</div>
+                    <div className="text-xs sm:text-sm lg:text-base text-gray-600 font-medium">{translations.stats[index]?.label || stat.label}</div>
                   </motion.div>
                 );
               })}
@@ -154,7 +200,7 @@ export default function DownloadSection() {
             {/* Botones de descarga con StarBorder */}
             <motion.div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-10 lg:mb-12 items-center justify-center lg:justify-center lg:w-[75%]" variants={itemVariants}>
               <StarBorder as="a" href="https://apps.apple.com/us/app/hero-budget/id6746946502" target="_blank" rel="noopener noreferrer" className="-" color="magenta" speed="5s" thickness={10}>
-                <Image src="/app-play-store/appstorebutton.png" alt="Descárgalo en el App Store" width={200} height={60} className="h-12 sm:h-14 md:h-16 lg:h-18 xl:h-20 w-auto" />
+                <Image src="/app-play-store/appstorebutton.png" alt={translations.appStoreAlt} width={200} height={60} className="h-12 sm:h-14 md:h-16 lg:h-18 xl:h-20 w-auto" />
               </StarBorder>
 
               {/* <StarBorder as="button" href="#" className="-" color="magenta" speed="5s" thickness={10}>
@@ -180,7 +226,7 @@ export default function DownloadSection() {
                 marginRight: responsiveConfig.getMarginRight(screenWidth),
               }}
             >
-              <Stack {...stackConfig} cardDimensions={{ width: 280 }} cardsData={appImages} />
+              <Stack {...stackConfig} cardDimensions={{ width: 280 }} cardsData={getAppImages(translations.appImages)} />
             </div>
 
             {/* Efectos flotantes alrededor del stack ajustados */}

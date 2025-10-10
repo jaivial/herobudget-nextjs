@@ -1,0 +1,40 @@
+{
+  "heading": "Why Choose Hero Budget?",
+  "subtitle": "Discover the features that make Hero Budget the best choice for managing your personal finances",
+  "features": [
+    {
+      "title": "Expense Tracking",
+      "description": "Record and categorize your expenses automatically to better understand your financial habits."
+    },
+    {
+      "title": "Savings Goals",
+      "description": "Set realistic savings goals and receive notifications to maintain your progress."
+    },
+    {
+      "title": "Recurring Bills",
+      "description": "Schedule and manage your recurring bills so you never forget a payment."
+    },
+    {
+      "title": "Secure Data",
+      "description": "Your financial information is protected with advanced security measures."
+    },
+    {
+      "title": "Intuitive Interface",
+      "description": "Simple and elegant design that makes managing money easy and enjoyable."
+    },
+    {
+      "title": "Visual Reports",
+      "description": "Clear graphs that show your financial progress at a glance."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Languages Available"
+    },
+    {
+      "number": "100%",
+      "label": "Completely Free"
+    }
+  ]
+}

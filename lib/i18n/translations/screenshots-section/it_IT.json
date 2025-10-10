@@ -1,0 +1,53 @@
+{
+  "title": "Screenshot",
+  "description": "Esplora ogni dettaglio di Hero Budget. Progettato con amore per rendere la gestione del tuo denaro un'esperienza semplice, elegante e potente.",
+  "statsTitle": "Esperienza visiva completa",
+  "stats": [
+    { "label": "Schermate" },
+    { "label": "Funzionalità" },
+    { "label": "Grafici" },
+    { "label": "Categorie" }
+  ],
+  "screenshots": [
+    {
+      "title": "Autenticazione",
+      "description": "Multipli sistemi di autenticazione e registrazione, usa la tua email, account Google o accedi con Apple."
+    },
+    {
+      "title": "Registra movimenti",
+      "description": "Registra nuove entrate, spese e fatture ricorrenti per rimanere aggiornato con il tuo controllo finanziario."
+    },
+    {
+      "title": "Categorizza ogni movimento",
+      "description": "Crea categorie e assegnale a ogni movimento per controllare il flusso della tua economia per categorie."
+    },
+    {
+      "title": "Analisi e grafici",
+      "description": "Visualizza i tuoi modelli di spesa con grafici intuitivi e analisi dettagliata del tuo comportamento finanziario."
+    },
+    {
+      "title": "Budget intelligenti",
+      "description": "Crea budget personalizzati e ricevi avvisi quando ti avvicini ai tuoi limiti di spesa."
+    },
+    {
+      "title": "Report dettagliati",
+      "description": "Genera report completi delle tue finanze con esportazione PDF e analisi delle tendenze."
+    },
+    {
+      "title": "Storico completo",
+      "description": "Accedi all'intero storico finanziario con filtri avanzati e ricerca intelligente."
+    },
+    {
+      "title": "Obiettivi di risparmio",
+      "description": "Imposta obiettivi di risparmio realistici e traccia i tuoi progressi con motivazione visiva."
+    },
+    {
+      "title": "Impostazioni complete",
+      "description": "Personalizza completamente l'applicazione con impostazioni e preferenze avanzate."
+    },
+    {
+      "title": "Dashboard intuitiva",
+      "description": "Pannello principale con tutte le tue informazioni finanziarie organizzate in modo chiaro e accessibile."
+    }
+  ]
+}

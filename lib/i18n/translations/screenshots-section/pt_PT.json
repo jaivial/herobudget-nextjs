@@ -1,0 +1,53 @@
+{
+  "title": "Capturas de ecrã",
+  "description": "Explore cada detalhe do Hero Budget. Desenhado com amor para tornar a gestão do seu dinheiro numa experiência simples, elegante e poderosa.",
+  "statsTitle": "Experiência visual completa",
+  "stats": [
+    { "label": "Ecrãs" },
+    { "label": "Funcionalidades" },
+    { "label": "Gráficos" },
+    { "label": "Categorias" }
+  ],
+  "screenshots": [
+    {
+      "title": "Autenticação",
+      "description": "Múltiplos sistemas de autenticação e registo, utilize o seu e-mail, conta Google ou inicie sessão com a Apple."
+    },
+    {
+      "title": "Registe movimentos",
+      "description": "Registe novos rendimentos, despesas e contas recorrentes para se manter atualizado com o seu controlo financeiro."
+    },
+    {
+      "title": "Categorize cada movimento",
+      "description": "Crie categorias e atribua-as a cada movimento para controlar o fluxo da sua economia por categorias."
+    },
+    {
+      "title": "Análise e gráficos",
+      "description": "Visualize os seus padrões de gastos com gráficos intuitivos e análise detalhada do seu comportamento financeiro."
+    },
+    {
+      "title": "Orçamentos inteligentes",
+      "description": "Crie orçamentos personalizados e receba alertas quando se aproximar dos seus limites de gastos."
+    },
+    {
+      "title": "Relatórios detalhados",
+      "description": "Gere relatórios completos das suas finanças com exportação em PDF e análise de tendências."
+    },
+    {
+      "title": "Histórico completo",
+      "description": "Aceda a todo o seu histórico financeiro com filtros avançados e pesquisa inteligente."
+    },
+    {
+      "title": "Objectivos de poupança",
+      "description": "Defina objectivos de poupança realistas e acompanhe o seu progresso com motivação visual."
+    },
+    {
+      "title": "Definições completas",
+      "description": "Personalize totalmente a aplicação com definições e preferências avançadas."
+    },
+    {
+      "title": "Painel intuitivo",
+      "description": "Painel principal com todas as suas informações financeiras organizadas de forma clara e acessível."
+    }
+  ]
+}

@@ -1,18 +1,29 @@
 "use client";
 
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import { gsap } from "gsap";
+import { usePathname } from "next/navigation";
 import { heroAnimationConfig, handleScrollToSection, heroBackgroundStyles, heroTextStyles, particlesConfig, gradientKeyframes, type HeroSectionRefs } from "./HeroSection_part2";
+import { getHeroSectionTranslations, type HeroSectionTranslations } from "@/lib/i18n/translations/translation-loader";
 
 /**
  * Hero Section Component - PARTE 1/2
  * Sección principal con fondo moderno y animaciones avanzadas usando GSAP + Framer Motion
  * Funciones auxiliares en HeroSection_part2.tsx
+ * Soporte multiidioma con traducciones dinámicas
  */
 
 export default function HeroSection() {
+  const pathname = usePathname();
+  const [translations, setTranslations] = useState<HeroSectionTranslations>({
+    title: "Take Control of Your Finances",
+    subtitle: "Hero Budget is the app you need to manage your expenses, create smart budgets and achieve your savings goals.",
+    primaryButton: "Download Now",
+    secondaryButton: "Learn More",
+    appStoreAlt: "Download on App Store",
+  });
   const heroRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
@@ -23,6 +34,36 @@ export default function HeroSection() {
   const morphingRef = useRef<HTMLDivElement>(null);
 
   const isInView = useInView(heroRef, { once: true, amount: 0.2 });
+
+  // Load translations based on current locale
+  useEffect(() => {
+    const pathParts = pathname.split('/').filter(Boolean);
+    let locale = 'en_GB'; // Default locale
+
+    // Detect locale from URL
+    if (pathParts.length >= 1 && pathParts[0].includes('_')) {
+      locale = pathParts[0];
+    }
+
+    console.log('[HeroSection] Detected locale from pathname:', pathname, '→', locale);
+
+    // Load translations for the detected locale
+    try {
+      const t = getHeroSectionTranslations(locale);
+      console.log('[HeroSection] Loaded translations:', t);
+      setTranslations(t);
+    } catch (error) {
+      console.error('[HeroSection] Error loading translations:', error);
+      // Fallback to English if there's an error
+      setTranslations({
+        title: "Take Control of Your Finances",
+        subtitle: "Hero Budget is the app you need to manage your expenses, create smart budgets and achieve your savings goals.",
+        primaryButton: "Download Now",
+        secondaryButton: "Learn More",
+        appStoreAlt: "Download on App Store",
+      });
+    }
+  }, [pathname]);
 
   useEffect(() => {
     if (!isInView) return;
@@ -121,11 +162,11 @@ export default function HeroSection() {
           {/* Contenido de texto */}
           <div className="text-center lg:text-left order-2 lg:order-1">
             <h1 ref={titleRef} className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight" style={heroTextStyles}>
-              Toma Control de <span className="block lg:inline">tus Finanzas</span>
+              {translations.title}
             </h1>
 
             <p ref={subtitleRef} className="text-xl sm:text-2xl text-gray-600 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Hero Budget es la app que necesitas para gestionar tus gastos, crear presupuestos inteligentes y alcanzar tus metas de ahorro.
+              {translations.subtitle}
             </p>
 
             <div ref={buttonsRef} className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
@@ -138,7 +179,7 @@ export default function HeroSection() {
                 }}
                 whileTap={{ scale: 0.98 }}
               >
-                <span className="relative z-10">Descargar Ahora</span>
+                <span className="relative z-10">{translations.primaryButton}</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-400 to-primary-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
               </motion.button>
 
@@ -152,13 +193,13 @@ export default function HeroSection() {
                 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Conocer más
+                {translations.secondaryButton}
               </motion.button>
             </div>
 
             <motion.div className="flex gap-4 mt-4 lg:w-[82%] justify-start" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 2 }}>
               <motion.a href="https://apps.apple.com/us/app/hero-budget/id6746946502" className="block w-44 h-24 relative justify-center mx-auto" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Image src="/app-play-store/appstorebutton.png" alt="Descargar en App Store" fill className="object-contain" sizes="128px" />
+                <Image src="/app-play-store/appstorebutton.png" alt={translations.appStoreAlt} fill className="object-contain" sizes="128px" />
               </motion.a>
               {/* <motion.a href="#descargas" className="block w-48 h-24 relative" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Image src="/app-play-store/playstorebutton.png" alt="Descargar en Google Play" fill className="object-contain" sizes="128px" />

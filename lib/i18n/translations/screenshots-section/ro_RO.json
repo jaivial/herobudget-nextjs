@@ -1,0 +1,53 @@
+{
+  "title": "Capturi de ecran",
+  "description": "Explorați fiecare detaliu al Hero Budget. Proiectat cu dragoste pentru a face gestionarea banilor tăi o experiență simplă, elegantă și puternică.",
+  "statsTitle": "Experiență vizuală completă",
+  "stats": [
+    { "label": "Ecrane" },
+    { "label": "Caracteristici" },
+    { "label": "Diagrame" },
+    { "label": "Categorii" }
+  ],
+  "screenshots": [
+    {
+      "title": "Autentificare",
+      "description": "Multiple sisteme de autentificare și înregistrare, utilizați e-mailul dvs., contul Google sau conectați-vă cu Apple."
+    },
+    {
+      "title": "Înregistrați mișcări",
+      "description": "Înregistrați noi venituri, cheltuieli și facturi recurente pentru a rămâne la curent cu controlul dvs. financiar."
+    },
+    {
+      "title": "Categorizați fiecare mișcare",
+      "description": "Creați categorii și atribuiți-le fiecărei mișcări pentru a controla fluxul economiei dvs. pe categorii."
+    },
+    {
+      "title": "Analiză și diagrame",
+      "description": "Vizualizați-vă tiparele de cheltuieli cu grafice intuitive și analiză detaliată a comportamentului dvs. financiar."
+    },
+    {
+      "title": "Bugete inteligente",
+      "description": "Creați bugete personalizate și primiți alerte când vă apropiați de limitele de cheltuieli."
+    },
+    {
+      "title": "Rapoarte detaliate",
+      "description": "Generați rapoarte complete ale finanțelor dvs. cu export PDF și analiză a tendințelor."
+    },
+    {
+      "title": "Istoric complet",
+      "description": "Accesați întregul istoric financiar cu filtre avansate și căutare inteligentă."
+    },
+    {
+      "title": "Obiective de economisire",
+      "description": "Stabiliți obiective de economisire realiste și urmăriți-vă progresul cu motivație vizuală."
+    },
+    {
+      "title": "Setări complete",
+      "description": "Personalizați complet aplicația cu setări și preferințe avansate."
+    },
+    {
+      "title": "Tablou de bord intuitiv",
+      "description": "Panou principal cu toate informațiile dvs. financiare organizate într-un mod clar și accesibil."
+    }
+  ]
+}

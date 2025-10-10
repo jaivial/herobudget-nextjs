@@ -1,0 +1,53 @@
+{
+  "title": "Tangkapan Skrin",
+  "description": "Terokai setiap perincian Hero Budget. Direka dengan penuh kasih sayang untuk menjadikan pengurusan wang anda sebagai pengalaman yang mudah, elegan dan berkuasa.",
+  "statsTitle": "Pengalaman Visual Lengkap",
+  "stats": [
+    { "label": "Skrin" },
+    { "label": "Ciri" },
+    { "label": "Carta" },
+    { "label": "Kategori" }
+  ],
+  "screenshots": [
+    {
+      "title": "Pengesahan",
+      "description": "Pelbagai sistem pengesahan dan pendaftaran, gunakan e-mel anda, akaun Google atau log masuk dengan Apple."
+    },
+    {
+      "title": "Rekod pergerakan",
+      "description": "Rekod pendapatan baharu, perbelanjaan dan bil berulang untuk kekal terkini dengan kawalan kewangan anda."
+    },
+    {
+      "title": "Kategorikan setiap pergerakan",
+      "description": "Cipta kategori dan berikan kepada setiap pergerakan untuk mengawal aliran ekonomi anda mengikut kategori."
+    },
+    {
+      "title": "Analisis dan carta",
+      "description": "Visualisasikan corak perbelanjaan anda dengan graf intuitif dan analisis terperinci tentang tingkah laku kewangan anda."
+    },
+    {
+      "title": "Bajet pintar",
+      "description": "Cipta bajet yang diperibadikan dan terima amaran apabila anda menghampiri had perbelanjaan anda."
+    },
+    {
+      "title": "Laporan terperinci",
+      "description": "Jana laporan lengkap kewangan anda dengan eksport PDF dan analisis trend."
+    },
+    {
+      "title": "Sejarah lengkap",
+      "description": "Akses seluruh sejarah kewangan anda dengan penapis lanjutan dan carian pintar."
+    },
+    {
+      "title": "Matlamat simpanan",
+      "description": "Tetapkan matlamat simpanan yang realistik dan jejaki kemajuan anda dengan motivasi visual."
+    },
+    {
+      "title": "Tetapan lengkap",
+      "description": "Sesuaikan sepenuhnya aplikasi dengan tetapan dan keutamaan lanjutan."
+    },
+    {
+      "title": "Papan pemuka intuitif",
+      "description": "Panel utama dengan semua maklumat kewangan anda disusun dengan cara yang jelas dan mudah diakses."
+    }
+  ]
+}

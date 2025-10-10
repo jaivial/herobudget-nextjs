@@ -1,0 +1,23 @@
+{
+  "title": "Stáhnout Hero Budget",
+  "description": "Dostupné pro iOS a Android. Zcela bezplatná aplikace dostupná ve více než 30 jazycích pro uživatele po celém světě.",
+  "stats": [
+    {
+      "label": "Jazyky"
+    },
+    {
+      "label": "Zdarma"
+    }
+  ],
+  "appStoreAlt": "Stáhnout z App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Přehled" },
+    { "alt": "Hero Budget - Výdaje" },
+    { "alt": "Hero Budget - Rozpočty" },
+    { "alt": "Hero Budget - Analýza" },
+    { "alt": "Hero Budget - Kategorie" },
+    { "alt": "Hero Budget - Zprávy" },
+    { "alt": "Hero Budget - Zprávy" },
+    { "alt": "Hero Budget - Zprávy" }
+  ]
+}

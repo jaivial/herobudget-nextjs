@@ -1,0 +1,40 @@
+{
+  "heading": "Mengapa Memilih Hero Budget?",
+  "subtitle": "Temui ciri-ciri yang menjadikan Hero Budget pilihan terbaik untuk menguruskan kewangan peribadi anda",
+  "features": [
+    {
+      "title": "Penjejakan Perbelanjaan",
+      "description": "Rekod dan kategorikan perbelanjaan anda secara automatik untuk memahami tabiat kewangan anda dengan lebih baik."
+    },
+    {
+      "title": "Matlamat Simpanan",
+      "description": "Tetapkan matlamat simpanan yang realistik dan terima pemberitahuan untuk mengekalkan kemajuan anda."
+    },
+    {
+      "title": "Bil Berulang",
+      "description": "Jadualkan dan uruskan bil berulang anda supaya anda tidak pernah terlupa pembayaran."
+    },
+    {
+      "title": "Data Selamat",
+      "description": "Maklumat kewangan anda dilindungi dengan langkah keselamatan lanjutan."
+    },
+    {
+      "title": "Antara Muka Intuitif",
+      "description": "Reka bentuk yang ringkas dan elegan yang menjadikan pengurusan wang mudah dan menyeronokkan."
+    },
+    {
+      "title": "Laporan Visual",
+      "description": "Graf yang jelas menunjukkan kemajuan kewangan anda sepintas lalu."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Bahasa Tersedia"
+    },
+    {
+      "number": "100%",
+      "label": "Percuma Sepenuhnya"
+    }
+  ]
+}

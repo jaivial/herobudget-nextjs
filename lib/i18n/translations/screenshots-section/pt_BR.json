@@ -1,0 +1,53 @@
+{
+  "title": "Capturas de tela",
+  "description": "Explore cada detalhe do Hero Budget. Projetado com amor para tornar o gerenciamento do seu dinheiro uma experiência simples, elegante e poderosa.",
+  "statsTitle": "Experiência visual completa",
+  "stats": [
+    { "label": "Telas" },
+    { "label": "Recursos" },
+    { "label": "Gráficos" },
+    { "label": "Categorias" }
+  ],
+  "screenshots": [
+    {
+      "title": "Autenticação",
+      "description": "Múltiplos sistemas de autenticação e registro, use seu e-mail, conta do Google ou faça login com a Apple."
+    },
+    {
+      "title": "Registre movimentos",
+      "description": "Registre novas receitas, despesas e contas recorrentes para manter-se atualizado com seu controle financeiro."
+    },
+    {
+      "title": "Categorize cada movimento",
+      "description": "Crie categorias e atribua-as a cada movimento para controlar o fluxo da sua economia por categorias."
+    },
+    {
+      "title": "Análise e gráficos",
+      "description": "Visualize seus padrões de gastos com gráficos intuitivos e análise detalhada do seu comportamento financeiro."
+    },
+    {
+      "title": "Orçamentos inteligentes",
+      "description": "Crie orçamentos personalizados e receba alertas quando se aproximar dos seus limites de gastos."
+    },
+    {
+      "title": "Relatórios detalhados",
+      "description": "Gere relatórios completos das suas finanças com exportação em PDF e análise de tendências."
+    },
+    {
+      "title": "Histórico completo",
+      "description": "Acesse todo o seu histórico financeiro com filtros avançados e busca inteligente."
+    },
+    {
+      "title": "Metas de economia",
+      "description": "Defina metas de economia realistas e acompanhe seu progresso com motivação visual."
+    },
+    {
+      "title": "Configurações completas",
+      "description": "Personalize completamente o aplicativo com configurações e preferências avançadas."
+    },
+    {
+      "title": "Painel intuitivo",
+      "description": "Painel principal com todas as suas informações financeiras organizadas de forma clara e acessível."
+    }
+  ]
+}

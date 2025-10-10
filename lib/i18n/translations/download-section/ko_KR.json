@@ -1,0 +1,23 @@
+{
+  "title": "Hero Budget 다운로드",
+  "description": "iOS 및 Android에서 사용 가능. 전 세계 사용자를 위해 30개 이상의 언어로 제공되는 완전 무료 애플리케이션.",
+  "stats": [
+    {
+      "label": "언어"
+    },
+    {
+      "label": "무료"
+    }
+  ],
+  "appStoreAlt": "App Store에서 다운로드",
+  "appImages": [
+    { "alt": "Hero Budget - 대시보드" },
+    { "alt": "Hero Budget - 지출" },
+    { "alt": "Hero Budget - 예산" },
+    { "alt": "Hero Budget - 분석" },
+    { "alt": "Hero Budget - 카테고리" },
+    { "alt": "Hero Budget - 보고서" },
+    { "alt": "Hero Budget - 보고서" },
+    { "alt": "Hero Budget - 보고서" }
+  ]
+}

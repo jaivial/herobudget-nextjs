@@ -1,0 +1,53 @@
+{
+  "title": "Skærmbilleder",
+  "description": "Udforsk hver detalje af Hero Budget. Designet med kærlighed for at gøre styringen af dine penge til en simpel, elegant og kraftfuld oplevelse.",
+  "statsTitle": "Komplet visuel oplevelse",
+  "stats": [
+    { "label": "Skærme" },
+    { "label": "Funktioner" },
+    { "label": "Diagrammer" },
+    { "label": "Kategorier" }
+  ],
+  "screenshots": [
+    {
+      "title": "Godkendelse",
+      "description": "Multiple godkendelses- og registreringssystemer, brug din e-mail, Google-konto eller log ind med Apple."
+    },
+    {
+      "title": "Registrer bevægelser",
+      "description": "Registrer ny indkomst, udgifter og tilbagevendende regninger for at holde dig opdateret med din økonomiske kontrol."
+    },
+    {
+      "title": "Kategoriser hver bevægelse",
+      "description": "Opret kategorier og tildel dem til hver bevægelse for at kontrollere flowet af din økonomi efter kategorier."
+    },
+    {
+      "title": "Analyse og diagrammer",
+      "description": "Visualiser dine forbrugsmønstre med intuitive grafer og detaljeret analyse af din økonomiske adfærd."
+    },
+    {
+      "title": "Smarte budgetter",
+      "description": "Opret personlige budgetter og modtag advarsler, når du nærmer dig dine forbrugsgrænser."
+    },
+    {
+      "title": "Detaljerede rapporter",
+      "description": "Generer komplette rapporter om din økonomi med PDF-eksport og trendanalyse."
+    },
+    {
+      "title": "Komplet historik",
+      "description": "Få adgang til hele din finansielle historik med avancerede filtre og intelligent søgning."
+    },
+    {
+      "title": "Opsparingsmål",
+      "description": "Sæt realistiske opsparingsmål og følg din fremgang med visuel motivation."
+    },
+    {
+      "title": "Komplette indstillinger",
+      "description": "Tilpas applikationen fuldt ud med avancerede indstillinger og præferencer."
+    },
+    {
+      "title": "Intuitiv dashboard",
+      "description": "Hovedpanel med alle dine finansielle oplysninger organiseret på en klar og tilgængelig måde."
+    }
+  ]
+}

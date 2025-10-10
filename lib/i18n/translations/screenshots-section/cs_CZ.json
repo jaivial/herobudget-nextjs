@@ -1,0 +1,53 @@
+{
+  "title": "Snímky obrazovky",
+  "description": "Prozkoumejte každý detail aplikace Hero Budget. Navrženo s láskou, aby byla správa vašich peněz jednoduchá, elegantní a výkonná.",
+  "statsTitle": "Kompletní vizuální zážitek",
+  "stats": [
+    { "label": "Obrazovky" },
+    { "label": "Funkce" },
+    { "label": "Grafy" },
+    { "label": "Kategorie" }
+  ],
+  "screenshots": [
+    {
+      "title": "Ověření",
+      "description": "Více systémů ověřování a registrace, použijte svůj e-mail, účet Google nebo se přihlaste pomocí Apple."
+    },
+    {
+      "title": "Zaznamenávání pohybů",
+      "description": "Zaznamenejte nové příjmy, výdaje a opakující se účty, abyste měli přehled o svém finančním řízení."
+    },
+    {
+      "title": "Kategorizujte každý pohyb",
+      "description": "Vytvářejte kategorie a přiřazujte je jednotlivým pohybům pro kontrolu toku vaší ekonomiky podle kategorií."
+    },
+    {
+      "title": "Analýza a grafy",
+      "description": "Vizualizujte své výdajové vzorce pomocí intuitivních grafů a podrobné analýzy vašeho finančního chování."
+    },
+    {
+      "title": "Inteligentní rozpočty",
+      "description": "Vytvářejte personalizované rozpočty a dostávejte upozornění, když se blížíte k limitům výdajů."
+    },
+    {
+      "title": "Podrobné zprávy",
+      "description": "Generujte kompletní zprávy o vašich financích s exportem do PDF a analýzou trendů."
+    },
+    {
+      "title": "Kompletní historie",
+      "description": "Přístup k celé vaší finanční historii s pokročilými filtry a inteligentním vyhledáváním."
+    },
+    {
+      "title": "Cíle úspor",
+      "description": "Stanovte si realistické cíle úspor a sledujte svůj pokrok s vizuální motivací."
+    },
+    {
+      "title": "Kompletní nastavení",
+      "description": "Plně přizpůsobte aplikaci s pokročilými nastaveními a preferencemi."
+    },
+    {
+      "title": "Intuitivní přehled",
+      "description": "Hlavní panel se všemi vašimi finančními informacemi organizovanými jasným a přístupným způsobem."
+    }
+  ]
+}

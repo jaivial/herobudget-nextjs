@@ -72,12 +72,25 @@ export default function LanguageSelector({
     setIsOpen(false);
     setSearchQuery('');
 
-    // Update URL if we're on a localized page
-    if (pathname.startsWith('/privacidad/')) {
+    // Parse current pathname to determine page type
+    const pathParts = pathname.split('/').filter(Boolean);
+
+    // Check if we're on a localized home page (e.g., /en_GB, /es_ES)
+    if (pathParts.length === 1 && pathParts[0].includes('_')) {
+      router.push(`/${localeCode}`);
+    }
+    // Check if we're on the root page
+    else if (pathname === '/') {
+      router.push(`/${localeCode}`);
+    }
+    // Check if we're on a privacy page (e.g., /privacidad/es_ES)
+    else if (pathname.startsWith('/privacidad/')) {
       router.push(`/privacidad/${localeCode}`);
     } else if (pathname === '/privacidad') {
       router.push(`/privacidad/${localeCode}`);
     }
+    // For other pages (like /soporte), stay on the same page
+    // The language preference is saved and will be used on next navigation
   };
 
   // Close modal on escape key

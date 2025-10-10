@@ -1,0 +1,53 @@
+{
+  "title": "Ảnh chụp màn hình",
+  "description": "Khám phá từng chi tiết của Hero Budget. Được thiết kế với tình yêu để biến việc quản lý tiền của bạn thành trải nghiệm đơn giản, thanh lịch và mạnh mẽ.",
+  "statsTitle": "Trải nghiệm hình ảnh hoàn chỉnh",
+  "stats": [
+    { "label": "Màn hình" },
+    { "label": "Tính năng" },
+    { "label": "Biểu đồ" },
+    { "label": "Danh mục" }
+  ],
+  "screenshots": [
+    {
+      "title": "Xác thực",
+      "description": "Nhiều hệ thống xác thực và đăng ký, sử dụng email của bạn, tài khoản Google hoặc đăng nhập bằng Apple."
+    },
+    {
+      "title": "Ghi lại các giao dịch",
+      "description": "Ghi lại thu nhập mới, chi phí và hóa đơn định kỳ để luôn cập nhật với kiểm soát tài chính của bạn."
+    },
+    {
+      "title": "Phân loại từng giao dịch",
+      "description": "Tạo danh mục và gán chúng cho từng giao dịch để kiểm soát dòng tiền của bạn theo danh mục."
+    },
+    {
+      "title": "Phân tích và biểu đồ",
+      "description": "Hình dung các mẫu chi tiêu của bạn với biểu đồ trực quan và phân tích chi tiết về hành vi tài chính của bạn."
+    },
+    {
+      "title": "Ngân sách thông minh",
+      "description": "Tạo ngân sách được cá nhân hóa và nhận cảnh báo khi bạn tiếp cận giới hạn chi tiêu."
+    },
+    {
+      "title": "Báo cáo chi tiết",
+      "description": "Tạo báo cáo đầy đủ về tài chính của bạn với xuất PDF và phân tích xu hướng."
+    },
+    {
+      "title": "Lịch sử đầy đủ",
+      "description": "Truy cập toàn bộ lịch sử tài chính của bạn với bộ lọc nâng cao và tìm kiếm thông minh."
+    },
+    {
+      "title": "Mục tiêu tiết kiệm",
+      "description": "Đặt mục tiêu tiết kiệm thực tế và theo dõi tiến trình của bạn với động lực trực quan."
+    },
+    {
+      "title": "Cài đặt đầy đủ",
+      "description": "Tùy chỉnh hoàn toàn ứng dụng với cài đặt và tùy chọn nâng cao."
+    },
+    {
+      "title": "Bảng điều khiển trực quan",
+      "description": "Bảng điều khiển chính với tất cả thông tin tài chính của bạn được tổ chức theo cách rõ ràng và dễ tiếp cận."
+    }
+  ]
+}

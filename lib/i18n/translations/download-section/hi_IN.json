@@ -1,0 +1,23 @@
+{
+  "title": "Hero Budget डाउनलोड करें",
+  "description": "iOS और Android के लिए उपलब्ध। दुनिया भर के उपयोगकर्ताओं के लिए 30 से अधिक भाषाओं में उपलब्ध पूरी तरह से मुफ्त एप्लिकेशन।",
+  "stats": [
+    {
+      "label": "भाषाएँ"
+    },
+    {
+      "label": "मुफ्त"
+    }
+  ],
+  "appStoreAlt": "App Store पर डाउनलोड करें",
+  "appImages": [
+    { "alt": "Hero Budget - डैशबोर्ड" },
+    { "alt": "Hero Budget - खर्चे" },
+    { "alt": "Hero Budget - बजट" },
+    { "alt": "Hero Budget - विश्लेषण" },
+    { "alt": "Hero Budget - श्रेणियाँ" },
+    { "alt": "Hero Budget - रिपोर्ट" },
+    { "alt": "Hero Budget - रिपोर्ट" },
+    { "alt": "Hero Budget - रिपोर्ट" }
+  ]
+}

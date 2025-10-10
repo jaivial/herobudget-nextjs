@@ -1,0 +1,53 @@
+{
+  "title": "Screenshots",
+  "description": "Explore every detail of Hero Budget. Designed with love to make managing your money a simple, elegant and powerful experience.",
+  "statsTitle": "Complete Visual Experience",
+  "stats": [
+    { "label": "Screens" },
+    { "label": "Features" },
+    { "label": "Charts" },
+    { "label": "Categories" }
+  ],
+  "screenshots": [
+    {
+      "title": "Authentication",
+      "description": "Multiple authentication and registration systems, use your email, Google account or sign in with Apple."
+    },
+    {
+      "title": "Record movements",
+      "description": "Record new income, expenses and recurring bills to stay up to date with your financial control."
+    },
+    {
+      "title": "Categorize each movement",
+      "description": "Create categories and assign them to each movement to control the flow of your economy by categories."
+    },
+    {
+      "title": "Analysis and charts",
+      "description": "Visualize your spending patterns with intuitive graphs and detailed analysis of your financial behavior."
+    },
+    {
+      "title": "Smart budgets",
+      "description": "Create personalized budgets and receive alerts when you approach your spending limits."
+    },
+    {
+      "title": "Detailed reports",
+      "description": "Generate complete reports of your finances with PDF export and trend analysis."
+    },
+    {
+      "title": "Complete history",
+      "description": "Access your entire financial history with advanced filters and intelligent search."
+    },
+    {
+      "title": "Savings goals",
+      "description": "Set realistic savings goals and track your progress with visual motivation."
+    },
+    {
+      "title": "Complete settings",
+      "description": "Fully customize the application with advanced settings and preferences."
+    },
+    {
+      "title": "Intuitive dashboard",
+      "description": "Main panel with all your financial information organized in a clear and accessible way."
+    }
+  ]
+}

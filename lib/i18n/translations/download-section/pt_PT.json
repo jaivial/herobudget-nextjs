@@ -1,0 +1,23 @@
+{
+  "title": "Transferir Hero Budget",
+  "description": "Disponível para iOS e Android. Aplicação completamente gratuita disponível em mais de 30 idiomas para utilizadores em todo o mundo.",
+  "stats": [
+    {
+      "label": "Idiomas"
+    },
+    {
+      "label": "Grátis"
+    }
+  ],
+  "appStoreAlt": "Transferir na App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Painel de controlo" },
+    { "alt": "Hero Budget - Despesas" },
+    { "alt": "Hero Budget - Orçamentos" },
+    { "alt": "Hero Budget - Análise" },
+    { "alt": "Hero Budget - Categorias" },
+    { "alt": "Hero Budget - Relatórios" },
+    { "alt": "Hero Budget - Relatórios" },
+    { "alt": "Hero Budget - Relatórios" }
+  ]
+}

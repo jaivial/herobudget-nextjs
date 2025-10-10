@@ -1,13 +1,16 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
 import { BarChart3, Target, Receipt, Shield, Smartphone, TrendingUp } from "lucide-react";
+import { usePathname } from "next/navigation";
 import ScrollFloat from "./ScrollFloat";
+import { getFeaturesSectionTranslations, type FeaturesSectionTranslations } from "@/lib/i18n/translations/translation-loader";
 
 /**
  * Features Section Component
  * Sección de características con animaciones en scroll
+ * Soporte multiidioma con traducciones dinámicas
  */
 
 interface Feature {
@@ -17,48 +20,61 @@ interface Feature {
   color: string;
 }
 
-const features: Feature[] = [
-  {
-    icon: BarChart3,
-    title: "Seguimiento de Gastos",
-    description: "Registra y categoriza tus gastos de forma automática para entender mejor tus hábitos financieros.",
-    color: "text-blue-500",
-  },
-  {
-    icon: Target,
-    title: "Metas de Ahorro",
-    description: "Establece objetivos de ahorro realistas y recibe notificaciones para mantener tu progreso.",
-    color: "text-green-500",
-  },
-  {
-    icon: Receipt,
-    title: "Facturas recurrentes",
-    description: "Programa y gestiona tus facturas recurrentes para nunca olvidar ningún pago.",
-    color: "text-yellow-500",
-  },
-  {
-    icon: Shield,
-    title: "Datos Seguros",
-    description: "Tu información financiera está protegida con medidas de seguridad avanzadas.",
-    color: "text-red-500",
-  },
-  {
-    icon: Smartphone,
-    title: "Interfaz Intuitiva",
-    description: "Diseño simple y elegante que hace que gestionar dinero sea fácil y agradable.",
-    color: "text-purple-500",
-  },
-  {
-    icon: TrendingUp,
-    title: "Reportes Visuales",
-    description: "Gráficos claros que muestran tu progreso financiero de un vistazo.",
-    color: "text-primary-500",
-  },
-];
+const featureIcons = [BarChart3, Target, Receipt, Shield, Smartphone, TrendingUp];
+const featureColors = ["text-blue-500", "text-green-500", "text-yellow-500", "text-red-500", "text-purple-500", "text-primary-500"];
 
 export default function FeaturesSection() {
+  const pathname = usePathname();
+  const [translations, setTranslations] = useState<FeaturesSectionTranslations>({
+    heading: "Why Choose Hero Budget?",
+    subtitle: "Discover the features that make Hero Budget the best choice for managing your personal finances",
+    features: [
+      { title: "Expense Tracking", description: "Record and categorise your expenses automatically to better understand your financial habits." },
+      { title: "Savings Goals", description: "Set realistic savings goals and receive notifications to maintain your progress." },
+      { title: "Recurring Bills", description: "Schedule and manage your recurring bills so you never forget a payment." },
+      { title: "Secure Data", description: "Your financial information is protected with advanced security measures." },
+      { title: "Intuitive Interface", description: "Simple and elegant design that makes managing money easy and enjoyable." },
+      { title: "Visual Reports", description: "Clear graphs that show your financial progress at a glance." },
+    ],
+    stats: [
+      { number: "30+", label: "Languages Available" },
+      { number: "100%", label: "Completely Free" },
+    ],
+  });
+
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
+
+  // Load translations based on current locale
+  useEffect(() => {
+    const pathParts = pathname.split('/').filter(Boolean);
+    let locale = 'en_GB'; // Default locale
+
+    // Detect locale from URL
+    if (pathParts.length >= 1 && pathParts[0].includes('_')) {
+      locale = pathParts[0];
+    }
+
+    console.log('[FeaturesSection] Detected locale from pathname:', pathname, '→', locale);
+
+    // Load translations for the detected locale
+    try {
+      const t = getFeaturesSectionTranslations(locale);
+      console.log('[FeaturesSection] Loaded translations:', t);
+      setTranslations(t);
+    } catch (error) {
+      console.error('[FeaturesSection] Error loading translations:', error);
+      // Fallback already set in initial state
+    }
+  }, [pathname]);
+
+  // Build features array with icons and colors
+  const features: Feature[] = translations.features.map((feature, index) => ({
+    icon: featureIcons[index],
+    title: feature.title,
+    description: feature.description,
+    color: featureColors[index],
+  }));
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -143,10 +159,10 @@ export default function FeaturesSection() {
       <div className="container-custom relative z-10">
         <motion.div className="text-center mb-16" variants={containerVariants} initial="hidden" animate={isInView ? "visible" : "hidden"}>
           <ScrollFloat containerClassName="mb-6" textClassName="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900" animationDuration={1.2} ease="back.inOut(2)" scrollStart="center bottom+=30%" scrollEnd="bottom bottom-=50%" stagger={0.02}>
-            ¿Por qué elegir Hero Budget?
+            {translations.heading}
           </ScrollFloat>
           <motion.p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto" variants={titleVariants}>
-            Descubre las características que hacen de Hero Budget la mejor opción para gestionar tus finanzas personales
+            {translations.subtitle}
           </motion.p>
         </motion.div>
 
@@ -195,10 +211,7 @@ export default function FeaturesSection() {
 
         {/* Estadísticas adicionales */}
         <motion.div className="mt-20 grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-md mx-auto" initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }} transition={{ duration: 0.8, delay: 0.6 }}>
-          {[
-            { number: "30+", label: "Idiomas Disponibles" },
-            { number: "100%", label: "Completamente Gratis" },
-          ].map((stat, index) => (
+          {translations.stats.map((stat, index) => (
             <motion.div key={index} className="text-center" whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
               <motion.div
                 className="stat-number"

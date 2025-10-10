@@ -1,0 +1,23 @@
+{
+  "title": "Tải xuống Hero Budget",
+  "description": "Có sẵn cho iOS và Android. Ứng dụng hoàn toàn miễn phí có sẵn trong hơn 30 ngôn ngữ cho người dùng trên toàn thế giới.",
+  "stats": [
+    {
+      "label": "Ngôn ngữ"
+    },
+    {
+      "label": "Miễn phí"
+    }
+  ],
+  "appStoreAlt": "Tải về trên App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Bảng điều khiển" },
+    { "alt": "Hero Budget - Chi tiêu" },
+    { "alt": "Hero Budget - Ngân sách" },
+    { "alt": "Hero Budget - Phân tích" },
+    { "alt": "Hero Budget - Danh mục" },
+    { "alt": "Hero Budget - Báo cáo" },
+    { "alt": "Hero Budget - Báo cáo" },
+    { "alt": "Hero Budget - Báo cáo" }
+  ]
+}

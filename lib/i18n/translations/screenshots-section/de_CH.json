@@ -1,0 +1,53 @@
+{
+  "title": "Screenshots",
+  "description": "Entdecken Sie jedes Detail von Hero Budget. Mit Liebe gestaltet, um die Verwaltung Ihres Geldes zu einem einfachen, eleganten und leistungsstarken Erlebnis zu machen.",
+  "statsTitle": "Vollständiges visuelles Erlebnis",
+  "stats": [
+    { "label": "Bildschirme" },
+    { "label": "Funktionen" },
+    { "label": "Diagramme" },
+    { "label": "Kategorien" }
+  ],
+  "screenshots": [
+    {
+      "title": "Authentifizierung",
+      "description": "Mehrere Authentifizierungs- und Registrierungssysteme, verwenden Sie Ihre E-Mail, Ihr Google-Konto oder melden Sie sich mit Apple an."
+    },
+    {
+      "title": "Bewegungen erfassen",
+      "description": "Erfassen Sie neue Einnahmen, Ausgaben und wiederkehrende Rechnungen, um Ihre Finanzkontrolle auf dem neuesten Stand zu halten."
+    },
+    {
+      "title": "Jede Bewegung kategorisieren",
+      "description": "Erstellen Sie Kategorien und weisen Sie sie jeder Bewegung zu, um den Fluss Ihrer Wirtschaft nach Kategorien zu kontrollieren."
+    },
+    {
+      "title": "Analyse und Diagramme",
+      "description": "Visualisieren Sie Ihre Ausgabenmuster mit intuitiven Grafiken und detaillierter Analyse Ihres Finanzverhaltens."
+    },
+    {
+      "title": "Intelligente Budgets",
+      "description": "Erstellen Sie personalisierte Budgets und erhalten Sie Benachrichtigungen, wenn Sie sich Ihren Ausgabenlimits nähern."
+    },
+    {
+      "title": "Detaillierte Berichte",
+      "description": "Erstellen Sie vollständige Berichte über Ihre Finanzen mit PDF-Export und Trendanalyse."
+    },
+    {
+      "title": "Vollständige Historie",
+      "description": "Greifen Sie auf Ihre gesamte Finanzhistorie mit erweiterten Filtern und intelligenter Suche zu."
+    },
+    {
+      "title": "Sparziele",
+      "description": "Setzen Sie realistische Sparziele und verfolgen Sie Ihren Fortschritt mit visueller Motivation."
+    },
+    {
+      "title": "Vollständige Einstellungen",
+      "description": "Passen Sie die Anwendung vollständig mit erweiterten Einstellungen und Präferenzen an."
+    },
+    {
+      "title": "Intuitives Dashboard",
+      "description": "Hauptpanel mit allen Ihren Finanzinformationen übersichtlich und zugänglich organisiert."
+    }
+  ]
+}

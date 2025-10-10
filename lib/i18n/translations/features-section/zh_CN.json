@@ -1,0 +1,40 @@
+{
+  "heading": "为什么选择 Hero Budget?",
+  "subtitle": "探索使 Hero Budget 成为管理个人财务最佳选择的功能",
+  "features": [
+    {
+      "title": "支出跟踪",
+      "description": "自动记录和分类您的支出，以更好地了解您的财务习惯。"
+    },
+    {
+      "title": "储蓄目标",
+      "description": "设置切合实际的储蓄目标并接收通知以保持您的进度。"
+    },
+    {
+      "title": "定期账单",
+      "description": "安排和管理您的定期账单，这样您就不会忘记付款。"
+    },
+    {
+      "title": "安全数据",
+      "description": "您的财务信息受到先进安全措施的保护。"
+    },
+    {
+      "title": "直观界面",
+      "description": "简单优雅的设计使资金管理变得轻松愉快。"
+    },
+    {
+      "title": "可视化报告",
+      "description": "清晰的图表一目了然地显示您的财务进度。"
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "可用语言"
+    },
+    {
+      "number": "100%",
+      "label": "完全免费"
+    }
+  ]
+}

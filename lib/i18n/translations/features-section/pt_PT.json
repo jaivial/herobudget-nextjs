@@ -1,0 +1,40 @@
+{
+  "heading": "Porquê escolher Hero Budget?",
+  "subtitle": "Descubra as funcionalidades que fazem do Hero Budget a melhor escolha para gerir as suas finanças pessoais",
+  "features": [
+    {
+      "title": "Acompanhamento de Despesas",
+      "description": "Registe e categorize as suas despesas automaticamente para compreender melhor os seus hábitos financeiros."
+    },
+    {
+      "title": "Metas de Poupança",
+      "description": "Estabeleça objetivos de poupança realistas e receba notificações para manter o seu progresso."
+    },
+    {
+      "title": "Faturas Recorrentes",
+      "description": "Agende e gira as suas faturas recorrentes para nunca esquecer um pagamento."
+    },
+    {
+      "title": "Dados Seguros",
+      "description": "As suas informações financeiras estão protegidas com medidas de segurança avançadas."
+    },
+    {
+      "title": "Interface Intuitiva",
+      "description": "Design simples e elegante que torna a gestão de dinheiro fácil e agradável."
+    },
+    {
+      "title": "Relatórios Visuais",
+      "description": "Gráficos claros que mostram o seu progresso financeiro num ápice."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Idiomas Disponíveis"
+    },
+    {
+      "number": "100%",
+      "label": "Completamente Gratuito"
+    }
+  ]
+}

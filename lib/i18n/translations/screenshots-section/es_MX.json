@@ -1,0 +1,53 @@
+{
+  "title": "Capturas de pantalla",
+  "description": "Explora cada detalle de Hero Budget. Diseñado con amor para hacer que gestionar tu dinero sea una experiencia simple, elegante y poderosa.",
+  "statsTitle": "Experiencia visual completa",
+  "stats": [
+    { "label": "Pantallas" },
+    { "label": "Funciones" },
+    { "label": "Gráficas" },
+    { "label": "Categorías" }
+  ],
+  "screenshots": [
+    {
+      "title": "Autenticación",
+      "description": "Múltiples sistemas de autenticación y registro, utiliza tu correo electrónico, cuenta de Google o inicia sesión con Apple."
+    },
+    {
+      "title": "Registra movimientos",
+      "description": "Registra nuevos ingresos, gastos y facturas recurrentes para mantener actualizado tu control financiero."
+    },
+    {
+      "title": "Categoriza cada movimiento",
+      "description": "Crea categorías y asígnalas a cada movimiento para controlar el flujo de tu economía por categorías."
+    },
+    {
+      "title": "Análisis y gráficas",
+      "description": "Visualiza tus patrones de gasto con gráficas intuitivas y análisis detallado de tu comportamiento financiero."
+    },
+    {
+      "title": "Presupuestos inteligentes",
+      "description": "Crea presupuestos personalizados y recibe alertas cuando te acerques a tus límites de gasto."
+    },
+    {
+      "title": "Reportes detallados",
+      "description": "Genera reportes completos de tus finanzas con exportación PDF y análisis de tendencias."
+    },
+    {
+      "title": "Historial completo",
+      "description": "Accede a todo tu historial financiero con filtros avanzados y búsqueda inteligente."
+    },
+    {
+      "title": "Metas de ahorro",
+      "description": "Establece metas de ahorro realistas y rastrea tu progreso con motivación visual."
+    },
+    {
+      "title": "Configuración completa",
+      "description": "Personaliza completamente la aplicación con configuraciones y preferencias avanzadas."
+    },
+    {
+      "title": "Panel intuitivo",
+      "description": "Panel principal con toda tu información financiera organizada de forma clara y accesible."
+    }
+  ]
+}

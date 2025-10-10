@@ -1,0 +1,40 @@
+{
+  "heading": "Proč zvolit Hero Budget?",
+  "subtitle": "Objevte funkce, které dělají z Hero Budget nejlepší volbu pro správu vašich osobních financí",
+  "features": [
+    {
+      "title": "Sledování výdajů",
+      "description": "Zaznamenávejte a kategorizujte své výdaje automaticky, abyste lépe pochopili své finanční návyky."
+    },
+    {
+      "title": "Cíle úspor",
+      "description": "Stanovte si realistické cíle úspor a dostávejte upozornění k udržení vašeho pokroku."
+    },
+    {
+      "title": "Opakující se faktury",
+      "description": "Naplánujte a spravujte své opakující se faktury, abyste nikdy nezapomněli na platbu."
+    },
+    {
+      "title": "Zabezpečená data",
+      "description": "Vaše finanční informace jsou chráněny pokročilými bezpečnostními opatřeními."
+    },
+    {
+      "title": "Intuitivní rozhraní",
+      "description": "Jednoduchý a elegantní design, který dělá správu peněz snadnou a příjemnou."
+    },
+    {
+      "title": "Vizuální přehledy",
+      "description": "Přehledné grafy, které ukazují váš finanční pokrok na první pohled."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Dostupných jazyků"
+    },
+    {
+      "number": "100%",
+      "label": "Zcela zdarma"
+    }
+  ]
+}

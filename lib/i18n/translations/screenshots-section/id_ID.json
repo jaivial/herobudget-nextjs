@@ -1,0 +1,53 @@
+{
+  "title": "Tangkapan Layar",
+  "description": "Jelajahi setiap detail Hero Budget. Dirancang dengan cinta untuk membuat pengelolaan uang Anda menjadi pengalaman yang sederhana, elegan, dan kuat.",
+  "statsTitle": "Pengalaman Visual Lengkap",
+  "stats": [
+    { "label": "Layar" },
+    { "label": "Fitur" },
+    { "label": "Grafik" },
+    { "label": "Kategori" }
+  ],
+  "screenshots": [
+    {
+      "title": "Autentikasi",
+      "description": "Beberapa sistem autentikasi dan pendaftaran, gunakan email Anda, akun Google, atau masuk dengan Apple."
+    },
+    {
+      "title": "Catat pergerakan",
+      "description": "Catat pendapatan baru, pengeluaran, dan tagihan berulang untuk tetap update dengan kontrol keuangan Anda."
+    },
+    {
+      "title": "Kategorikan setiap pergerakan",
+      "description": "Buat kategori dan tetapkan ke setiap pergerakan untuk mengontrol aliran ekonomi Anda berdasarkan kategori."
+    },
+    {
+      "title": "Analisis dan grafik",
+      "description": "Visualisasikan pola pengeluaran Anda dengan grafik intuitif dan analisis terperinci tentang perilaku keuangan Anda."
+    },
+    {
+      "title": "Anggaran cerdas",
+      "description": "Buat anggaran yang dipersonalisasi dan terima peringatan saat Anda mendekati batas pengeluaran Anda."
+    },
+    {
+      "title": "Laporan terperinci",
+      "description": "Buat laporan lengkap keuangan Anda dengan ekspor PDF dan analisis tren."
+    },
+    {
+      "title": "Riwayat lengkap",
+      "description": "Akses seluruh riwayat keuangan Anda dengan filter lanjutan dan pencarian cerdas."
+    },
+    {
+      "title": "Tujuan tabungan",
+      "description": "Tetapkan tujuan tabungan yang realistis dan lacak kemajuan Anda dengan motivasi visual."
+    },
+    {
+      "title": "Pengaturan lengkap",
+      "description": "Sesuaikan sepenuhnya aplikasi dengan pengaturan dan preferensi lanjutan."
+    },
+    {
+      "title": "Dasbor intuitif",
+      "description": "Panel utama dengan semua informasi keuangan Anda diatur dengan cara yang jelas dan mudah diakses."
+    }
+  ]
+}

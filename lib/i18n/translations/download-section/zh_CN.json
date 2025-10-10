@@ -1,0 +1,23 @@
+{
+  "title": "下载 Hero Budget",
+  "description": "适用于 iOS 和 Android。完全免费的应用程序,支持超过 30 种语言,服务全球用户。",
+  "stats": [
+    {
+      "label": "语言"
+    },
+    {
+      "label": "免费"
+    }
+  ],
+  "appStoreAlt": "在 App Store 下载",
+  "appImages": [
+    { "alt": "Hero Budget - 仪表板" },
+    { "alt": "Hero Budget - 支出" },
+    { "alt": "Hero Budget - 预算" },
+    { "alt": "Hero Budget - 分析" },
+    { "alt": "Hero Budget - 类别" },
+    { "alt": "Hero Budget - 报告" },
+    { "alt": "Hero Budget - 报告" },
+    { "alt": "Hero Budget - 报告" }
+  ]
+}

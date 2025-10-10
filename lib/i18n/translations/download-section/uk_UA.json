@@ -1,0 +1,23 @@
+{
+  "title": "Завантажити Hero Budget",
+  "description": "Доступно для iOS та Android. Повністю безкоштовний додаток доступний більш ніж 30 мовами для користувачів у всьому світі.",
+  "stats": [
+    {
+      "label": "Мови"
+    },
+    {
+      "label": "Безкоштовно"
+    }
+  ],
+  "appStoreAlt": "Завантажити в App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Панель керування" },
+    { "alt": "Hero Budget - Витрати" },
+    { "alt": "Hero Budget - Бюджети" },
+    { "alt": "Hero Budget - Аналіз" },
+    { "alt": "Hero Budget - Категорії" },
+    { "alt": "Hero Budget - Звіти" },
+    { "alt": "Hero Budget - Звіти" },
+    { "alt": "Hero Budget - Звіти" }
+  ]
+}

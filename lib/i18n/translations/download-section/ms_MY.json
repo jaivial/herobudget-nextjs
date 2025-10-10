@@ -1,0 +1,23 @@
+{
+  "title": "Muat turun Hero Budget",
+  "description": "Tersedia untuk iOS dan Android. Aplikasi percuma sepenuhnya tersedia dalam lebih 30 bahasa untuk pengguna di seluruh dunia.",
+  "stats": [
+    {
+      "label": "Bahasa"
+    },
+    {
+      "label": "Percuma"
+    }
+  ],
+  "appStoreAlt": "Muat turun di App Store",
+  "appImages": [
+    { "alt": "Hero Budget - Papan pemuka" },
+    { "alt": "Hero Budget - Perbelanjaan" },
+    { "alt": "Hero Budget - Belanjawan" },
+    { "alt": "Hero Budget - Analisis" },
+    { "alt": "Hero Budget - Kategori" },
+    { "alt": "Hero Budget - Laporan" },
+    { "alt": "Hero Budget - Laporan" },
+    { "alt": "Hero Budget - Laporan" }
+  ]
+}

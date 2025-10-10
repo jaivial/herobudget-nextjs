@@ -1,0 +1,40 @@
+{
+  "heading": "Miksi valita Hero Budget?",
+  "subtitle": "Tutustu ominaisuuksiin, jotka tekevät Hero Budgetista parhaan valinnan henkilökohtaisten rahojen hallintaan",
+  "features": [
+    {
+      "title": "Kulujen seuranta",
+      "description": "Kirjaa ja luokittele kulusi automaattisesti ymmärtääksesi paremmin taloudellisia tapojasi."
+    },
+    {
+      "title": "Säästötavoitteet",
+      "description": "Aseta realistiset säästötavoitteet ja vastaanota ilmoituksia edistymisesi ylläpitämiseksi."
+    },
+    {
+      "title": "Toistuvat laskut",
+      "description": "Aikatauluta ja hallinnoi toistuvia laskujasi, jotta et koskaan unohda maksua."
+    },
+    {
+      "title": "Turvalliset tiedot",
+      "description": "Taloudelliset tietosi on suojattu edistyneillä turvatoimilla."
+    },
+    {
+      "title": "Intuitiivinen käyttöliittymä",
+      "description": "Yksinkertainen ja tyylikäs muotoilu, joka tekee rahan hallinnasta helppoa ja nautinnollista."
+    },
+    {
+      "title": "Visuaaliset raportit",
+      "description": "Selkeät kaaviot, jotka näyttävät taloudellisen edistymisesi yhdellä silmäyksellä."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Saatavilla olevat kielet"
+    },
+    {
+      "number": "100%",
+      "label": "Täysin ilmainen"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Hero Budget'ı İndirin",
+  "description": "iOS ve Android için kullanılabilir. Dünya çapında kullanıcılar için 30'dan fazla dilde mevcut tamamen ücretsiz uygulama.",
+  "stats": [
+    {
+      "label": "Diller"
+    },
+    {
+      "label": "Ücretsiz"
+    }
+  ],
+  "appStoreAlt": "App Store'dan İndirin",
+  "appImages": [
+    { "alt": "Hero Budget - Kontrol Paneli" },
+    { "alt": "Hero Budget - Harcamalar" },
+    { "alt": "Hero Budget - Bütçeler" },
+    { "alt": "Hero Budget - Analiz" },
+    { "alt": "Hero Budget - Kategoriler" },
+    { "alt": "Hero Budget - Raporlar" },
+    { "alt": "Hero Budget - Raporlar" },
+    { "alt": "Hero Budget - Raporlar" }
+  ]
+}

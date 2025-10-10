@@ -1,0 +1,40 @@
+{
+  "heading": "Hvorfor velge Hero Budget?",
+  "subtitle": "Oppdag funksjonene som gjør Hero Budget til det beste valget for å administrere dine personlige finanser",
+  "features": [
+    {
+      "title": "Utgiftssporing",
+      "description": "Registrer og kategoriser utgiftene dine automatisk for å bedre forstå dine økonomiske vaner."
+    },
+    {
+      "title": "Sparemål",
+      "description": "Sett realistiske sparemål og motta varsler for å opprettholde fremgangen din."
+    },
+    {
+      "title": "Gjentakende regninger",
+      "description": "Planlegg og administrer dine gjentakende regninger slik at du aldri glemmer en betaling."
+    },
+    {
+      "title": "Sikre data",
+      "description": "Din økonomiske informasjon er beskyttet med avanserte sikkerhetstiltak."
+    },
+    {
+      "title": "Intuitivt grensesnitt",
+      "description": "Enkelt og elegant design som gjør pengehåndtering enkelt og hyggelig."
+    },
+    {
+      "title": "Visuelle rapporter",
+      "description": "Tydelige grafer som viser din økonomiske fremgang med et blikk."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Tilgjengelige språk"
+    },
+    {
+      "number": "100%",
+      "label": "Helt gratis"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Zrzuty ekranu",
+  "description": "Odkryj każdy szczegół Hero Budget. Zaprojektowane z miłością, aby zarządzanie pieniędzmi było prostym, eleganckim i potężnym doświadczeniem.",
+  "statsTitle": "Kompletne doświadczenie wizualne",
+  "stats": [
+    { "label": "Ekrany" },
+    { "label": "Funkcje" },
+    { "label": "Wykresy" },
+    { "label": "Kategorie" }
+  ],
+  "screenshots": [
+    {
+      "title": "Uwierzytelnianie",
+      "description": "Wiele systemów uwierzytelniania i rejestracji, użyj swojego e-maila, konta Google lub zaloguj się przez Apple."
+    },
+    {
+      "title": "Zapisz ruchy",
+      "description": "Zapisuj nowe przychody, wydatki i cykliczne rachunki, aby być na bieżąco z kontrolą finansową."
+    },
+    {
+      "title": "Kategoryzuj każdy ruch",
+      "description": "Twórz kategorie i przypisuj je do każdego ruchu, aby kontrolować przepływ swojej ekonomii według kategorii."
+    },
+    {
+      "title": "Analiza i wykresy",
+      "description": "Wizualizuj swoje wzorce wydatków za pomocą intuicyjnych wykresów i szczegółowej analizy zachowań finansowych."
+    },
+    {
+      "title": "Inteligentne budżety",
+      "description": "Twórz spersonalizowane budżety i otrzymuj powiadomienia, gdy zbliżasz się do limitów wydatków."
+    },
+    {
+      "title": "Szczegółowe raporty",
+      "description": "Generuj pełne raporty swoich finansów z eksportem PDF i analizą trendów."
+    },
+    {
+      "title": "Pełna historia",
+      "description": "Dostęp do całej historii finansowej z zaawansowanymi filtrami i inteligentnym wyszukiwaniem."
+    },
+    {
+      "title": "Cele oszczędnościowe",
+      "description": "Ustal realistyczne cele oszczędnościowe i śledź swoje postępy z wizualną motywacją."
+    },
+    {
+      "title": "Pełne ustawienia",
+      "description": "W pełni dostosuj aplikację za pomocą zaawansowanych ustawień i preferencji."
+    },
+    {
+      "title": "Intuicyjny panel",
+      "description": "Główny panel ze wszystkimi informacjami finansowymi zorganizowanymi w przejrzysty i dostępny sposób."
+    }
+  ]
+}

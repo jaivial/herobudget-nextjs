@@ -1,0 +1,40 @@
+{
+  "heading": "Tại sao chọn Hero Budget?",
+  "subtitle": "Khám phá các tính năng giúp Hero Budget trở thành lựa chọn tốt nhất để quản lý tài chính cá nhân của bạn",
+  "features": [
+    {
+      "title": "Theo dõi chi tiêu",
+      "description": "Ghi lại và phân loại các khoản chi tiêu của bạn tự động để hiểu rõ hơn về thói quen tài chính của bạn."
+    },
+    {
+      "title": "Mục tiêu tiết kiệm",
+      "description": "Đặt mục tiêu tiết kiệm thực tế và nhận thông báo để duy trì tiến độ của bạn."
+    },
+    {
+      "title": "Hóa đơn định kỳ",
+      "description": "Lên lịch và quản lý các hóa đơn định kỳ của bạn để không bao giờ quên thanh toán."
+    },
+    {
+      "title": "Dữ liệu an toàn",
+      "description": "Thông tin tài chính của bạn được bảo vệ bằng các biện pháp bảo mật tiên tiến."
+    },
+    {
+      "title": "Giao diện trực quan",
+      "description": "Thiết kế đơn giản và thanh lịch giúp việc quản lý tiền bạc trở nên dễ dàng và thú vị."
+    },
+    {
+      "title": "Báo cáo trực quan",
+      "description": "Biểu đồ rõ ràng cho thấy tiến độ tài chính của bạn chỉ trong nháy mắt."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Ngôn ngữ có sẵn"
+    },
+    {
+      "number": "100%",
+      "label": "Hoàn toàn miễn phí"
+    }
+  ]
+}

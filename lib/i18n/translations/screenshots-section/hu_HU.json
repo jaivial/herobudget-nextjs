@@ -1,0 +1,53 @@
+{
+  "title": "Képernyőképek",
+  "description": "Fedezze fel a Hero Budget minden részletét. Szeretettel tervezve, hogy pénzügyek kezelését egyszerű, elegáns és hatékony élménnyé tegye.",
+  "statsTitle": "Teljes vizuális élmény",
+  "stats": [
+    { "label": "Képernyők" },
+    { "label": "Funkciók" },
+    { "label": "Grafikonok" },
+    { "label": "Kategóriák" }
+  ],
+  "screenshots": [
+    {
+      "title": "Hitelesítés",
+      "description": "Több hitelesítési és regisztrációs rendszer, használja e-mailjét, Google fiókját vagy jelentkezzen be Apple-lel."
+    },
+    {
+      "title": "Mozgások rögzítése",
+      "description": "Rögzítsen új bevételeket, kiadásokat és ismétlődő számlákat, hogy naprakész legyen pénzügyi ellenőrzésével."
+    },
+    {
+      "title": "Kategorizálja minden mozgást",
+      "description": "Hozzon létre kategóriákat és rendelje hozzá őket minden mozgáshoz, hogy kategóriák szerint ellenőrizze gazdasága áramlását."
+    },
+    {
+      "title": "Elemzés és grafikonok",
+      "description": "Vizualizálja kiadási mintáit intuitív grafikonokkal és részletes pénzügyi viselkedés elemzéssel."
+    },
+    {
+      "title": "Intelligens költségvetések",
+      "description": "Hozzon létre személyre szabott költségvetéseket és kapjon értesítéseket, amikor megközelíti kiadási határait."
+    },
+    {
+      "title": "Részletes jelentések",
+      "description": "Készítsen teljes jelentéseket pénzügyeiről PDF exporttal és trend elemzéssel."
+    },
+    {
+      "title": "Teljes előzmények",
+      "description": "Férjen hozzá teljes pénzügyi előzményeihez speciális szűrőkkel és intelligens kereséssel."
+    },
+    {
+      "title": "Megtakarítási célok",
+      "description": "Állítson be reális megtakarítási célokat és kövesse nyomon haladását vizuális motivációval."
+    },
+    {
+      "title": "Teljes beállítások",
+      "description": "Teljes mértékben testreszabhatja az alkalmazást speciális beállításokkal és preferenciákkal."
+    },
+    {
+      "title": "Intuitív műszerfal",
+      "description": "Fő panel az összes pénzügyi információval világos és hozzáférhető módon szervezve."
+    }
+  ]
+}

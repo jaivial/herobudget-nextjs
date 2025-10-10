@@ -1,0 +1,53 @@
+{
+  "title": "Captures d'écran",
+  "description": "Explorez chaque détail de Hero Budget. Conçu avec amour pour faire de la gestion de votre argent une expérience simple, élégante et puissante.",
+  "statsTitle": "Expérience visuelle complète",
+  "stats": [
+    { "label": "Écrans" },
+    { "label": "Fonctionnalités" },
+    { "label": "Graphiques" },
+    { "label": "Catégories" }
+  ],
+  "screenshots": [
+    {
+      "title": "Authentification",
+      "description": "Plusieurs systèmes d'authentification et d'inscription, utilisez votre email, votre compte Google ou connectez-vous avec Apple."
+    },
+    {
+      "title": "Enregistrer les mouvements",
+      "description": "Enregistrez de nouveaux revenus, dépenses et factures récurrentes pour rester à jour avec votre contrôle financier."
+    },
+    {
+      "title": "Catégorisez chaque mouvement",
+      "description": "Créez des catégories et attribuez-les à chaque mouvement pour contrôler le flux de votre économie par catégories."
+    },
+    {
+      "title": "Analyse et graphiques",
+      "description": "Visualisez vos habitudes de dépenses avec des graphiques intuitifs et une analyse détaillée de votre comportement financier."
+    },
+    {
+      "title": "Budgets intelligents",
+      "description": "Créez des budgets personnalisés et recevez des alertes lorsque vous approchez de vos limites de dépenses."
+    },
+    {
+      "title": "Rapports détaillés",
+      "description": "Générez des rapports complets de vos finances avec exportation PDF et analyse des tendances."
+    },
+    {
+      "title": "Historique complet",
+      "description": "Accédez à tout votre historique financier avec des filtres avancés et une recherche intelligente."
+    },
+    {
+      "title": "Objectifs d'épargne",
+      "description": "Fixez des objectifs d'épargne réalistes et suivez vos progrès avec motivation visuelle."
+    },
+    {
+      "title": "Paramètres complets",
+      "description": "Personnalisez entièrement l'application avec des paramètres et préférences avancés."
+    },
+    {
+      "title": "Tableau de bord intuitif",
+      "description": "Panneau principal avec toutes vos informations financières organisées de manière claire et accessible."
+    }
+  ]
+}

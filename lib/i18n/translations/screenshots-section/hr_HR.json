@@ -1,0 +1,53 @@
+{
+  "title": "Snimke zaslona",
+  "description": "Istražite svaki detalj Hero Budgeta. Dizajnirano s ljubavlju kako bi upravljanje vašim novcem bilo jednostavno, elegantno i moćno iskustvo.",
+  "statsTitle": "Potpuno vizualno iskustvo",
+  "stats": [
+    { "label": "Zasloni" },
+    { "label": "Značajke" },
+    { "label": "Grafikoni" },
+    { "label": "Kategorije" }
+  ],
+  "screenshots": [
+    {
+      "title": "Autentifikacija",
+      "description": "Višestruki sustavi autentifikacije i registracije, koristite svoju e-poštu, Google račun ili se prijavite s Appleom."
+    },
+    {
+      "title": "Zabilježite pokrete",
+      "description": "Zabilježite nove prihode, rashode i ponavljajuće račune kako biste ostali ažurni sa svojom financijskom kontrolom."
+    },
+    {
+      "title": "Kategorizirajte svaki pokret",
+      "description": "Stvorite kategorije i dodijelite ih svakom pokretu kako biste kontrolirali tijek svoje ekonomije po kategorijama."
+    },
+    {
+      "title": "Analiza i grafikoni",
+      "description": "Vizualizirajte svoje obrasce potrošnje intuitivnim grafovima i detaljnom analizom vašeg financijskog ponašanja."
+    },
+    {
+      "title": "Pametni proračuni",
+      "description": "Stvorite personalizirane proračune i primajte upozorenja kada se približite svojim granicama potrošnje."
+    },
+    {
+      "title": "Detaljni izvještaji",
+      "description": "Generirajte potpune izvještaje o svojim financijama s PDF izvozom i analizom trendova."
+    },
+    {
+      "title": "Potpuna povijest",
+      "description": "Pristupite cijeloj svojoj financijskoj povijesti s naprednim filterima i inteligentnom pretragom."
+    },
+    {
+      "title": "Ciljevi štednje",
+      "description": "Postavite realistične ciljeve štednje i pratite svoj napredak s vizualnom motivacijom."
+    },
+    {
+      "title": "Potpune postavke",
+      "description": "Potpuno prilagodite aplikaciju s naprednim postavkama i preferencijama."
+    },
+    {
+      "title": "Intuitivna nadzorna ploča",
+      "description": "Glavni panel sa svim vašim financijskim informacijama organiziranim na jasan i pristupačan način."
+    }
+  ]
+}

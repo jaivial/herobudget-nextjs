@@ -1,0 +1,40 @@
+{
+  "heading": "Neden Hero Budget'i Seçmelisiniz?",
+  "subtitle": "Hero Budget'i kişisel finanslarınızı yönetmek için en iyi seçenek yapan özellikleri keşfedin",
+  "features": [
+    {
+      "title": "Harcama Takibi",
+      "description": "Mali alışkanlıklarınızı daha iyi anlamak için harcamalarınızı otomatik olarak kaydedin ve kategorilere ayırın."
+    },
+    {
+      "title": "Tasarruf Hedefleri",
+      "description": "Gerçekçi tasarruf hedefleri belirleyin ve ilerlemenizi sürdürmek için bildirimler alın."
+    },
+    {
+      "title": "Tekrarlayan Faturalar",
+      "description": "Tekrarlayan faturalarınızı planlayın ve yönetin, böylece hiçbir ödemeyi unutmazsınız."
+    },
+    {
+      "title": "Güvenli Veri",
+      "description": "Mali bilgileriniz gelişmiş güvenlik önlemleriyle korunur."
+    },
+    {
+      "title": "Sezgisel Arayüz",
+      "description": "Para yönetimini kolay ve keyifli hale getiren basit ve zarif tasarım."
+    },
+    {
+      "title": "Görsel Raporlar",
+      "description": "Mali ilerlemenizi bir bakışta gösteren net grafikler."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Mevcut Diller"
+    },
+    {
+      "number": "100%",
+      "label": "Tamamen Ücretsiz"
+    }
+  ]
+}

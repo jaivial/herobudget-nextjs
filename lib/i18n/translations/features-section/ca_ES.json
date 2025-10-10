@@ -1,0 +1,40 @@
+{
+  "heading": "Per què triar Hero Budget?",
+  "subtitle": "Descobreix les funcions que fan de Hero Budget la millor opció per gestionar les teves finances personals",
+  "features": [
+    {
+      "title": "Seguiment de despeses",
+      "description": "Registra i categoritza les teves despeses automàticament per entendre millor els teus hàbits financers."
+    },
+    {
+      "title": "Objectius d'estalvi",
+      "description": "Estableix objectius d'estalvi realistes i rep notificacions per mantenir el teu progrés."
+    },
+    {
+      "title": "Factures recurrents",
+      "description": "Programa i gestiona les teves factures recurrents perquè mai oblidis un pagament."
+    },
+    {
+      "title": "Dades segures",
+      "description": "La teva informació financera està protegida amb mesures de seguretat avançades."
+    },
+    {
+      "title": "Interfície intuïtiva",
+      "description": "Disseny simple i elegant que fa que gestionar els diners sigui fàcil i agradable."
+    },
+    {
+      "title": "Informes visuals",
+      "description": "Gràfics clars que mostren el teu progrés financer d'un cop d'ull."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Idiomes disponibles"
+    },
+    {
+      "number": "100%",
+      "label": "Completament gratuït"
+    }
+  ]
+}

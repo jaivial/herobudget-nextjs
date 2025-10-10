@@ -1,0 +1,23 @@
+{
+  "title": "Lataa Hero Budget",
+  "description": "Saatavilla iOS:lle ja Androidille. Täysin ilmainen sovellus saatavilla yli 30 kielellä käyttäjille ympäri maailmaa.",
+  "stats": [
+    {
+      "label": "Kielet"
+    },
+    {
+      "label": "Ilmainen"
+    }
+  ],
+  "appStoreAlt": "Lataa App Storesta",
+  "appImages": [
+    { "alt": "Hero Budget - Kojelauta" },
+    { "alt": "Hero Budget - Kulut" },
+    { "alt": "Hero Budget - Budjetit" },
+    { "alt": "Hero Budget - Analyysi" },
+    { "alt": "Hero Budget - Luokat" },
+    { "alt": "Hero Budget - Raportit" },
+    { "alt": "Hero Budget - Raportit" },
+    { "alt": "Hero Budget - Raportit" }
+  ]
+}

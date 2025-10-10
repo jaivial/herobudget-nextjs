@@ -60,9 +60,8 @@ export default function PageWrapper({
   return (
     <>
       {/* Loader personalizado que se muestra durante la carga */}
-      <CustomLoader 
-        isLoading={isLoading} 
-        loadingText="Preparando Hero Budget..."
+      <CustomLoader
+        isLoading={isLoading}
         minimumDuration={minimumLoadingTime}
       />
       

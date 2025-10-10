@@ -1,0 +1,23 @@
+{
+  "title": "Preuzmite Hero Budget",
+  "description": "Dostupno za iOS i Android. Potpuno besplatna aplikacija dostupna na više od 30 jezika za korisnike širom svijeta.",
+  "stats": [
+    {
+      "label": "Jezici"
+    },
+    {
+      "label": "Besplatno"
+    }
+  ],
+  "appStoreAlt": "Preuzmite na App Storeu",
+  "appImages": [
+    { "alt": "Hero Budget - Nadzorna ploča" },
+    { "alt": "Hero Budget - Troškovi" },
+    { "alt": "Hero Budget - Proračuni" },
+    { "alt": "Hero Budget - Analiza" },
+    { "alt": "Hero Budget - Kategorije" },
+    { "alt": "Hero Budget - Izvješća" },
+    { "alt": "Hero Budget - Izvješća" },
+    { "alt": "Hero Budget - Izvješća" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "heading": "Zašto odabrati Hero Budget?",
+  "subtitle": "Otkrijte značajke koje čine Hero Budget najboljim izborom za upravljanje vašim osobnim financijama",
+  "features": [
+    {
+      "title": "Praćenje troškova",
+      "description": "Bilježite i kategorizirajte svoje troškove automatski kako biste bolje razumjeli svoje financijske navike."
+    },
+    {
+      "title": "Ciljevi štednje",
+      "description": "Postavite realistične ciljeve štednje i primajte obavijesti kako biste održali svoj napredak."
+    },
+    {
+      "title": "Ponavljajući računi",
+      "description": "Zakažite i upravljajte svojim ponavljajućim računima kako nikada ne biste zaboravili uplatu."
+    },
+    {
+      "title": "Sigurni podaci",
+      "description": "Vaše financijske informacije su zaštićene naprednim sigurnosnim mjerama."
+    },
+    {
+      "title": "Intuitivno sučelje",
+      "description": "Jednostavan i elegantan dizajn koji čini upravljanje novcem lakim i ugodnim."
+    },
+    {
+      "title": "Vizualni izvještaji",
+      "description": "Jasni grafovi koji pokazuju vaš financijski napredak na prvi pogled."
+    }
+  ],
+  "stats": [
+    {
+      "number": "30+",
+      "label": "Dostupnih jezika"
+    },
+    {
+      "number": "100%",
+      "label": "Potpuno besplatno"
+    }
+  ]
+}
