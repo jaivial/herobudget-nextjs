@@ -949,20 +949,32 @@ export interface TicketForm {
   namePlaceholder: string;
   emailLabel: string;
   emailPlaceholder: string;
-  categoryLabel: string;
-  categoryPlaceholder: string;
+  categoryLabel?: string;
+  categoryPlaceholder?: string;
   priorityLabel: string;
-  priorityPlaceholder: string;
+  priorityPlaceholder?: string;
   subjectLabel: string;
   subjectPlaceholder: string;
   descriptionLabel: string;
   descriptionPlaceholder: string;
-  attachmentLabel: string;
-  attachmentButton: string;
-  attachmentHint: string;
+  stepsLabel?: string;
+  stepsPlaceholder?: string;
+  deviceLabel?: string;
+  devicePlaceholder?: string;
+  versionLabel?: string;
+  versionPlaceholder?: string;
+  attachmentLabel?: string;
+  attachmentButton?: string;
+  attachmentHint?: string;
+  attachmentsLabel?: string;
+  attachmentsDescription?: string;
+  attachmentsButton?: string;
+  attachmentsRemove?: string;
   submitButton: string;
-  submittingButton: string;
-  cancelButton: string;
+  submittingButton?: string;
+  submitting: string;
+  cancelButton?: string;
+  required: string;
 }
 
 export interface TicketSuccess {
@@ -1072,18 +1084,22 @@ export interface OfficeHours {
 }
 
 export interface ContactForm {
+  title: string;
+  subtitle: string;
   nameLabel: string;
   namePlaceholder: string;
   emailLabel: string;
   emailPlaceholder: string;
-  phoneLabel: string;
-  phonePlaceholder: string;
+  phoneLabel?: string;
+  phonePlaceholder?: string;
   subjectLabel: string;
   subjectPlaceholder: string;
   messageLabel: string;
   messagePlaceholder: string;
   submitButton: string;
-  submittingButton: string;
+  submittingButton?: string;
+  submitting: string;
+  required: string;
 }
 
 export interface ContactSuccess {
