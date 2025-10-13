@@ -10,6 +10,10 @@ import ImageLoader from '../ImageLoader';
  * Sección de tutoriales con videos y guías paso a paso
  */
 
+interface TutorialsSectionProps {
+  locale?: string;
+}
+
 interface Tutorial {
   id: string;
   title: string;
@@ -143,7 +147,7 @@ const difficultyColors = {
   'Avanzado': 'bg-red-100 text-red-700'
 };
 
-export default function TutorialsSection() {
+export default function TutorialsSection({ locale }: TutorialsSectionProps) {
   const [activeCategory, setActiveCategory] = useState('Todos');
   const [selectedTutorial, setSelectedTutorial] = useState<Tutorial | null>(null);
   

@@ -1,0 +1,69 @@
+{
+  "title": "Contacte-nos",
+  "subtitle": "Estamos aqui para o ajudar. Escolha o seu canal de comunicação preferido",
+  "channelsTitle": "Canais de Suporte",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-mail",
+      "description": "Ideal para questões detalhadas e anexos",
+      "value": "support@herobudget.com",
+      "availability": "Resposta em 24h"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Suporte rápido e respostas instantâneas",
+      "value": "+1 (555) 123-4567",
+      "availability": "Seg-Sex 9h-18h"
+    },
+    {
+      "id": "discord",
+      "name": "Comunidade Discord",
+      "description": "Conecte-se com outros utilizadores e obtenha ajuda",
+      "value": "Junte-se ao nosso servidor",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Horário de Expediente",
+    "schedule": [
+      {
+        "day": "Segunda - Sexta",
+        "hours": "9h - 18h"
+      },
+      {
+        "day": "Sábado",
+        "hours": "10h - 14h"
+      },
+      {
+        "day": "Domingo",
+        "hours": "Encerrado"
+      }
+    ]
+  },
+  "form": {
+    "title": "Envie-nos uma Mensagem",
+    "subtitle": "Prefere escrever-nos? Preencha este formulário e responderemos em breve",
+    "nameLabel": "Nome",
+    "namePlaceholder": "O seu nome",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "seu@email.com",
+    "subjectLabel": "Assunto",
+    "subjectPlaceholder": "Como podemos ajudá-lo?",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Escreva a sua mensagem aqui...",
+    "submitButton": "Enviar Mensagem",
+    "submitting": "A enviar...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Mensagem Enviada!",
+    "message": "Obrigado por nos contactar. Responderemos em breve."
+  },
+  "toast": {
+    "successTitle": "Mensagem enviada!",
+    "errorTitle": "Erro ao enviar mensagem",
+    "errorConnection": "Não foi possível conectar ao servidor. Por favor, tente novamente."
+  }
+}

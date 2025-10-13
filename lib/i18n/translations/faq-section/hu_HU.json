@@ -1,0 +1,84 @@
+{
+  "title": "Gyakran Ismételt Kérdések",
+  "subtitle": "Találjon gyors válaszokat a Hero Budgettel kapcsolatos leggyakoribb kérdésekre",
+  "searchPlaceholder": "Keresés a GYIK-ban...",
+  "categories": {
+    "all": "Összes",
+    "gettingStarted": "Kezdő lépések",
+    "features": "Funkciók",
+    "security": "Biztonság",
+    "billing": "Számlázás",
+    "troubleshooting": "Technikai problémák"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Hogyan hozhatom létre az első fiókomat a Hero Budgetben?",
+      "answer": "A fiók létrehozása nagyon egyszerű. Töltse le az alkalmazást az App Store-ból vagy a Google Play-ből, nyissa meg az alkalmazást és válassza a \"Fiók létrehozása\" lehetőséget. Csak az e-mail címére és egy biztonságos jelszóra van szüksége. Regisztrálhat Google vagy Apple fiókjával is a nagyobb kényelem érdekében."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Hogyan adhatok hozzá első tranzakciómat?",
+      "answer": "Miután beállította a fiókját, koppintson a \"+\" gombra a főképernyőn. Válassza ki, hogy kiadás vagy bevétel, válasszon kategóriát, adja meg az összeget és egy opcionális leírást. Ilyen egyszerű! Készíthet fényképet a nyugtáról is, hogy emlékezzen a részletekre."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Beállíthatok ismétlődő számlákat?",
+      "answer": "Igen, a Hero Budget lehetővé teszi ismétlődő számlák beállítását olyan kiadásokhoz, amelyek minden hónapban megismétlődnek, mint a bérleti díj, közüzemi szolgáltatások vagy előfizetések. Lépjen az \"Ismétlődő számlák\" részhez, koppintson az \"Új létrehozása\" lehetőségre, adja meg az összeget, leírást és gyakoriságot. Az alkalmazás automatikusan emlékeztetni fogja, amikor ideje rögzíteni a fizetést."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Hogyan működnek a megtakarítási célok?",
+      "answer": "A megtakarítási célok lehetővé teszik, hogy meghatározzon egy célösszeget, amelyet minden hónapban meg szeretne takarítani. Egyszerűen határozza meg a havi összeget, amelyet meg szeretne takarítani, és a Hero Budget nyomon követi az előrehaladását. Ez egy egyszerű és hatékony módja a megtakarítási szokás kialakításának."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Szinkronizálhatom az adataimat több eszközön?",
+      "answer": "Igen, minden adata automatikusan szinkronizálódik a felhőben. Használhatja a Hero Budgetet telefonján, táblagépén vagy számítógépén, és minden változás valós időben megjelenik az összes eszközén."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Biztonságban vannak a pénzügyi adataim?",
+      "answer": "A biztonság a prioritásunk. Minden adata biztonságosan tárolódik a felhőben iparági szabványos védelmi intézkedésekkel. A legjobb biztonsági gyakorlatokat alkalmazzuk, és soha nem tárolunk érzékeny információkat, mint például teljes kártyaszámokat."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Csatlakoztathatok bankszámlákat?",
+      "answer": "A Hero Budget a manuális bevitelre összpontosít, hogy teljes ellenőrzést biztosítson az adatai felett. Nem kapcsolódunk közvetlenül a bankokhoz, ami biztonságosabbá teszi az információit és nagyobb magánéletet biztosít."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "A Hero Budget teljesen ingyenes?",
+      "answer": "Igen, a Hero Budget teljesen ingyenes. Az alkalmazás összes funkciója költségmentesen elérhető. Nincsenek prémium előfizetések vagy alkalmazáson belüli vásárlások. Úgy gondoljuk, hogy a személyes pénzügyeinek kezelése mindenkinek elérhető kell, hogy legyen."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Lesznek-e fizetős funkciók a jövőben?",
+      "answer": "Egyelőre a Hero Budget teljesen ingyenes marad. Arra összpontosítunk, hogy teljes élményt nyújtsunk költségek nélkül. Ha a jövőben további funkciókat fontolgatunk, mindig fenntartunk egy robusztus ingyenes eszközkészletet minden felhasználónk számára."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Az alkalmazás váratlanul bezárul, mit tehetek?",
+      "answer": "Ha az alkalmazás bezárul, először próbálja meg újraindítani. Ha a probléma továbbra is fennáll, győződjön meg arról, hogy a legújabb verzió van telepítve. Törölheti az alkalmazás gyorsítótárát vagy újraindíthatja az eszközét is. Ha semmi sem működik, lépjen kapcsolatba velünk az eszköz modelljével."
+    }
+  ],
+  "noResults": {
+    "title": "Nem találtunk eredményt",
+    "subtitle": "Próbáljon más keresési kifejezéseket vagy válasszon másik kategóriát"
+  },
+  "helpCta": {
+    "title": "Nem találta, amit keresett?",
+    "subtitle": "Ügyfélszolgálati csapatunk itt van, hogy segítsen bármilyen konkrét kérdésben",
+    "button": "Kapcsolatfelvétel az ügyfélszolgálattal"
+  }
+}

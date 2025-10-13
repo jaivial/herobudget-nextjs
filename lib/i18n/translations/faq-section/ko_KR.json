@@ -1,0 +1,84 @@
+{
+  "title": "자주 묻는 질문",
+  "subtitle": "Hero Budget에 대해 가장 자주 묻는 질문에 대한 빠른 답변 찾기",
+  "searchPlaceholder": "FAQ에서 검색...",
+  "categories": {
+    "all": "전체",
+    "gettingStarted": "시작하기",
+    "features": "기능",
+    "security": "보안",
+    "billing": "결제",
+    "troubleshooting": "기술 문제"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Hero Budget에서 첫 번째 계정을 만들려면 어떻게 해야 하나요?",
+      "answer": "계정 만들기는 매우 쉽습니다. App Store 또는 Google Play에서 앱을 다운로드하고 애플리케이션을 열어 \"계정 만들기\"를 선택합니다. 이메일과 안전한 비밀번호만 있으면 됩니다. 더 편리하게 Google 또는 Apple 계정으로 등록할 수도 있습니다."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "첫 번째 거래를 추가하려면 어떻게 해야 하나요?",
+      "answer": "계정을 설정한 후 메인 화면에서 \"+\" 버튼을 탭합니다. 지출인지 수입인지 선택하고 카테고리를 선택한 다음 금액과 선택적 설명을 입력합니다. 그렇게 간단합니다! 영수증 사진을 찍어 세부 정보를 기억할 수도 있습니다."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "반복 청구서를 설정할 수 있나요?",
+      "answer": "예, Hero Budget을 사용하면 임대료, 공과금 또는 구독과 같이 매달 반복되는 비용에 대한 반복 청구서를 설정할 수 있습니다. \"반복 청구서\" 섹션으로 이동하여 \"새로 만들기\"를 탭하고 금액, 설명 및 빈도를 입력합니다. 앱이 결제를 기록할 시간이 되면 자동으로 알려줍니다."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "저축 목표는 어떻게 작동하나요?",
+      "answer": "저축 목표를 사용하면 매달 저축하고 싶은 목표 금액을 설정할 수 있습니다. 저축하고 싶은 월별 금액을 정의하기만 하면 Hero Budget이 진행 상황을 추적합니다. 저축 습관을 만드는 간단하고 효과적인 방법입니다."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "여러 기기에서 데이터를 동기화할 수 있나요?",
+      "answer": "예, 모든 데이터가 클라우드에서 자동으로 동기화됩니다. 휴대폰, 태블릿 또는 컴퓨터에서 Hero Budget을 사용할 수 있으며 모든 변경 사항이 모든 기기에 실시간으로 반영됩니다."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "내 재무 데이터는 안전한가요?",
+      "answer": "보안이 우리의 최우선 과제입니다. 모든 데이터는 업계 표준 보호 조치로 클라우드에 안전하게 저장됩니다. 최고의 보안 관행을 구현하며 전체 카드 번호와 같은 민감한 정보를 절대 저장하지 않습니다."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "은행 계좌를 연결할 수 있나요?",
+      "answer": "Hero Budget은 데이터에 대한 완전한 제어권을 제공하기 위해 수동 입력에 중점을 둡니다. 은행에 직접 연결하지 않으므로 정보가 더욱 안전하게 유지되고 더 큰 개인 정보 보호가 제공됩니다."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Hero Budget은 완전히 무료인가요?",
+      "answer": "예, Hero Budget은 완전히 무료입니다. 애플리케이션의 모든 기능을 무료로 사용할 수 있습니다. 프리미엄 구독이나 인앱 구매가 없습니다. 개인 재정 관리는 모든 사람이 접근할 수 있어야 한다고 믿습니다."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "향후 유료 기능이 있을까요?",
+      "answer": "현재 Hero Budget은 완전히 무료로 유지됩니다. 비용 없이 완전한 경험을 제공하는 데 중점을 둡니다. 향후 추가 기능을 고려하더라도 항상 모든 사용자를 위한 강력한 무료 도구 세트를 유지합니다."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "앱이 예기치 않게 닫힙니다. 어떻게 해야 하나요?",
+      "answer": "앱이 닫히면 먼저 다시 시작해 보세요. 문제가 계속되면 최신 버전이 설치되어 있는지 확인하세요. 앱 캐시를 지우거나 기기를 다시 시작할 수도 있습니다. 아무것도 작동하지 않으면 기기 모델과 함께 문의하세요."
+    }
+  ],
+  "noResults": {
+    "title": "결과를 찾을 수 없습니다",
+    "subtitle": "다른 검색어를 시도하거나 다른 카테고리를 선택하세요"
+  },
+  "helpCta": {
+    "title": "찾으시는 것을 찾지 못하셨나요?",
+    "subtitle": "지원팀이 특정 질문에 대해 도움을 드리겠습니다",
+    "button": "지원팀에 문의"
+  }
+}

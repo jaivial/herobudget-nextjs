@@ -1,0 +1,80 @@
+{
+  "title": "Utwórz Zgłoszenie Wsparcia",
+  "subtitle": "Znalazłeś problem lub potrzebujesz konkretnej pomocy? Utwórz zgłoszenie, a nasz zespół Ci pomoże",
+  "categoryTitle": "Wybierz typ problemu",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Raport Błędu",
+      "description": "Problemy techniczne lub błędy w aplikacji"
+    },
+    {
+      "id": "feature",
+      "name": "Prośba o Funkcję",
+      "description": "Sugestie dotyczące nowych funkcji"
+    },
+    {
+      "id": "help",
+      "name": "Ogólna Pomoc",
+      "description": "Pytania dotyczące korzystania z aplikacji"
+    },
+    {
+      "id": "account",
+      "name": "Problemy z Kontem",
+      "description": "Problemy z logowaniem, subskrypcją lub danymi"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Niski"
+    },
+    {
+      "id": "Media",
+      "name": "Średni"
+    },
+    {
+      "id": "Alta",
+      "name": "Wysoki"
+    },
+    {
+      "id": "Urgente",
+      "name": "Pilny"
+    }
+  ],
+  "form": {
+    "nameLabel": "Pełne imię i nazwisko",
+    "namePlaceholder": "Twoje imię",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "twoj@email.com",
+    "priorityLabel": "Priorytet",
+    "subjectLabel": "Temat",
+    "subjectPlaceholder": "Krótko opisz swój problem",
+    "descriptionLabel": "Szczegółowy opis",
+    "descriptionPlaceholder": "Wyjaśnij swój problem jak najbardziej szczegółowo. Uwzględnij kroki do odtworzenia problemu, jeśli dotyczy.",
+    "stepsLabel": "Kroki do odtworzenia (opcjonalnie)",
+    "stepsPlaceholder": "1. Otwórz aplikację\n2. Przejdź do sekcji...\n3. Kliknij na...",
+    "deviceLabel": "Urządzenie (opcjonalnie)",
+    "devicePlaceholder": "np. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Wersja aplikacji (opcjonalnie)",
+    "versionPlaceholder": "np. 2.1.3",
+    "attachmentsLabel": "Załączniki",
+    "attachmentsDescription": "Przeciągnij pliki tutaj lub kliknij, aby wybrać",
+    "attachmentsButton": "Wybierz pliki",
+    "attachmentsRemove": "Usuń",
+    "submitButton": "Wyślij Zgłoszenie",
+    "submitting": "Wysyłanie...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Zgłoszenie Wysłane!",
+    "message": "Otrzymaliśmy Twoje zgłoszenie wsparcia. Odpowiemy w ciągu 24 godzin.",
+    "ticketNumber": "Numer zgłoszenia:",
+    "createAnother": "Utwórz Kolejne Zgłoszenie"
+  },
+  "toast": {
+    "successTitle": "Zgłoszenie utworzone!",
+    "errorTitle": "Błąd tworzenia zgłoszenia",
+    "errorConnection": "Nie można połączyć się z serwerem. Spróbuj ponownie."
+  }
+}

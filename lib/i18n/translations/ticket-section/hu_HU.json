@@ -1,0 +1,80 @@
+{
+  "title": "Támogatási Jegy Létrehozása",
+  "subtitle": "Problémát talált vagy konkrét segítségre van szüksége? Hozzon létre egy jegyet, és csapatunk segíteni fog",
+  "categoryTitle": "Válassza ki a probléma típusát",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Hibajelentés",
+      "description": "Technikai problémák vagy hibák az alkalmazásban"
+    },
+    {
+      "id": "feature",
+      "name": "Funkció Kérés",
+      "description": "Javaslatok új funkciókra"
+    },
+    {
+      "id": "help",
+      "name": "Általános Segítség",
+      "description": "Kérdések az alkalmazás használatával kapcsolatban"
+    },
+    {
+      "id": "account",
+      "name": "Fiók Problémák",
+      "description": "Problémák a bejelentkezéssel, előfizetéssel vagy adatokkal"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Alacsony"
+    },
+    {
+      "id": "Media",
+      "name": "Közepes"
+    },
+    {
+      "id": "Alta",
+      "name": "Magas"
+    },
+    {
+      "id": "Urgente",
+      "name": "Sürgős"
+    }
+  ],
+  "form": {
+    "nameLabel": "Teljes név",
+    "namePlaceholder": "Az Ön neve",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "az.on@email.com",
+    "priorityLabel": "Prioritás",
+    "subjectLabel": "Tárgy",
+    "subjectPlaceholder": "Írja le röviden a problémáját",
+    "descriptionLabel": "Részletes leírás",
+    "descriptionPlaceholder": "Magyarázza el problémáját a lehető legrészletesebben. Szükség esetén adja meg a probléma reprodukálásának lépéseit.",
+    "stepsLabel": "Reprodukálási lépések (opcionális)",
+    "stepsPlaceholder": "1. Nyissa meg az alkalmazást\n2. Menjen a szakaszhoz...\n3. Kattintson a...",
+    "deviceLabel": "Eszköz (opcionális)",
+    "devicePlaceholder": "pl. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Alkalmazás verzió (opcionális)",
+    "versionPlaceholder": "pl. 2.1.3",
+    "attachmentsLabel": "Mellékletek",
+    "attachmentsDescription": "Húzza ide a fájlokat vagy kattintson a kiválasztáshoz",
+    "attachmentsButton": "Fájlok kiválasztása",
+    "attachmentsRemove": "Eltávolítás",
+    "submitButton": "Jegy Küldése",
+    "submitting": "Küldés...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Jegy Elküldve!",
+    "message": "Megkaptuk támogatási kérését. 24 órán belül válaszolunk.",
+    "ticketNumber": "Jegy száma:",
+    "createAnother": "Újabb Jegy Létrehozása"
+  },
+  "toast": {
+    "successTitle": "Jegy létrehozva!",
+    "errorTitle": "Hiba a jegy létrehozásakor",
+    "errorConnection": "Nem sikerült csatlakozni a szerverhez. Kérjük, próbálja újra."
+  }
+}

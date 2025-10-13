@@ -1,0 +1,69 @@
+{
+  "title": "اتصل بنا",
+  "subtitle": "نحن هنا لمساعدتك. اختر قناة الاتصال المفضلة لديك",
+  "channelsTitle": "قنوات الدعم",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "البريد الإلكتروني",
+      "description": "الأفضل للأسئلة التفصيلية والمرفقات",
+      "value": "support@herobudget.com",
+      "availability": "الرد خلال 24 ساعة"
+    },
+    {
+      "id": "whatsapp",
+      "name": "واتساب",
+      "description": "دعم سريع وردود فورية",
+      "value": "+1 (555) 123-4567",
+      "availability": "الإثنين-الجمعة 9ص-6م"
+    },
+    {
+      "id": "discord",
+      "name": "مجتمع ديسكورد",
+      "description": "تواصل مع مستخدمين آخرين واحصل على المساعدة",
+      "value": "انضم إلى خادمنا",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "ساعات العمل",
+    "schedule": [
+      {
+        "day": "الإثنين - الجمعة",
+        "hours": "9:00 صباحاً - 6:00 مساءً"
+      },
+      {
+        "day": "السبت",
+        "hours": "10:00 صباحاً - 2:00 مساءً"
+      },
+      {
+        "day": "الأحد",
+        "hours": "مغلق"
+      }
+    ]
+  },
+  "form": {
+    "title": "أرسل لنا رسالة",
+    "subtitle": "تفضل الكتابة إلينا؟ املأ هذا النموذج وسنرد عليك قريباً",
+    "nameLabel": "الاسم",
+    "namePlaceholder": "اسمك",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "بريدك@الإلكتروني.com",
+    "subjectLabel": "الموضوع",
+    "subjectPlaceholder": "كيف يمكننا مساعدتك؟",
+    "messageLabel": "الرسالة",
+    "messagePlaceholder": "اكتب رسالتك هنا...",
+    "submitButton": "إرسال الرسالة",
+    "submitting": "جاري الإرسال...",
+    "required": "*"
+  },
+  "success": {
+    "title": "تم إرسال الرسالة!",
+    "message": "شكراً لتواصلك معنا. سنرد عليك قريباً."
+  },
+  "toast": {
+    "successTitle": "تم إرسال الرسالة!",
+    "errorTitle": "خطأ في إرسال الرسالة",
+    "errorConnection": "تعذر الاتصال بالخادم. يرجى المحاولة مرة أخرى."
+  }
+}

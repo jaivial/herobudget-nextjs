@@ -1,0 +1,69 @@
+{
+  "title": "Kontakta oss",
+  "subtitle": "Vi finns här för att hjälpa dig. Välj din föredragna kommunikationskanal",
+  "channelsTitle": "Supportkanaler",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-post",
+      "description": "Bäst för detaljerade frågor och bilagor",
+      "value": "support@herobudget.com",
+      "availability": "Svar inom 24 timmar"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Snabb support och omedelbara svar",
+      "value": "+1 (555) 123-4567",
+      "availability": "Mån-Fre 9-18"
+    },
+    {
+      "id": "discord",
+      "name": "Discord-community",
+      "description": "Få kontakt med andra användare och få hjälp",
+      "value": "Gå med i vår server",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Öppettider",
+    "schedule": [
+      {
+        "day": "Måndag - Fredag",
+        "hours": "9:00 - 18:00"
+      },
+      {
+        "day": "Lördag",
+        "hours": "10:00 - 14:00"
+      },
+      {
+        "day": "Söndag",
+        "hours": "Stängt"
+      }
+    ]
+  },
+  "form": {
+    "title": "Skicka oss ett meddelande",
+    "subtitle": "Föredrar du att skriva till oss? Fyll i detta formulär så svarar vi snart",
+    "nameLabel": "Namn",
+    "namePlaceholder": "Ditt namn",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "din@epost.se",
+    "subjectLabel": "Ämne",
+    "subjectPlaceholder": "Hur kan vi hjälpa dig?",
+    "messageLabel": "Meddelande",
+    "messagePlaceholder": "Skriv ditt meddelande här...",
+    "submitButton": "Skicka meddelande",
+    "submitting": "Skickar...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Meddelande skickat!",
+    "message": "Tack för att du kontaktade oss. Vi svarar snart."
+  },
+  "toast": {
+    "successTitle": "Meddelande skickat!",
+    "errorTitle": "Fel vid skickande av meddelande",
+    "errorConnection": "Kunde inte ansluta till servern. Försök igen."
+  }
+}

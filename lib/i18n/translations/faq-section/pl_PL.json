@@ -1,0 +1,84 @@
+{
+  "title": "Najczęściej Zadawane Pytania",
+  "subtitle": "Znajdź szybkie odpowiedzi na najczęstsze pytania dotyczące Hero Budget",
+  "searchPlaceholder": "Szukaj w FAQ...",
+  "categories": {
+    "all": "Wszystkie",
+    "gettingStarted": "Pierwsze Kroki",
+    "features": "Funkcje",
+    "security": "Bezpieczeństwo",
+    "billing": "Płatności",
+    "troubleshooting": "Problemy Techniczne"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Jak utworzyć swoje pierwsze konto w Hero Budget?",
+      "answer": "Tworzenie konta jest bardzo proste. Pobierz aplikację z App Store lub Google Play, otwórz aplikację i wybierz \"Utwórz konto\". Potrzebujesz tylko swojego e-maila i bezpiecznego hasła. Możesz również zarejestrować się za pomocą konta Google lub Apple dla większej wygody."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Jak dodać moją pierwszą transakcję?",
+      "answer": "Gdy masz już skonfigurowane konto, dotknij przycisku \"+\" na głównym ekranie. Wybierz, czy to wydatek czy przychód, wybierz kategorię, wprowadź kwotę i opcjonalny opis. To takie proste! Możesz również zrobić zdjęcie paragonu, aby zapamiętać szczegóły."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Czy mogę ustawić cykliczne rachunki?",
+      "answer": "Tak, Hero Budget umożliwia ustawienie cyklicznych rachunków dla wydatków, które powtarzają się co miesiąc, takich jak czynsz, media lub subskrypcje. Przejdź do sekcji \"Cykliczne rachunki\", dotknij \"Utwórz nowy\", wprowadź kwotę, opis i częstotliwość. Aplikacja automatycznie przypomni Ci, kiedy nadejdzie czas na zarejestrowanie płatności."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Jak działają cele oszczędnościowe?",
+      "answer": "Cele oszczędnościowe pozwalają ustawić docelową kwotę, którą chcesz oszczędzić każdego miesiąca. Po prostu zdefiniuj miesięczną kwotę, którą chcesz oszczędzić, a Hero Budget będzie śledzić Twoje postępy. To prosty i skuteczny sposób na zbudowanie nawyku oszczędzania."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Czy mogę synchronizować moje dane na wielu urządzeniach?",
+      "answer": "Tak, wszystkie Twoje dane są automatycznie synchronizowane w chmurze. Możesz używać Hero Budget na telefonie, tablecie lub komputerze, a wszystkie zmiany będą odzwierciedlane w czasie rzeczywistym na wszystkich Twoich urządzeniach."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Czy moje dane finansowe są bezpieczne?",
+      "answer": "Bezpieczeństwo jest naszym priorytetem. Wszystkie Twoje dane są bezpiecznie przechowywane w chmurze z branżowymi standardami ochrony. Wdrażamy najlepsze praktyki bezpieczeństwa i nigdy nie przechowujemy wrażliwych informacji, takich jak pełne numery kart."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Czy mogę połączyć moje konta bankowe?",
+      "answer": "Hero Budget koncentruje się na ręcznym wprowadzaniu danych, aby zapewnić Ci pełną kontrolę nad Twoimi danymi. Nie łączymy się bezpośrednio z bankami, co sprawia, że Twoje informacje są bezpieczniejsze i zapewnia większą prywatność."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Czy Hero Budget jest całkowicie darmowy?",
+      "answer": "Tak, Hero Budget jest całkowicie darmowy. Wszystkie funkcje aplikacji są dostępne bez żadnych kosztów. Nie ma żadnych subskrypcji premium ani zakupów w aplikacji. Wierzymy, że zarządzanie finansami osobistymi powinno być dostępne dla każdego."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Czy w przyszłości będą płatne funkcje?",
+      "answer": "Na razie Hero Budget pozostaje całkowicie darmowy. Skupiamy się na oferowaniu kompletnego doświadczenia bez kosztów. Jeśli w przyszłości rozważymy dodatkowe funkcje, zawsze będziemy utrzymywać solidny zestaw darmowych narzędzi dla wszystkich naszych użytkowników."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Aplikacja nieoczekiwanie się zamyka, co mogę zrobić?",
+      "answer": "Jeśli aplikacja się zamyka, najpierw spróbuj ją zrestartować. Jeśli problem się utrzymuje, upewnij się, że masz zainstalowaną najnowszą wersję. Możesz również wyczyścić pamięć podręczną aplikacji lub zrestartować urządzenie. Jeśli nic nie działa, skontaktuj się z nami podając model swojego urządzenia."
+    }
+  ],
+  "noResults": {
+    "title": "Nie znaleźliśmy wyników",
+    "subtitle": "Spróbuj innych wyszukiwanych haseł lub wybierz inną kategorię"
+  },
+  "helpCta": {
+    "title": "Nie znalazłeś tego, czego szukałeś?",
+    "subtitle": "Nasz zespół wsparcia jest tutaj, aby pomóc Ci w każdym konkretnym pytaniu",
+    "button": "Skontaktuj się z pomocą techniczną"
+  }
+}

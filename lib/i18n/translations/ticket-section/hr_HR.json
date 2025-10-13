@@ -1,0 +1,80 @@
+{
+  "title": "Kreiraj Tiket za Podršku",
+  "subtitle": "Pronašli ste problem ili trebate specifičnu pomoć? Kreirajte tiket i naš tim će vam pomoći",
+  "categoryTitle": "Odaberite tip problema",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Prijava Greške",
+      "description": "Tehnički problemi ili greške u aplikaciji"
+    },
+    {
+      "id": "feature",
+      "name": "Zahtjev za Funkciju",
+      "description": "Prijedlozi za nove funkcije"
+    },
+    {
+      "id": "help",
+      "name": "Opća Pomoć",
+      "description": "Pitanja o korištenju aplikacije"
+    },
+    {
+      "id": "account",
+      "name": "Problemi s Računom",
+      "description": "Problemi s prijavom, pretplatom ili podacima"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Nizak"
+    },
+    {
+      "id": "Media",
+      "name": "Srednji"
+    },
+    {
+      "id": "Alta",
+      "name": "Visok"
+    },
+    {
+      "id": "Urgente",
+      "name": "Hitan"
+    }
+  ],
+  "form": {
+    "nameLabel": "Puno ime",
+    "namePlaceholder": "Vaše ime",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vas@email.com",
+    "priorityLabel": "Prioritet",
+    "subjectLabel": "Predmet",
+    "subjectPlaceholder": "Ukratko opišite svoj problem",
+    "descriptionLabel": "Detaljan opis",
+    "descriptionPlaceholder": "Objasnite svoj problem što detaljnije. Uključite korake za reproduciranje problema ako je primjenjivo.",
+    "stepsLabel": "Koraci za reproduciranje (opcionalno)",
+    "stepsPlaceholder": "1. Otvorite aplikaciju\n2. Idite na sekciju...\n3. Kliknite na...",
+    "deviceLabel": "Uređaj (opcionalno)",
+    "devicePlaceholder": "npr. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Verzija aplikacije (opcionalno)",
+    "versionPlaceholder": "npr. 2.1.3",
+    "attachmentsLabel": "Privici",
+    "attachmentsDescription": "Povucite datoteke ovdje ili kliknite za odabir",
+    "attachmentsButton": "Odaberite datoteke",
+    "attachmentsRemove": "Ukloni",
+    "submitButton": "Pošalji Tiket",
+    "submitting": "Slanje...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Tiket Poslan!",
+    "message": "Primili smo vaš zahtjev za podršku. Odgovorit ćemo u roku od 24 sata.",
+    "ticketNumber": "Broj tiketa:",
+    "createAnother": "Kreiraj Drugi Tiket"
+  },
+  "toast": {
+    "successTitle": "Tiket kreiran!",
+    "errorTitle": "Greška pri kreiranju tiketa",
+    "errorConnection": "Nije moguće povezati se s poslužiteljem. Molimo pokušajte ponovo."
+  }
+}

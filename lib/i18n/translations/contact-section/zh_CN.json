@@ -1,0 +1,69 @@
+{
+  "title": "联系我们",
+  "subtitle": "我们随时为您提供帮助。请选择您喜欢的沟通渠道",
+  "channelsTitle": "支持渠道",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "电子邮件",
+      "description": "最适合详细问题和附件",
+      "value": "support@herobudget.com",
+      "availability": "24小时内回复"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "快速支持和即时响应",
+      "value": "+1 (555) 123-4567",
+      "availability": "周一至周五 9:00-18:00"
+    },
+    {
+      "id": "discord",
+      "name": "Discord社区",
+      "description": "与其他用户联系并获得帮助",
+      "value": "加入我们的服务器",
+      "availability": "全天候"
+    }
+  ],
+  "officeHours": {
+    "title": "办公时间",
+    "schedule": [
+      {
+        "day": "周一至周五",
+        "hours": "上午9:00 - 下午6:00"
+      },
+      {
+        "day": "周六",
+        "hours": "上午10:00 - 下午2:00"
+      },
+      {
+        "day": "周日",
+        "hours": "休息"
+      }
+    ]
+  },
+  "form": {
+    "title": "给我们留言",
+    "subtitle": "更喜欢写信给我们？填写此表格，我们会尽快回复",
+    "nameLabel": "姓名",
+    "namePlaceholder": "您的姓名",
+    "emailLabel": "电子邮件",
+    "emailPlaceholder": "您的@邮箱.com",
+    "subjectLabel": "主题",
+    "subjectPlaceholder": "我们能帮您什么？",
+    "messageLabel": "留言",
+    "messagePlaceholder": "在此写下您的留言...",
+    "submitButton": "发送留言",
+    "submitting": "发送中...",
+    "required": "*"
+  },
+  "success": {
+    "title": "留言已发送！",
+    "message": "感谢您联系我们。我们会尽快回复。"
+  },
+  "toast": {
+    "successTitle": "留言已发送！",
+    "errorTitle": "发送留言时出错",
+    "errorConnection": "无法连接到服务器。请重试。"
+  }
+}

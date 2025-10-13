@@ -1,0 +1,80 @@
+{
+  "title": "إنشاء تذكرة دعم",
+  "subtitle": "وجدت مشكلة أو تحتاج إلى مساعدة محددة؟ أنشئ تذكرة وسيساعدك فريقنا",
+  "categoryTitle": "اختر نوع المشكلة",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "تقرير خطأ",
+      "description": "مشاكل تقنية أو أخطاء في التطبيق"
+    },
+    {
+      "id": "feature",
+      "name": "طلب ميزة",
+      "description": "اقتراحات لميزات جديدة"
+    },
+    {
+      "id": "help",
+      "name": "مساعدة عامة",
+      "description": "أسئلة حول استخدام التطبيق"
+    },
+    {
+      "id": "account",
+      "name": "مشاكل الحساب",
+      "description": "مشاكل في تسجيل الدخول أو الاشتراك أو البيانات"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "منخفضة"
+    },
+    {
+      "id": "Media",
+      "name": "متوسطة"
+    },
+    {
+      "id": "Alta",
+      "name": "عالية"
+    },
+    {
+      "id": "Urgente",
+      "name": "عاجلة"
+    }
+  ],
+  "form": {
+    "nameLabel": "الاسم الكامل",
+    "namePlaceholder": "اسمك",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "الأولوية",
+    "subjectLabel": "الموضوع",
+    "subjectPlaceholder": "صف مشكلتك بإيجاز",
+    "descriptionLabel": "وصف تفصيلي",
+    "descriptionPlaceholder": "اشرح مشكلتك بأكبر قدر ممكن من التفاصيل. قم بتضمين الخطوات لإعادة إنتاج المشكلة إن أمكن.",
+    "stepsLabel": "خطوات إعادة الإنتاج (اختياري)",
+    "stepsPlaceholder": "1. افتح التطبيق\n2. انتقل إلى القسم...\n3. انقر على...",
+    "deviceLabel": "الجهاز (اختياري)",
+    "devicePlaceholder": "مثال: iPhone 14، Samsung Galaxy S23",
+    "versionLabel": "إصدار التطبيق (اختياري)",
+    "versionPlaceholder": "مثال: 2.1.3",
+    "attachmentsLabel": "المرفقات",
+    "attachmentsDescription": "اسحب الملفات هنا أو انقر للتحديد",
+    "attachmentsButton": "تحديد الملفات",
+    "attachmentsRemove": "إزالة",
+    "submitButton": "إرسال التذكرة",
+    "submitting": "جارٍ الإرسال...",
+    "required": "*"
+  },
+  "success": {
+    "title": "تم إرسال التذكرة!",
+    "message": "لقد تلقينا طلب الدعم الخاص بك. سنرد خلال 24 ساعة.",
+    "ticketNumber": "رقم التذكرة:",
+    "createAnother": "إنشاء تذكرة أخرى"
+  },
+  "toast": {
+    "successTitle": "تم إنشاء التذكرة!",
+    "errorTitle": "خطأ في إنشاء التذكرة",
+    "errorConnection": "تعذر الاتصال بالخادم. يرجى المحاولة مرة أخرى."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Veelgestelde Vragen",
+  "subtitle": "Vind snelle antwoorden op de meest gestelde vragen over Hero Budget",
+  "searchPlaceholder": "Zoeken in FAQ...",
+  "categories": {
+    "all": "Alle",
+    "gettingStarted": "Aan de Slag",
+    "features": "Functies",
+    "security": "Beveiliging",
+    "billing": "Facturering",
+    "troubleshooting": "Technische Problemen"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Hoe maak ik mijn eerste account aan in Hero Budget?",
+      "answer": "Het aanmaken van uw account is heel eenvoudig. Download de app uit de App Store of Google Play, open de applicatie en selecteer \"Account Aanmaken\". U heeft alleen uw e-mail en een veilig wachtwoord nodig. U kunt zich ook registreren met uw Google- of Apple-account voor meer gemak."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Hoe voeg ik mijn eerste transactie toe?",
+      "answer": "Zodra u uw account heeft ingesteld, tikt u op de \"+\"-knop op het hoofdscherm. Selecteer of het een uitgave of inkomsten is, kies de categorie, voer het bedrag en een optionele beschrijving in. Zo eenvoudig is het! U kunt ook een foto van de bon maken om details te onthouden."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Kan ik terugkerende rekeningen instellen?",
+      "answer": "Ja, Hero Budget stelt u in staat om terugkerende rekeningen in te stellen voor uitgaven die elke maand terugkeren, zoals huur, nutsvoorzieningen of abonnementen. Ga naar de sectie \"Terugkerende Rekeningen\", tik op \"Nieuwe Aanmaken\", voer het bedrag, beschrijving en frequentie in. De app zal u automatisch herinneren wanneer het tijd is om de betaling te registreren."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Hoe werken spaardoelen?",
+      "answer": "Spaardoelen stellen u in staat om een streefbedrag in te stellen dat u elke maand wilt sparen. Definieer eenvoudig het maandelijkse bedrag dat u wilt sparen en Hero Budget zal uw voortgang bijhouden. Het is een eenvoudige en effectieve manier om een spaargewoonte op te bouwen."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Kan ik mijn gegevens synchroniseren over meerdere apparaten?",
+      "answer": "Ja, al uw gegevens worden automatisch gesynchroniseerd in de cloud. U kunt Hero Budget gebruiken op uw telefoon, tablet of computer, en alle wijzigingen worden in realtime weergegeven op al uw apparaten."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Zijn mijn financiële gegevens veilig?",
+      "answer": "Beveiliging is onze prioriteit. Al uw gegevens worden veilig opgeslagen in de cloud met industriestandaard beschermingsmaatregelen. We implementeren beste beveiligingspraktijken en slaan nooit gevoelige informatie op zoals volledige kaartnummers."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Kan ik mijn bankrekeningen koppelen?",
+      "answer": "Hero Budget richt zich op handmatige invoer om u volledige controle over uw gegevens te geven. We maken geen directe verbinding met banken, waardoor uw informatie veiliger blijft en u meer privacy krijgt."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Is Hero Budget volledig gratis?",
+      "answer": "Ja, Hero Budget is volledig gratis. Alle functies van de applicatie zijn zonder kosten beschikbaar. Er zijn geen premium-abonnementen of in-app aankopen. We geloven dat het beheren van uw persoonlijke financiën voor iedereen toegankelijk moet zijn."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Zullen er in de toekomst betaalde functies zijn?",
+      "answer": "Voorlopig blijft Hero Budget volledig gratis. We richten ons op het bieden van een complete ervaring zonder kosten. Als we in de toekomst aanvullende functies overwegen, zullen we altijd een robuuste set gratis tools behouden voor al onze gebruikers."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "De app sluit onverwacht, wat kan ik doen?",
+      "answer": "Als de app sluit, probeer deze dan eerst opnieuw te starten. Als het probleem aanhoudt, zorg er dan voor dat u de nieuwste versie heeft geïnstalleerd. U kunt ook de app-cache wissen of uw apparaat opnieuw opstarten. Als niets werkt, neem dan contact met ons op met uw apparaatmodel."
+    }
+  ],
+  "noResults": {
+    "title": "We hebben geen resultaten gevonden",
+    "subtitle": "Probeer andere zoektermen of selecteer een andere categorie"
+  },
+  "helpCta": {
+    "title": "Heeft u niet gevonden wat u zocht?",
+    "subtitle": "Ons supportteam staat klaar om u te helpen met specifieke vragen",
+    "button": "Neem Contact Op met Support"
+  }
+}

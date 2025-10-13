@@ -1,0 +1,69 @@
+{
+  "title": "Kontakt os",
+  "subtitle": "Vi er her for at hjælpe dig. Vælg din foretrukne kommunikationskanal",
+  "channelsTitle": "Supportkanaler",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-mail",
+      "description": "Bedst til detaljerede spørgsmål og vedhæftede filer",
+      "value": "support@herobudget.com",
+      "availability": "Svar inden for 24 timer"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Hurtig support og øjeblikkelige svar",
+      "value": "+1 (555) 123-4567",
+      "availability": "Man-Fre 9-18"
+    },
+    {
+      "id": "discord",
+      "name": "Discord-fællesskab",
+      "description": "Få kontakt med andre brugere og få hjælp",
+      "value": "Deltag i vores server",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Åbningstider",
+    "schedule": [
+      {
+        "day": "Mandag - Fredag",
+        "hours": "9:00 - 18:00"
+      },
+      {
+        "day": "Lørdag",
+        "hours": "10:00 - 14:00"
+      },
+      {
+        "day": "Søndag",
+        "hours": "Lukket"
+      }
+    ]
+  },
+  "form": {
+    "title": "Send os en besked",
+    "subtitle": "Foretrækker du at skrive til os? Udfyld denne formular, så svarer vi snart",
+    "nameLabel": "Navn",
+    "namePlaceholder": "Dit navn",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "din@email.com",
+    "subjectLabel": "Emne",
+    "subjectPlaceholder": "Hvordan kan vi hjælpe dig?",
+    "messageLabel": "Besked",
+    "messagePlaceholder": "Skriv din besked her...",
+    "submitButton": "Send besked",
+    "submitting": "Sender...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Besked sendt!",
+    "message": "Tak fordi du kontaktede os. Vi svarer snart."
+  },
+  "toast": {
+    "successTitle": "Besked sendt!",
+    "errorTitle": "Fejl ved afsendelse af besked",
+    "errorConnection": "Kunne ikke oprette forbindelse til serveren. Prøv venligst igen."
+  }
+}

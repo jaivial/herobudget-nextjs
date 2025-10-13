@@ -1,0 +1,80 @@
+{
+  "title": "Tạo Phiếu Hỗ Trợ",
+  "subtitle": "Tìm thấy sự cố hoặc cần trợ giúp cụ thể? Tạo phiếu và đội ngũ của chúng tôi sẽ hỗ trợ bạn",
+  "categoryTitle": "Chọn loại sự cố",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Báo Cáo Lỗi",
+      "description": "Vấn đề kỹ thuật hoặc lỗi trong ứng dụng"
+    },
+    {
+      "id": "feature",
+      "name": "Yêu Cầu Tính Năng",
+      "description": "Đề xuất cho các tính năng mới"
+    },
+    {
+      "id": "help",
+      "name": "Trợ Giúp Chung",
+      "description": "Câu hỏi về việc sử dụng ứng dụng"
+    },
+    {
+      "id": "account",
+      "name": "Vấn Đề Tài Khoản",
+      "description": "Vấn đề với đăng nhập, đăng ký hoặc dữ liệu"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Thấp"
+    },
+    {
+      "id": "Media",
+      "name": "Trung Bình"
+    },
+    {
+      "id": "Alta",
+      "name": "Cao"
+    },
+    {
+      "id": "Urgente",
+      "name": "Khẩn Cấp"
+    }
+  ],
+  "form": {
+    "nameLabel": "Họ và tên",
+    "namePlaceholder": "Tên của bạn",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "Ưu tiên",
+    "subjectLabel": "Tiêu đề",
+    "subjectPlaceholder": "Mô tả ngắn gọn vấn đề của bạn",
+    "descriptionLabel": "Mô tả chi tiết",
+    "descriptionPlaceholder": "Giải thích vấn đề của bạn chi tiết nhất có thể. Bao gồm các bước để tái tạo sự cố nếu có.",
+    "stepsLabel": "Các bước tái tạo (tùy chọn)",
+    "stepsPlaceholder": "1. Mở ứng dụng\n2. Đi tới phần...\n3. Nhấp vào...",
+    "deviceLabel": "Thiết bị (tùy chọn)",
+    "devicePlaceholder": "ví dụ: iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Phiên bản ứng dụng (tùy chọn)",
+    "versionPlaceholder": "ví dụ: 2.1.3",
+    "attachmentsLabel": "Tệp đính kèm",
+    "attachmentsDescription": "Kéo tệp vào đây hoặc nhấp để chọn",
+    "attachmentsButton": "Chọn tệp",
+    "attachmentsRemove": "Xóa",
+    "submitButton": "Gửi Phiếu",
+    "submitting": "Đang gửi...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Phiếu Đã Gửi!",
+    "message": "Chúng tôi đã nhận được yêu cầu hỗ trợ của bạn. Chúng tôi sẽ phản hồi trong vòng 24 giờ.",
+    "ticketNumber": "Số phiếu:",
+    "createAnother": "Tạo Phiếu Khác"
+  },
+  "toast": {
+    "successTitle": "Phiếu đã tạo!",
+    "errorTitle": "Lỗi tạo phiếu",
+    "errorConnection": "Không thể kết nối với máy chủ. Vui lòng thử lại."
+  }
+}

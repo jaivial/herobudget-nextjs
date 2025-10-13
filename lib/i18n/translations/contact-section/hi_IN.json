@@ -1,0 +1,69 @@
+{
+  "title": "हमसे संपर्क करें",
+  "subtitle": "हम आपकी मदद के लिए यहां हैं। अपना पसंदीदा संचार माध्यम चुनें",
+  "channelsTitle": "सहायता चैनल",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "ईमेल",
+      "description": "विस्तृत प्रश्नों और अटैचमेंट के लिए सर्वश्रेष्ठ",
+      "value": "support@herobudget.com",
+      "availability": "24 घंटे में जवाब"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "त्वरित सहायता और तुरंत जवाब",
+      "value": "+1 (555) 123-4567",
+      "availability": "सोम-शुक्र सुबह 9 - शाम 6"
+    },
+    {
+      "id": "discord",
+      "name": "Discord समुदाय",
+      "description": "अन्य उपयोगकर्ताओं से जुड़ें और मदद पाएं",
+      "value": "हमारे सर्वर से जुड़ें",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "कार्यालय समय",
+    "schedule": [
+      {
+        "day": "सोमवार - शुक्रवार",
+        "hours": "सुबह 9:00 - शाम 6:00"
+      },
+      {
+        "day": "शनिवार",
+        "hours": "सुबह 10:00 - दोपहर 2:00"
+      },
+      {
+        "day": "रविवार",
+        "hours": "बंद"
+      }
+    ]
+  },
+  "form": {
+    "title": "हमें संदेश भेजें",
+    "subtitle": "हमें लिखना पसंद करते हैं? यह फॉर्म भरें और हम जल्द ही जवाब देंगे",
+    "nameLabel": "नाम",
+    "namePlaceholder": "आपका नाम",
+    "emailLabel": "ईमेल",
+    "emailPlaceholder": "आपका@ईमेल.com",
+    "subjectLabel": "विषय",
+    "subjectPlaceholder": "हम आपकी कैसे मदद कर सकते हैं?",
+    "messageLabel": "संदेश",
+    "messagePlaceholder": "अपना संदेश यहां लिखें...",
+    "submitButton": "संदेश भेजें",
+    "submitting": "भेजा जा रहा है...",
+    "required": "*"
+  },
+  "success": {
+    "title": "संदेश भेज दिया गया!",
+    "message": "हमसे संपर्क करने के लिए धन्यवाद। हम जल्द ही जवाब देंगे।"
+  },
+  "toast": {
+    "successTitle": "संदेश भेज दिया गया!",
+    "errorTitle": "संदेश भेजने में त्रुटि",
+    "errorConnection": "सर्वर से कनेक्ट नहीं हो सका। कृपया पुनः प्रयास करें।"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "Kontaktujte nás",
+  "subtitle": "Jsme tu, abychom vám pomohli. Vyberte si preferovaný komunikační kanál",
+  "channelsTitle": "Kanály podpory",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-mail",
+      "description": "Nejlepší pro podrobné dotazy a přílohy",
+      "value": "support@herobudget.com",
+      "availability": "Odpověď do 24h"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Rychlá podpora a okamžité odpovědi",
+      "value": "+1 (555) 123-4567",
+      "availability": "Po-Pá 9-18"
+    },
+    {
+      "id": "discord",
+      "name": "Discord komunita",
+      "description": "Spojte se s ostatními uživateli a získejte pomoc",
+      "value": "Připojte se k našemu serveru",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Úřední hodiny",
+    "schedule": [
+      {
+        "day": "Pondělí - Pátek",
+        "hours": "9:00 - 18:00"
+      },
+      {
+        "day": "Sobota",
+        "hours": "10:00 - 14:00"
+      },
+      {
+        "day": "Neděle",
+        "hours": "Zavřeno"
+      }
+    ]
+  },
+  "form": {
+    "title": "Pošlete nám zprávu",
+    "subtitle": "Raději nám napíšete? Vyplňte tento formulář a brzy vám odpovíme",
+    "nameLabel": "Jméno",
+    "namePlaceholder": "Vaše jméno",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vas@email.com",
+    "subjectLabel": "Předmět",
+    "subjectPlaceholder": "Jak vám můžeme pomoci?",
+    "messageLabel": "Zpráva",
+    "messagePlaceholder": "Napište svou zprávu zde...",
+    "submitButton": "Odeslat zprávu",
+    "submitting": "Odesílání...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Zpráva odeslána!",
+    "message": "Děkujeme, že jste nás kontaktovali. Brzy vám odpovíme."
+  },
+  "toast": {
+    "successTitle": "Zpráva odeslána!",
+    "errorTitle": "Chyba při odesílání zprávy",
+    "errorConnection": "Nepodařilo se připojit k serveru. Zkuste to prosím znovu."
+  }
+}

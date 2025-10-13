@@ -1,0 +1,84 @@
+{
+  "title": "Perguntas Frequentes",
+  "subtitle": "Encontre respostas rápidas para as perguntas mais comuns sobre o Hero Budget",
+  "searchPlaceholder": "Pesquisar nas FAQ...",
+  "categories": {
+    "all": "Todas",
+    "gettingStarted": "Primeiros Passos",
+    "features": "Funcionalidades",
+    "security": "Segurança",
+    "billing": "Faturação",
+    "troubleshooting": "Problemas Técnicos"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Como criar a minha primeira conta no Hero Budget?",
+      "answer": "Criar a sua conta é muito fácil. Descarregue a aplicação da App Store ou Google Play, abra a aplicação e seleccione \"Criar Conta\". Só precisa do seu e-mail e de uma palavra-passe segura. Também pode registar-se com a sua conta Google ou Apple para maior comodidade."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Como adicionar a minha primeira transacção?",
+      "answer": "Depois de configurar a sua conta, toque no botão \"+\" no ecrã principal. Seleccione se é uma despesa ou receita, escolha a categoria, introduza o valor e uma descrição opcional. É assim simples! Também pode tirar uma fotografia do recibo para recordar os detalhes."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Posso configurar contas recorrentes?",
+      "answer": "Sim, o Hero Budget permite-lhe configurar contas recorrentes para despesas que se repetem todos os meses como renda, serviços públicos ou subscrições. Vá para a secção \"Contas Recorrentes\", toque em \"Criar Nova\", introduza o valor, descrição e frequência. A aplicação vai lembrá-lo automaticamente quando for altura de registar o pagamento."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Como funcionam os objectivos de poupança?",
+      "answer": "Os objectivos de poupança permitem-lhe definir um valor alvo que deseja poupar todos os meses. Simplesmente defina o valor mensal que quer poupar e o Hero Budget vai acompanhar o seu progresso. É uma forma simples e eficaz de criar um hábito de poupança."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Posso sincronizar os meus dados em vários dispositivos?",
+      "answer": "Sim, todos os seus dados são sincronizados automaticamente na nuvem. Pode usar o Hero Budget no seu telemóvel, tablet ou computador, e todas as alterações serão reflectidas em tempo real em todos os seus dispositivos."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Os meus dados financeiros estão seguros?",
+      "answer": "A segurança é a nossa prioridade. Todos os seus dados são armazenados com segurança na nuvem com medidas de protecção padrão da indústria. Implementamos as melhores práticas de segurança e nunca armazenamos informações sensíveis como números completos de cartões."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Posso conectar as minhas contas bancárias?",
+      "answer": "O Hero Budget foca-se na entrada manual para lhe dar controlo completo sobre os seus dados. Não nos conectamos directamente aos bancos, o que mantém as suas informações mais seguras e oferece maior privacidade."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "O Hero Budget é completamente gratuito?",
+      "answer": "Sim, o Hero Budget é completamente gratuito. Todas as funcionalidades da aplicação estão disponíveis sem custo algum. Não há subscrições premium ou compras dentro da aplicação. Acreditamos que gerir as suas finanças pessoais deve ser acessível para todos."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Haverá recursos pagos no futuro?",
+      "answer": "Por enquanto, o Hero Budget permanece completamente gratuito. Focamo-nos em oferecer uma experiência completa sem custo. Se considerarmos recursos adicionais no futuro, manteremos sempre um conjunto robusto de ferramentas gratuitas para todos os nossos utilizadores."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "A aplicação fecha inesperadamente, o que posso fazer?",
+      "answer": "Se a aplicação fechar, primeiro tente reiniciá-la. Se o problema persistir, certifique-se de ter a última versão instalada. Também pode limpar a cache da aplicação ou reiniciar o seu dispositivo. Se nada funcionar, contacte-nos informando o modelo do seu dispositivo."
+    }
+  ],
+  "noResults": {
+    "title": "Não encontrámos resultados",
+    "subtitle": "Tente outros termos de pesquisa ou seleccione uma categoria diferente"
+  },
+  "helpCta": {
+    "title": "Não encontrou o que procurava?",
+    "subtitle": "A nossa equipa de suporte está aqui para ajudá-lo com qualquer pergunta específica",
+    "button": "Contactar Suporte"
+  }
+}

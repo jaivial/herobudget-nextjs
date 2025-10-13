@@ -1,0 +1,69 @@
+{
+  "title": "Bize Ulaşın",
+  "subtitle": "Size yardımcı olmak için buradayız. Tercih ettiğiniz iletişim kanalını seçin",
+  "channelsTitle": "Destek Kanalları",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-posta",
+      "description": "Detaylı sorular ve ekler için en iyisi",
+      "value": "support@herobudget.com",
+      "availability": "24 saat içinde yanıt"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Hızlı destek ve anında yanıtlar",
+      "value": "+1 (555) 123-4567",
+      "availability": "Pzt-Cum 9:00-18:00"
+    },
+    {
+      "id": "discord",
+      "name": "Discord Topluluğu",
+      "description": "Diğer kullanıcılarla bağlantı kurun ve yardım alın",
+      "value": "Sunucumuza katılın",
+      "availability": "7/24"
+    }
+  ],
+  "officeHours": {
+    "title": "Çalışma Saatleri",
+    "schedule": [
+      {
+        "day": "Pazartesi - Cuma",
+        "hours": "9:00 - 18:00"
+      },
+      {
+        "day": "Cumartesi",
+        "hours": "10:00 - 14:00"
+      },
+      {
+        "day": "Pazar",
+        "hours": "Kapalı"
+      }
+    ]
+  },
+  "form": {
+    "title": "Bize Mesaj Gönderin",
+    "subtitle": "Bize yazmayı mı tercih ediyorsunuz? Bu formu doldurun, yakında yanıt vereceğiz",
+    "nameLabel": "İsim",
+    "namePlaceholder": "Adınız",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "eposta@adresiniz.com",
+    "subjectLabel": "Konu",
+    "subjectPlaceholder": "Size nasıl yardımcı olabiliriz?",
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Mesajınızı buraya yazın...",
+    "submitButton": "Mesajı Gönder",
+    "submitting": "Gönderiliyor...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Mesaj Gönderildi!",
+    "message": "Bize ulaştığınız için teşekkür ederiz. Yakında yanıt vereceğiz."
+  },
+  "toast": {
+    "successTitle": "Mesaj gönderildi!",
+    "errorTitle": "Mesaj gönderme hatası",
+    "errorConnection": "Sunucuya bağlanılamadı. Lütfen tekrar deneyin."
+  }
+}

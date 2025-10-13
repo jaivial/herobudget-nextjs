@@ -1,0 +1,84 @@
+{
+  "title": "Frequently Asked Questions",
+  "subtitle": "Find quick answers to the most common questions about Hero Budget",
+  "searchPlaceholder": "Search in FAQ...",
+  "categories": {
+    "all": "All",
+    "gettingStarted": "Getting Started",
+    "features": "Features",
+    "security": "Security",
+    "billing": "Billing",
+    "troubleshooting": "Technical Issues"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "How do I create my first account in Hero Budget?",
+      "answer": "Creating your account is very easy. Download the app from App Store or Google Play, open the application and select \"Create Account\". You only need your email and a secure password. You can also register with your Google or Apple account for more convenience."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "How do I add my first transaction?",
+      "answer": "Once you have your account set up, tap the \"+\" button on the main screen. Select whether it's an expense or income, choose the category, enter the amount and an optional description. It's that simple! You can also take a photo of the receipt to remember details."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Can I set up recurring bills?",
+      "answer": "Yes, Hero Budget allows you to set up recurring bills for expenses that repeat each month like rent, utilities, or subscriptions. Go to the \"Recurring Bills\" section, tap \"Create New\", enter the amount, description and frequency. The app will automatically remind you when it's time to record the payment."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "How do savings goals work?",
+      "answer": "Savings goals allow you to set a target amount you want to save each month. Simply define the monthly amount you want to save and Hero Budget will track your progress. It's a simple and effective way to build a savings habit."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Can I sync my data across multiple devices?",
+      "answer": "Yes, all your data is automatically synced in the cloud. You can use Hero Budget on your phone, tablet or computer, and all changes will be reflected in real time on all your devices."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Is my financial data secure?",
+      "answer": "Security is our priority. All your data is stored securely in the cloud with industry-standard protection measures. We implement best security practices and never store sensitive information like full card numbers."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Can I connect my bank accounts?",
+      "answer": "Hero Budget focuses on manual entry to give you complete control over your data. We don't connect directly to banks, which keeps your information more secure and gives you greater privacy."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Is Hero Budget completely free?",
+      "answer": "Yes, Hero Budget is completely free. All features of the application are available at no cost. There are no premium subscriptions or in-app purchases. We believe that managing your personal finances should be accessible to everyone."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Will there be paid features in the future?",
+      "answer": "For now, Hero Budget remains completely free. We focus on offering a complete experience at no cost. If we consider additional features in the future, we will always maintain a robust set of free tools for all our users."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "The app closes unexpectedly, what can I do?",
+      "answer": "If the app closes, first try restarting it. If the problem persists, make sure you have the latest version installed. You can also clear the app cache or restart your device. If nothing works, contact us with your device model."
+    }
+  ],
+  "noResults": {
+    "title": "We found no results",
+    "subtitle": "Try other search terms or select a different category"
+  },
+  "helpCta": {
+    "title": "Didn't find what you were looking for?",
+    "subtitle": "Our support team is here to help you with any specific questions",
+    "button": "Contact Support"
+  }
+}

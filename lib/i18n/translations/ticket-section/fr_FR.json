@@ -1,0 +1,80 @@
+{
+  "title": "Créer un Ticket d'Assistance",
+  "subtitle": "Vous avez trouvé un problème ou avez besoin d'une aide spécifique ? Créez un ticket et notre équipe vous aidera",
+  "categoryTitle": "Sélectionnez le type de problème",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Rapport de Bug",
+      "description": "Problèmes techniques ou bugs dans l'application"
+    },
+    {
+      "id": "feature",
+      "name": "Demande de Fonctionnalité",
+      "description": "Suggestions pour de nouvelles fonctionnalités"
+    },
+    {
+      "id": "help",
+      "name": "Aide Générale",
+      "description": "Questions sur l'utilisation de l'application"
+    },
+    {
+      "id": "account",
+      "name": "Problèmes de Compte",
+      "description": "Problèmes avec la connexion, l'abonnement ou les données"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Faible"
+    },
+    {
+      "id": "Media",
+      "name": "Moyenne"
+    },
+    {
+      "id": "Alta",
+      "name": "Élevée"
+    },
+    {
+      "id": "Urgente",
+      "name": "Urgente"
+    }
+  ],
+  "form": {
+    "nameLabel": "Nom complet",
+    "namePlaceholder": "Votre nom",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "votre@email.com",
+    "priorityLabel": "Priorité",
+    "subjectLabel": "Sujet",
+    "subjectPlaceholder": "Décrivez brièvement votre problème",
+    "descriptionLabel": "Description détaillée",
+    "descriptionPlaceholder": "Expliquez votre problème le plus en détail possible. Incluez les étapes pour reproduire le problème si applicable.",
+    "stepsLabel": "Étapes pour reproduire (optionnel)",
+    "stepsPlaceholder": "1. Ouvrir l'application\n2. Aller à la section...\n3. Cliquer sur...",
+    "deviceLabel": "Appareil (optionnel)",
+    "devicePlaceholder": "ex. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Version de l'app (optionnel)",
+    "versionPlaceholder": "ex. 2.1.3",
+    "attachmentsLabel": "Pièces jointes",
+    "attachmentsDescription": "Glissez des fichiers ici ou cliquez pour sélectionner",
+    "attachmentsButton": "Sélectionner des fichiers",
+    "attachmentsRemove": "Supprimer",
+    "submitButton": "Envoyer le Ticket",
+    "submitting": "Envoi en cours...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Ticket Envoyé !",
+    "message": "Nous avons reçu votre demande d'assistance. Nous vous répondrons dans les 24 heures.",
+    "ticketNumber": "Numéro de ticket :",
+    "createAnother": "Créer un Autre Ticket"
+  },
+  "toast": {
+    "successTitle": "Ticket créé !",
+    "errorTitle": "Erreur lors de la création du ticket",
+    "errorConnection": "Impossible de se connecter au serveur. Veuillez réessayer."
+  }
+}

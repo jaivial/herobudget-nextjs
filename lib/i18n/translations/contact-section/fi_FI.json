@@ -1,0 +1,69 @@
+{
+  "title": "Ota yhteyttä",
+  "subtitle": "Olemme täällä auttamassa sinua. Valitse haluamasi viestintäkanava",
+  "channelsTitle": "Tukikanavat",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "Sähköposti",
+      "description": "Paras yksityiskohtaisiin kysymyksiin ja liitetiedostoihin",
+      "value": "support@herobudget.com",
+      "availability": "Vastaus 24 tunnin kuluessa"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Nopea tuki ja välittömät vastaukset",
+      "value": "+1 (555) 123-4567",
+      "availability": "Ma-Pe 9-18"
+    },
+    {
+      "id": "discord",
+      "name": "Discord-yhteisö",
+      "description": "Ota yhteyttä muihin käyttäjiin ja saa apua",
+      "value": "Liity palvelimellemme",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Aukioloajat",
+    "schedule": [
+      {
+        "day": "Maanantai - Perjantai",
+        "hours": "9:00 - 18:00"
+      },
+      {
+        "day": "Lauantai",
+        "hours": "10:00 - 14:00"
+      },
+      {
+        "day": "Sunnuntai",
+        "hours": "Suljettu"
+      }
+    ]
+  },
+  "form": {
+    "title": "Lähetä meille viesti",
+    "subtitle": "Haluatko mieluummin kirjoittaa? Täytä tämä lomake, niin vastaamme pian",
+    "nameLabel": "Nimi",
+    "namePlaceholder": "Nimesi",
+    "emailLabel": "Sähköposti",
+    "emailPlaceholder": "sinun@sahkoposti.com",
+    "subjectLabel": "Aihe",
+    "subjectPlaceholder": "Miten voimme auttaa?",
+    "messageLabel": "Viesti",
+    "messagePlaceholder": "Kirjoita viestisi tähän...",
+    "submitButton": "Lähetä viesti",
+    "submitting": "Lähetetään...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Viesti lähetetty!",
+    "message": "Kiitos yhteydenotostasi. Vastaamme pian."
+  },
+  "toast": {
+    "successTitle": "Viesti lähetetty!",
+    "errorTitle": "Virhe viestin lähetyksessä",
+    "errorConnection": "Palvelimeen ei saatu yhteyttä. Yritä uudelleen."
+  }
+}

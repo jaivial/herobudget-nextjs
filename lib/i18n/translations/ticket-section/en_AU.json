@@ -1,0 +1,80 @@
+{
+  "title": "Create Support Ticket",
+  "subtitle": "Found a problem or need specific help? Create a ticket and our team will assist you",
+  "categoryTitle": "Select the problem type",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Bug Report",
+      "description": "Technical problems or bugs in the application"
+    },
+    {
+      "id": "feature",
+      "name": "Feature Request",
+      "description": "Suggestions for new features"
+    },
+    {
+      "id": "help",
+      "name": "General Help",
+      "description": "Questions about using the application"
+    },
+    {
+      "id": "account",
+      "name": "Account Issues",
+      "description": "Problems with login, subscription or data"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Low"
+    },
+    {
+      "id": "Media",
+      "name": "Medium"
+    },
+    {
+      "id": "Alta",
+      "name": "High"
+    },
+    {
+      "id": "Urgente",
+      "name": "Urgent"
+    }
+  ],
+  "form": {
+    "nameLabel": "Full name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "Priority",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Briefly describe your problem",
+    "descriptionLabel": "Detailed description",
+    "descriptionPlaceholder": "Explain your problem in as much detail as possible. Include steps to reproduce the problem if applicable.",
+    "stepsLabel": "Steps to reproduce (optional)",
+    "stepsPlaceholder": "1. Open the application\n2. Go to section...\n3. Click on...",
+    "deviceLabel": "Device (optional)",
+    "devicePlaceholder": "e.g. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "App version (optional)",
+    "versionPlaceholder": "e.g. 2.1.3",
+    "attachmentsLabel": "Attachments",
+    "attachmentsDescription": "Drag files here or click to select",
+    "attachmentsButton": "Select files",
+    "attachmentsRemove": "Remove",
+    "submitButton": "Send Ticket",
+    "submitting": "Sending...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Ticket Sent!",
+    "message": "We have received your support request. We will respond within 24 hours.",
+    "ticketNumber": "Ticket number:",
+    "createAnother": "Create Another Ticket"
+  },
+  "toast": {
+    "successTitle": "Ticket created!",
+    "errorTitle": "Error creating ticket",
+    "errorConnection": "Could not connect to server. Please try again."
+  }
+}

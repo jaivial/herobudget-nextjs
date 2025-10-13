@@ -1,0 +1,80 @@
+{
+  "title": "Luo Tukipyyntö",
+  "subtitle": "Löysitkö ongelman tai tarvitsetko erityistä apua? Luo tukipyyntö ja tiimimme auttaa sinua",
+  "categoryTitle": "Valitse ongelman tyyppi",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Virheraportti",
+      "description": "Tekniset ongelmat tai virheet sovelluksessa"
+    },
+    {
+      "id": "feature",
+      "name": "Ominaisuuspyyntö",
+      "description": "Ehdotuksia uusiksi ominaisuuksiksi"
+    },
+    {
+      "id": "help",
+      "name": "Yleinen Apu",
+      "description": "Kysymyksiä sovelluksen käytöstä"
+    },
+    {
+      "id": "account",
+      "name": "Tiliongelmia",
+      "description": "Ongelmia kirjautumisen, tilauksen tai tietojen kanssa"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Matala"
+    },
+    {
+      "id": "Media",
+      "name": "Keskitaso"
+    },
+    {
+      "id": "Alta",
+      "name": "Korkea"
+    },
+    {
+      "id": "Urgente",
+      "name": "Kiireellinen"
+    }
+  ],
+  "form": {
+    "nameLabel": "Koko nimi",
+    "namePlaceholder": "Nimesi",
+    "emailLabel": "Sähköposti",
+    "emailPlaceholder": "sinun@sahkoposti.com",
+    "priorityLabel": "Prioriteetti",
+    "subjectLabel": "Aihe",
+    "subjectPlaceholder": "Kuvaile ongelmasi lyhyesti",
+    "descriptionLabel": "Yksityiskohtainen kuvaus",
+    "descriptionPlaceholder": "Selitä ongelmasi mahdollisimman yksityiskohtaisesti. Sisällytä vaiheet ongelman toistamiseen, jos mahdollista.",
+    "stepsLabel": "Vaiheet toistamiseen (valinnainen)",
+    "stepsPlaceholder": "1. Avaa sovellus\n2. Siirry osioon...\n3. Napsauta...",
+    "deviceLabel": "Laite (valinnainen)",
+    "devicePlaceholder": "esim. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Sovelluksen versio (valinnainen)",
+    "versionPlaceholder": "esim. 2.1.3",
+    "attachmentsLabel": "Liitteet",
+    "attachmentsDescription": "Vedä tiedostot tähän tai napsauta valitaksesi",
+    "attachmentsButton": "Valitse tiedostot",
+    "attachmentsRemove": "Poista",
+    "submitButton": "Lähetä Tukipyyntö",
+    "submitting": "Lähetetään...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Tukipyyntö Lähetetty!",
+    "message": "Olemme vastaanottaneet tukipyyntösi. Vastaamme 24 tunnin kuluessa.",
+    "ticketNumber": "Tukipyynnön numero:",
+    "createAnother": "Luo Toinen Tukipyyntö"
+  },
+  "toast": {
+    "successTitle": "Tukipyyntö luotu!",
+    "errorTitle": "Virhe tukipyynnön luomisessa",
+    "errorConnection": "Palvelimeen ei saatu yhteyttä. Yritä uudelleen."
+  }
+}

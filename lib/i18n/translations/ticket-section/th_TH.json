@@ -1,0 +1,80 @@
+{
+  "title": "สร้างตั้งค่าการสนับสนุน",
+  "subtitle": "พบปัญหาหรือต้องการความช่วยเหลือเฉพาะเจาะจง? สร้างตั๋วและทีมของเราจะช่วยเหลือคุณ",
+  "categoryTitle": "เลือกประเภทของปัญหา",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "รายงานข้อบกพร่อง",
+      "description": "ปัญหาทางเทคนิคหรือข้อบกพร่องในแอปพลิเคชัน"
+    },
+    {
+      "id": "feature",
+      "name": "คำขอฟีเจอร์",
+      "description": "ข้อเสนอแนะสำหรับฟีเจอร์ใหม่"
+    },
+    {
+      "id": "help",
+      "name": "ความช่วยเหลือทั่วไป",
+      "description": "คำถามเกี่ยวกับการใช้แอปพลิเคชัน"
+    },
+    {
+      "id": "account",
+      "name": "ปัญหาบัญชี",
+      "description": "ปัญหาเกี่ยวกับการเข้าสู่ระบบ การสมัครสมาชิก หรือข้อมูล"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "ต่ำ"
+    },
+    {
+      "id": "Media",
+      "name": "ปานกลาง"
+    },
+    {
+      "id": "Alta",
+      "name": "สูง"
+    },
+    {
+      "id": "Urgente",
+      "name": "เร่งด่วน"
+    }
+  ],
+  "form": {
+    "nameLabel": "ชื่อเต็ม",
+    "namePlaceholder": "ชื่อของคุณ",
+    "emailLabel": "อีเมล",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "ลำดับความสำคัญ",
+    "subjectLabel": "หัวข้อ",
+    "subjectPlaceholder": "อธิบายปัญหาของคุณโดยสังเขป",
+    "descriptionLabel": "คำอธิบายโดยละเอียด",
+    "descriptionPlaceholder": "อธิบายปัญหาของคุณให้ละเอียดที่สุด รวมถึงขั้นตอนในการทำซ้ำปัญหาหากเกี่ยวข้อง",
+    "stepsLabel": "ขั้นตอนในการทำซ้ำ (ไม่บังคับ)",
+    "stepsPlaceholder": "1. เปิดแอปพลิเคชัน\n2. ไปที่ส่วน...\n3. คลิกที่...",
+    "deviceLabel": "อุปกรณ์ (ไม่บังคับ)",
+    "devicePlaceholder": "เช่น iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "เวอร์ชันแอป (ไม่บังคับ)",
+    "versionPlaceholder": "เช่น 2.1.3",
+    "attachmentsLabel": "ไฟล์แนบ",
+    "attachmentsDescription": "ลากไฟล์มาที่นี่หรือคลิกเพื่อเลือก",
+    "attachmentsButton": "เลือกไฟล์",
+    "attachmentsRemove": "ลบ",
+    "submitButton": "ส่งตั๋ว",
+    "submitting": "กำลังส่ง...",
+    "required": "*"
+  },
+  "success": {
+    "title": "ส่งตั๋วแล้ว!",
+    "message": "เราได้รับคำขอสนับสนุนของคุณแล้ว เราจะตอบกลับภายใน 24 ชั่วโมง",
+    "ticketNumber": "หมายเลขตั๋ว:",
+    "createAnother": "สร้างตั๋วอื่น"
+  },
+  "toast": {
+    "successTitle": "สร้างตั๋วแล้ว!",
+    "errorTitle": "เกิดข้อผิดพลาดในการสร้างตั๋ว",
+    "errorConnection": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ โปรดลองอีกครั้ง"
+  }
+}

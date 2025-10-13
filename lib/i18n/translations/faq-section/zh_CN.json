@@ -1,0 +1,84 @@
+{
+  "title": "常见问题",
+  "subtitle": "快速找到关于Hero Budget最常见问题的答案",
+  "searchPlaceholder": "在常见问题中搜索...",
+  "categories": {
+    "all": "全部",
+    "gettingStarted": "入门指南",
+    "features": "功能",
+    "security": "安全",
+    "billing": "账单",
+    "troubleshooting": "技术问题"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "如何在Hero Budget中创建我的第一个账户？",
+      "answer": "创建账户非常简单。从App Store或Google Play下载应用，打开应用并选择「创建账户」。您只需要您的电子邮件和一个安全密码。您也可以使用Google或Apple账户注册，更加便捷。"
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "如何添加我的第一笔交易？",
+      "answer": "设置好账户后，点击主屏幕上的「+」按钮。选择是支出还是收入，选择类别，输入金额和可选描述。就这么简单！您还可以拍摄收据照片以记住详细信息。"
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "我可以设置定期账单吗？",
+      "answer": "是的，Hero Budget允许您为每月重复的费用设置定期账单，如租金、水电费或订阅。转到「定期账单」部分，点击「创建新账单」，输入金额、描述和频率。应用会在该记录付款时自动提醒您。"
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "储蓄目标如何运作？",
+      "answer": "储蓄目标允许您设定每月想要储蓄的目标金额。只需定义您想要储蓄的月度金额，Hero Budget将跟踪您的进度。这是建立储蓄习惯的简单有效方法。"
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "我可以在多个设备上同步数据吗？",
+      "answer": "是的，您的所有数据都会自动在云端同步。您可以在手机、平板电脑或计算机上使用Hero Budget，所有更改都会实时反映在所有设备上。"
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "我的财务数据安全吗？",
+      "answer": "安全是我们的首要任务。您的所有数据都通过行业标准保护措施安全地存储在云端。我们实施最佳安全实践，从不存储敏感信息，如完整的卡号。"
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "我可以连接我的银行账户吗？",
+      "answer": "Hero Budget专注于手动输入，让您完全控制您的数据。我们不直接连接银行，这使您的信息更安全，并为您提供更大的隐私保护。"
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Hero Budget是完全免费的吗？",
+      "answer": "是的，Hero Budget完全免费。应用的所有功能均免费提供。没有高级订阅或应用内购买。我们相信管理个人财务应该对每个人都是可访问的。"
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "将来会有付费功能吗？",
+      "answer": "目前，Hero Budget保持完全免费。我们专注于免费提供完整体验。如果我们在未来考虑额外功能，我们将始终为所有用户维护一套强大的免费工具。"
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "应用意外关闭，我该怎么办？",
+      "answer": "如果应用关闭，首先尝试重新启动它。如果问题仍然存在，请确保您已安装最新版本。您还可以清除应用缓存或重启设备。如果都不起作用，请联系我们并提供您的设备型号。"
+    }
+  ],
+  "noResults": {
+    "title": "我们没有找到结果",
+    "subtitle": "尝试其他搜索词或选择不同的类别"
+  },
+  "helpCta": {
+    "title": "没有找到您要找的内容？",
+    "subtitle": "我们的支持团队随时帮助您解决任何具体问题",
+    "button": "联系支持"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Domande Frequenti",
+  "subtitle": "Trova risposte rapide alle domande più comuni su Hero Budget",
+  "searchPlaceholder": "Cerca nelle FAQ...",
+  "categories": {
+    "all": "Tutte",
+    "gettingStarted": "Primi Passi",
+    "features": "Funzionalità",
+    "security": "Sicurezza",
+    "billing": "Fatturazione",
+    "troubleshooting": "Problemi Tecnici"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Come creo il mio primo account in Hero Budget?",
+      "answer": "Creare il tuo account è molto facile. Scarica l'app da App Store o Google Play, apri l'applicazione e seleziona \"Crea Account\". Hai bisogno solo della tua email e di una password sicura. Puoi anche registrarti con il tuo account Google o Apple per maggiore comodità."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Come aggiungo la mia prima transazione?",
+      "answer": "Una volta configurato il tuo account, tocca il pulsante \"+\" sulla schermata principale. Seleziona se è una spesa o un'entrata, scegli la categoria, inserisci l'importo e una descrizione facoltativa. È così semplice! Puoi anche scattare una foto della ricevuta per ricordare i dettagli."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Posso impostare bollette ricorrenti?",
+      "answer": "Sì, Hero Budget ti permette di impostare bollette ricorrenti per spese che si ripetono ogni mese come affitto, utenze o abbonamenti. Vai alla sezione \"Bollette Ricorrenti\", tocca \"Crea Nuova\", inserisci l'importo, la descrizione e la frequenza. L'app ti ricorderà automaticamente quando è il momento di registrare il pagamento."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Come funzionano gli obiettivi di risparmio?",
+      "answer": "Gli obiettivi di risparmio ti permettono di impostare un importo target che vuoi risparmiare ogni mese. Definisci semplicemente l'importo mensile che vuoi risparmiare e Hero Budget seguirà i tuoi progressi. È un modo semplice ed efficace per costruire un'abitudine al risparmio."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Posso sincronizzare i miei dati su più dispositivi?",
+      "answer": "Sì, tutti i tuoi dati vengono sincronizzati automaticamente nel cloud. Puoi usare Hero Budget sul tuo telefono, tablet o computer, e tutte le modifiche si rifletteranno in tempo reale su tutti i tuoi dispositivi."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "I miei dati finanziari sono sicuri?",
+      "answer": "La sicurezza è la nostra priorità. Tutti i tuoi dati sono archiviati in modo sicuro nel cloud con misure di protezione standard del settore. Implementiamo le migliori pratiche di sicurezza e non memorizziamo mai informazioni sensibili come numeri di carta completi."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Posso collegare i miei conti bancari?",
+      "answer": "Hero Budget si concentra sull'inserimento manuale per darti il controllo completo sui tuoi dati. Non ci colleghiamo direttamente alle banche, il che mantiene le tue informazioni più sicure e ti offre maggiore privacy."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Hero Budget è completamente gratuito?",
+      "answer": "Sì, Hero Budget è completamente gratuito. Tutte le funzionalità dell'applicazione sono disponibili senza alcun costo. Non ci sono abbonamenti premium o acquisti in-app. Crediamo che la gestione delle finanze personali debba essere accessibile a tutti."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Ci saranno funzionalità a pagamento in futuro?",
+      "answer": "Per ora, Hero Budget rimane completamente gratuito. Ci concentriamo sull'offrire un'esperienza completa senza costi. Se considereremo funzionalità aggiuntive in futuro, manterremo sempre un set robusto di strumenti gratuiti per tutti i nostri utenti."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "L'app si chiude inaspettatamente, cosa posso fare?",
+      "answer": "Se l'app si chiude, prova prima a riavviarla. Se il problema persiste, assicurati di avere l'ultima versione installata. Puoi anche cancellare la cache dell'app o riavviare il tuo dispositivo. Se nulla funziona, contattaci con il modello del tuo dispositivo."
+    }
+  ],
+  "noResults": {
+    "title": "Non abbiamo trovato risultati",
+    "subtitle": "Prova altri termini di ricerca o seleziona una categoria diversa"
+  },
+  "helpCta": {
+    "title": "Non hai trovato quello che cercavi?",
+    "subtitle": "Il nostro team di supporto è qui per aiutarti con qualsiasi domanda specifica",
+    "button": "Contatta il Supporto"
+  }
+}

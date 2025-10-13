@@ -1,0 +1,80 @@
+{
+  "title": "Supportticket Aanmaken",
+  "subtitle": "Probleem gevonden of specifieke hulp nodig? Maak een ticket aan en ons team helpt je",
+  "categoryTitle": "Selecteer het probleemtype",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Bugrapport",
+      "description": "Technische problemen of bugs in de applicatie"
+    },
+    {
+      "id": "feature",
+      "name": "Functieverzoek",
+      "description": "Suggesties voor nieuwe functies"
+    },
+    {
+      "id": "help",
+      "name": "Algemene Hulp",
+      "description": "Vragen over het gebruik van de applicatie"
+    },
+    {
+      "id": "account",
+      "name": "Accountproblemen",
+      "description": "Problemen met inloggen, abonnement of gegevens"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Laag"
+    },
+    {
+      "id": "Media",
+      "name": "Gemiddeld"
+    },
+    {
+      "id": "Alta",
+      "name": "Hoog"
+    },
+    {
+      "id": "Urgente",
+      "name": "Urgent"
+    }
+  ],
+  "form": {
+    "nameLabel": "Volledige naam",
+    "namePlaceholder": "Je naam",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "jouw@email.com",
+    "priorityLabel": "Prioriteit",
+    "subjectLabel": "Onderwerp",
+    "subjectPlaceholder": "Beschrijf je probleem kort",
+    "descriptionLabel": "Gedetailleerde beschrijving",
+    "descriptionPlaceholder": "Leg je probleem zo gedetailleerd mogelijk uit. Voeg stappen toe om het probleem te reproduceren indien van toepassing.",
+    "stepsLabel": "Stappen om te reproduceren (optioneel)",
+    "stepsPlaceholder": "1. Open de applicatie\n2. Ga naar sectie...\n3. Klik op...",
+    "deviceLabel": "Apparaat (optioneel)",
+    "devicePlaceholder": "bijv. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "App-versie (optioneel)",
+    "versionPlaceholder": "bijv. 2.1.3",
+    "attachmentsLabel": "Bijlagen",
+    "attachmentsDescription": "Sleep bestanden hierheen of klik om te selecteren",
+    "attachmentsButton": "Bestanden selecteren",
+    "attachmentsRemove": "Verwijderen",
+    "submitButton": "Ticket Versturen",
+    "submitting": "Verzenden...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Ticket Verstuurd!",
+    "message": "We hebben je supportverzoek ontvangen. We reageren binnen 24 uur.",
+    "ticketNumber": "Ticketnummer:",
+    "createAnother": "Nog Een Ticket Aanmaken"
+  },
+  "toast": {
+    "successTitle": "Ticket aangemaakt!",
+    "errorTitle": "Fout bij aanmaken ticket",
+    "errorConnection": "Kon geen verbinding maken met de server. Probeer het opnieuw."
+  }
+}

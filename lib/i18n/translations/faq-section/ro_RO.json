@@ -1,0 +1,84 @@
+{
+  "title": "Întrebări Frecvente",
+  "subtitle": "Găsiți răspunsuri rapide la cele mai frecvente întrebări despre Hero Budget",
+  "searchPlaceholder": "Căutați în FAQ...",
+  "categories": {
+    "all": "Toate",
+    "gettingStarted": "Primii Pași",
+    "features": "Funcționalități",
+    "security": "Securitate",
+    "billing": "Facturare",
+    "troubleshooting": "Probleme Tehnice"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Cum îmi creez primul cont în Hero Budget?",
+      "answer": "Crearea contului este foarte ușoară. Descărcați aplicația din App Store sau Google Play, deschideți aplicația și selectați \"Creează Cont\". Aveți nevoie doar de email și o parolă sigură. De asemenea, vă puteți înregistra cu contul Google sau Apple pentru mai multă comoditate."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Cum adaug prima mea tranzacție?",
+      "answer": "Odată ce aveți contul configurat, apăsați butonul \"+\" pe ecranul principal. Selectați dacă este o cheltuială sau un venit, alegeți categoria, introduceți suma și o descriere opțională. Este atât de simplu! De asemenea, puteți face o fotografie a bonului pentru a vă aminti detaliile."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Pot configura facturi recurente?",
+      "answer": "Da, Hero Budget vă permite să configurați facturi recurente pentru cheltuielile care se repetă în fiecare lună, cum ar fi chiria, utilitățile sau abonamentele. Mergeți la secțiunea \"Facturi Recurente\", apăsați \"Creează Nouă\", introduceți suma, descrierea și frecvența. Aplicația vă va reaminti automat când este timpul să înregistrați plata."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Cum funcționează obiectivele de economisire?",
+      "answer": "Obiectivele de economisire vă permit să stabiliți o sumă țintă pe care doriți să o economisiți în fiecare lună. Pur și simplu definiți suma lunară pe care doriți să o economisiți și Hero Budget va urmări progresul dumneavoastră. Este o modalitate simplă și eficientă de a construi un obicei de economisire."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Pot sincroniza datele pe mai multe dispozitive?",
+      "answer": "Da, toate datele dumneavoastră sunt sincronizate automat în cloud. Puteți folosi Hero Budget pe telefon, tabletă sau computer, și toate modificările vor fi reflectate în timp real pe toate dispozitivele dumneavoastră."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Sunt datele mele financiare sigure?",
+      "answer": "Securitatea este prioritatea noastră. Toate datele dumneavoastră sunt stocate în siguranță în cloud cu măsuri de protecție standard în industrie. Implementăm cele mai bune practici de securitate și nu stocăm niciodată informații sensibile precum numerele complete ale cardurilor."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Pot conecta conturile mele bancare?",
+      "answer": "Hero Budget se concentrează pe introducerea manuală pentru a vă oferi control complet asupra datelor dumneavoastră. Nu ne conectăm direct la bănci, ceea ce păstrează informațiile dumneavoastră mai sigure și vă oferă mai multă confidențialitate."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Este Hero Budget complet gratuit?",
+      "answer": "Da, Hero Budget este complet gratuit. Toate funcționalitățile aplicației sunt disponibile fără niciun cost. Nu există abonamente premium sau achiziții în aplicație. Credem că gestionarea finanțelor personale ar trebui să fie accesibilă tuturor."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Vor exista funcționalități plătite în viitor?",
+      "answer": "Pentru moment, Hero Budget rămâne complet gratuit. Ne concentrăm pe oferirea unei experiențe complete fără costuri. Dacă vom lua în considerare funcționalități suplimentare în viitor, vom menține întotdeauna un set robust de instrumente gratuite pentru toți utilizatorii noștri."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Aplicația se închide neașteptat, ce pot face?",
+      "answer": "Dacă aplicația se închide, încercați mai întâi să o reporniți. Dacă problema persistă, asigurați-vă că aveți instalată cea mai recentă versiune. De asemenea, puteți șterge cache-ul aplicației sau reporni dispozitivul. Dacă nimic nu funcționează, contactați-ne cu modelul dispozitivului dumneavoastră."
+    }
+  ],
+  "noResults": {
+    "title": "Nu am găsit rezultate",
+    "subtitle": "Încercați alți termeni de căutare sau selectați o categorie diferită"
+  },
+  "helpCta": {
+    "title": "Nu ați găsit ceea ce căutați?",
+    "subtitle": "Echipa noastră de suport este aici pentru a vă ajuta cu orice întrebări specifice",
+    "button": "Contactați Suportul"
+  }
+}

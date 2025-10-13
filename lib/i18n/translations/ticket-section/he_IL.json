@@ -1,0 +1,80 @@
+{
+  "title": "יצירת פנייה לתמיכה",
+  "subtitle": "מצאת בעיה או זקוק לעזרה ספציפית? צור פנייה והצוות שלנו יעזור לך",
+  "categoryTitle": "בחר את סוג הבעיה",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "דיווח על באג",
+      "description": "בעיות טכניות או באגים באפליקציה"
+    },
+    {
+      "id": "feature",
+      "name": "בקשת תכונה",
+      "description": "הצעות לתכונות חדשות"
+    },
+    {
+      "id": "help",
+      "name": "עזרה כללית",
+      "description": "שאלות על השימוש באפליקציה"
+    },
+    {
+      "id": "account",
+      "name": "בעיות חשבון",
+      "description": "בעיות עם התחברות, מנוי או נתונים"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "נמוכה"
+    },
+    {
+      "id": "Media",
+      "name": "בינונית"
+    },
+    {
+      "id": "Alta",
+      "name": "גבוהה"
+    },
+    {
+      "id": "Urgente",
+      "name": "דחופה"
+    }
+  ],
+  "form": {
+    "nameLabel": "שם מלא",
+    "namePlaceholder": "שמך",
+    "emailLabel": "דוא״ל",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "עדיפות",
+    "subjectLabel": "נושא",
+    "subjectPlaceholder": "תאר בקצרה את הבעיה שלך",
+    "descriptionLabel": "תיאור מפורט",
+    "descriptionPlaceholder": "הסבר את הבעיה שלך בצורה מפורטת ככל האפשר. כלול צעדים לשחזור הבעיה אם רלוונטי.",
+    "stepsLabel": "צעדים לשחזור (אופציונלי)",
+    "stepsPlaceholder": "1. פתח את האפליקציה\n2. עבור לקטע...\n3. לחץ על...",
+    "deviceLabel": "מכשיר (אופציונלי)",
+    "devicePlaceholder": "לדוגמה iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "גרסת האפליקציה (אופציונלי)",
+    "versionPlaceholder": "לדוגמה 2.1.3",
+    "attachmentsLabel": "קבצים מצורפים",
+    "attachmentsDescription": "גרור קבצים לכאן או לחץ לבחירה",
+    "attachmentsButton": "בחר קבצים",
+    "attachmentsRemove": "הסר",
+    "submitButton": "שלח פנייה",
+    "submitting": "שולח...",
+    "required": "*"
+  },
+  "success": {
+    "title": "הפנייה נשלחה!",
+    "message": "קיבלנו את בקשת התמיכה שלך. נגיב תוך 24 שעות.",
+    "ticketNumber": "מספר פנייה:",
+    "createAnother": "צור פנייה נוספת"
+  },
+  "toast": {
+    "successTitle": "הפנייה נוצרה!",
+    "errorTitle": "שגיאה ביצירת הפנייה",
+    "errorConnection": "לא ניתן להתחבר לשרת. אנא נסה שוב."
+  }
+}

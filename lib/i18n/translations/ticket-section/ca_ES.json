@@ -1,0 +1,80 @@
+{
+  "title": "Crear Tiquet de Suport",
+  "subtitle": "Has trobat un problema o necessites ajuda específica? Crea un tiquet i el nostre equip t'ajudarà",
+  "categoryTitle": "Selecciona el tipus de problema",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Informe d'Error",
+      "description": "Problemes tècnics o errors a l'aplicació"
+    },
+    {
+      "id": "feature",
+      "name": "Sol·licitud de Funció",
+      "description": "Suggeriments per a noves funcions"
+    },
+    {
+      "id": "help",
+      "name": "Ajuda General",
+      "description": "Preguntes sobre l'ús de l'aplicació"
+    },
+    {
+      "id": "account",
+      "name": "Problemes de Compte",
+      "description": "Problemes amb l'inici de sessió, subscripció o dades"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Baixa"
+    },
+    {
+      "id": "Media",
+      "name": "Mitjana"
+    },
+    {
+      "id": "Alta",
+      "name": "Alta"
+    },
+    {
+      "id": "Urgente",
+      "name": "Urgent"
+    }
+  ],
+  "form": {
+    "nameLabel": "Nom complet",
+    "namePlaceholder": "El teu nom",
+    "emailLabel": "Correu electrònic",
+    "emailPlaceholder": "el.teu@email.com",
+    "priorityLabel": "Prioritat",
+    "subjectLabel": "Assumpte",
+    "subjectPlaceholder": "Descriu breument el teu problema",
+    "descriptionLabel": "Descripció detallada",
+    "descriptionPlaceholder": "Explica el teu problema amb el màxim detall possible. Inclou els passos per reproduir el problema si és aplicable.",
+    "stepsLabel": "Passos per reproduir (opcional)",
+    "stepsPlaceholder": "1. Obrir l'aplicació\n2. Anar a la secció...\n3. Fer clic a...",
+    "deviceLabel": "Dispositiu (opcional)",
+    "devicePlaceholder": "ex. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Versió de l'app (opcional)",
+    "versionPlaceholder": "ex. 2.1.3",
+    "attachmentsLabel": "Arxius adjunts",
+    "attachmentsDescription": "Arrossega arxius aquí o fes clic per seleccionar",
+    "attachmentsButton": "Seleccionar arxius",
+    "attachmentsRemove": "Eliminar",
+    "submitButton": "Enviar Tiquet",
+    "submitting": "Enviant...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Tiquet Enviat!",
+    "message": "Hem rebut la teva sol·licitud de suport. Et respondrem en un termini de 24 hores.",
+    "ticketNumber": "Número de tiquet:",
+    "createAnother": "Crear Un Altre Tiquet"
+  },
+  "toast": {
+    "successTitle": "Tiquet creat!",
+    "errorTitle": "Error en crear el tiquet",
+    "errorConnection": "No s'ha pogut connectar al servidor. Si us plau, torna-ho a intentar."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "创建支持工单",
+  "subtitle": "发现问题或需要特定帮助？创建工单，我们的团队将协助您",
+  "categoryTitle": "选择问题类型",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "错误报告",
+      "description": "应用程序中的技术问题或错误"
+    },
+    {
+      "id": "feature",
+      "name": "功能请求",
+      "description": "新功能的建议"
+    },
+    {
+      "id": "help",
+      "name": "常规帮助",
+      "description": "关于使用应用程序的问题"
+    },
+    {
+      "id": "account",
+      "name": "账户问题",
+      "description": "登录、订阅或数据问题"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "低"
+    },
+    {
+      "id": "Media",
+      "name": "中"
+    },
+    {
+      "id": "Alta",
+      "name": "高"
+    },
+    {
+      "id": "Urgente",
+      "name": "紧急"
+    }
+  ],
+  "form": {
+    "nameLabel": "全名",
+    "namePlaceholder": "您的姓名",
+    "emailLabel": "电子邮件",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "优先级",
+    "subjectLabel": "主题",
+    "subjectPlaceholder": "简要描述您的问题",
+    "descriptionLabel": "详细描述",
+    "descriptionPlaceholder": "尽可能详细地解释您的问题。如果适用，请包括重现问题的步骤。",
+    "stepsLabel": "重现步骤（可选）",
+    "stepsPlaceholder": "1. 打开应用程序\n2. 转到部分...\n3. 点击...",
+    "deviceLabel": "设备（可选）",
+    "devicePlaceholder": "例如 iPhone 14、Samsung Galaxy S23",
+    "versionLabel": "应用版本（可选）",
+    "versionPlaceholder": "例如 2.1.3",
+    "attachmentsLabel": "附件",
+    "attachmentsDescription": "将文件拖到此处或点击选择",
+    "attachmentsButton": "选择文件",
+    "attachmentsRemove": "删除",
+    "submitButton": "提交工单",
+    "submitting": "正在发送...",
+    "required": "*"
+  },
+  "success": {
+    "title": "工单已发送！",
+    "message": "我们已收到您的支持请求。我们将在24小时内回复。",
+    "ticketNumber": "工单号：",
+    "createAnother": "创建另一个工单"
+  },
+  "toast": {
+    "successTitle": "工单已创建！",
+    "errorTitle": "创建工单时出错",
+    "errorConnection": "无法连接到服务器。请重试。"
+  }
+}

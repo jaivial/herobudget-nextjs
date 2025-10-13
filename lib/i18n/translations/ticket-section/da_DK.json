@@ -1,0 +1,80 @@
+{
+  "title": "Opret Support Ticket",
+  "subtitle": "Har du fundet et problem eller har brug for specifik hjælp? Opret en ticket, og vores team vil hjælpe dig",
+  "categoryTitle": "Vælg problemtype",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Fejlrapport",
+      "description": "Tekniske problemer eller fejl i applikationen"
+    },
+    {
+      "id": "feature",
+      "name": "Funktionsanmodning",
+      "description": "Forslag til nye funktioner"
+    },
+    {
+      "id": "help",
+      "name": "Generel Hjælp",
+      "description": "Spørgsmål om brug af applikationen"
+    },
+    {
+      "id": "account",
+      "name": "Kontoproblemer",
+      "description": "Problemer med login, abonnement eller data"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Lav"
+    },
+    {
+      "id": "Media",
+      "name": "Mellem"
+    },
+    {
+      "id": "Alta",
+      "name": "Høj"
+    },
+    {
+      "id": "Urgente",
+      "name": "Presserende"
+    }
+  ],
+  "form": {
+    "nameLabel": "Fulde navn",
+    "namePlaceholder": "Dit navn",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "din@email.com",
+    "priorityLabel": "Prioritet",
+    "subjectLabel": "Emne",
+    "subjectPlaceholder": "Beskriv kort dit problem",
+    "descriptionLabel": "Detaljeret beskrivelse",
+    "descriptionPlaceholder": "Forklar dit problem så detaljeret som muligt. Inkluder trin til at reproducere problemet, hvis det er relevant.",
+    "stepsLabel": "Trin til at reproducere (valgfrit)",
+    "stepsPlaceholder": "1. Åbn applikationen\n2. Gå til sektionen...\n3. Klik på...",
+    "deviceLabel": "Enhed (valgfrit)",
+    "devicePlaceholder": "f.eks. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "App-version (valgfrit)",
+    "versionPlaceholder": "f.eks. 2.1.3",
+    "attachmentsLabel": "Vedhæftninger",
+    "attachmentsDescription": "Træk filer hertil eller klik for at vælge",
+    "attachmentsButton": "Vælg filer",
+    "attachmentsRemove": "Fjern",
+    "submitButton": "Send Ticket",
+    "submitting": "Sender...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Ticket Sendt!",
+    "message": "Vi har modtaget din supportanmodning. Vi vil svare inden for 24 timer.",
+    "ticketNumber": "Ticket nummer:",
+    "createAnother": "Opret Endnu En Ticket"
+  },
+  "toast": {
+    "successTitle": "Ticket oprettet!",
+    "errorTitle": "Fejl ved oprettelse af ticket",
+    "errorConnection": "Kunne ikke oprette forbindelse til serveren. Prøv venligst igen."
+  }
+}

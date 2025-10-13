@@ -1,0 +1,69 @@
+{
+  "title": "צור קשר",
+  "subtitle": "אנחנו כאן כדי לעזור לך. בחר את ערוץ התקשורת המועדף עליך",
+  "channelsTitle": "ערוצי תמיכה",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "דואר אלקטרוני",
+      "description": "הטוב ביותר לשאלות מפורטות וקבצים מצורפים",
+      "value": "support@herobudget.com",
+      "availability": "מענה תוך 24 שעות"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "תמיכה מהירה ומענה מיידי",
+      "value": "+1 (555) 123-4567",
+      "availability": "א'-ה' 9:00-18:00"
+    },
+    {
+      "id": "discord",
+      "name": "קהילת Discord",
+      "description": "התחבר למשתמשים אחרים וקבל עזרה",
+      "value": "הצטרף לשרת שלנו",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "שעות פעילות",
+    "schedule": [
+      {
+        "day": "ראשון - חמישי",
+        "hours": "9:00 - 18:00"
+      },
+      {
+        "day": "שישי",
+        "hours": "10:00 - 14:00"
+      },
+      {
+        "day": "שבת",
+        "hours": "סגור"
+      }
+    ]
+  },
+  "form": {
+    "title": "שלח לנו הודעה",
+    "subtitle": "מעדיף לכתוב לנו? מלא את הטופס הזה ונחזור אליך בקרוב",
+    "nameLabel": "שם",
+    "namePlaceholder": "השם שלך",
+    "emailLabel": "דואר אלקטרוני",
+    "emailPlaceholder": "הדואר@שלך.com",
+    "subjectLabel": "נושא",
+    "subjectPlaceholder": "איך אנחנו יכולים לעזור לך?",
+    "messageLabel": "הודעה",
+    "messagePlaceholder": "כתוב את ההודעה שלך כאן...",
+    "submitButton": "שלח הודעה",
+    "submitting": "שולח...",
+    "required": "*"
+  },
+  "success": {
+    "title": "ההודעה נשלחה!",
+    "message": "תודה שפנית אלינו. נחזור אליך בקרוב."
+  },
+  "toast": {
+    "successTitle": "ההודעה נשלחה!",
+    "errorTitle": "שגיאה בשליחת הודעה",
+    "errorConnection": "לא ניתן להתחבר לשרת. אנא נסה שוב."
+  }
+}

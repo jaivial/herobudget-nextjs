@@ -1,0 +1,69 @@
+{
+  "title": "お問い合わせ",
+  "subtitle": "お手伝いいたします。ご希望のコミュニケーションチャンネルをお選びください",
+  "channelsTitle": "サポートチャンネル",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "メール",
+      "description": "詳細な質問や添付ファイルに最適",
+      "value": "support@herobudget.com",
+      "availability": "24時間以内に返信"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "迅速なサポートと即座の応答",
+      "value": "+1 (555) 123-4567",
+      "availability": "月〜金 9時〜18時"
+    },
+    {
+      "id": "discord",
+      "name": "Discordコミュニティ",
+      "description": "他のユーザーとつながり、サポートを受ける",
+      "value": "サーバーに参加する",
+      "availability": "24時間365日"
+    }
+  ],
+  "officeHours": {
+    "title": "営業時間",
+    "schedule": [
+      {
+        "day": "月曜日 - 金曜日",
+        "hours": "午前9:00 - 午後6:00"
+      },
+      {
+        "day": "土曜日",
+        "hours": "午前10:00 - 午後2:00"
+      },
+      {
+        "day": "日曜日",
+        "hours": "休業"
+      }
+    ]
+  },
+  "form": {
+    "title": "メッセージを送信",
+    "subtitle": "メッセージを送りたい方は、このフォームにご記入ください。すぐに返信いたします",
+    "nameLabel": "お名前",
+    "namePlaceholder": "あなたのお名前",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "あなたの@メール.com",
+    "subjectLabel": "件名",
+    "subjectPlaceholder": "どのようなご用件でしょうか？",
+    "messageLabel": "メッセージ",
+    "messagePlaceholder": "こちらにメッセージをご記入ください...",
+    "submitButton": "メッセージを送信",
+    "submitting": "送信中...",
+    "required": "*"
+  },
+  "success": {
+    "title": "メッセージを送信しました！",
+    "message": "お問い合わせいただきありがとうございます。すぐに返信いたします。"
+  },
+  "toast": {
+    "successTitle": "メッセージを送信しました！",
+    "errorTitle": "メッセージの送信エラー",
+    "errorConnection": "サーバーに接続できませんでした。もう一度お試しください。"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Häufig Gestellte Fragen",
+  "subtitle": "Finden Sie schnelle Antworten auf die häufigsten Fragen zu Hero Budget",
+  "searchPlaceholder": "In FAQ suchen...",
+  "categories": {
+    "all": "Alle",
+    "gettingStarted": "Erste Schritte",
+    "features": "Funktionen",
+    "security": "Sicherheit",
+    "billing": "Abrechnung",
+    "troubleshooting": "Technische Probleme"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Wie erstelle ich mein erstes Konto in Hero Budget?",
+      "answer": "Die Erstellung Ihres Kontos ist sehr einfach. Laden Sie die App aus dem App Store oder Google Play herunter, öffnen Sie die Anwendung und wählen Sie \"Konto Erstellen\". Sie benötigen nur Ihre E-Mail-Adresse und ein sicheres Passwort. Sie können sich auch mit Ihrem Google- oder Apple-Konto registrieren, um es bequemer zu machen."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Wie füge ich meine erste Transaktion hinzu?",
+      "answer": "Sobald Ihr Konto eingerichtet ist, tippen Sie auf die \"+\"-Schaltfläche auf dem Hauptbildschirm. Wählen Sie aus, ob es sich um eine Ausgabe oder ein Einkommen handelt, wählen Sie die Kategorie, geben Sie den Betrag und eine optionale Beschreibung ein. So einfach ist das! Sie können auch ein Foto der Quittung machen, um sich Details zu merken."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Kann ich wiederkehrende Rechnungen einrichten?",
+      "answer": "Ja, Hero Budget ermöglicht es Ihnen, wiederkehrende Rechnungen für Ausgaben einzurichten, die sich jeden Monat wiederholen, wie Miete, Nebenkosten oder Abonnements. Gehen Sie zum Abschnitt \"Wiederkehrende Rechnungen\", tippen Sie auf \"Neu Erstellen\", geben Sie den Betrag, die Beschreibung und die Häufigkeit ein. Die App wird Sie automatisch daran erinnern, wann es Zeit ist, die Zahlung zu erfassen."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Wie funktionieren Sparziele?",
+      "answer": "Sparziele ermöglichen es Ihnen, einen Zielbetrag festzulegen, den Sie jeden Monat sparen möchten. Definieren Sie einfach den monatlichen Betrag, den Sie sparen möchten, und Hero Budget wird Ihren Fortschritt verfolgen. Es ist eine einfache und effektive Möglichkeit, eine Spargewohnheit aufzubauen."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Kann ich meine Daten über mehrere Geräte synchronisieren?",
+      "answer": "Ja, alle Ihre Daten werden automatisch in der Cloud synchronisiert. Sie können Hero Budget auf Ihrem Telefon, Tablet oder Computer verwenden, und alle Änderungen werden in Echtzeit auf allen Ihren Geräten angezeigt."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Sind meine Finanzdaten sicher?",
+      "answer": "Sicherheit ist unsere Priorität. Alle Ihre Daten werden sicher in der Cloud mit branchenüblichen Schutzmassnahmen gespeichert. Wir implementieren beste Sicherheitspraktiken und speichern niemals sensible Informationen wie vollständige Kartennummern."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Kann ich meine Bankkonten verbinden?",
+      "answer": "Hero Budget konzentriert sich auf manuelle Eingaben, um Ihnen die vollständige Kontrolle über Ihre Daten zu geben. Wir verbinden uns nicht direkt mit Banken, was Ihre Informationen sicherer hält und Ihnen mehr Privatsphäre bietet."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Ist Hero Budget völlig kostenlos?",
+      "answer": "Ja, Hero Budget ist völlig kostenlos. Alle Funktionen der Anwendung sind ohne Kosten verfügbar. Es gibt keine Premium-Abonnements oder In-App-Käufe. Wir glauben, dass die Verwaltung Ihrer persönlichen Finanzen für jeden zugänglich sein sollte."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Wird es in Zukunft kostenpflichtige Funktionen geben?",
+      "answer": "Im Moment bleibt Hero Budget völlig kostenlos. Wir konzentrieren uns darauf, eine vollständige Erfahrung ohne Kosten anzubieten. Wenn wir in Zukunft zusätzliche Funktionen in Betracht ziehen, werden wir immer ein robustes Set kostenloser Tools für alle unsere Benutzer aufrechterhalten."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Die App schliesst unerwartet, was kann ich tun?",
+      "answer": "Wenn sich die App schliesst, versuchen Sie zunächst, sie neu zu starten. Wenn das Problem weiterhin besteht, stellen Sie sicher, dass Sie die neueste Version installiert haben. Sie können auch den App-Cache löschen oder Ihr Gerät neu starten. Wenn nichts funktioniert, kontaktieren Sie uns mit Ihrem Gerätemodell."
+    }
+  ],
+  "noResults": {
+    "title": "Wir haben keine Ergebnisse gefunden",
+    "subtitle": "Versuchen Sie andere Suchbegriffe oder wählen Sie eine andere Kategorie"
+  },
+  "helpCta": {
+    "title": "Haben Sie nicht gefunden, wonach Sie gesucht haben?",
+    "subtitle": "Unser Support-Team ist hier, um Ihnen bei spezifischen Fragen zu helfen",
+    "button": "Support Kontaktieren"
+  }
+}

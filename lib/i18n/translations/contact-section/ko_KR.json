@@ -1,0 +1,69 @@
+{
+  "title": "문의하기",
+  "subtitle": "도와드리겠습니다. 선호하시는 커뮤니케이션 채널을 선택하세요",
+  "channelsTitle": "지원 채널",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "이메일",
+      "description": "자세한 질문과 첨부 파일에 가장 적합",
+      "value": "support@herobudget.com",
+      "availability": "24시간 이내 답변"
+    },
+    {
+      "id": "whatsapp",
+      "name": "왓츠앱",
+      "description": "빠른 지원과 즉각적인 응답",
+      "value": "+1 (555) 123-4567",
+      "availability": "월-금 오전 9시-오후 6시"
+    },
+    {
+      "id": "discord",
+      "name": "디스코드 커뮤니티",
+      "description": "다른 사용자와 연결하고 도움 받기",
+      "value": "서버 가입하기",
+      "availability": "연중무휴"
+    }
+  ],
+  "officeHours": {
+    "title": "운영 시간",
+    "schedule": [
+      {
+        "day": "월요일 - 금요일",
+        "hours": "오전 9:00 - 오후 6:00"
+      },
+      {
+        "day": "토요일",
+        "hours": "오전 10:00 - 오후 2:00"
+      },
+      {
+        "day": "일요일",
+        "hours": "휴무"
+      }
+    ]
+  },
+  "form": {
+    "title": "메시지 보내기",
+    "subtitle": "문의 사항을 작성하시겠어요? 이 양식을 작성하시면 빠르게 답변드리겠습니다",
+    "nameLabel": "이름",
+    "namePlaceholder": "이름을 입력하세요",
+    "emailLabel": "이메일",
+    "emailPlaceholder": "your@email.com",
+    "subjectLabel": "제목",
+    "subjectPlaceholder": "어떻게 도와드릴까요?",
+    "messageLabel": "메시지",
+    "messagePlaceholder": "메시지를 입력하세요...",
+    "submitButton": "메시지 보내기",
+    "submitting": "전송 중...",
+    "required": "*"
+  },
+  "success": {
+    "title": "메시지가 전송되었습니다!",
+    "message": "문의해 주셔서 감사합니다. 곧 답변드리겠습니다."
+  },
+  "toast": {
+    "successTitle": "메시지가 전송되었습니다!",
+    "errorTitle": "메시지 전송 오류",
+    "errorConnection": "서버에 연결할 수 없습니다. 다시 시도해 주세요."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Često Postavljana Pitanja",
+  "subtitle": "Pronađite brze odgovore na najčešća pitanja o Hero Budget",
+  "searchPlaceholder": "Pretraži u FAQ...",
+  "categories": {
+    "all": "Sve",
+    "gettingStarted": "Prvi Koraci",
+    "features": "Značajke",
+    "security": "Sigurnost",
+    "billing": "Naplata",
+    "troubleshooting": "Tehnički Problemi"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Kako stvoriti svoj prvi račun u Hero Budget?",
+      "answer": "Stvaranje računa je vrlo jednostavno. Preuzmite aplikaciju s App Storea ili Google Playa, otvorite aplikaciju i odaberite \"Stvori račun\". Potreban vam je samo e-mail i sigurna lozinka. Također se možete registrirati putem Google ili Apple računa za dodatnu praktičnost."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Kako dodati svoju prvu transakciju?",
+      "answer": "Nakon što postavite račun, dodirnite gumb \"+\" na glavnom zaslonu. Odaberite je li to trošak ili prihod, odaberite kategoriju, unesite iznos i opcionalni opis. Tako jednostavno! Također možete fotografirati račun kako biste zapamtili detalje."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Mogu li postaviti ponavljajuće račune?",
+      "answer": "Da, Hero Budget vam omogućuje postavljanje ponavljajućih računa za troškove koji se ponavljaju svaki mjesec kao što su najamnina, režije ili pretplate. Idite na odjeljak \"Ponavljajući računi\", dodirnite \"Stvori novi\", unesite iznos, opis i učestalost. Aplikacija će vas automatski podsjetiti kada je vrijeme za evidentiranje plaćanja."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Kako funkcioniraju ciljevi štednje?",
+      "answer": "Ciljevi štednje omogućuju vam da postavite ciljni iznos koji želite uštedjeti svakog mjeseca. Jednostavno definirajte mjesečni iznos koji želite uštedjeti i Hero Budget će pratiti vaš napredak. To je jednostavan i učinkovit način za izgradnju navike štednje."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Mogu li sinkronizirati svoje podatke na više uređaja?",
+      "answer": "Da, svi vaši podaci automatski se sinkroniziraju u oblaku. Možete koristiti Hero Budget na telefonu, tabletu ili računalu, a sve promjene će se odraziti u stvarnom vremenu na svim vašim uređajima."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Jesu li moji financijski podaci sigurni?",
+      "answer": "Sigurnost je naš prioritet. Svi vaši podaci sigurno su pohranjeni u oblaku s industrijskim standardnim mjerama zaštite. Provodimo najbolje sigurnosne prakse i nikada ne pohranjujemo osjetljive informacije kao što su potpuni brojevi kartica."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Mogu li povezati svoje bankovne račune?",
+      "answer": "Hero Budget se fokusira na ručni unos kako bi vam dao potpunu kontrolu nad svojim podacima. Ne povezujemo se izravno s bankama, što čuva vaše informacije sigurnijima i pruža vam veću privatnost."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Je li Hero Budget potpuno besplatan?",
+      "answer": "Da, Hero Budget je potpuno besplatan. Sve značajke aplikacije dostupne su bez ikakvih troškova. Nema premium pretplata ni kupnji unutar aplikacije. Vjerujemo da upravljanje osobnim financijama treba biti dostupno svima."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Hoće li u budućnosti biti plaćenih značajki?",
+      "answer": "Za sada, Hero Budget ostaje potpuno besplatan. Fokusiramo se na pružanje cjelovitog iskustva bez troškova. Ako budemo razmatrali dodatne značajke u budućnosti, uvijek ćemo održavati robustan skup besplatnih alata za sve naše korisnike."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Aplikacija se neočekivano zatvara, što mogu učiniti?",
+      "answer": "Ako se aplikacija zatvori, prvo pokušajte ponovno je pokrenuti. Ako se problem nastavi, provjerite imate li instaliranu najnoviju verziju. Također možete obrisati predmemoriju aplikacije ili ponovno pokrenuti uređaj. Ako ništa ne pomogne, kontaktirajte nas s modelom vašeg uređaja."
+    }
+  ],
+  "noResults": {
+    "title": "Nismo pronašli rezultate",
+    "subtitle": "Pokušajte s drugim pojmovima za pretraživanje ili odaberite drugu kategoriju"
+  },
+  "helpCta": {
+    "title": "Niste pronašli što ste tražili?",
+    "subtitle": "Naš tim za podršku tu je da vam pomogne s bilo kojim specifičnim pitanjima",
+    "button": "Kontaktirajte podršku"
+  }
+}

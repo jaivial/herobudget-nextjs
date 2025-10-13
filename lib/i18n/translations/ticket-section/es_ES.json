@@ -1,0 +1,80 @@
+{
+  "title": "Crear Ticket de Soporte",
+  "subtitle": "¿Has encontrado un problema o necesitas ayuda específica? Crea un ticket y nuestro equipo te ayudará",
+  "categoryTitle": "Selecciona el tipo de problema",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Reporte de Error",
+      "description": "Problemas técnicos o errores en la aplicación"
+    },
+    {
+      "id": "feature",
+      "name": "Solicitud de Función",
+      "description": "Sugerencias para nuevas funciones"
+    },
+    {
+      "id": "help",
+      "name": "Ayuda General",
+      "description": "Preguntas sobre el uso de la aplicación"
+    },
+    {
+      "id": "account",
+      "name": "Problemas de Cuenta",
+      "description": "Problemas con inicio de sesión, suscripción o datos"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Baja"
+    },
+    {
+      "id": "Media",
+      "name": "Media"
+    },
+    {
+      "id": "Alta",
+      "name": "Alta"
+    },
+    {
+      "id": "Urgente",
+      "name": "Urgente"
+    }
+  ],
+  "form": {
+    "nameLabel": "Nombre completo",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@email.com",
+    "priorityLabel": "Prioridad",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "Describe brevemente tu problema",
+    "descriptionLabel": "Descripción detallada",
+    "descriptionPlaceholder": "Explica tu problema con el mayor detalle posible. Incluye pasos para reproducir el problema si es aplicable.",
+    "stepsLabel": "Pasos para reproducir (opcional)",
+    "stepsPlaceholder": "1. Abrir la aplicación\n2. Ir a la sección...\n3. Hacer clic en...",
+    "deviceLabel": "Dispositivo (opcional)",
+    "devicePlaceholder": "ej. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Versión de la app (opcional)",
+    "versionPlaceholder": "ej. 2.1.3",
+    "attachmentsLabel": "Archivos adjuntos",
+    "attachmentsDescription": "Arrastra archivos aquí o haz clic para seleccionar",
+    "attachmentsButton": "Seleccionar archivos",
+    "attachmentsRemove": "Eliminar",
+    "submitButton": "Enviar Ticket",
+    "submitting": "Enviando...",
+    "required": "*"
+  },
+  "success": {
+    "title": "¡Ticket Enviado!",
+    "message": "Hemos recibido tu solicitud de soporte. Te responderemos en un plazo de 24 horas.",
+    "ticketNumber": "Número de ticket:",
+    "createAnother": "Crear Otro Ticket"
+  },
+  "toast": {
+    "successTitle": "¡Ticket creado!",
+    "errorTitle": "Error al crear el ticket",
+    "errorConnection": "No se pudo conectar al servidor. Por favor, inténtalo de nuevo."
+  }
+}

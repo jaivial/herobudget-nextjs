@@ -1,0 +1,69 @@
+{
+  "title": "Contactez-nous",
+  "subtitle": "Nous sommes là pour vous aider. Choisissez votre canal de communication préféré",
+  "channelsTitle": "Canaux de Support",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "Email",
+      "description": "Idéal pour les questions détaillées et les pièces jointes",
+      "value": "support@herobudget.com",
+      "availability": "Réponse sous 24h"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Support rapide et réponses instantanées",
+      "value": "+1 (555) 123-4567",
+      "availability": "Lun-Ven 9h-18h"
+    },
+    {
+      "id": "discord",
+      "name": "Communauté Discord",
+      "description": "Connectez-vous avec d'autres utilisateurs et obtenez de l'aide",
+      "value": "Rejoignez notre serveur",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Heures de Bureau",
+    "schedule": [
+      {
+        "day": "Lundi - Vendredi",
+        "hours": "9h00 - 18h00"
+      },
+      {
+        "day": "Samedi",
+        "hours": "10h00 - 14h00"
+      },
+      {
+        "day": "Dimanche",
+        "hours": "Fermé"
+      }
+    ]
+  },
+  "form": {
+    "title": "Envoyez-nous un Message",
+    "subtitle": "Vous préférez nous écrire ? Remplissez ce formulaire et nous vous répondrons bientôt",
+    "nameLabel": "Nom",
+    "namePlaceholder": "Votre nom",
+    "emailLabel": "Email",
+    "emailPlaceholder": "votre@email.com",
+    "subjectLabel": "Sujet",
+    "subjectPlaceholder": "Comment pouvons-nous vous aider ?",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Écrivez votre message ici...",
+    "submitButton": "Envoyer le Message",
+    "submitting": "Envoi en cours...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Message Envoyé !",
+    "message": "Merci de nous avoir contactés. Nous vous répondrons bientôt."
+  },
+  "toast": {
+    "successTitle": "Message envoyé !",
+    "errorTitle": "Erreur lors de l'envoi du message",
+    "errorConnection": "Impossible de se connecter au serveur. Veuillez réessayer."
+  }
+}

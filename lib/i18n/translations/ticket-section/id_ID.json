@@ -1,0 +1,80 @@
+{
+  "title": "Buat Tiket Dukungan",
+  "subtitle": "Menemukan masalah atau butuh bantuan spesifik? Buat tiket dan tim kami akan membantu Anda",
+  "categoryTitle": "Pilih jenis masalah",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Laporan Bug",
+      "description": "Masalah teknis atau bug dalam aplikasi"
+    },
+    {
+      "id": "feature",
+      "name": "Permintaan Fitur",
+      "description": "Saran untuk fitur baru"
+    },
+    {
+      "id": "help",
+      "name": "Bantuan Umum",
+      "description": "Pertanyaan tentang penggunaan aplikasi"
+    },
+    {
+      "id": "account",
+      "name": "Masalah Akun",
+      "description": "Masalah dengan login, langganan atau data"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Rendah"
+    },
+    {
+      "id": "Media",
+      "name": "Sedang"
+    },
+    {
+      "id": "Alta",
+      "name": "Tinggi"
+    },
+    {
+      "id": "Urgente",
+      "name": "Mendesak"
+    }
+  ],
+  "form": {
+    "nameLabel": "Nama lengkap",
+    "namePlaceholder": "Nama Anda",
+    "emailLabel": "Email",
+    "emailPlaceholder": "anda@email.com",
+    "priorityLabel": "Prioritas",
+    "subjectLabel": "Subjek",
+    "subjectPlaceholder": "Jelaskan masalah Anda secara singkat",
+    "descriptionLabel": "Deskripsi terperinci",
+    "descriptionPlaceholder": "Jelaskan masalah Anda sedetail mungkin. Sertakan langkah-langkah untuk mereproduksi masalah jika berlaku.",
+    "stepsLabel": "Langkah untuk mereproduksi (opsional)",
+    "stepsPlaceholder": "1. Buka aplikasi\n2. Pergi ke bagian...\n3. Klik pada...",
+    "deviceLabel": "Perangkat (opsional)",
+    "devicePlaceholder": "mis. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Versi aplikasi (opsional)",
+    "versionPlaceholder": "mis. 2.1.3",
+    "attachmentsLabel": "Lampiran",
+    "attachmentsDescription": "Seret file ke sini atau klik untuk memilih",
+    "attachmentsButton": "Pilih file",
+    "attachmentsRemove": "Hapus",
+    "submitButton": "Kirim Tiket",
+    "submitting": "Mengirim...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Tiket Terkirim!",
+    "message": "Kami telah menerima permintaan dukungan Anda. Kami akan merespons dalam 24 jam.",
+    "ticketNumber": "Nomor tiket:",
+    "createAnother": "Buat Tiket Lain"
+  },
+  "toast": {
+    "successTitle": "Tiket dibuat!",
+    "errorTitle": "Kesalahan membuat tiket",
+    "errorConnection": "Tidak dapat terhubung ke server. Silakan coba lagi."
+  }
+}

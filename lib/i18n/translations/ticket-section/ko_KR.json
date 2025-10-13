@@ -1,0 +1,80 @@
+{
+  "title": "지원 티켓 생성",
+  "subtitle": "문제를 발견했거나 특정 도움이 필요하신가요? 티켓을 생성하면 저희 팀이 도와드립니다",
+  "categoryTitle": "문제 유형 선택",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "버그 신고",
+      "description": "애플리케이션의 기술적 문제 또는 버그"
+    },
+    {
+      "id": "feature",
+      "name": "기능 요청",
+      "description": "새로운 기능에 대한 제안"
+    },
+    {
+      "id": "help",
+      "name": "일반 도움말",
+      "description": "애플리케이션 사용에 관한 질문"
+    },
+    {
+      "id": "account",
+      "name": "계정 문제",
+      "description": "로그인, 구독 또는 데이터 문제"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "낮음"
+    },
+    {
+      "id": "Media",
+      "name": "보통"
+    },
+    {
+      "id": "Alta",
+      "name": "높음"
+    },
+    {
+      "id": "Urgente",
+      "name": "긴급"
+    }
+  ],
+  "form": {
+    "nameLabel": "전체 이름",
+    "namePlaceholder": "이름",
+    "emailLabel": "이메일",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "우선순위",
+    "subjectLabel": "제목",
+    "subjectPlaceholder": "문제를 간략히 설명하세요",
+    "descriptionLabel": "상세 설명",
+    "descriptionPlaceholder": "문제를 최대한 자세히 설명해주세요. 해당되는 경우 문제를 재현하는 단계를 포함하세요.",
+    "stepsLabel": "재현 단계 (선택사항)",
+    "stepsPlaceholder": "1. 애플리케이션 열기\n2. 섹션으로 이동...\n3. 클릭...",
+    "deviceLabel": "기기 (선택사항)",
+    "devicePlaceholder": "예: iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "앱 버전 (선택사항)",
+    "versionPlaceholder": "예: 2.1.3",
+    "attachmentsLabel": "첨부 파일",
+    "attachmentsDescription": "파일을 여기로 드래그하거나 클릭하여 선택",
+    "attachmentsButton": "파일 선택",
+    "attachmentsRemove": "제거",
+    "submitButton": "티켓 보내기",
+    "submitting": "전송 중...",
+    "required": "*"
+  },
+  "success": {
+    "title": "티켓 전송 완료!",
+    "message": "지원 요청을 받았습니다. 24시간 이내에 응답하겠습니다.",
+    "ticketNumber": "티켓 번호:",
+    "createAnother": "다른 티켓 생성"
+  },
+  "toast": {
+    "successTitle": "티켓 생성됨!",
+    "errorTitle": "티켓 생성 오류",
+    "errorConnection": "서버에 연결할 수 없습니다. 다시 시도해주세요."
+  }
+}

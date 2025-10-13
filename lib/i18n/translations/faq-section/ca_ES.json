@@ -1,0 +1,84 @@
+{
+  "title": "Preguntes Freqüents",
+  "subtitle": "Troba respostes ràpides a les preguntes més comunes sobre Hero Budget",
+  "searchPlaceholder": "Cercar a les FAQ...",
+  "categories": {
+    "all": "Totes",
+    "gettingStarted": "Primers Passos",
+    "features": "Funcionalitats",
+    "security": "Seguretat",
+    "billing": "Facturació",
+    "troubleshooting": "Problemes Tècnics"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Com creo el meu primer compte a Hero Budget?",
+      "answer": "Crear el teu compte és molt fàcil. Descarrega l'aplicació des de l'App Store o Google Play, obre l'aplicació i selecciona \"Crear Compte\". Només necessites el teu correu electrònic i una contrasenya segura. També pots registrar-te amb el teu compte de Google o Apple per a més comoditat."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Com afegeixo la meva primera transacció?",
+      "answer": "Un cop tinguis el teu compte configurat, prem el botó \"+\" a la pantalla principal. Selecciona si és una despesa o ingrés, tria la categoria, introdueix l'import i una descripció opcional. Així de senzill! També pots fer una foto del rebut per recordar detalls."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Puc configurar factures recurrents?",
+      "answer": "Sí, Hero Budget et permet configurar factures recurrents per despeses que es repeteixen cada mes com lloguer, serveis o subscripcions. Ves a la secció \"Factures Recurrents\", prem \"Crear Nova\", introdueix l'import, descripció i freqüència. L'aplicació et recordarà automàticament quan sigui el moment de registrar el pagament."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Com funcionen els objectius d'estalvi?",
+      "answer": "Els objectius d'estalvi et permeten establir una quantitat objectiu que vols estalviar cada mes. Simplement defineix la quantitat mensual que vols estalviar i Hero Budget seguirà el teu progrés. És una forma senzilla i eficaç de crear un hàbit d'estalvi."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Puc sincronitzar les meves dades en diversos dispositius?",
+      "answer": "Sí, totes les teves dades se sincronitzen automàticament al núvol. Pots utilitzar Hero Budget al teu mòbil, tauleta o ordinador, i tots els canvis es reflectiran en temps real a tots els teus dispositius."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Són segures les meves dades financeres?",
+      "answer": "La seguretat és la nostra prioritat. Totes les teves dades s'emmagatzemen de forma segura al núvol amb mesures de protecció estàndard del sector. Implementem les millors pràctiques de seguretat i mai emmagatzemem informació sensible com números complets de targetes."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Puc connectar els meus comptes bancaris?",
+      "answer": "Hero Budget se centra en l'entrada manual per donar-te control complet sobre les teves dades. No ens connectem directament als bancs, el que manté la teva informació més segura i et proporciona més privadesa."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "És Hero Budget completament gratuït?",
+      "answer": "Sí, Hero Budget és completament gratuït. Totes les funcionalitats de l'aplicació estan disponibles sense cap cost. No hi ha subscripcions premium ni compres dins de l'aplicació. Creiem que gestionar les teves finances personals ha de ser accessible per a tothom."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Hi haurà funcionalitats de pagament en el futur?",
+      "answer": "De moment, Hero Budget continua sent completament gratuït. Ens centrem a oferir una experiència completa sense cost. Si considerem funcionalitats addicionals en el futur, sempre mantindrem un conjunt robust d'eines gratuïtes per a tots els nostres usuaris."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "L'aplicació es tanca inesperadament, què puc fer?",
+      "answer": "Si l'aplicació es tanca, primer intenta reiniciar-la. Si el problema persisteix, assegura't de tenir l'última versió instal·lada. També pots esborrar la memòria cau de l'aplicació o reiniciar el teu dispositiu. Si res funciona, contacta'ns amb el model del teu dispositiu."
+    }
+  ],
+  "noResults": {
+    "title": "No hem trobat resultats",
+    "subtitle": "Prova amb altres termes de cerca o selecciona una categoria diferent"
+  },
+  "helpCta": {
+    "title": "No has trobat el que buscaves?",
+    "subtitle": "El nostre equip de suport és aquí per ajudar-te amb qualsevol pregunta específica",
+    "button": "Contactar Suport"
+  }
+}

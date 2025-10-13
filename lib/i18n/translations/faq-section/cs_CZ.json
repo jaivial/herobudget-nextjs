@@ -1,0 +1,84 @@
+{
+  "title": "Často Kladené Otázky",
+  "subtitle": "Najděte rychlé odpovědi na nejčastější otázky o Hero Budget",
+  "searchPlaceholder": "Hledat v FAQ...",
+  "categories": {
+    "all": "Vše",
+    "gettingStarted": "První Kroky",
+    "features": "Funkce",
+    "security": "Bezpečnost",
+    "billing": "Fakturace",
+    "troubleshooting": "Technické Problémy"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Jak vytvořím svůj první účet v Hero Budget?",
+      "answer": "Vytvoření účtu je velmi snadné. Stáhněte si aplikaci z App Store nebo Google Play, otevřete aplikaci a vyberte \"Vytvořit účet\". Potřebujete pouze svůj e-mail a bezpečné heslo. Můžete se také zaregistrovat pomocí svého účtu Google nebo Apple pro větší pohodlí."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Jak přidám svou první transakci?",
+      "answer": "Jakmile máte účet nastaven, klepněte na tlačítko \"+\" na hlavní obrazovce. Vyberte, zda jde o výdaj nebo příjem, vyberte kategorii, zadejte částku a volitelný popis. Je to tak jednoduché! Můžete také vyfotit účtenku, abyste si zapamatovali detaily."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Mohu nastavit opakující se účty?",
+      "answer": "Ano, Hero Budget vám umožňuje nastavit opakující se účty pro výdaje, které se opakují každý měsíc, jako je nájem, služby nebo předplatné. Přejděte do sekce \"Opakující se účty\", klepněte na \"Vytvořit nový\", zadejte částku, popis a četnost. Aplikace vás automaticky upozorní, když je čas zaznamenat platbu."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Jak fungují cíle úspor?",
+      "answer": "Cíle úspor vám umožňují nastavit cílovou částku, kterou chcete každý měsíc ušetřit. Jednoduše definujte měsíční částku, kterou chcete ušetřit, a Hero Budget bude sledovat váš pokrok. Je to jednoduchý a efektivní způsob, jak si vybudovat návyk spoření."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Mohu synchronizovat svá data na více zařízeních?",
+      "answer": "Ano, všechna vaše data jsou automaticky synchronizována v cloudu. Můžete používat Hero Budget na telefonu, tabletu nebo počítači a všechny změny se projeví v reálném čase na všech vašich zařízeních."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Jsou moje finanční údaje v bezpečí?",
+      "answer": "Bezpečnost je naší prioritou. Všechna vaše data jsou bezpečně uložena v cloudu s ochrannými opatřeními odpovídajícími průmyslovým standardům. Implementujeme nejlepší bezpečnostní postupy a nikdy neukládáme citlivé informace, jako jsou úplná čísla karet."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Mohu připojit své bankovní účty?",
+      "answer": "Hero Budget se zaměřuje na ruční zadávání, aby vám poskytl úplnou kontrolu nad vašimi daty. Nepřipojujeme se přímo k bankám, což udržuje vaše informace bezpečnější a poskytuje vám větší soukromí."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Je Hero Budget zcela zdarma?",
+      "answer": "Ano, Hero Budget je zcela zdarma. Všechny funkce aplikace jsou k dispozici bez jakýchkoli nákladů. Nejsou zde žádné prémiové předplatné ani nákupy v aplikaci. Věříme, že správa osobních financí by měla být přístupná každému."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Budou v budoucnu placené funkce?",
+      "answer": "Prozatím zůstává Hero Budget zcela zdarma. Zaměřujeme se na poskytování kompletního zážitku bez nákladů. Pokud v budoucnu zvážíme další funkce, vždy zachováme robustní sadu bezplatných nástrojů pro všechny naše uživatele."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Aplikace se neočekávaně zavře, co mohu udělat?",
+      "answer": "Pokud se aplikace zavře, nejprve ji zkuste restartovat. Pokud problém přetrvává, ujistěte se, že máte nainstalovanou nejnovější verzi. Můžete také vymazat mezipaměť aplikace nebo restartovat zařízení. Pokud nic nefunguje, kontaktujte nás s modelem vašeho zařízení."
+    }
+  ],
+  "noResults": {
+    "title": "Nenašli jsme žádné výsledky",
+    "subtitle": "Zkuste jiné vyhledávací výrazy nebo vyberte jinou kategorii"
+  },
+  "helpCta": {
+    "title": "Nenašli jste, co jste hledali?",
+    "subtitle": "Náš tým podpory je tu, aby vám pomohl s jakýmikoli konkrétními dotazy",
+    "button": "Kontaktovat podporu"
+  }
+}

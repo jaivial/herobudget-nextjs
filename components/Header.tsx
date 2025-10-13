@@ -75,8 +75,8 @@ export default function Header({ className = '' }: HeaderProps) {
     { href: '#inicio', label: t.nav.home },
     { href: '#caracteristicas', label: t.nav.features },
     { href: '#descargas', label: t.nav.download },
-    { href: '/soporte', label: t.nav.support },
-    { href: '/privacidad', label: t.nav.privacy },
+    { href: `/soporte/${currentLocale}`, label: t.nav.support },
+    { href: `/privacidad/${currentLocale}`, label: t.nav.privacy },
   ];
 
   // Función para manejar navegación con redirección si es necesario
@@ -104,6 +104,9 @@ export default function Header({ className = '' }: HeaderProps) {
         // Si estamos en otra página, redirigir a home con el hash y mantener locale
         router.push(`/${currentLocale}${href}`);
       }
+    } else if (href.startsWith('/soporte/') || href.startsWith('/privacidad/')) {
+      // For support and privacy links, we already include the locale in the href
+      router.push(href);
     }
   };
 

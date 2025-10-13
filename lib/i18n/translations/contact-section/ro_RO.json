@@ -1,0 +1,69 @@
+{
+  "title": "Contactați-ne",
+  "subtitle": "Suntem aici să vă ajutăm. Alegeți canalul de comunicare preferat",
+  "channelsTitle": "Canale de asistență",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-mail",
+      "description": "Cel mai bun pentru întrebări detaliate și atașamente",
+      "value": "support@herobudget.com",
+      "availability": "Răspuns în 24 de ore"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Asistență rapidă și răspunsuri instantanee",
+      "value": "+1 (555) 123-4567",
+      "availability": "Lun-Vin 9-18"
+    },
+    {
+      "id": "discord",
+      "name": "Comunitate Discord",
+      "description": "Conectați-vă cu alți utilizatori și obțineți ajutor",
+      "value": "Alăturați-vă serverului nostru",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Program de lucru",
+    "schedule": [
+      {
+        "day": "Luni - Vineri",
+        "hours": "9:00 - 18:00"
+      },
+      {
+        "day": "Sâmbătă",
+        "hours": "10:00 - 14:00"
+      },
+      {
+        "day": "Duminică",
+        "hours": "Închis"
+      }
+    ]
+  },
+  "form": {
+    "title": "Trimiteți-ne un mesaj",
+    "subtitle": "Preferați să ne scrieți? Completați acest formular și vom răspunde în curând",
+    "nameLabel": "Nume",
+    "namePlaceholder": "Numele dvs.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "email@dvs.com",
+    "subjectLabel": "Subiect",
+    "subjectPlaceholder": "Cum vă putem ajuta?",
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Scrieți mesajul dvs. aici...",
+    "submitButton": "Trimite mesajul",
+    "submitting": "Se trimite...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Mesaj trimis!",
+    "message": "Vă mulțumim că ne-ați contactat. Vom răspunde în curând."
+  },
+  "toast": {
+    "successTitle": "Mesaj trimis!",
+    "errorTitle": "Eroare la trimiterea mesajului",
+    "errorConnection": "Nu s-a putut conecta la server. Vă rugăm să încercați din nou."
+  }
+}

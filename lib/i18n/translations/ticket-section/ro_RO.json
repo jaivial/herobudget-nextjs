@@ -1,0 +1,80 @@
+{
+  "title": "Creează Tichet de Suport",
+  "subtitle": "Ai găsit o problemă sau ai nevoie de ajutor specific? Creează un tichet și echipa noastră te va ajuta",
+  "categoryTitle": "Selectează tipul de problemă",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Raport de Eroare",
+      "description": "Probleme tehnice sau erori în aplicație"
+    },
+    {
+      "id": "feature",
+      "name": "Cerere de Funcționalitate",
+      "description": "Sugestii pentru funcționalități noi"
+    },
+    {
+      "id": "help",
+      "name": "Ajutor General",
+      "description": "Întrebări despre utilizarea aplicației"
+    },
+    {
+      "id": "account",
+      "name": "Probleme de Cont",
+      "description": "Probleme cu autentificarea, abonamentul sau datele"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Scăzută"
+    },
+    {
+      "id": "Media",
+      "name": "Medie"
+    },
+    {
+      "id": "Alta",
+      "name": "Ridicată"
+    },
+    {
+      "id": "Urgente",
+      "name": "Urgent"
+    }
+  ],
+  "form": {
+    "nameLabel": "Nume complet",
+    "namePlaceholder": "Numele tău",
+    "emailLabel": "Email",
+    "emailPlaceholder": "email@tau.com",
+    "priorityLabel": "Prioritate",
+    "subjectLabel": "Subiect",
+    "subjectPlaceholder": "Descrie pe scurt problema ta",
+    "descriptionLabel": "Descriere detaliată",
+    "descriptionPlaceholder": "Explică problema ta cât mai detaliat posibil. Include pașii pentru reproducerea problemei, dacă este aplicabil.",
+    "stepsLabel": "Pași pentru reproducere (opțional)",
+    "stepsPlaceholder": "1. Deschide aplicația\n2. Mergi la secțiunea...\n3. Apasă pe...",
+    "deviceLabel": "Dispozitiv (opțional)",
+    "devicePlaceholder": "ex. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Versiune aplicație (opțional)",
+    "versionPlaceholder": "ex. 2.1.3",
+    "attachmentsLabel": "Atașamente",
+    "attachmentsDescription": "Trage fișiere aici sau apasă pentru a selecta",
+    "attachmentsButton": "Selectează fișiere",
+    "attachmentsRemove": "Elimină",
+    "submitButton": "Trimite Tichet",
+    "submitting": "Se trimite...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Tichet Trimis!",
+    "message": "Am primit cererea ta de suport. Vom răspunde în termen de 24 de ore.",
+    "ticketNumber": "Număr tichet:",
+    "createAnother": "Creează Alt Tichet"
+  },
+  "toast": {
+    "successTitle": "Tichet creat!",
+    "errorTitle": "Eroare la crearea tichetului",
+    "errorConnection": "Nu s-a putut conecta la server. Te rugăm să încerci din nou."
+  }
+}

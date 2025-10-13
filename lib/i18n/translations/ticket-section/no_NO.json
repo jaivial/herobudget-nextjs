@@ -1,0 +1,80 @@
+{
+  "title": "Opprett Støttehenvendelse",
+  "subtitle": "Har du funnet et problem eller trenger du spesifikk hjelp? Opprett en henvendelse, så vil teamet vårt hjelpe deg",
+  "categoryTitle": "Velg problemtype",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Feilrapport",
+      "description": "Tekniske problemer eller feil i applikasjonen"
+    },
+    {
+      "id": "feature",
+      "name": "Funksjonsforespørsel",
+      "description": "Forslag til nye funksjoner"
+    },
+    {
+      "id": "help",
+      "name": "Generell Hjelp",
+      "description": "Spørsmål om bruk av applikasjonen"
+    },
+    {
+      "id": "account",
+      "name": "Kontoproblemer",
+      "description": "Problemer med innlogging, abonnement eller data"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Lav"
+    },
+    {
+      "id": "Media",
+      "name": "Middels"
+    },
+    {
+      "id": "Alta",
+      "name": "Høy"
+    },
+    {
+      "id": "Urgente",
+      "name": "Haster"
+    }
+  ],
+  "form": {
+    "nameLabel": "Fullt navn",
+    "namePlaceholder": "Ditt navn",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "din@epost.com",
+    "priorityLabel": "Prioritet",
+    "subjectLabel": "Emne",
+    "subjectPlaceholder": "Beskriv problemet ditt kort",
+    "descriptionLabel": "Detaljert beskrivelse",
+    "descriptionPlaceholder": "Forklar problemet ditt så detaljert som mulig. Inkluder trinn for å gjenskape problemet hvis aktuelt.",
+    "stepsLabel": "Trinn for å gjenskape (valgfritt)",
+    "stepsPlaceholder": "1. Åpne applikasjonen\n2. Gå til seksjonen...\n3. Klikk på...",
+    "deviceLabel": "Enhet (valgfritt)",
+    "devicePlaceholder": "f.eks. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "App-versjon (valgfritt)",
+    "versionPlaceholder": "f.eks. 2.1.3",
+    "attachmentsLabel": "Vedlegg",
+    "attachmentsDescription": "Dra filer hit eller klikk for å velge",
+    "attachmentsButton": "Velg filer",
+    "attachmentsRemove": "Fjern",
+    "submitButton": "Send Henvendelse",
+    "submitting": "Sender...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Henvendelse Sendt!",
+    "message": "Vi har mottatt din støtteforespørsel. Vi vil svare innen 24 timer.",
+    "ticketNumber": "Henvendelsesnummer:",
+    "createAnother": "Opprett Ny Henvendelse"
+  },
+  "toast": {
+    "successTitle": "Henvendelse opprettet!",
+    "errorTitle": "Feil ved oppretting av henvendelse",
+    "errorConnection": "Kunne ikke koble til serveren. Vennligst prøv igjen."
+  }
+}

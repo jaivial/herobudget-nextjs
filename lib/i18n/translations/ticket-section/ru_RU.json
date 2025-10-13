@@ -1,0 +1,80 @@
+{
+  "title": "Создать Тикет Поддержки",
+  "subtitle": "Нашли проблему или нужна конкретная помощь? Создайте тикет, и наша команда поможет вам",
+  "categoryTitle": "Выберите тип проблемы",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Сообщение об Ошибке",
+      "description": "Технические проблемы или ошибки в приложении"
+    },
+    {
+      "id": "feature",
+      "name": "Запрос Функции",
+      "description": "Предложения по новым функциям"
+    },
+    {
+      "id": "help",
+      "name": "Общая Помощь",
+      "description": "Вопросы об использовании приложения"
+    },
+    {
+      "id": "account",
+      "name": "Проблемы с Аккаунтом",
+      "description": "Проблемы со входом, подпиской или данными"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Низкий"
+    },
+    {
+      "id": "Media",
+      "name": "Средний"
+    },
+    {
+      "id": "Alta",
+      "name": "Высокий"
+    },
+    {
+      "id": "Urgente",
+      "name": "Срочный"
+    }
+  ],
+  "form": {
+    "nameLabel": "Полное имя",
+    "namePlaceholder": "Ваше имя",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "Приоритет",
+    "subjectLabel": "Тема",
+    "subjectPlaceholder": "Кратко опишите вашу проблему",
+    "descriptionLabel": "Подробное описание",
+    "descriptionPlaceholder": "Объясните вашу проблему как можно подробнее. Включите шаги для воспроизведения проблемы, если применимо.",
+    "stepsLabel": "Шаги для воспроизведения (необязательно)",
+    "stepsPlaceholder": "1. Откройте приложение\n2. Перейдите в раздел...\n3. Нажмите на...",
+    "deviceLabel": "Устройство (необязательно)",
+    "devicePlaceholder": "например, iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Версия приложения (необязательно)",
+    "versionPlaceholder": "например, 2.1.3",
+    "attachmentsLabel": "Вложения",
+    "attachmentsDescription": "Перетащите файлы сюда или нажмите для выбора",
+    "attachmentsButton": "Выбрать файлы",
+    "attachmentsRemove": "Удалить",
+    "submitButton": "Отправить Тикет",
+    "submitting": "Отправка...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Тикет Отправлен!",
+    "message": "Мы получили ваш запрос на поддержку. Мы ответим в течение 24 часов.",
+    "ticketNumber": "Номер тикета:",
+    "createAnother": "Создать Другой Тикет"
+  },
+  "toast": {
+    "successTitle": "Тикет создан!",
+    "errorTitle": "Ошибка создания тикета",
+    "errorConnection": "Не удалось подключиться к серверу. Пожалуйста, попробуйте снова."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Usein Kysytyt Kysymykset",
+  "subtitle": "Löydä nopeita vastauksia yleisimpiin kysymyksiin Hero Budgetista",
+  "searchPlaceholder": "Etsi UKK:sta...",
+  "categories": {
+    "all": "Kaikki",
+    "gettingStarted": "Aloittaminen",
+    "features": "Ominaisuudet",
+    "security": "Turvallisuus",
+    "billing": "Laskutus",
+    "troubleshooting": "Tekniset Ongelmat"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Kuinka luon ensimmäisen tilini Hero Budgetiin?",
+      "answer": "Tilin luominen on erittäin helppoa. Lataa sovellus App Storesta tai Google Playsta, avaa sovellus ja valitse \"Luo tili\". Tarvitset vain sähköpostisi ja turvallisen salasanan. Voit myös rekisteröityä Google- tai Apple-tililläsi helpommin."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Kuinka lisään ensimmäisen tapahtumani?",
+      "answer": "Kun tilisi on määritetty, napauta \"+\"-painiketta pääruudulla. Valitse, onko kyseessä meno vai tulo, valitse kategoria, syötä summa ja valinnainen kuvaus. Näin helppoa se on! Voit myös ottaa kuvan kuitista muistaaksesi yksityiskohdat."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Voinko asettaa toistuvia laskuja?",
+      "answer": "Kyllä, Hero Budget mahdollistaa toistuvien laskujen asettamisen menoille, jotka toistuvat joka kuukausi, kuten vuokra, apuohjelmat tai tilaukset. Siirry \"Toistuvat laskut\" -osioon, napauta \"Luo uusi\", syötä summa, kuvaus ja toistuvuus. Sovellus muistuttaa sinua automaattisesti, kun on aika tallentaa maksu."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Miten säästötavoitteet toimivat?",
+      "answer": "Säästötavoitteiden avulla voit asettaa tavoitesumman, jonka haluat säästää joka kuukausi. Määritä yksinkertaisesti kuukausittainen summa, jonka haluat säästää, ja Hero Budget seuraa edistymistäsi. Se on yksinkertainen ja tehokas tapa rakentaa säästämistottumusta."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Voinko synkronoida tietoni useille laitteille?",
+      "answer": "Kyllä, kaikki tietosi synkronoidaan automaattisesti pilveen. Voit käyttää Hero Budgetia puhelimellasi, tabletillasi tai tietokoneellasi, ja kaikki muutokset näkyvät reaaliajassa kaikilla laitteillasi."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Ovatko taloudelliset tietoni turvassa?",
+      "answer": "Turvallisuus on prioriteettimme. Kaikki tietosi tallennetaan turvallisesti pilveen alan standardien mukaisilla suojatoimilla. Toteutamme parhaita turvallisuuskäytäntöjä emmekä koskaan tallenna arkaluonteisia tietoja, kuten täydellisiä korttinumeroita."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Voinko yhdistää pankkitilini?",
+      "answer": "Hero Budget keskittyy manuaaliseen syöttöön antaakseen sinulle täyden hallinnan tiedoistasi. Emme yhdistä suoraan pankkeihin, mikä pitää tietosi turvallisempana ja tarjoaa sinulle enemmän yksityisyyttä."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Onko Hero Budget täysin ilmainen?",
+      "answer": "Kyllä, Hero Budget on täysin ilmainen. Kaikki sovelluksen ominaisuudet ovat saatavilla ilman kustannuksia. Ei ole premium-tilauksia tai sovellusostoksia. Uskomme, että henkilökohtaisten rahojen hallinta tulisi olla kaikkien saatavilla."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Tuleeko maksullisia ominaisuuksia tulevaisuudessa?",
+      "answer": "Toistaiseksi Hero Budget pysyy täysin ilmaisena. Keskitymme tarjoamaan täydellisen kokemuksen ilman kustannuksia. Jos harkitsemme lisäominaisuuksia tulevaisuudessa, ylläpidämme aina vankan joukon ilmaisia työkaluja kaikille käyttäjillemme."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Sovellus sulkeutuu odottamatta, mitä voin tehdä?",
+      "answer": "Jos sovellus sulkeutuu, yritä ensin käynnistää se uudelleen. Jos ongelma jatkuu, varmista, että sinulla on uusin versio asennettuna. Voit myös tyhjentää sovelluksen välimuistin tai käynnistää laitteesi uudelleen. Jos mikään ei toimi, ota meihin yhteyttä laitteesi mallitiedoilla."
+    }
+  ],
+  "noResults": {
+    "title": "Emme löytäneet tuloksia",
+    "subtitle": "Kokeile muita hakutermejä tai valitse eri kategoria"
+  },
+  "helpCta": {
+    "title": "Etkö löytänyt etsimääsi?",
+    "subtitle": "Tukitiimimme on täällä auttamassa sinua kaikissa erityiskysymyksissä",
+    "button": "Ota Yhteyttä Tukeen"
+  }
+}

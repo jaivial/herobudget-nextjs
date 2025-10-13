@@ -249,6 +249,129 @@ import cta_uk_UA from './cta-section/uk_UA.json';
 import cta_vi_VN from './cta-section/vi_VN.json';
 import cta_zh_CN from './cta-section/zh_CN.json';
 
+// TicketSection translations
+import ticket_ar_SA from './ticket-section/ar_SA.json';
+import ticket_ca_ES from './ticket-section/ca_ES.json';
+import ticket_cs_CZ from './ticket-section/cs_CZ.json';
+import ticket_da_DK from './ticket-section/da_DK.json';
+import ticket_de_CH from './ticket-section/de_CH.json';
+import ticket_de_DE from './ticket-section/de_DE.json';
+import ticket_el_GR from './ticket-section/el_GR.json';
+import ticket_en_AU from './ticket-section/en_AU.json';
+import ticket_en_CA from './ticket-section/en_CA.json';
+import ticket_en_GB from './ticket-section/en_GB.json';
+import ticket_en_US from './ticket-section/en_US.json';
+import ticket_es_ES from './ticket-section/es_ES.json';
+import ticket_es_MX from './ticket-section/es_MX.json';
+import ticket_fi_FI from './ticket-section/fi_FI.json';
+import ticket_fr_CA from './ticket-section/fr_CA.json';
+import ticket_fr_FR from './ticket-section/fr_FR.json';
+import ticket_he_IL from './ticket-section/he_IL.json';
+import ticket_hr_HR from './ticket-section/hr_HR.json';
+import ticket_hu_HU from './ticket-section/hu_HU.json';
+import ticket_hi_IN from './ticket-section/hi_IN.json';
+import ticket_id_ID from './ticket-section/id_ID.json';
+import ticket_it_IT from './ticket-section/it_IT.json';
+import ticket_ja_JP from './ticket-section/ja_JP.json';
+import ticket_ko_KR from './ticket-section/ko_KR.json';
+import ticket_ms_MY from './ticket-section/ms_MY.json';
+import ticket_nl_NL from './ticket-section/nl_NL.json';
+import ticket_no_NO from './ticket-section/no_NO.json';
+import ticket_pl_PL from './ticket-section/pl_PL.json';
+import ticket_pt_BR from './ticket-section/pt_BR.json';
+import ticket_pt_PT from './ticket-section/pt_PT.json';
+import ticket_ro_RO from './ticket-section/ro_RO.json';
+import ticket_ru_RU from './ticket-section/ru_RU.json';
+import ticket_sk_SK from './ticket-section/sk_SK.json';
+import ticket_sv_SE from './ticket-section/sv_SE.json';
+import ticket_th_TH from './ticket-section/th_TH.json';
+import ticket_tr_TR from './ticket-section/tr_TR.json';
+import ticket_uk_UA from './ticket-section/uk_UA.json';
+import ticket_vi_VN from './ticket-section/vi_VN.json';
+import ticket_zh_CN from './ticket-section/zh_CN.json';
+
+// ContactSection translations
+import contact_ar_SA from './contact-section/ar_SA.json';
+import contact_ca_ES from './contact-section/ca_ES.json';
+import contact_cs_CZ from './contact-section/cs_CZ.json';
+import contact_da_DK from './contact-section/da_DK.json';
+import contact_de_CH from './contact-section/de_CH.json';
+import contact_de_DE from './contact-section/de_DE.json';
+import contact_el_GR from './contact-section/el_GR.json';
+import contact_en_AU from './contact-section/en_AU.json';
+import contact_en_CA from './contact-section/en_CA.json';
+import contact_en_GB from './contact-section/en_GB.json';
+import contact_en_US from './contact-section/en_US.json';
+import contact_es_ES from './contact-section/es_ES.json';
+import contact_es_MX from './contact-section/es_MX.json';
+import contact_fi_FI from './contact-section/fi_FI.json';
+import contact_fr_CA from './contact-section/fr_CA.json';
+import contact_fr_FR from './contact-section/fr_FR.json';
+import contact_he_IL from './contact-section/he_IL.json';
+import contact_hr_HR from './contact-section/hr_HR.json';
+import contact_hu_HU from './contact-section/hu_HU.json';
+import contact_hi_IN from './contact-section/hi_IN.json';
+import contact_id_ID from './contact-section/id_ID.json';
+import contact_it_IT from './contact-section/it_IT.json';
+import contact_ja_JP from './contact-section/ja_JP.json';
+import contact_ko_KR from './contact-section/ko_KR.json';
+import contact_ms_MY from './contact-section/ms_MY.json';
+import contact_nl_NL from './contact-section/nl_NL.json';
+import contact_no_NO from './contact-section/no_NO.json';
+import contact_pl_PL from './contact-section/pl_PL.json';
+import contact_pt_BR from './contact-section/pt_BR.json';
+import contact_pt_PT from './contact-section/pt_PT.json';
+import contact_ro_RO from './contact-section/ro_RO.json';
+import contact_ru_RU from './contact-section/ru_RU.json';
+import contact_sk_SK from './contact-section/sk_SK.json';
+import contact_sv_SE from './contact-section/sv_SE.json';
+import contact_th_TH from './contact-section/th_TH.json';
+import contact_tr_TR from './contact-section/tr_TR.json';
+import contact_uk_UA from './contact-section/uk_UA.json';
+import contact_vi_VN from './contact-section/vi_VN.json';
+import contact_zh_CN from './contact-section/zh_CN.json';
+
+// FAQSection translations
+import faq_ar_SA from './faq-section/ar_SA.json';
+import faq_ca_ES from './faq-section/ca_ES.json';
+import faq_cs_CZ from './faq-section/cs_CZ.json';
+import faq_da_DK from './faq-section/da_DK.json';
+import faq_de_CH from './faq-section/de_CH.json';
+import faq_de_DE from './faq-section/de_DE.json';
+import faq_el_GR from './faq-section/el_GR.json';
+import faq_en_AU from './faq-section/en_AU.json';
+import faq_en_CA from './faq-section/en_CA.json';
+import faq_en_GB from './faq-section/en_GB.json';
+import faq_en_US from './faq-section/en_US.json';
+import faq_es_ES from './faq-section/es_ES.json';
+import faq_es_MX from './faq-section/es_MX.json';
+import faq_fi_FI from './faq-section/fi_FI.json';
+import faq_fr_CA from './faq-section/fr_CA.json';
+import faq_fr_FR from './faq-section/fr_FR.json';
+import faq_he_IL from './faq-section/he_IL.json';
+import faq_hr_HR from './faq-section/hr_HR.json';
+import faq_hu_HU from './faq-section/hu_HU.json';
+import faq_hi_IN from './faq-section/hi_IN.json';
+import faq_id_ID from './faq-section/id_ID.json';
+import faq_it_IT from './faq-section/it_IT.json';
+import faq_ja_JP from './faq-section/ja_JP.json';
+import faq_ko_KR from './faq-section/ko_KR.json';
+import faq_ms_MY from './faq-section/ms_MY.json';
+import faq_nl_NL from './faq-section/nl_NL.json';
+import faq_no_NO from './faq-section/no_NO.json';
+import faq_pl_PL from './faq-section/pl_PL.json';
+import faq_pt_BR from './faq-section/pt_BR.json';
+import faq_pt_PT from './faq-section/pt_PT.json';
+import faq_ro_RO from './faq-section/ro_RO.json';
+import faq_ru_RU from './faq-section/ru_RU.json';
+import faq_sk_SK from './faq-section/sk_SK.json';
+import faq_sv_SE from './faq-section/sv_SE.json';
+import faq_th_TH from './faq-section/th_TH.json';
+import faq_tr_TR from './faq-section/tr_TR.json';
+import faq_uk_UA from './faq-section/uk_UA.json';
+import faq_vi_VN from './faq-section/vi_VN.json';
+import faq_zh_CN from './faq-section/zh_CN.json';
+
 export interface HeroSectionTranslations {
   title: string;
   subtitle: string;
@@ -705,4 +828,344 @@ export function getCTASectionTranslations(locale: string): CTASectionTranslation
  */
 export function hasCTASectionTranslation(locale: string): boolean {
   return locale in ctaSectionTranslations;
+}
+
+// ===== FAQSection Translations =====
+
+export interface FAQItem {
+  id: string;
+  category: string;
+  question: string;
+  answer: string;
+}
+
+export interface FAQCategories {
+  all: string;
+  gettingStarted: string;
+  features: string;
+  security: string;
+  billing: string;
+  troubleshooting: string;
+}
+
+export interface FAQNoResults {
+  title: string;
+  subtitle: string;
+}
+
+export interface FAQHelpCta {
+  title: string;
+  subtitle: string;
+  button: string;
+}
+
+export interface FAQSectionTranslations {
+  title: string;
+  subtitle: string;
+  searchPlaceholder: string;
+  categories: FAQCategories;
+  faqs: FAQItem[];
+  noResults: FAQNoResults;
+  helpCta: FAQHelpCta;
+}
+
+// Translations map for faq-section
+const faqSectionTranslations: Record<string, FAQSectionTranslations> = {
+  ar_SA: faq_ar_SA,
+  ca_ES: faq_ca_ES,
+  cs_CZ: faq_cs_CZ,
+  da_DK: faq_da_DK,
+  de_CH: faq_de_CH,
+  de_DE: faq_de_DE,
+  el_GR: faq_el_GR,
+  en_AU: faq_en_AU,
+  en_CA: faq_en_CA,
+  en_GB: faq_en_GB,
+  en_US: faq_en_US,
+  es_ES: faq_es_ES,
+  es_MX: faq_es_MX,
+  fi_FI: faq_fi_FI,
+  fr_CA: faq_fr_CA,
+  fr_FR: faq_fr_FR,
+  he_IL: faq_he_IL,
+  hr_HR: faq_hr_HR,
+  hu_HU: faq_hu_HU,
+  hi_IN: faq_hi_IN,
+  id_ID: faq_id_ID,
+  it_IT: faq_it_IT,
+  ja_JP: faq_ja_JP,
+  ko_KR: faq_ko_KR,
+  ms_MY: faq_ms_MY,
+  nl_NL: faq_nl_NL,
+  no_NO: faq_no_NO,
+  pl_PL: faq_pl_PL,
+  pt_BR: faq_pt_BR,
+  pt_PT: faq_pt_PT,
+  ro_RO: faq_ro_RO,
+  ru_RU: faq_ru_RU,
+  sk_SK: faq_sk_SK,
+  sv_SE: faq_sv_SE,
+  th_TH: faq_th_TH,
+  tr_TR: faq_tr_TR,
+  uk_UA: faq_uk_UA,
+  vi_VN: faq_vi_VN,
+  zh_CN: faq_zh_CN,
+};
+
+/**
+ * Get FAQSection translations for a specific locale
+ * @param locale - Locale code (e.g., 'en_GB')
+ * @returns FAQSection translation object
+ */
+export function getFAQSectionTranslations(locale: string): FAQSectionTranslations {
+  // Return the translation for the requested locale or fallback to en_GB
+  return faqSectionTranslations[locale] || faqSectionTranslations.en_GB;
+}
+
+/**
+ * Check if a locale has FAQSection translations available
+ * @param locale - Locale code
+ * @returns boolean
+ */
+export function hasFAQSectionTranslation(locale: string): boolean {
+  return locale in faqSectionTranslations;
+}
+
+// ===== TicketSection Translations =====
+
+export interface TicketCategory {
+  id: string;
+  name: string;
+  description: string;
+}
+
+export interface TicketPriority {
+  id: string;
+  name: string;
+}
+
+export interface TicketForm {
+  nameLabel: string;
+  namePlaceholder: string;
+  emailLabel: string;
+  emailPlaceholder: string;
+  categoryLabel: string;
+  categoryPlaceholder: string;
+  priorityLabel: string;
+  priorityPlaceholder: string;
+  subjectLabel: string;
+  subjectPlaceholder: string;
+  descriptionLabel: string;
+  descriptionPlaceholder: string;
+  attachmentLabel: string;
+  attachmentButton: string;
+  attachmentHint: string;
+  submitButton: string;
+  submittingButton: string;
+  cancelButton: string;
+}
+
+export interface TicketSuccess {
+  title: string;
+  message: string;
+  ticketNumber: string;
+  createAnother: string;
+}
+
+export interface TicketToast {
+  successTitle: string;
+  errorTitle: string;
+  errorConnection: string;
+}
+
+export interface TicketSectionTranslations {
+  title: string;
+  subtitle: string;
+  categoryTitle: string;
+  categories: TicketCategory[];
+  priorities: TicketPriority[];
+  form: TicketForm;
+  success: TicketSuccess;
+  toast: TicketToast;
+}
+
+// Translations map for ticket-section
+const ticketSectionTranslations: Record<string, TicketSectionTranslations> = {
+  ar_SA: ticket_ar_SA,
+  ca_ES: ticket_ca_ES,
+  cs_CZ: ticket_cs_CZ,
+  da_DK: ticket_da_DK,
+  de_CH: ticket_de_CH,
+  de_DE: ticket_de_DE,
+  el_GR: ticket_el_GR,
+  en_AU: ticket_en_AU,
+  en_CA: ticket_en_CA,
+  en_GB: ticket_en_GB,
+  en_US: ticket_en_US,
+  es_ES: ticket_es_ES,
+  es_MX: ticket_es_MX,
+  fi_FI: ticket_fi_FI,
+  fr_CA: ticket_fr_CA,
+  fr_FR: ticket_fr_FR,
+  he_IL: ticket_he_IL,
+  hr_HR: ticket_hr_HR,
+  hu_HU: ticket_hu_HU,
+  hi_IN: ticket_hi_IN,
+  id_ID: ticket_id_ID,
+  it_IT: ticket_it_IT,
+  ja_JP: ticket_ja_JP,
+  ko_KR: ticket_ko_KR,
+  ms_MY: ticket_ms_MY,
+  nl_NL: ticket_nl_NL,
+  no_NO: ticket_no_NO,
+  pl_PL: ticket_pl_PL,
+  pt_BR: ticket_pt_BR,
+  pt_PT: ticket_pt_PT,
+  ro_RO: ticket_ro_RO,
+  ru_RU: ticket_ru_RU,
+  sk_SK: ticket_sk_SK,
+  sv_SE: ticket_sv_SE,
+  th_TH: ticket_th_TH,
+  tr_TR: ticket_tr_TR,
+  uk_UA: ticket_uk_UA,
+  vi_VN: ticket_vi_VN,
+  zh_CN: ticket_zh_CN,
+};
+
+/**
+ * Get TicketSection translations for a specific locale
+ * @param locale - Locale code (e.g., 'en_GB')
+ * @returns TicketSection translation object
+ */
+export function getTicketSectionTranslations(locale: string): TicketSectionTranslations {
+  // Return the translation for the requested locale or fallback to en_GB
+  return ticketSectionTranslations[locale] || ticketSectionTranslations.en_GB;
+}
+
+/**
+ * Check if a locale has TicketSection translations available
+ * @param locale - Locale code
+ * @returns boolean
+ */
+export function hasTicketSectionTranslation(locale: string): boolean {
+  return locale in ticketSectionTranslations;
+}
+
+// ===== ContactSection Translations =====
+
+export interface ContactMethod {
+  id: string;
+  name: string;
+  description: string;
+  value: string;
+  availability: string;
+}
+
+export interface OfficeSchedule {
+  day: string;
+  hours: string;
+}
+
+export interface OfficeHours {
+  title: string;
+  schedule: OfficeSchedule[];
+}
+
+export interface ContactForm {
+  nameLabel: string;
+  namePlaceholder: string;
+  emailLabel: string;
+  emailPlaceholder: string;
+  phoneLabel: string;
+  phonePlaceholder: string;
+  subjectLabel: string;
+  subjectPlaceholder: string;
+  messageLabel: string;
+  messagePlaceholder: string;
+  submitButton: string;
+  submittingButton: string;
+}
+
+export interface ContactSuccess {
+  title: string;
+  message: string;
+}
+
+export interface ContactToast {
+  successTitle: string;
+  errorTitle: string;
+  errorConnection: string;
+}
+
+export interface ContactSectionTranslations {
+  title: string;
+  subtitle: string;
+  channelsTitle: string;
+  contactMethods: ContactMethod[];
+  officeHours: OfficeHours;
+  form: ContactForm;
+  success: ContactSuccess;
+  toast: ContactToast;
+}
+
+// Translations map for contact-section
+const contactSectionTranslations: Record<string, ContactSectionTranslations> = {
+  ar_SA: contact_ar_SA,
+  ca_ES: contact_ca_ES,
+  cs_CZ: contact_cs_CZ,
+  da_DK: contact_da_DK,
+  de_CH: contact_de_CH,
+  de_DE: contact_de_DE,
+  el_GR: contact_el_GR,
+  en_AU: contact_en_AU,
+  en_CA: contact_en_CA,
+  en_GB: contact_en_GB,
+  en_US: contact_en_US,
+  es_ES: contact_es_ES,
+  es_MX: contact_es_MX,
+  fi_FI: contact_fi_FI,
+  fr_CA: contact_fr_CA,
+  fr_FR: contact_fr_FR,
+  he_IL: contact_he_IL,
+  hr_HR: contact_hr_HR,
+  hu_HU: contact_hu_HU,
+  hi_IN: contact_hi_IN,
+  id_ID: contact_id_ID,
+  it_IT: contact_it_IT,
+  ja_JP: contact_ja_JP,
+  ko_KR: contact_ko_KR,
+  ms_MY: contact_ms_MY,
+  nl_NL: contact_nl_NL,
+  no_NO: contact_no_NO,
+  pl_PL: contact_pl_PL,
+  pt_BR: contact_pt_BR,
+  pt_PT: contact_pt_PT,
+  ro_RO: contact_ro_RO,
+  ru_RU: contact_ru_RU,
+  sk_SK: contact_sk_SK,
+  sv_SE: contact_sv_SE,
+  th_TH: contact_th_TH,
+  tr_TR: contact_tr_TR,
+  uk_UA: contact_uk_UA,
+  vi_VN: contact_vi_VN,
+  zh_CN: contact_zh_CN,
+};
+
+/**
+ * Get ContactSection translations for a specific locale
+ * @param locale - Locale code (e.g., 'en_GB')
+ * @returns ContactSection translation object
+ */
+export function getContactSectionTranslations(locale: string): ContactSectionTranslations {
+  // Return the translation for the requested locale or fallback to en_GB
+  return contactSectionTranslations[locale] || contactSectionTranslations.en_GB;
+}
+
+/**
+ * Check if a locale has ContactSection translations available
+ * @param locale - Locale code
+ * @returns boolean
+ */
+export function hasContactSectionTranslation(locale: string): boolean {
+  return locale in contactSectionTranslations;
 }

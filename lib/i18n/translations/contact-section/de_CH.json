@@ -1,0 +1,69 @@
+{
+  "title": "Kontaktieren Sie uns",
+  "subtitle": "Wir sind hier, um Ihnen zu helfen. Wählen Sie Ihren bevorzugten Kommunikationskanal",
+  "channelsTitle": "Support-Kanäle",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-Mail",
+      "description": "Am besten für detaillierte Fragen und Anhänge",
+      "value": "support@herobudget.com",
+      "availability": "Antwort innerhalb von 24h"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Schneller Support und sofortige Antworten",
+      "value": "+1 (555) 123-4567",
+      "availability": "Mo-Fr 9-18 Uhr"
+    },
+    {
+      "id": "discord",
+      "name": "Discord-Community",
+      "description": "Verbinden Sie sich mit anderen Benutzern und erhalten Sie Hilfe",
+      "value": "Treten Sie unserem Server bei",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Bürozeiten",
+    "schedule": [
+      {
+        "day": "Montag - Freitag",
+        "hours": "9:00 - 18:00 Uhr"
+      },
+      {
+        "day": "Samstag",
+        "hours": "10:00 - 14:00 Uhr"
+      },
+      {
+        "day": "Sonntag",
+        "hours": "Geschlossen"
+      }
+    ]
+  },
+  "form": {
+    "title": "Senden Sie uns eine Nachricht",
+    "subtitle": "Möchten Sie uns lieber schreiben? Füllen Sie dieses Formular aus und wir antworten bald",
+    "nameLabel": "Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihre@email.com",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Wie können wir Ihnen helfen?",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Schreiben Sie Ihre Nachricht hier...",
+    "submitButton": "Nachricht Senden",
+    "submitting": "Wird gesendet...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Nachricht Gesendet!",
+    "message": "Vielen Dank, dass Sie uns kontaktiert haben. Wir werden bald antworten."
+  },
+  "toast": {
+    "successTitle": "Nachricht gesendet!",
+    "errorTitle": "Fehler beim Senden der Nachricht",
+    "errorConnection": "Verbindung zum Server fehlgeschlagen. Bitte versuchen Sie es erneut."
+  }
+}

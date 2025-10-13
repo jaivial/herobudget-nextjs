@@ -1,0 +1,69 @@
+{
+  "title": "Hubungi Kami",
+  "subtitle": "Kami di sini untuk membantu Anda. Pilih saluran komunikasi pilihan Anda",
+  "channelsTitle": "Saluran Dukungan",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "Email",
+      "description": "Terbaik untuk pertanyaan detail dan lampiran",
+      "value": "support@herobudget.com",
+      "availability": "Tanggapan dalam 24 jam"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Dukungan cepat dan tanggapan instan",
+      "value": "+1 (555) 123-4567",
+      "availability": "Sen-Jum 9 pagi-6 sore"
+    },
+    {
+      "id": "discord",
+      "name": "Komunitas Discord",
+      "description": "Terhubung dengan pengguna lain dan dapatkan bantuan",
+      "value": "Bergabung dengan server kami",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Jam Kantor",
+    "schedule": [
+      {
+        "day": "Senin - Jumat",
+        "hours": "9:00 pagi - 6:00 sore"
+      },
+      {
+        "day": "Sabtu",
+        "hours": "10:00 pagi - 2:00 siang"
+      },
+      {
+        "day": "Minggu",
+        "hours": "Tutup"
+      }
+    ]
+  },
+  "form": {
+    "title": "Kirim Pesan kepada Kami",
+    "subtitle": "Lebih suka menulis kepada kami? Isi formulir ini dan kami akan segera merespons",
+    "nameLabel": "Nama",
+    "namePlaceholder": "Nama Anda",
+    "emailLabel": "Email",
+    "emailPlaceholder": "email@anda.com",
+    "subjectLabel": "Subjek",
+    "subjectPlaceholder": "Bagaimana kami dapat membantu Anda?",
+    "messageLabel": "Pesan",
+    "messagePlaceholder": "Tulis pesan Anda di sini...",
+    "submitButton": "Kirim Pesan",
+    "submitting": "Mengirim...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Pesan Terkirim!",
+    "message": "Terima kasih telah menghubungi kami. Kami akan segera merespons."
+  },
+  "toast": {
+    "successTitle": "Pesan terkirim!",
+    "errorTitle": "Kesalahan mengirim pesan",
+    "errorConnection": "Tidak dapat terhubung ke server. Silakan coba lagi."
+  }
+}

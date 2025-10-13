@@ -1,0 +1,84 @@
+{
+  "title": "Ofte Stilte Spørsmål",
+  "subtitle": "Finn raske svar på de vanligste spørsmålene om Hero Budget",
+  "searchPlaceholder": "Søk i FAQ...",
+  "categories": {
+    "all": "Alle",
+    "gettingStarted": "Komme i Gang",
+    "features": "Funksjoner",
+    "security": "Sikkerhet",
+    "billing": "Fakturering",
+    "troubleshooting": "Tekniske Problemer"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Hvordan oppretter jeg min første konto i Hero Budget?",
+      "answer": "Å opprette kontoen din er veldig enkelt. Last ned appen fra App Store eller Google Play, åpne applikasjonen og velg \"Opprett konto\". Du trenger bare e-posten din og et sikkert passord. Du kan også registrere deg med Google- eller Apple-kontoen din for mer bekvemmelighet."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Hvordan legger jeg til min første transaksjon?",
+      "answer": "Når du har satt opp kontoen din, trykk på \"+\"-knappen på hovedskjermen. Velg om det er en utgift eller inntekt, velg kategori, skriv inn beløpet og en valgfri beskrivelse. Så enkelt er det! Du kan også ta et bilde av kvitteringen for å huske detaljer."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Kan jeg sette opp gjentakende regninger?",
+      "answer": "Ja, Hero Budget lar deg sette opp gjentakende regninger for utgifter som gjentas hver måned som husleie, verktøy eller abonnementer. Gå til \"Gjentakende regninger\"-seksjonen, trykk på \"Opprett ny\", skriv inn beløpet, beskrivelsen og frekvensen. Appen vil automatisk minne deg på når det er på tide å registrere betalingen."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Hvordan fungerer sparemål?",
+      "answer": "Sparemål lar deg sette et målbeløp du ønsker å spare hver måned. Bare definer det månedlige beløpet du vil spare, og Hero Budget vil spore fremgangen din. Det er en enkel og effektiv måte å bygge en sparevane på."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Kan jeg synkronisere dataene mine på tvers av flere enheter?",
+      "answer": "Ja, alle dataene dine synkroniseres automatisk i skyen. Du kan bruke Hero Budget på telefonen, nettbrettet eller datamaskinen din, og alle endringer vil gjenspeiles i sanntid på alle enhetene dine."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Er mine økonomiske data sikre?",
+      "answer": "Sikkerhet er vår prioritet. Alle dataene dine lagres trygt i skyen med industristandardbeskyttelsestiltak. Vi implementerer beste sikkerhetspraksis og lagrer aldri sensitiv informasjon som fullstendige kortnumre."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Kan jeg koble til bankkontoene mine?",
+      "answer": "Hero Budget fokuserer på manuell innføring for å gi deg full kontroll over dataene dine. Vi kobler ikke direkte til banker, noe som holder informasjonen din sikrere og gir deg større personvern."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Er Hero Budget helt gratis?",
+      "answer": "Ja, Hero Budget er helt gratis. Alle funksjonene i applikasjonen er tilgjengelige uten kostnad. Det er ingen premium-abonnementer eller kjøp i appen. Vi mener at administrering av personlig økonomi bør være tilgjengelig for alle."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Vil det være betalte funksjoner i fremtiden?",
+      "answer": "Foreløpig forblir Hero Budget helt gratis. Vi fokuserer på å tilby en komplett opplevelse uten kostnad. Hvis vi vurderer tilleggsfunksjoner i fremtiden, vil vi alltid opprettholde et robust sett med gratis verktøy for alle våre brukere."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Appen lukker uventet, hva kan jeg gjøre?",
+      "answer": "Hvis appen lukker, prøv først å starte den på nytt. Hvis problemet vedvarer, sørg for at du har den nyeste versjonen installert. Du kan også tømme app-hurtigbufferen eller starte enheten på nytt. Hvis ingenting fungerer, ta kontakt med oss med enhetsmodellen din."
+    }
+  ],
+  "noResults": {
+    "title": "Vi fant ingen resultater",
+    "subtitle": "Prøv andre søkeord eller velg en annen kategori"
+  },
+  "helpCta": {
+    "title": "Fant du ikke det du lette etter?",
+    "subtitle": "Støtteteamet vårt er her for å hjelpe deg med spesifikke spørsmål",
+    "button": "Kontakt støtte"
+  }
+}

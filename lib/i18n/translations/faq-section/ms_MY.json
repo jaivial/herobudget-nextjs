@@ -1,0 +1,84 @@
+{
+  "title": "Soalan Lazim",
+  "subtitle": "Cari jawapan pantas kepada soalan yang paling biasa tentang Hero Budget",
+  "searchPlaceholder": "Cari dalam Soalan Lazim...",
+  "categories": {
+    "all": "Semua",
+    "gettingStarted": "Bermula",
+    "features": "Ciri-ciri",
+    "security": "Keselamatan",
+    "billing": "Pengebilan",
+    "troubleshooting": "Masalah Teknikal"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Bagaimana saya mencipta akaun pertama saya di Hero Budget?",
+      "answer": "Mencipta akaun anda sangat mudah. Muat turun aplikasi dari App Store atau Google Play, buka aplikasi dan pilih \"Cipta Akaun\". Anda hanya memerlukan e-mel dan kata laluan yang selamat. Anda juga boleh mendaftar dengan akaun Google atau Apple anda untuk kemudahan lebih."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Bagaimana saya menambah transaksi pertama saya?",
+      "answer": "Sebaik sahaja anda menyediakan akaun anda, ketik butang \"+\" pada skrin utama. Pilih sama ada ia perbelanjaan atau pendapatan, pilih kategori, masukkan jumlah dan penerangan pilihan. Semudah itu! Anda juga boleh mengambil gambar resit untuk mengingati butiran."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Bolehkah saya menetapkan bil berulang?",
+      "answer": "Ya, Hero Budget membolehkan anda menetapkan bil berulang untuk perbelanjaan yang berulang setiap bulan seperti sewa, utiliti, atau langganan. Pergi ke bahagian \"Bil Berulang\", ketik \"Cipta Baharu\", masukkan jumlah, penerangan dan kekerapan. Aplikasi akan mengingatkan anda secara automatik apabila tiba masanya untuk merekodkan pembayaran."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Bagaimana matlamat simpanan berfungsi?",
+      "answer": "Matlamat simpanan membolehkan anda menetapkan jumlah sasaran yang anda ingin simpan setiap bulan. Hanya tentukan jumlah bulanan yang ingin anda simpan dan Hero Budget akan menjejaki kemajuan anda. Ini adalah cara yang mudah dan berkesan untuk membina tabiat simpanan."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Bolehkah saya menyegerakkan data saya merentas pelbagai peranti?",
+      "answer": "Ya, semua data anda disegerakkan secara automatik dalam awan. Anda boleh menggunakan Hero Budget pada telefon, tablet atau komputer anda, dan semua perubahan akan dicerminkan dalam masa nyata pada semua peranti anda."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Adakah data kewangan saya selamat?",
+      "answer": "Keselamatan adalah keutamaan kami. Semua data anda disimpan dengan selamat dalam awan dengan langkah perlindungan standard industri. Kami melaksanakan amalan keselamatan terbaik dan tidak pernah menyimpan maklumat sensitif seperti nombor kad penuh."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Bolehkah saya menyambungkan akaun bank saya?",
+      "answer": "Hero Budget memberi tumpuan kepada kemasukan manual untuk memberi anda kawalan penuh ke atas data anda. Kami tidak menyambung terus kepada bank, yang menjadikan maklumat anda lebih selamat dan memberi anda privasi yang lebih besar."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Adakah Hero Budget benar-benar percuma?",
+      "answer": "Ya, Hero Budget benar-benar percuma. Semua ciri aplikasi tersedia tanpa sebarang kos. Tiada langganan premium atau pembelian dalam aplikasi. Kami percaya bahawa mengurus kewangan peribadi anda harus boleh diakses oleh semua orang."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Adakah akan ada ciri berbayar pada masa hadapan?",
+      "answer": "Buat masa ini, Hero Budget kekal benar-benar percuma. Kami memberi tumpuan kepada menawarkan pengalaman lengkap tanpa kos. Jika kami mempertimbangkan ciri tambahan pada masa hadapan, kami akan sentiasa mengekalkan set alat percuma yang mantap untuk semua pengguna kami."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Aplikasi ditutup secara tidak dijangka, apa yang boleh saya lakukan?",
+      "answer": "Jika aplikasi ditutup, cuba mulakan semula dahulu. Jika masalah berterusan, pastikan anda mempunyai versi terkini dipasang. Anda juga boleh mengosongkan cache aplikasi atau memulakan semula peranti anda. Jika tiada yang berjaya, hubungi kami dengan model peranti anda."
+    }
+  ],
+  "noResults": {
+    "title": "Kami tidak menemui sebarang hasil",
+    "subtitle": "Cuba istilah carian lain atau pilih kategori yang berbeza"
+  },
+  "helpCta": {
+    "title": "Tidak menemui apa yang anda cari?",
+    "subtitle": "Pasukan sokongan kami di sini untuk membantu anda dengan sebarang soalan khusus",
+    "button": "Hubungi Sokongan"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Buat Tiket Sokongan",
+  "subtitle": "Menemui masalah atau memerlukan bantuan khusus? Buat tiket dan pasukan kami akan membantu anda",
+  "categoryTitle": "Pilih jenis masalah",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Laporan Pepijat",
+      "description": "Masalah teknikal atau pepijat dalam aplikasi"
+    },
+    {
+      "id": "feature",
+      "name": "Permintaan Ciri",
+      "description": "Cadangan untuk ciri baharu"
+    },
+    {
+      "id": "help",
+      "name": "Bantuan Am",
+      "description": "Soalan tentang penggunaan aplikasi"
+    },
+    {
+      "id": "account",
+      "name": "Masalah Akaun",
+      "description": "Masalah dengan log masuk, langganan atau data"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Rendah"
+    },
+    {
+      "id": "Media",
+      "name": "Sederhana"
+    },
+    {
+      "id": "Alta",
+      "name": "Tinggi"
+    },
+    {
+      "id": "Urgente",
+      "name": "Mendesak"
+    }
+  ],
+  "form": {
+    "nameLabel": "Nama penuh",
+    "namePlaceholder": "Nama anda",
+    "emailLabel": "E-mel",
+    "emailPlaceholder": "anda@email.com",
+    "priorityLabel": "Keutamaan",
+    "subjectLabel": "Subjek",
+    "subjectPlaceholder": "Terangkan masalah anda secara ringkas",
+    "descriptionLabel": "Penerangan terperinci",
+    "descriptionPlaceholder": "Terangkan masalah anda seberapa terperinci yang mungkin. Sertakan langkah-langkah untuk menghasilkan semula masalah jika berkenaan.",
+    "stepsLabel": "Langkah untuk menghasilkan semula (pilihan)",
+    "stepsPlaceholder": "1. Buka aplikasi\n2. Pergi ke bahagian...\n3. Klik pada...",
+    "deviceLabel": "Peranti (pilihan)",
+    "devicePlaceholder": "cth. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Versi aplikasi (pilihan)",
+    "versionPlaceholder": "cth. 2.1.3",
+    "attachmentsLabel": "Lampiran",
+    "attachmentsDescription": "Seret fail ke sini atau klik untuk memilih",
+    "attachmentsButton": "Pilih fail",
+    "attachmentsRemove": "Buang",
+    "submitButton": "Hantar Tiket",
+    "submitting": "Menghantar...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Tiket Dihantar!",
+    "message": "Kami telah menerima permintaan sokongan anda. Kami akan membalas dalam tempoh 24 jam.",
+    "ticketNumber": "Nombor tiket:",
+    "createAnother": "Buat Tiket Lain"
+  },
+  "toast": {
+    "successTitle": "Tiket dibuat!",
+    "errorTitle": "Ralat mencipta tiket",
+    "errorConnection": "Tidak dapat menyambung ke pelayan. Sila cuba lagi."
+  }
+}

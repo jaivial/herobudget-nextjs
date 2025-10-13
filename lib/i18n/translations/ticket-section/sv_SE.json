@@ -1,0 +1,80 @@
+{
+  "title": "Skapa Supportärende",
+  "subtitle": "Har du hittat ett problem eller behöver du specifik hjälp? Skapa ett ärende så hjälper vårt team dig",
+  "categoryTitle": "Välj problemtyp",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Felrapport",
+      "description": "Tekniska problem eller buggar i applikationen"
+    },
+    {
+      "id": "feature",
+      "name": "Funktionsförfrågan",
+      "description": "Förslag på nya funktioner"
+    },
+    {
+      "id": "help",
+      "name": "Allmän Hjälp",
+      "description": "Frågor om användning av applikationen"
+    },
+    {
+      "id": "account",
+      "name": "Kontoproblem",
+      "description": "Problem med inloggning, prenumeration eller data"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Låg"
+    },
+    {
+      "id": "Media",
+      "name": "Medel"
+    },
+    {
+      "id": "Alta",
+      "name": "Hög"
+    },
+    {
+      "id": "Urgente",
+      "name": "Brådskande"
+    }
+  ],
+  "form": {
+    "nameLabel": "Fullständigt namn",
+    "namePlaceholder": "Ditt namn",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "din@epost.com",
+    "priorityLabel": "Prioritet",
+    "subjectLabel": "Ämne",
+    "subjectPlaceholder": "Beskriv ditt problem kort",
+    "descriptionLabel": "Detaljerad beskrivning",
+    "descriptionPlaceholder": "Förklara ditt problem så detaljerat som möjligt. Inkludera steg för att återskapa problemet om det är tillämpligt.",
+    "stepsLabel": "Steg för att återskapa (valfritt)",
+    "stepsPlaceholder": "1. Öppna applikationen\n2. Gå till sektionen...\n3. Klicka på...",
+    "deviceLabel": "Enhet (valfritt)",
+    "devicePlaceholder": "t.ex. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Appversion (valfritt)",
+    "versionPlaceholder": "t.ex. 2.1.3",
+    "attachmentsLabel": "Bilagor",
+    "attachmentsDescription": "Dra filer hit eller klicka för att välja",
+    "attachmentsButton": "Välj filer",
+    "attachmentsRemove": "Ta bort",
+    "submitButton": "Skicka Ärende",
+    "submitting": "Skickar...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Ärende Skickat!",
+    "message": "Vi har mottagit din supportförfrågan. Vi svarar inom 24 timmar.",
+    "ticketNumber": "Ärendenummer:",
+    "createAnother": "Skapa Ytterligare Ärende"
+  },
+  "toast": {
+    "successTitle": "Ärende skapat!",
+    "errorTitle": "Fel vid skapande av ärende",
+    "errorConnection": "Kunde inte ansluta till servern. Vänligen försök igen."
+  }
+}

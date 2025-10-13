@@ -89,7 +89,13 @@ export default function LanguageSelector({
     } else if (pathname === '/privacidad') {
       router.push(`/privacidad/${localeCode}`);
     }
-    // For other pages (like /soporte), stay on the same page
+    // Check if we're on a support page (e.g., /soporte/es_ES)
+    else if (pathname.startsWith('/soporte/')) {
+      router.push(`/soporte/${localeCode}`);
+    } else if (pathname === '/soporte') {
+      router.push(`/soporte/${localeCode}`);
+    }
+    // For other pages, stay on the same page
     // The language preference is saved and will be used on next navigation
   };
 

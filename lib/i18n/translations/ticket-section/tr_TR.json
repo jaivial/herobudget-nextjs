@@ -1,0 +1,80 @@
+{
+  "title": "Destek Talebi Oluştur",
+  "subtitle": "Bir sorun mu buldunuz veya özel yardıma mı ihtiyacınız var? Bir talep oluşturun ve ekibimiz size yardımcı olsun",
+  "categoryTitle": "Sorun türünü seçin",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Hata Raporu",
+      "description": "Uygulamadaki teknik sorunlar veya hatalar"
+    },
+    {
+      "id": "feature",
+      "name": "Özellik İsteği",
+      "description": "Yeni özellikler için öneriler"
+    },
+    {
+      "id": "help",
+      "name": "Genel Yardım",
+      "description": "Uygulamanın kullanımı hakkında sorular"
+    },
+    {
+      "id": "account",
+      "name": "Hesap Sorunları",
+      "description": "Giriş, abonelik veya veri ile ilgili sorunlar"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Düşük"
+    },
+    {
+      "id": "Media",
+      "name": "Orta"
+    },
+    {
+      "id": "Alta",
+      "name": "Yüksek"
+    },
+    {
+      "id": "Urgente",
+      "name": "Acil"
+    }
+  ],
+  "form": {
+    "nameLabel": "Tam ad",
+    "namePlaceholder": "Adınız",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "sizin@email.com",
+    "priorityLabel": "Öncelik",
+    "subjectLabel": "Konu",
+    "subjectPlaceholder": "Sorununuzu kısaca açıklayın",
+    "descriptionLabel": "Detaylı açıklama",
+    "descriptionPlaceholder": "Sorununuzu mümkün olduğunca ayrıntılı açıklayın. Uygunsa, sorunu yeniden oluşturma adımlarını ekleyin.",
+    "stepsLabel": "Yeniden oluşturma adımları (isteğe bağlı)",
+    "stepsPlaceholder": "1. Uygulamayı açın\n2. Bölüme gidin...\n3. Tıklayın...",
+    "deviceLabel": "Cihaz (isteğe bağlı)",
+    "devicePlaceholder": "örn. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Uygulama sürümü (isteğe bağlı)",
+    "versionPlaceholder": "örn. 2.1.3",
+    "attachmentsLabel": "Ekler",
+    "attachmentsDescription": "Dosyaları buraya sürükleyin veya seçmek için tıklayın",
+    "attachmentsButton": "Dosya seç",
+    "attachmentsRemove": "Kaldır",
+    "submitButton": "Talebi Gönder",
+    "submitting": "Gönderiliyor...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Talep Gönderildi!",
+    "message": "Destek talebinizi aldık. 24 saat içinde yanıt vereceğiz.",
+    "ticketNumber": "Talep numarası:",
+    "createAnother": "Başka Talep Oluştur"
+  },
+  "toast": {
+    "successTitle": "Talep oluşturuldu!",
+    "errorTitle": "Talep oluşturma hatası",
+    "errorConnection": "Sunucuya bağlanılamadı. Lütfen tekrar deneyin."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "Kontaktujte nás",
+  "subtitle": "Sme tu, aby sme vám pomohli. Vyberte si preferovaný komunikačný kanál",
+  "channelsTitle": "Kanály podpory",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-mail",
+      "description": "Najlepšie pre podrobné otázky a prílohy",
+      "value": "support@herobudget.com",
+      "availability": "Odpoveď do 24 hodín"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Rýchla podpora a okamžité odpovede",
+      "value": "+1 (555) 123-4567",
+      "availability": "Po-Pia 9-18"
+    },
+    {
+      "id": "discord",
+      "name": "Discord komunita",
+      "description": "Spojte sa s ostatnými používateľmi a získajte pomoc",
+      "value": "Pripojte sa k nášmu serveru",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Úradné hodiny",
+    "schedule": [
+      {
+        "day": "Pondelok - Piatok",
+        "hours": "9:00 - 18:00"
+      },
+      {
+        "day": "Sobota",
+        "hours": "10:00 - 14:00"
+      },
+      {
+        "day": "Nedeľa",
+        "hours": "Zatvorené"
+      }
+    ]
+  },
+  "form": {
+    "title": "Pošlite nám správu",
+    "subtitle": "Radšej nám napíšete? Vyplňte tento formulár a čoskoro vám odpovieme",
+    "nameLabel": "Meno",
+    "namePlaceholder": "Vaše meno",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vas@email.com",
+    "subjectLabel": "Predmet",
+    "subjectPlaceholder": "Ako vám môžeme pomôcť?",
+    "messageLabel": "Správa",
+    "messagePlaceholder": "Napíšte svoju správu tu...",
+    "submitButton": "Odoslať správu",
+    "submitting": "Odosielanie...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Správa odoslaná!",
+    "message": "Ďakujeme, že ste nás kontaktovali. Čoskoro vám odpovieme."
+  },
+  "toast": {
+    "successTitle": "Správa odoslaná!",
+    "errorTitle": "Chyba pri odosielaní správy",
+    "errorConnection": "Nepodarilo sa pripojiť k serveru. Skúste to prosím znova."
+  }
+}

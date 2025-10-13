@@ -1,0 +1,84 @@
+{
+  "title": "Ofte Stillede Spørgsmål",
+  "subtitle": "Find hurtige svar på de mest almindelige spørgsmål om Hero Budget",
+  "searchPlaceholder": "Søg i FAQ...",
+  "categories": {
+    "all": "Alle",
+    "gettingStarted": "Kom i Gang",
+    "features": "Funktioner",
+    "security": "Sikkerhed",
+    "billing": "Fakturering",
+    "troubleshooting": "Tekniske Problemer"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Hvordan opretter jeg min første konto i Hero Budget?",
+      "answer": "Det er meget nemt at oprette din konto. Download appen fra App Store eller Google Play, åbn applikationen og vælg \"Opret konto\". Du behøver kun din e-mail og en sikker adgangskode. Du kan også registrere dig med din Google- eller Apple-konto for mere bekvemmelighed."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Hvordan tilføjer jeg min første transaktion?",
+      "answer": "Når du har oprettet din konto, skal du trykke på \"+\"-knappen på hovedskærmen. Vælg om det er en udgift eller indkomst, vælg kategori, indtast beløbet og en valgfri beskrivelse. Så simpelt er det! Du kan også tage et billede af kvitteringen for at huske detaljer."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Kan jeg oprette tilbagevendende regninger?",
+      "answer": "Ja, Hero Budget giver dig mulighed for at oprette tilbagevendende regninger for udgifter, der gentages hver måned som husleje, forsyningsselskaber eller abonnementer. Gå til sektionen \"Tilbagevendende regninger\", tryk på \"Opret ny\", indtast beløbet, beskrivelsen og hyppigheden. Appen vil automatisk minde dig om, hvornår det er tid til at registrere betalingen."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Hvordan fungerer opsparingsmål?",
+      "answer": "Opsparingsmål giver dig mulighed for at sætte et målbeløb, du vil spare hver måned. Definer blot det månedlige beløb, du vil spare, og Hero Budget vil spore din fremgang. Det er en enkel og effektiv måde at opbygge en opsparingsvane på."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Kan jeg synkronisere mine data på tværs af flere enheder?",
+      "answer": "Ja, alle dine data synkroniseres automatisk i skyen. Du kan bruge Hero Budget på din telefon, tablet eller computer, og alle ændringer vil blive afspejlet i realtid på alle dine enheder."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Er mine finansielle data sikre?",
+      "answer": "Sikkerhed er vores prioritet. Alle dine data gemmes sikkert i skyen med industristandardbeskyttelsesforanstaltninger. Vi implementerer bedste sikkerhedspraksis og gemmer aldrig følsomme oplysninger som komplette kortnumre."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Kan jeg tilslutte mine bankkonti?",
+      "answer": "Hero Budget fokuserer på manuel indtastning for at give dig fuld kontrol over dine data. Vi forbinder ikke direkte til banker, hvilket holder dine oplysninger mere sikre og giver dig større privatliv."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Er Hero Budget helt gratis?",
+      "answer": "Ja, Hero Budget er helt gratis. Alle funktioner i applikationen er tilgængelige uden omkostninger. Der er ingen premium-abonnementer eller køb i appen. Vi mener, at styring af dine personlige finanser skal være tilgængelig for alle."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Vil der være betalte funktioner i fremtiden?",
+      "answer": "Indtil videre forbliver Hero Budget helt gratis. Vi fokuserer på at tilbyde en komplet oplevelse uden omkostninger. Hvis vi overvejer yderligere funktioner i fremtiden, vil vi altid opretholde et robust sæt gratis værktøjer til alle vores brugere."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Appen lukker uventet, hvad kan jeg gøre?",
+      "answer": "Hvis appen lukker, skal du først prøve at genstarte den. Hvis problemet fortsætter, skal du sikre dig, at du har den nyeste version installeret. Du kan også rydde app-cachen eller genstarte din enhed. Hvis intet virker, skal du kontakte os med din enhedsmodel."
+    }
+  ],
+  "noResults": {
+    "title": "Vi fandt ingen resultater",
+    "subtitle": "Prøv andre søgeord eller vælg en anden kategori"
+  },
+  "helpCta": {
+    "title": "Fandt du ikke, hvad du ledte efter?",
+    "subtitle": "Vores supportteam er her for at hjælpe dig med specifikke spørgsmål",
+    "button": "Kontakt Support"
+  }
+}

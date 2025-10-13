@@ -1,0 +1,84 @@
+{
+  "title": "Câu Hỏi Thường Gặp",
+  "subtitle": "Tìm câu trả lời nhanh cho các câu hỏi phổ biến nhất về Hero Budget",
+  "searchPlaceholder": "Tìm kiếm trong FAQ...",
+  "categories": {
+    "all": "Tất cả",
+    "gettingStarted": "Bắt Đầu",
+    "features": "Tính Năng",
+    "security": "Bảo Mật",
+    "billing": "Thanh Toán",
+    "troubleshooting": "Sự Cố Kỹ Thuật"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Làm thế nào để tạo tài khoản đầu tiên trong Hero Budget?",
+      "answer": "Tạo tài khoản của bạn rất dễ dàng. Tải ứng dụng từ App Store hoặc Google Play, mở ứng dụng và chọn \"Tạo Tài Khoản\". Bạn chỉ cần email và mật khẩu an toàn. Bạn cũng có thể đăng ký bằng tài khoản Google hoặc Apple để thuận tiện hơn."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "Làm thế nào để thêm giao dịch đầu tiên?",
+      "answer": "Sau khi thiết lập tài khoản, nhấn vào nút \"+\" trên màn hình chính. Chọn đó là chi phí hay thu nhập, chọn danh mục, nhập số tiền và mô tả tùy chọn. Đơn giản như vậy! Bạn cũng có thể chụp ảnh biên lai để ghi nhớ chi tiết."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Tôi có thể thiết lập hóa đơn định kỳ không?",
+      "answer": "Có, Hero Budget cho phép bạn thiết lập hóa đơn định kỳ cho các chi phí lặp lại hàng tháng như tiền thuê nhà, tiện ích hoặc đăng ký. Vào phần \"Hóa Đơn Định Kỳ\", nhấn \"Tạo Mới\", nhập số tiền, mô tả và tần suất. Ứng dụng sẽ tự động nhắc bạn khi đến lúc ghi lại khoản thanh toán."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Mục tiêu tiết kiệm hoạt động như thế nào?",
+      "answer": "Mục tiêu tiết kiệm cho phép bạn đặt số tiền mục tiêu bạn muốn tiết kiệm mỗi tháng. Chỉ cần xác định số tiền hàng tháng bạn muốn tiết kiệm và Hero Budget sẽ theo dõi tiến trình của bạn. Đây là cách đơn giản và hiệu quả để xây dựng thói quen tiết kiệm."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Tôi có thể đồng bộ dữ liệu trên nhiều thiết bị không?",
+      "answer": "Có, tất cả dữ liệu của bạn được đồng bộ tự động trên đám mây. Bạn có thể sử dụng Hero Budget trên điện thoại, máy tính bảng hoặc máy tính của mình và tất cả thay đổi sẽ được phản ánh theo thời gian thực trên tất cả các thiết bị của bạn."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Dữ liệu tài chính của tôi có an toàn không?",
+      "answer": "Bảo mật là ưu tiên hàng đầu của chúng tôi. Tất cả dữ liệu của bạn được lưu trữ an toàn trên đám mây với các biện pháp bảo vệ tiêu chuẩn ngành. Chúng tôi thực hiện các phương pháp bảo mật tốt nhất và không bao giờ lưu trữ thông tin nhạy cảm như số thẻ đầy đủ."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Tôi có thể kết nối tài khoản ngân hàng của mình không?",
+      "answer": "Hero Budget tập trung vào nhập thủ công để cung cấp cho bạn quyền kiểm soát hoàn toàn dữ liệu của mình. Chúng tôi không kết nối trực tiếp với ngân hàng, giúp thông tin của bạn an toàn hơn và mang lại quyền riêng tư lớn hơn."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Hero Budget có hoàn toàn miễn phí không?",
+      "answer": "Có, Hero Budget hoàn toàn miễn phí. Tất cả các tính năng của ứng dụng đều có sẵn mà không mất phí. Không có đăng ký cao cấp hoặc mua hàng trong ứng dụng. Chúng tôi tin rằng quản lý tài chính cá nhân của bạn nên có sẵn cho mọi người."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Sẽ có các tính năng trả phí trong tương lai không?",
+      "answer": "Hiện tại, Hero Budget vẫn hoàn toàn miễn phí. Chúng tôi tập trung vào việc cung cấp trải nghiệm đầy đủ mà không mất phí. Nếu chúng tôi xem xét các tính năng bổ sung trong tương lai, chúng tôi sẽ luôn duy trì một bộ công cụ miễn phí mạnh mẽ cho tất cả người dùng của mình."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Ứng dụng đóng bất ngờ, tôi có thể làm gì?",
+      "answer": "Nếu ứng dụng đóng, trước tiên hãy thử khởi động lại. Nếu vấn đề vẫn tiếp diễn, hãy đảm bảo bạn đã cài đặt phiên bản mới nhất. Bạn cũng có thể xóa bộ nhớ cache của ứng dụng hoặc khởi động lại thiết bị của mình. Nếu không có gì hiệu quả, hãy liên hệ với chúng tôi kèm theo kiểu máy của bạn."
+    }
+  ],
+  "noResults": {
+    "title": "Chúng tôi không tìm thấy kết quả",
+    "subtitle": "Thử các từ khóa tìm kiếm khác hoặc chọn một danh mục khác"
+  },
+  "helpCta": {
+    "title": "Không tìm thấy những gì bạn đang tìm kiếm?",
+    "subtitle": "Đội ngũ hỗ trợ của chúng tôi sẵn sàng giúp bạn với bất kỳ câu hỏi cụ thể nào",
+    "button": "Liên Hệ Hỗ Trợ"
+  }
+}

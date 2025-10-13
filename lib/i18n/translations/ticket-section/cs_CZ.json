@@ -1,0 +1,80 @@
+{
+  "title": "Vytvořit Ticket Podpory",
+  "subtitle": "Našli jste problém nebo potřebujete specifickou pomoc? Vytvořte ticket a náš tým vám pomůže",
+  "categoryTitle": "Vyberte typ problému",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Hlášení Chyby",
+      "description": "Technické problémy nebo chyby v aplikaci"
+    },
+    {
+      "id": "feature",
+      "name": "Požadavek na Funkci",
+      "description": "Návrhy na nové funkce"
+    },
+    {
+      "id": "help",
+      "name": "Obecná Pomoc",
+      "description": "Otázky týkající se používání aplikace"
+    },
+    {
+      "id": "account",
+      "name": "Problémy s Účtem",
+      "description": "Problémy s přihlášením, předplatným nebo daty"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Nízká"
+    },
+    {
+      "id": "Media",
+      "name": "Střední"
+    },
+    {
+      "id": "Alta",
+      "name": "Vysoká"
+    },
+    {
+      "id": "Urgente",
+      "name": "Naléhavá"
+    }
+  ],
+  "form": {
+    "nameLabel": "Celé jméno",
+    "namePlaceholder": "Vaše jméno",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vas@email.com",
+    "priorityLabel": "Priorita",
+    "subjectLabel": "Předmět",
+    "subjectPlaceholder": "Stručně popište svůj problém",
+    "descriptionLabel": "Podrobný popis",
+    "descriptionPlaceholder": "Vysvětlete svůj problém co nejpodrobněji. Pokud je to možné, zahrňte kroky k reprodukci problému.",
+    "stepsLabel": "Kroky k reprodukci (volitelné)",
+    "stepsPlaceholder": "1. Otevřete aplikaci\n2. Přejděte do sekce...\n3. Klikněte na...",
+    "deviceLabel": "Zařízení (volitelné)",
+    "devicePlaceholder": "např. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Verze aplikace (volitelné)",
+    "versionPlaceholder": "např. 2.1.3",
+    "attachmentsLabel": "Přílohy",
+    "attachmentsDescription": "Přetáhněte soubory sem nebo klikněte pro výběr",
+    "attachmentsButton": "Vybrat soubory",
+    "attachmentsRemove": "Odstranit",
+    "submitButton": "Odeslat Ticket",
+    "submitting": "Odesílání...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Ticket Odeslán!",
+    "message": "Obdrželi jsme váš požadavek na podporu. Odpovíme do 24 hodin.",
+    "ticketNumber": "Číslo ticketu:",
+    "createAnother": "Vytvořit Další Ticket"
+  },
+  "toast": {
+    "successTitle": "Ticket vytvořen!",
+    "errorTitle": "Chyba při vytváření ticketu",
+    "errorConnection": "Nepodařilo se připojit k serveru. Zkuste to prosím znovu."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "Neem contact op",
+  "subtitle": "We zijn er om u te helpen. Kies uw voorkeurscommunicatiekanaal",
+  "channelsTitle": "Ondersteuningskanalen",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-mail",
+      "description": "Het beste voor gedetailleerde vragen en bijlagen",
+      "value": "support@herobudget.com",
+      "availability": "Reactie binnen 24 uur"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Snelle ondersteuning en directe antwoorden",
+      "value": "+1 (555) 123-4567",
+      "availability": "Ma-Vr 9-18 uur"
+    },
+    {
+      "id": "discord",
+      "name": "Discord-gemeenschap",
+      "description": "Maak contact met andere gebruikers en krijg hulp",
+      "value": "Sluit je aan bij onze server",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Openingstijden",
+    "schedule": [
+      {
+        "day": "Maandag - Vrijdag",
+        "hours": "9:00 - 18:00 uur"
+      },
+      {
+        "day": "Zaterdag",
+        "hours": "10:00 - 14:00 uur"
+      },
+      {
+        "day": "Zondag",
+        "hours": "Gesloten"
+      }
+    ]
+  },
+  "form": {
+    "title": "Stuur ons een bericht",
+    "subtitle": "Liever schrijven? Vul dit formulier in en we reageren snel",
+    "nameLabel": "Naam",
+    "namePlaceholder": "Uw naam",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "uw@email.com",
+    "subjectLabel": "Onderwerp",
+    "subjectPlaceholder": "Hoe kunnen we u helpen?",
+    "messageLabel": "Bericht",
+    "messagePlaceholder": "Schrijf hier uw bericht...",
+    "submitButton": "Bericht versturen",
+    "submitting": "Verzenden...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Bericht verzonden!",
+    "message": "Bedankt voor uw bericht. We reageren binnenkort."
+  },
+  "toast": {
+    "successTitle": "Bericht verzonden!",
+    "errorTitle": "Fout bij verzenden bericht",
+    "errorConnection": "Kon geen verbinding maken met de server. Probeer het opnieuw."
+  }
+}

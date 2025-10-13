@@ -1,0 +1,80 @@
+{
+  "title": "Створити Тікет Підтримки",
+  "subtitle": "Знайшли проблему або потрібна конкретна допомога? Створіть тікет і наша команда допоможе вам",
+  "categoryTitle": "Виберіть тип проблеми",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Звіт про Помилку",
+      "description": "Технічні проблеми або помилки в додатку"
+    },
+    {
+      "id": "feature",
+      "name": "Запит Функції",
+      "description": "Пропозиції щодо нових функцій"
+    },
+    {
+      "id": "help",
+      "name": "Загальна Допомога",
+      "description": "Питання про використання додатку"
+    },
+    {
+      "id": "account",
+      "name": "Проблеми з Обліковим Записом",
+      "description": "Проблеми з входом, підпискою або даними"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Низький"
+    },
+    {
+      "id": "Media",
+      "name": "Середній"
+    },
+    {
+      "id": "Alta",
+      "name": "Високий"
+    },
+    {
+      "id": "Urgente",
+      "name": "Терміновий"
+    }
+  ],
+  "form": {
+    "nameLabel": "Повне ім'я",
+    "namePlaceholder": "Ваше ім'я",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "Пріоритет",
+    "subjectLabel": "Тема",
+    "subjectPlaceholder": "Коротко опишіть вашу проблему",
+    "descriptionLabel": "Детальний опис",
+    "descriptionPlaceholder": "Поясніть вашу проблему якомога детальніше. Включіть кроки для відтворення проблеми, якщо застосовно.",
+    "stepsLabel": "Кроки для відтворення (необов'язково)",
+    "stepsPlaceholder": "1. Відкрийте додаток\n2. Перейдіть до розділу...\n3. Натисніть на...",
+    "deviceLabel": "Пристрій (необов'язково)",
+    "devicePlaceholder": "наприклад, iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "Версія додатку (необов'язково)",
+    "versionPlaceholder": "наприклад, 2.1.3",
+    "attachmentsLabel": "Вкладення",
+    "attachmentsDescription": "Перетягніть файли сюди або натисніть для вибору",
+    "attachmentsButton": "Вибрати файли",
+    "attachmentsRemove": "Видалити",
+    "submitButton": "Надіслати Тікет",
+    "submitting": "Надсилання...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Тікет Надіслано!",
+    "message": "Ми отримали ваш запит на підтримку. Ми відповімо протягом 24 годин.",
+    "ticketNumber": "Номер тікету:",
+    "createAnother": "Створити Інший Тікет"
+  },
+  "toast": {
+    "successTitle": "Тікет створено!",
+    "errorTitle": "Помилка створення тікету",
+    "errorConnection": "Не вдалося підключитися до сервера. Будь ласка, спробуйте ще раз."
+  }
+}

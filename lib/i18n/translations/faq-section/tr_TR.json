@@ -1,0 +1,84 @@
+{
+  "title": "Sıkça Sorulan Sorular",
+  "subtitle": "Hero Budget hakkında en sık sorulan sorulara hızlı yanıtlar bulun",
+  "searchPlaceholder": "SSS'de ara...",
+  "categories": {
+    "all": "Tümü",
+    "gettingStarted": "Başlarken",
+    "features": "Özellikler",
+    "security": "Güvenlik",
+    "billing": "Faturalandırma",
+    "troubleshooting": "Teknik Sorunlar"
+  },
+  "faqs": [
+    {
+      "id": "getting-started-1",
+      "category": "gettingStarted",
+      "question": "Hero Budget'ta ilk hesabımı nasıl oluştururum?",
+      "answer": "Hesabınızı oluşturmak çok kolaydır. Uygulamayı App Store veya Google Play'den indirin, uygulamayı açın ve \"Hesap Oluştur\"u seçin. Sadece e-postanıza ve güvenli bir şifreye ihtiyacınız var. Daha fazla kolaylık için Google veya Apple hesabınızla da kayıt olabilirsiniz."
+    },
+    {
+      "id": "getting-started-2",
+      "category": "gettingStarted",
+      "question": "İlk işlemimi nasıl eklerim?",
+      "answer": "Hesabınızı kurduktan sonra ana ekrandaki \"+\" düğmesine dokunun. Gider mi gelir mi olduğunu seçin, kategoriyi seçin, tutarı ve isteğe bağlı bir açıklama girin. Bu kadar basit! Ayrıntıları hatırlamak için fişin fotoğrafını da çekebilirsiniz."
+    },
+    {
+      "id": "features-1",
+      "category": "features",
+      "question": "Yinelenen faturalar ayarlayabilir miyim?",
+      "answer": "Evet, Hero Budget kira, kamu hizmetleri veya abonelikler gibi her ay tekrarlanan giderler için yinelenen faturalar ayarlamanıza olanak tanır. \"Yinelenen Faturalar\" bölümüne gidin, \"Yeni Oluştur\"a dokunun, tutarı, açıklamayı ve sıklığı girin. Uygulama, ödemeyi kaydetme zamanı geldiğinde size otomatik olarak hatırlatacaktır."
+    },
+    {
+      "id": "features-2",
+      "category": "features",
+      "question": "Tasarruf hedefleri nasıl çalışır?",
+      "answer": "Tasarruf hedefleri, her ay biriktirmek istediğiniz hedef tutarı belirlemenizi sağlar. Biriktirmek istediğiniz aylık tutarı tanımlayın ve Hero Budget ilerlemenizi takip edecektir. Bu, tasarruf alışkanlığı oluşturmanın basit ve etkili bir yoludur."
+    },
+    {
+      "id": "features-3",
+      "category": "features",
+      "question": "Verilerimi birden fazla cihazda senkronize edebilir miyim?",
+      "answer": "Evet, tüm verileriniz bulutta otomatik olarak senkronize edilir. Hero Budget'ı telefonunuzda, tabletinizde veya bilgisayarınızda kullanabilirsiniz ve tüm değişiklikler tüm cihazlarınızda gerçek zamanlı olarak yansıtılacaktır."
+    },
+    {
+      "id": "security-1",
+      "category": "security",
+      "question": "Finansal verilerim güvende mi?",
+      "answer": "Güvenlik önceliğimizdir. Tüm verileriniz endüstri standardı koruma önlemleriyle bulutta güvenli bir şekilde saklanır. En iyi güvenlik uygulamalarını uygularız ve tam kart numaraları gibi hassas bilgileri asla saklamayız."
+    },
+    {
+      "id": "security-2",
+      "category": "security",
+      "question": "Banka hesaplarımı bağlayabilir miyim?",
+      "answer": "Hero Budget, verileriniz üzerinde tam kontrol sağlamak için manuel girişe odaklanır. Doğrudan bankalara bağlanmıyoruz, bu da bilgilerinizi daha güvenli tutar ve size daha fazla gizlilik sağlar."
+    },
+    {
+      "id": "billing-1",
+      "category": "billing",
+      "question": "Hero Budget tamamen ücretsiz mi?",
+      "answer": "Evet, Hero Budget tamamen ücretsizdir. Uygulamanın tüm özellikleri hiçbir ücret ödemeden kullanılabilir. Premium abonelik veya uygulama içi satın alma yoktur. Kişisel finans yönetiminizin herkes için erişilebilir olması gerektiğine inanıyoruz."
+    },
+    {
+      "id": "billing-2",
+      "category": "billing",
+      "question": "Gelecekte ücretli özellikler olacak mı?",
+      "answer": "Şimdilik Hero Budget tamamen ücretsiz olmaya devam ediyor. Ücret almadan eksiksiz bir deneyim sunmaya odaklanıyoruz. Gelecekte ek özellikler düşünürsek, tüm kullanıcılarımız için her zaman sağlam bir ücretsiz araç seti tutacağız."
+    },
+    {
+      "id": "troubleshooting-1",
+      "category": "troubleshooting",
+      "question": "Uygulama beklenmedik şekilde kapanıyor, ne yapabilirim?",
+      "answer": "Uygulama kapanırsa, önce yeniden başlatmayı deneyin. Sorun devam ederse, en son sürümün yüklü olduğundan emin olun. Ayrıca uygulama önbelleğini temizleyebilir veya cihazınızı yeniden başlatabilirsiniz. Hiçbir şey işe yaramazsa, cihaz modelinizle birlikte bizimle iletişime geçin."
+    }
+  ],
+  "noResults": {
+    "title": "Sonuç bulunamadı",
+    "subtitle": "Diğer arama terimlerini deneyin veya farklı bir kategori seçin"
+  },
+  "helpCta": {
+    "title": "Aradığınızı bulamadınız mı?",
+    "subtitle": "Destek ekibimiz belirli sorularınızda size yardımcı olmak için burada",
+    "button": "Desteğe Ulaşın"
+  }
+}

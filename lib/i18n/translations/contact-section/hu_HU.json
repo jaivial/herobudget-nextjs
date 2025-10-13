@@ -1,0 +1,69 @@
+{
+  "title": "Lépjen kapcsolatba velünk",
+  "subtitle": "Azért vagyunk itt, hogy segítsünk. Válassza ki a preferált kommunikációs csatornát",
+  "channelsTitle": "Támogatási csatornák",
+  "contactMethods": [
+    {
+      "id": "email",
+      "name": "E-mail",
+      "description": "A legjobb részletes kérdésekhez és mellékletekhez",
+      "value": "support@herobudget.com",
+      "availability": "Válasz 24 órán belül"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "Gyors támogatás és azonnali válaszok",
+      "value": "+1 (555) 123-4567",
+      "availability": "H-P 9-18"
+    },
+    {
+      "id": "discord",
+      "name": "Discord közösség",
+      "description": "Kapcsolódjon más felhasználókhoz és kapjon segítséget",
+      "value": "Csatlakozzon a szerverünkhöz",
+      "availability": "24/7"
+    }
+  ],
+  "officeHours": {
+    "title": "Nyitvatartási idő",
+    "schedule": [
+      {
+        "day": "Hétfő - Péntek",
+        "hours": "9:00 - 18:00"
+      },
+      {
+        "day": "Szombat",
+        "hours": "10:00 - 14:00"
+      },
+      {
+        "day": "Vasárnap",
+        "hours": "Zárva"
+      }
+    ]
+  },
+  "form": {
+    "title": "Küldjön nekünk üzenetet",
+    "subtitle": "Inkább írna nekünk? Töltse ki ezt az űrlapot és hamarosan válaszolunk",
+    "nameLabel": "Név",
+    "namePlaceholder": "Az Ön neve",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "az-on@email.com",
+    "subjectLabel": "Tárgy",
+    "subjectPlaceholder": "Hogyan segíthetünk?",
+    "messageLabel": "Üzenet",
+    "messagePlaceholder": "Írja ide az üzenetét...",
+    "submitButton": "Üzenet küldése",
+    "submitting": "Küldés folyamatban...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Üzenet elküldve!",
+    "message": "Köszönjük, hogy kapcsolatba lépett velünk. Hamarosan válaszolunk."
+  },
+  "toast": {
+    "successTitle": "Üzenet elküldve!",
+    "errorTitle": "Hiba az üzenet küldésekor",
+    "errorConnection": "Nem sikerült csatlakozni a szerverhez. Kérjük, próbálja újra."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "सहायता टिकट बनाएं",
+  "subtitle": "कोई समस्या मिली या विशेष सहायता चाहिए? एक टिकट बनाएं और हमारी टीम आपकी सहायता करेगी",
+  "categoryTitle": "समस्या का प्रकार चुनें",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "बग रिपोर्ट",
+      "description": "एप्लिकेशन में तकनीकी समस्याएं या बग"
+    },
+    {
+      "id": "feature",
+      "name": "फीचर अनुरोध",
+      "description": "नई सुविधाओं के लिए सुझाव"
+    },
+    {
+      "id": "help",
+      "name": "सामान्य सहायता",
+      "description": "एप्लिकेशन के उपयोग के बारे में प्रश्न"
+    },
+    {
+      "id": "account",
+      "name": "खाता समस्याएं",
+      "description": "लॉगिन, सदस्यता या डेटा की समस्याएं"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "कम"
+    },
+    {
+      "id": "Media",
+      "name": "मध्यम"
+    },
+    {
+      "id": "Alta",
+      "name": "उच्च"
+    },
+    {
+      "id": "Urgente",
+      "name": "अत्यावश्यक"
+    }
+  ],
+  "form": {
+    "nameLabel": "पूरा नाम",
+    "namePlaceholder": "आपका नाम",
+    "emailLabel": "ईमेल",
+    "emailPlaceholder": "your@email.com",
+    "priorityLabel": "प्राथमिकता",
+    "subjectLabel": "विषय",
+    "subjectPlaceholder": "अपनी समस्या का संक्षेप में वर्णन करें",
+    "descriptionLabel": "विस्तृत विवरण",
+    "descriptionPlaceholder": "अपनी समस्या को यथासंभव विस्तार से समझाएं। यदि लागू हो तो समस्या को पुन: उत्पन्न करने के चरण शामिल करें।",
+    "stepsLabel": "पुन: उत्पन्न करने के चरण (वैकल्पिक)",
+    "stepsPlaceholder": "1. एप्लिकेशन खोलें\n2. सेक्शन में जाएं...\n3. क्लिक करें...",
+    "deviceLabel": "डिवाइस (वैकल्पिक)",
+    "devicePlaceholder": "उदाहरण: iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "ऐप संस्करण (वैकल्पिक)",
+    "versionPlaceholder": "उदाहरण: 2.1.3",
+    "attachmentsLabel": "संलग्नक",
+    "attachmentsDescription": "फाइलों को यहां खींचें या चुनने के लिए क्लिक करें",
+    "attachmentsButton": "फाइलें चुनें",
+    "attachmentsRemove": "हटाएं",
+    "submitButton": "टिकट भेजें",
+    "submitting": "भेजा जा रहा है...",
+    "required": "*"
+  },
+  "success": {
+    "title": "टिकट भेजा गया!",
+    "message": "हमें आपका सहायता अनुरोध प्राप्त हो गया है। हम 24 घंटे के भीतर जवाब देंगे।",
+    "ticketNumber": "टिकट नंबर:",
+    "createAnother": "एक और टिकट बनाएं"
+  },
+  "toast": {
+    "successTitle": "टिकट बनाया गया!",
+    "errorTitle": "टिकट बनाने में त्रुटि",
+    "errorConnection": "सर्वर से कनेक्ट नहीं हो सका। कृपया पुनः प्रयास करें।"
+  }
+}

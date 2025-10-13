@@ -1,0 +1,80 @@
+{
+  "title": "Support-Ticket Erstellen",
+  "subtitle": "Haben Sie ein Problem gefunden oder benötigen Sie spezielle Hilfe? Erstellen Sie ein Ticket und unser Team wird Ihnen helfen",
+  "categoryTitle": "Wählen Sie den Problemtyp",
+  "categories": [
+    {
+      "id": "bug",
+      "name": "Fehlerbericht",
+      "description": "Technische Probleme oder Fehler in der Anwendung"
+    },
+    {
+      "id": "feature",
+      "name": "Funktionsanfrage",
+      "description": "Vorschläge für neue Funktionen"
+    },
+    {
+      "id": "help",
+      "name": "Allgemeine Hilfe",
+      "description": "Fragen zur Nutzung der Anwendung"
+    },
+    {
+      "id": "account",
+      "name": "Kontoprobleme",
+      "description": "Probleme mit Anmeldung, Abonnement oder Daten"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "Baja",
+      "name": "Niedrig"
+    },
+    {
+      "id": "Media",
+      "name": "Mittel"
+    },
+    {
+      "id": "Alta",
+      "name": "Hoch"
+    },
+    {
+      "id": "Urgente",
+      "name": "Dringend"
+    }
+  ],
+  "form": {
+    "nameLabel": "Vollständiger Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihre@email.com",
+    "priorityLabel": "Priorität",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Beschreiben Sie Ihr Problem kurz",
+    "descriptionLabel": "Detaillierte Beschreibung",
+    "descriptionPlaceholder": "Erklären Sie Ihr Problem so detailliert wie möglich. Fügen Sie Schritte zur Reproduktion des Problems hinzu, falls zutreffend.",
+    "stepsLabel": "Schritte zur Reproduktion (optional)",
+    "stepsPlaceholder": "1. Anwendung öffnen\n2. Zum Bereich gehen...\n3. Auf klicken...",
+    "deviceLabel": "Gerät (optional)",
+    "devicePlaceholder": "z.B. iPhone 14, Samsung Galaxy S23",
+    "versionLabel": "App-Version (optional)",
+    "versionPlaceholder": "z.B. 2.1.3",
+    "attachmentsLabel": "Anhänge",
+    "attachmentsDescription": "Dateien hierher ziehen oder klicken, um auszuwählen",
+    "attachmentsButton": "Dateien auswählen",
+    "attachmentsRemove": "Entfernen",
+    "submitButton": "Ticket Senden",
+    "submitting": "Wird gesendet...",
+    "required": "*"
+  },
+  "success": {
+    "title": "Ticket Gesendet!",
+    "message": "Wir haben Ihre Support-Anfrage erhalten. Wir werden innerhalb von 24 Stunden antworten.",
+    "ticketNumber": "Ticket-Nummer:",
+    "createAnother": "Weiteres Ticket Erstellen"
+  },
+  "toast": {
+    "successTitle": "Ticket erstellt!",
+    "errorTitle": "Fehler beim Erstellen des Tickets",
+    "errorConnection": "Verbindung zum Server konnte nicht hergestellt werden. Bitte versuchen Sie es erneut."
+  }
+}
